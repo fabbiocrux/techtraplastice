@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 fontsize: 20px
 website:
   title: "TechTraPlastiCE"  
