@@ -1,0 +1,21 @@
+#title-block-header {
+  background: white;
+  text-align: center ;
+  margin-bottom: 1px;
+  }
+
+
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url(images/nancy/Nancy-destination-00.jpeg);
+  background-size: cover;
+  height: 60vh;
+}
+#title-block-content {
+    padding-top: 1px;
+  }  
+
+ #title-block-content > h1 {
+    color: white;
+    padding-top: 10px;
+  }  
