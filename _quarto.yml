@@ -1,8 +1,8 @@
 project:
   type: website
-
+fontsize: 20px
 website:
-  title: "TechTraPlastiCE"
+  title: "TechTraPlastiCE"  
   navbar:
     right:
       - href: index.qmd

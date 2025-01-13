@@ -1,21 +1,20 @@
 ---
 title: "Strengthening University tech transfer capabilities to support circular economy value chains for plastics in Latin America -- TechTraPlastiCE"
 subtitle: "Université de Lorraine"
-title-block-banner: images/nancy/Nancy-destination-00.jpeg
-date: 2025-01-15
+title-block-banner: true
+last_update: 2025-01-15
 date-format: short
-author:
-  - name: Fabio CRUZ
-    affiliations:
-      - Université de Lorraine
+#author:
+#  - name: Fabio CRUZ
+#    affiliations:
+#      - Université de Lorraine
 ---
 
 
 
 
-# Welcome to the Kick-Off Meeting at Nancy, France
-
-## **Join us in Nancy, France** !!
+# Welcome to the Kick-Off Meeting
+## Join us in Nancy, France !!
 
 ### Event Details
 
@@ -23,10 +22,81 @@ This kick-off meeting marks the beginning of an exciting new project aimed at st
 By enhancing research and technological transfer capabilities, this initiative seeks to build sustainable collaborations between academia and socio-economic stakeholders in Colombia, Argentina, and Chile, promoting innovative circular economy practices and impactful recycling interventions. 
 Through dynamic knowledge exchanges and progressive technology transfer, we aim to document valuable insights and develop interdisciplinary strategies that benefit both the global South and the European Union.
 
+
+
 - **Date:** March 25-27 / 2025
 - **Time:** 9-7
-- **Location:** Lorraine Fab Living Lab 49 Boulevard d'Austrasie, Nancy, France
+- **Location:** [Lorraine Fab Living Lab 49 Boulevard d'Austrasie, Nancy, France](https://www.google.com/maps/place/LF2L+-+Lorraine+Fab+Living+Lab/@48.6940479,6.1971891,17z/data=!3m1!4b1!4m6!3m5!1s0x47949838baee9527:0x8d5bc72637c2d7c8!8m2!3d48.6940444!4d6.1997694!16s%2Fg%2F11bwl3_jw4?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D)
 - **Description:**
 
 
+
+
+ENSAM – 151 Boulevard de l’Hôpital, 75013 Paris, France
+Room : Salle des Conseils 
+Transportation: Metro line 6, 7 or 5. Station Place d’Italie
+
+
+
+# Presentation
+
+
+
+# Planning
+
+
+**We present a tentative programme. But, we are working in the construction of the final one:**
+
+
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSGLPgkJZEmvR0EgedxVgtVLi-sA0HZiJZhmD08A3mWN9b7A8XF-ZFC5eQ6cgQcwPy8z_qWRtTEudmP/pubhtml?gid=427361304&amp;single=true&amp;widget=true&amp;headers=false" width='100%' heigth='100%'></iframe>
+
+
 # Organizers
+
+
+# Practical information
+
+The university is located on the place du Maréchal de Lattre de Tassigny. Please find the nearest public transportation stops below.
+
+
+
+::: {.panel-tabset}
+
+## Nancy
+
+![](images/nancy/map-footer.jpg)
+
+Lorraine is a region renowned for many good things: on top of its exceptional natural sites, Lorraine is also an economic and tourist hub, with several sites listed as UNESCO World Heritage Sites. As a region of festivals, culinary delights and innovation, Lorraine has many surprises in store for you.
+
+Lorraine is also firmly committed to the 21st century.
+Indeed, it has successfully diversified to become a key player in innovation and know-how. In 2019, Metz and Nancy were granted the «French Tech» label.
+
+In addition to its vibrant cities and fast and modern public transport, the region has a proud reputation for sport, with the home of leading football, handball.Lorraine is a region where it is good to live, study,... and have fun!
+
+A region at the crossroads of Europe, next to Luxembourg, Belgium and Germany.
+Located at the heart of the Greater Region, you’ll be able to travel to Belgium, Luxembourg and Germany easily. Within one hour and a half from Paris by TGV, you’ll have the opportunity to pay a visit to the French capital.Our cities quickly give way to peaceful and beautiful rural landscapes. Between nature and historical heritage, Lorraine is the ideal place to live in.
+
+- A traditional center for science, technology and culture.
+- Capital of the Dukes of Lorraine
+- The cradle of Art Nouveau. 
+- The worldwide known Place Stanislas, UNESCO monument and “the most beautiful French monument in 2021”
+- French gastronomy and local specialties
+
+
+## Getting to Nancy
+
+![](images/nancy/venir-nancy-1920x1980.png)
+
+To consult all the transportation options consult the following information from the Tourism Office:
+[Transportation to Nancy](https://www.nancy-tourisme.fr/en/prepare-your-stay/access-and-transport/getting-to-nancy/)
+
+
+## Hotels recommendations
+
+Participants have to use reservation platform on this link: 
+
+
+
+
+:::

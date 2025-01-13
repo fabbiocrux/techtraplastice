@@ -13,5 +13,7 @@ typography:
   fonts:
     - family: Jura
       source: google
-  base: Jura
+    - family: EB+Garamond
+      source: google  
+  base: EB+Garamond
   headings: Jura
