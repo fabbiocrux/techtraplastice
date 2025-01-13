@@ -48,9 +48,9 @@ Transportation: Metro line 6, 7 or 5. Station Place d’Italie
 **We present a tentative programme. But, we are working in the construction of the final one:**
 
 
-:::{.column-body-outset}
+:::{.column-page}
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSGLPgkJZEmvR0EgedxVgtVLi-sA0HZiJZhmD08A3mWN9b7A8XF-ZFC5eQ6cgQcwPy8z_qWRtTEudmP/pubhtml?gid=427361304&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height= "1000px"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSGLPgkJZEmvR0EgedxVgtVLi-sA0HZiJZhmD08A3mWN9b7A8XF-ZFC5eQ6cgQcwPy8z_qWRtTEudmP/pubhtml?gid=427361304&amp;single=true&amp;widget=true&amp;headers=true" width="100%" height= "1000px"></iframe>
 
 :::
 
