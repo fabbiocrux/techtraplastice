@@ -1,0 +1,64 @@
+title: quarto-letter
+author: Joe Slam
+version: 1.1.1
+quarto-required: ">=1.5.0"
+contributes:
+  formats:
+    typst:
+      logo: "blanklogo.png"
+      logowidth: 90mm
+      logoascent: 0mm
+      signature: "Unterschrift.png"
+      lang: de
+      date-format: "DD.MM.YYYY"
+      numbering: "1."
+      number-align: center
+      font: "Times New Roman"
+      font-size: 11pt
+      paper: a4
+      footer-pre: "Seite"
+      subjectword: "Betreff"
+      attachments: "Anlage(n)"
+      margin:
+        top: 35mm
+        bottom: 30mm
+        right: 20mm
+        left: 20mm
+      template-partials:
+        - typst-template.typ
+        - typst-show.typ
+    pdf:
+      documentclass: scrlttr2
+      classoption: 
+        - firsthead=on
+        - firstfoot=on 
+        - pagenumber=off 
+        - parskip=half
+        - enlargefirstpage=on 
+        - fromalign=locationright
+        - addrfield=on 
+        - subject=titled 
+        - foldmarks=on
+        - numericaldate=off 
+        - KOMAold
+      papersize: a4paper
+      fontsize: 11pt
+      geometry: 
+        - top=30mm
+        - bottom=30mm
+        - left=25mm
+        - right=20mm 
+        - headsep=15mm
+      topdistance: 40mm  # Abstand des Absenders vom Seitenkopf
+      df-print: kable
+      code-line-numbers: true # false
+      keep-tex: false # true # false
+      lang: de
+      date-format: "DD.MM.YYYY"
+      linkcolor: black
+      signature: Unterschrift.png
+      include-in-header: in-header.tex   # header
+      template-partials: 
+        - title.tex
+        - before-body.tex
+        - after-body.tex

@@ -27,18 +27,20 @@ Through dynamic knowledge exchanges and progressive technology transfer, we aim 
 - **Date:** March 25-27 / 2025
 - **Time:** 9-7
 - **Location:** [Lorraine Fab Living Lab 49 Boulevard d'Austrasie, Nancy, France](https://www.google.com/maps/place/LF2L+-+Lorraine+Fab+Living+Lab/@48.6940479,6.1971891,17z/data=!3m1!4b1!4m6!3m5!1s0x47949838baee9527:0x8d5bc72637c2d7c8!8m2!3d48.6940444!4d6.1997694!16s%2Fg%2F11bwl3_jw4?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D)
-- **Description:**
 
 
 
+::: {layout="[75, 25]"}
+:::{}
+The **Lorraine Fab Living Lab® (LF2L®)** is a platform for innovation acceptability and prospective usage evaluation
+supported by [Engineering School ENSGSI](https://ensgsi.univ-lorraine.fr/) and [ERPI Laboratory](https://erpi.univ-lorraine.fr/) of [Université de Lorraine](https://www.univ-lorraine.fr/). 
+It supports the creation and achievement of results through an established process based on the usage paradigm, bringing together advanced, complementary tools in a single space.  [More information](https://lf2l.fr/)
+:::
 
-ENSAM – 151 Boulevard de l’Hôpital, 75013 Paris, France
-Room : Salle des Conseils 
-Transportation: Metro line 6, 7 or 5. Station Place d’Italie
+![[](https://lf2l.fr/) ](images/logo/LF2L-Vertical.jpg)
 
+:::
 
-
-# Presentation
 
 
 
@@ -46,7 +48,6 @@ Transportation: Metro line 6, 7 or 5. Station Place d’Italie
 
 
 **We present a tentative programme. But, we are working in the construction of the final one:**
-
 
 :::{.column-page}
 
@@ -57,9 +58,24 @@ Transportation: Metro line 6, 7 or 5. Station Place d’Italie
 # Organizers
 
 
+::: {layout-nrow=1 layout-valign="center"}
+
+![[](https://ensgsi.univ-lorraine.fr/) ](images/logo/UL.png)
+
+
+![[](https://ensgsi.univ-lorraine.fr/) ](images/logo/ENSGSI-Horizontal.png)
+
+![[](https://erpi.univ-lorraine.fr/)](images/logo/ERPI-Horizontal.svg)
+:::
+
+
+
+
+
 # Practical information
 
-The university is located on the place du Maréchal de Lattre de Tassigny. Please find the nearest public transportation stops below.
+The University is located on the heart of the Nancy city.
+Please find the nearest public transportation stops below.
 
 
 
@@ -67,7 +83,7 @@ The university is located on the place du Maréchal de Lattre de Tassigny. Pleas
 
 ## Nancy
 
-![](images/nancy/map-footer.jpg)
+![](images/nancy/map-footer.jpg){fig-align="center"}
 
 Lorraine is a region renowned for many good things: on top of its exceptional natural sites, Lorraine is also an economic and tourist hub, with several sites listed as UNESCO World Heritage Sites. As a region of festivals, culinary delights and innovation, Lorraine has many surprises in store for you.
 
@@ -88,16 +104,22 @@ Located at the heart of the Greater Region, you’ll be able to travel to Belgiu
 
 ## Getting to Nancy
 
-![](images/nancy/venir-nancy-1920x1980.png)
-
 To consult all the transportation options consult the following information from the Tourism Office:
 [Transportation to Nancy](https://www.nancy-tourisme.fr/en/prepare-your-stay/access-and-transport/getting-to-nancy/)
 
 
+[![](images/nancy/venir-nancy-1920x1980.png)]((https://www.nancy-tourisme.fr/en/prepare-your-stay/access-and-transport/getting-to-nancy/))
+
+
+
 ## Hotels recommendations
 
-Participants have to use reservation platform on this link: 
+Some hotels are:
 
+- [Hôtels Ibis Nancy Centre Stanislas](https://all.accor.com/hotel/1393/index.fr.shtml)
+- [Appart Hôtel - Residhome Nancy Lorraine](https://www.residhome.com/residence-hoteliere-aparthotel-nancy-123.html) 
+- [Appart'City Classic Nancy - Appart Hôtel](https://www.appartcity.com/fr/destinations/lorraine/nancy/nancy.html?search%5BstartDate%5D=24/01/2025&search%5BendDate%5D=25/01/2025&search%5BnbAdult%5D=2&search%5BnbChild%5D=0&search%5Bcode%5D=)
+- [Novotel Suites Nancy Centre](https://all.accor.com/hotel/5946/index.fr.shtml)
 
 
 
