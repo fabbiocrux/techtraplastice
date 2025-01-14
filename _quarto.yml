@@ -15,3 +15,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+    grid: 
+      margin-width: 300px
