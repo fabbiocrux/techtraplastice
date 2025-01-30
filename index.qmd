@@ -8,6 +8,7 @@ date-format: short
 #  - name: Fabio CRUZ
 #    affiliations:
 #      - Université de Lorraine
+lightbox: true
 ---
 
 
@@ -69,6 +70,27 @@ It supports the creation and achievement of results through an established proce
 :::
 
 
+# Participants
+
+:::{.column-page-inset}
+
+::: {layout="[[30,30,30], [50,50]]" layout-valign="center"}
+
+![[](https://ensgsi.univ-lorraine.fr/)](images/logo/AR-UNC.png)
+
+![[](https://ensgsi.univ-lorraine.fr/)](images/logo/AR-UNRN.jpeg)
+
+![[](https://erpi.univ-lorraine.fr/)](images/logo/AR-UNS.jpeg)
+
+![[](https://erpi.univ-lorraine.fr/)](images/logo/CO-UC.png)
+
+![[](https://erpi.univ-lorraine.fr/)](images/logo/CO-UNAL.png)
+
+![[](https://erpi.univ-lorraine.fr/)](images/logo/CL-PUCV.jpeg)
+
+![[](https://erpi.univ-lorraine.fr/)](images/logo/CL-USACH.png)
+:::
+:::
 
 
 

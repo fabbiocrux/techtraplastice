@@ -8,8 +8,19 @@ website:
     right:
       - href: index.qmd
         text: Home
-body-header: | 
-  This page brought to you by <https://example.com>
+  page-footer: 
+    left: | 
+      ![](images/logo/EU.png){width="300px"}     
+      Project Ref: Project 101179564 — TechTraPlastiCE — ERASMUS-EDU-2024-CBHE Co-funded by the Erasmus+ Programme of the European Union.
+      
+      This Project has been funded with support from the European Commission. This website reflects exclusively the views of the authors. The Commission can not be held responsible for any use which can be made of the information contained therein.  
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+
+
 margin-header: |
   ![](images/logo/EU.png)
 
