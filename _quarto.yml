@@ -8,7 +8,10 @@ website:
     right:
       - href: index.qmd
         text: Home
-
+body-header: | 
+  This page brought to you by <https://example.com>
+margin-header: |
+  ![](images/logo/EU.png)
 
 format:
   html:
