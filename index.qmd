@@ -70,25 +70,30 @@ It supports the creation and achievement of results through an established proce
 :::
 
 
-# Participants
+# Participants 🇪🇺🇦🇷🇨🇱🇨🇴
 
-:::{.column-page-inset}
+:::{.column-screen-inset}
 
-::: {layout="[[30,30,30], [50,50]]" layout-valign="center"}
+::: {layout="[[20,20,20, 20, 20 ], [20,20, 20, 20, 20]]" layout-valign="center"}
 
-![[](https://ensgsi.univ-lorraine.fr/)](images/logo/AR-UNC.png)
+![[](https://www.unc.edu.ar/)](images/logo/AR-UNC.png)
 
-![[](https://ensgsi.univ-lorraine.fr/)](images/logo/AR-UNRN.jpeg)
+![[](https://www.unrn.edu.ar/home)](images/logo/AR-UNRN.png)
 
-![[](https://erpi.univ-lorraine.fr/)](images/logo/AR-UNS.jpeg)
+![[](https://www.uns.edu.ar/)](images/logo/AR-UNS.png)
 
-![[](https://erpi.univ-lorraine.fr/)](images/logo/CO-UC.png)
+![[](https://www.ucentral.edu.co/)](images/logo/CO-UC.png)
 
-![[](https://erpi.univ-lorraine.fr/)](images/logo/CO-UNAL.png)
+![[](https://unal.edu.co/)](images/logo/CO-UNAL.png)
 
-![[](https://erpi.univ-lorraine.fr/)](images/logo/CL-PUCV.jpeg)
+![[](https://www.pucv.cl/)](images/logo/CL-PUCV.png)
 
-![[](https://erpi.univ-lorraine.fr/)](images/logo/CL-USACH.png)
+![[](https://www.usach.cl/)](images/logo/CL-USACH.png)
+
+![[](https://columbus-web.org/)](images/logo/COLUMBUS.png)
+
+![[](https://columbus-web.org/)](images/logo/UA.png)
+
 :::
 :::
 
