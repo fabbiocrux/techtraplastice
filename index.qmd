@@ -50,10 +50,14 @@ It supports the creation and achievement of results through an established proce
 
 **We present a tentative programme. But, we are working in the construction of the final one:**
 
-:::{.column-page}
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSGLPgkJZEmvR0EgedxVgtVLi-sA0HZiJZhmD08A3mWN9b7A8XF-ZFC5eQ6cgQcwPy8z_qWRtTEudmP/pubhtml?gid=427361304&amp;single=true&amp;widget=true&amp;headers=true" width="100%" height= "1000px"></iframe>
+:::{.column-screen-inset}
+::: {layout="[50, 50]" layout-valign="center"}
 
+![](images/Planning-Kick-off.png){width="50%"}
+
+![](images/Planning-Kick-off-02.png){width="50%"}
+:::
 :::
 
 # Organizers

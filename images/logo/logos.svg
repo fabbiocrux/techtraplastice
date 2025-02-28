@@ -41,7 +41,10 @@
        id="page2"
        margin="0"
        bleed="0"
-       inkscape:label="UNC" /><inkscape:page
+       inkscape:label="UNC"
+       inkscape:export-filename="CL-PUCV.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><inkscape:page
        x="257.40634"
        y="-1.2084826"
        width="238.12498"
