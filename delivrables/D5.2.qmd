@@ -59,10 +59,17 @@ Our logo is essential to our project It embodies our core proposition and acts a
 
 This TechTraPlastiCE logo also seeks to represent the principles of circulareconomy, recycling, industry, academia and knowledge transfer. Its design reflects the interconnection between academia, society and industry to address the challenges of plastics and move towards a green transition.
 
+## UE Visibility
+
+The European Union (EU) has numerous funding programmes which support projects and initiatives in various domains across the EU and beyond.
+All beneficiaries, managing authorities and implementing partners of EU funding must use the EU emblem in their communication to acknowledge the support received under EU programmes and contribute to the visibility of the EU on the ground.
+
+Recipients of EU funding have a general obligation to communicate and raise EU visibility. 
+An important obligation in this context is the correct and prominent display of the EU emblem, in combination with a simple funding statement, mentioning the EU support.
 
 \includepdf[landscape=false, delta=2 2, frame=true, 
 pagecommand={\pagestyle{fancy}},
- nup=3x3, scale=0.8, offset=0 0cm, pages=-]{figures/5.2/00-logo.pdf}
+ nup=3x3, scale=0.8, offset=0 0cm, pages=-]{figures/5.2/00-logo-01.pdf}
 
 
 ## Branding manual
