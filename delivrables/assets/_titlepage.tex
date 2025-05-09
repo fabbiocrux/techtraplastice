@@ -1,0 +1,119 @@
+% Inspiration: https://nmfs-opensci.github.io/quarto_titlepages_v1/02-titlepages.html
+% This is a combination of Pandoc templating and LaTeX
+% Pandoc templating https://pandoc.org/MANUAL.html#templates
+% See the README for help
+
+
+
+\backgroundsetup{
+  scale=1.0,
+  angle=0,
+  opacity=0.90,
+  contents={
+    \includegraphics{assets/Portada.png}}
+    }
+
+\BgThispage
+
+
+\begin{minipage}[b][0.78\textheight][s]{0.65\textwidth}
+
+  \raggedright
+  % Title and subtitle
+  
+  \vfill
+
+  \begin{spacing}{2.2}
+    {\color{Naranja}\Huge\bfseries{$title$}} \\[1\baselineskip] 
+  \end{spacing}
+  
+  \begin{spacing}{1.2}
+  {\color{Neutro} \Large\textit{$WP$}}\\[1\baselineskip]
+  
+  {\Large \color{Neutro} 
+  Strengthening University tech transfer capabilities to support circular economy 
+  value chains for plastics in Latin America -
+  \textsc{\centering\bfseries TechTraPlastiCE} }\\[2\baselineskip]
+
+  
+  \end{spacing}
+
+  {\color{Neutro} \Large\textit{$date$}}
+  
+  \vfill
+\end{minipage}		
+
+\vfill
+
+{\scriptsize
+  \color{Neutro}
+  This project has been funded with the support of Erasmus +.  
+  The contents are the responsibility of the author(s). 
+  The Commission cannot be held responsible for any use which may be made of the information contained therein. 
+  Project No. 101179564 
+  }
+
+
+\newpage
+
+
+
+\thispagestyle{plain}
+
+\begin{tabular}{ >{\centering\arraybackslash}p{6cm}| p{5cm} p{4cm}}
+  \toprule
+  \multirow{5}{*}{ \includegraphics[height=20mm]{assets/images/logo-TTPCE.png}} &  \textbf{Work Package} : & $WP_num$  \\ \cmidrule{2-3}
+    & \textbf{Project Number} : & 101179564  \\ \cmidrule{2-3}
+    &  \textbf{Type of document}:  & Deliverable        \\ \cmidrule{2-3}
+    & \textbf{Due Delivery Date}:    & $Date-delivrable$     \\ \cmidrule{2-3}
+    & \textbf{Actual Delivery Date}:    & $date$       \\ 
+\bottomrule
+\end{tabular}
+
+\vfill
+
+\begin{tabular}{ >{\raggedright\arraybackslash}p{3.5cm}| p{12.5cm} }
+  \toprule
+  \textbf{Title} : & $title$  \\ \cmidrule{2-2}  
+  \textbf{Work Package} : & $WP$  \\ \cmidrule{2-2}
+  \textbf{Description} : & $Description$  \\ \cmidrule{2-2}
+  \textbf{Responsible} : & $Responsible$  \\ \cmidrule{2-2}
+  \textbf{Author(s)} : &  $author$ \\ \cmidrule{2-2}
+  \textbf{Project Call} : & ERASMUS-EDU-2024-CBHE (Capacity building in the field of higher education)  \\ \cmidrule{2-2}
+  \textbf{Dissemination Level} : & $Dissemination$\\ 
+\bottomrule
+\end{tabular}
+
+\vfill
+
+
+\input{quality/$Quality$}
+
+  
+  
+  \vfill
+  
+  {\scriptsize\centering\color{lightgray} 
+  
+  Disclaimer
+  
+  This document is provided <<as is>> with no warranties whatsoever, 
+  including any warranty or merchantability, non-infringement, fitness for any particular 
+  purpose, or any warranty otherwise arising out of any proposal, specification or sample.  
+  
+  No license, express or implied, by estoppels or otherwise, to any intellectual 
+  property rights are granted herein. 
+  The members of the project TechTraPlastiCE do not accept any liability for actions or 
+  omissions of TechTraPlastiCE members or third parties and disclaim any obligation 
+  to enforce the use of this document. 
+  
+  This document reflects only the authors' view and the Commission is not responsible 
+  for any use that may be made of the information it contains.  
+  This document is subject to change without notice. 
+  
+  }
+  \normalsize
+  
+  
+  
+  

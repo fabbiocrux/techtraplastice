@@ -1,0 +1,37 @@
+format:
+  pdf:
+    toc: true
+    lot: true
+    lof: true
+    documentclass: book
+    classoption: [oneside]
+    number-sections: true
+    geometry:
+      - top=30mm
+      - bottom=30mm      
+      - left=25mm
+      - right=20mm
+      - headheight=15mm
+      - footskip=33pt
+    fontsize: 12pt
+    linestretch: 1.2
+    colorlinks: true
+    linkcolor: Celeste
+    urlcolor: Naranja
+    fig-pos: 'H'
+    link-citations: true
+    toc-title: Contents
+    include-in-header: [assets/packages.tex]
+    keep-tex: false
+    template-partials:
+       - assets/before-body.tex
+       - assets/_titlepage.tex
+
+# execute:
+#   echo: false
+#   warning: false    
+#bibliography: [assets/References.bib]
+#csl: assets/journal-of-cleaner-production.csl   
+#subparagraph: yes
+#mainfont: Archivo
+#pdf-engine: lualatex

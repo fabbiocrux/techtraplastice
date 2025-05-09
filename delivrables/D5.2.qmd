@@ -1,0 +1,148 @@
+---
+title: "D5.2 Branding digital material and training program "
+WP: "WP5 – Dissemination and Communication"
+WP_num: "WP5"
+Description: "The digital toolbox will contain all graphical material for branding and communication and the recommendations for usage. This will also be uploaded visible on the website. The recordings of the training - sessions will be available."
+Responsible: Universidad Nacional de Río Negro
+Dissemination: Confidential
+Date-delivrable: April 30/2025
+Quality: D5.2.tex
+author: 
+  - Lic. Marian Lenchours Pezzano &nbsp;
+  - Mg. Marcos del Bello
+date: today
+date-format: long
+
+lot: false
+lof: false
+---
+
+
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.retina = 3, message = FALSE, warning = FALSE)
+options(knitr.kable.NA = '')
+
+
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+
+table1 <- read_csv("tables/1.1/table1.csv")
+#render("Taylor-template.Rmd", output_format = "word_document")
+#library(bibtex)
+
+
+```
+
+
+
+
+# Executive summary 
+
+A logo and visual identity plan of the project, layout for presentations, documents and other dissemination materials were created in the first three months of the project (February 2025). 
+
+**All main dissemination materials will be provided in English and Spanish to broaden the reach of all project results and impact the target groups in the Latin America region**. 
+It is essential to respect the visual identity of the project in order to communicate it with coherence and consistency.
+
+Considering that communication is a dynamic process, WP5´s leader will provide support in the communications and organization of events from other WPs when it comes to dissemination tools and branding
+
+\newpage
+
+## Logos of the TechTraplastiCE
+
+WP5 leader, together with UL, participated in ideas generation activities before the kick-off meeting (March 2025) and three proposals of logo were designed and were submitted (via online) to all partners to vote and express considerations. 
+
+In response to suggestions on the winning logo, a new version was presented and approved by the consortium during the first Consortium virtual meeting (28 February 2025). 
+
+Our logo is essential to our project It embodies our core proposition and acts as a recognizable signature that unites all parts of TechTraPlastiCE.
+
+This TechTraPlastiCE logo also seeks to represent the principles of circulareconomy, recycling, industry, academia and knowledge transfer. Its design reflects the interconnection between academia, society and industry to address the challenges of plastics and move towards a green transition.
+
+
+\includepdf[landscape=false, delta=2 2, frame=true, 
+pagecommand={\pagestyle{fancy}},
+ nup=3x3, scale=0.8, offset=0 0cm, pages=-]{figures/5.2/00-logo.pdf}
+
+
+## Branding manual
+
+
+Based on the logo, a visual identity plan of the project was created in the first three months of the project (February 2025). 
+
+This branding manual serves to define and guide the consistent application of the visual elements of TechTraPlastiCE brand in any context, ensuring a coherent and recognizable image.
+
+It details how to use the logo, colors, typographies and other graphic elements of the brand in different contexts, such as advertising, social networks, web, stationery, etc. Following the guidelines in the manual ensures that the brand has a consistent visual image, which facilitates its recognition and improves its perception by the public. 
+
+The manual helps standardize brand creation and application processes, reducing the time and effort required to maintain visual consistency. It also serves as a reference tool for the internal team working with the brand, ensuring that everyone follows the same guidelines. It can also be useful for third parties working with the brand, such as advertising agencies or designers, so that they can create materials consistent with the visual identity. 
+
+
+
+\includepdf[landscape=false, delta=2 2, frame=true,  
+scale=0.8, offset=0 0cm, pagecommand={\pagestyle{fancy}},
+nup=2x4,pages=-]{figures/5.2/01-marca.pdf}
+
+## Templates of Slides PPT
+
+PPT presentations are widely used in international events and in internal and external meetings of projects such as ours. 
+
+In this sense, they are a letter of introduction to our target audiences. That is why the presentations in the framework of TechTraplastiCE must respect the visual identity of the project. 
+
+These templates and the resources developed to meet the needs of each presentation, seek to unify the image to communicate with greater coherence and consistency.
+
+
+\includepdf[landscape=false, scale=0.8, offset=0 0cm,
+pagecommand={\pagestyle{fancy}},
+delta=2 2, frame=true,  nup=2x4,pages=-]{figures/5.2/03-Templates-ppt.pdf}
+
+
+## Templates for media 
+
+Based on the Brand Manual, the necessary resources were created to create the project's profiles in social networks according to the project's visual identity. This was applied to LinkedIn[^1] as illustrated in @fig-linkedin, active since February 2025, and will be applied to the project's accounts on X and YouTube, which will be registered in May 2025.
+
+
+In turn, templates will be designed for the creation of content in social networks: ephemerides, infographics and promotional and informative flyers.
+
+![[Linkedin account of the TechTraplastiCE.](https://www.linkedin.com/company/techtraplastice/?viewAsMember=true)](figures/5.2/linkedin.png){#fig-linkedin fig-align="center" width="70%"}
+
+
+\includepdf[landscape=false, delta=2 2, frame=true,  nup=2x3,
+scale=0.8, offset=0 0cm, pagecommand={\pagestyle{fancy}},
+pages=-]{figures/5.2/04-fotos.pdf}
+
+ 
+
+\includepdf[landscape=false, delta=2 2, frame=true,  nup=3x3,
+scale=0.8, offset=0 -3cm, 
+pagecommand={\section{Templates for documents} All TechTraPlastiCE deliverables and documents developed under the project shall apply the following templates with the visual identity of the project.
+}, 
+pages=-]{figures/5.2/05-word.pdf}
+
+
+
+## Templates for Video materials
+
+
+All TechTraPlastiCE graphic design and video pieces shared through the project's communication channels or other channels must respect the visual identity of the project. 
+
+While the visual identity is maintained, the design will be adapted to each communication objective and content.
+
+
+
+\includepdf[landscape=false, delta=2 2, frame=true,  nup=3x3,
+pagecommand=\section{Vertical format}, pagecommand={\pagestyle{fancy}},
+offset=0 -120,
+pages=-]{figures/5.2/06-video.pdf}
+
+
+\includepdf[landscape=false,  delta=2 2, frame=true,  nup=2x3, pagecommand={\pagestyle{fancy} \section{Horizontal format}}, 
+scale=0.8, pages=-]{figures/5.2/06-video-horizontal.pdf}
+
+
+
+[^1]: See  [https://www.linkedin.com/company/techtraplastice/?viewAsMember=true](https://www.linkedin.com/company/techtraplastice/?viewAsMember=true)
+
+
+## Others ressources
+
+TechTraPlastiCE's digital and printed brochure, the digital newsletter for the project's target audiences and all other necessary dissemination materials will be designed in accordance with the project identity manual.
