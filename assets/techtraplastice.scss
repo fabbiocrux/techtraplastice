@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*-- scss:defaults --*/
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #ddd !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+
+// fonts
+$font-family-sans-serif: Archivo, Garamond, Baskerville, Helvetica, sans-serif !default;
+$font-family-monospace:  CM Typewriter, SFMono-Regular, Menlo, Monaco, Consolas,
+  "Liberation Mono", "Courier New", monospace !default;
+
+$presentation-heading-font: 'Archivo Black';
+
+$presentation-font-size-root: 50px !default;
+$presentation-font-smaller: 0.7 !default;
+$presentation-line-height: 1.3 !default;
+
+
+#title-slide{
+  font-size: 10px;
+}
