@@ -50,11 +50,10 @@ resources:
 ---
 
 
-## Slide Title {background-iframe="https://techtraplastice.eu/"}
 
 # TechTraPlastiCE Project {.tema-naranja .center}
 
-## Consortium {background-color="#F1F1F1" background-image="figures/Consorcio.png" background-size="30%" background-position="90% 50%"}
+## Consortium {.naranja background-image="figures/Consorcio.png" background-size="30%" background-position="90% 50%"}
 
 ![](figures/Consorcio-flags.png)
 
@@ -64,14 +63,17 @@ resources:
 
 
 
-## Main Goal
+## Main Goal {.naranja}
 
 
 🎯 The main goal is to **reinforce the applied research and technological transfer capacities of the universities** improving their services portfolios to strengthen the plastic industry's contribution to the green transition.
 
-The ambition is to foster the collaboration and partnerships of the University with socio-economic stakeholders to incubate, establish and develop circular initiatives, demonstrating operational success by carrying out joint recycling interventions integrating actors in the plastics value chain in Colombia, Argentina, and Chile.
 
-## Specific Goals
+<br><br>
+
+🧩🧩 The ambition is to foster the **collaboration and partnerships of the University with socio-economic stakeholders** to incubate, establish and develop circular initiatives, demonstrating operational success by carrying out joint recycling interventions integrating actors in the plastics value chain in Colombia, Argentina, and Chile.
+
+## Specific Goals {.naranja}
 
 - SO1: To identify and understand key barriers and leverage points of the local plastic companies to generate university-industry collaboration opportunities.
 
@@ -81,12 +83,12 @@ The ambition is to foster the collaboration and partnerships of the University w
 
 - SO4: Develop recommendations on new technologies, business models, and organizational setups for university-industry collaborations based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in HEIs in Latin America. 
 
-## Approach
+## Approach {.naranja}
 
 ![](figures/TechTraPlastiCE-Approach.png)
 
 
-## Milestones
+## Milestones {.naranja}
 
 ![](figures/Milestones.png)
 

@@ -1,0 +1,148 @@
+---
+title: "TechTraPlastiCE timeline"
+format:
+  pdf:
+    toc: false
+    lot: false
+    lof: false
+    documentclass: article
+    #classoption: [legalpaper]
+    geometry: margin=2cm, paperheight=26cm, paperwidth=50cm
+    number-sections: true
+    include-in-header: [packages.tex]
+    keep-tex: false
+    template-partials:
+       - before-body.tex
+---
+
+
+
+\begin{ganttchart}[vgrid,
+   y unit title=0.5cm,
+   y unit chart=0.5cm,
+   x unit = 0.7cm,
+   time slot format=isodate-year,
+   time slot unit=month,
+   today=2025-07,
+   progress=today,
+   title/.append style={draw=none, fill= Neutro},
+   title label font=\sffamily\bfseries\color{white},
+   title label node/.append style={below=-1.6ex},
+   title left shift=.05,
+   title right shift=-.05,
+   title height=1,
+   bar/.append style={draw=none, fill=OliveGreen!75},
+   bar height=.6,
+   bar label font=\normalsize\color{black!50},
+   group right shift=0,
+   group top shift=.6,
+   group height=.3,
+   group peaks height=.2,
+   bar incomplete/.append style={fill=Celeste},
+   bar progress label anchor = west,
+   bar progress label font = \color{white}\scriptsize
+]{2025-02}{2028-01}
+
+\gantttitle[]{TechTraPlastiCE timeline}{36}\\  
+\gantttitlecalendar{year} \\
+\gantttitlelist{"Q1","Q2","Q3","Q4", "Q1","Q2","Q3","Q4","Q1","Q2","Q3","Q4"}{3}\\ % Semester title
+\gantttitlecalendar{month} \\
+
+
+
+% Working package 1
+\ganttgroup{WP 1: Innovation Opportunities for Circular Economy}{2025-02}{2025-10} \\
+
+% Tareas
+\ganttbar[name=1a, progress=100, progress label text={Completed}]{Developing a framework to understand the companies/industries' performance for circular economy}{2025-02}{2025-04} \\
+\ganttbar[name=1b, progress=80, progress label text={90\%}]{Identifying gaps and drivers at targeted Industries/Companies to comply with the norms and consumers' preferences}{2025-05}{2025-10} \\
+\ganttbar[name=1c, progress=10, progress label text={10\%}]{Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} 
+\ganttnewline[thick, blue]  \\
+\ganttmilestone[]{Milestone 1}{2025-04} \\
+
+
+% Working package 2
+\ganttgroup{WP2: Development of a networked portfolio}{2025-07}{2026-04} \\
+
+% Tareas
+\ganttbar[name=2a, progress=0, progress label text={ }]{Identifying existing core services for plastics challenges within the network of partners}{2025-07}{2026-01} \\
+\ganttbar[name=2b, progress=0,  progress label text={ }]{Design of Institutional Portfolios}{2025-11}{2026-04} \\
+\ganttbar[name=2c, progress=0,  progress label text={ }]{Promoting cross-peer collaboration and mentoring}{2025-11}{2026-04} 
+\ganttnewline[thick, blue] 
+\\
+
+
+% Working package 3
+\ganttgroup{WP3: Multi-actor collaborations for just and safe plastic’s circular economy }{2026-02}{2027-04} \\
+
+% Tareas
+\ganttbar[name=3a, progress=0, progress label text={ }]{Reuse action clues in Argentina, Chile and Colombia}{2026-02}{2026-04} \\
+\ganttbar[name=3b, progress=0,  progress label text={ }]{Engaging local stakeholders}{2026-02}{2026-10} \\
+\ganttbar[name=3c, progress=0,  progress label text={ }]{Assessment of local reuse systems and benchmarking with impactful reuse practices}{2026-05}{2026-10} \\
+\ganttbar[name=3d, progress=0,  progress label text={ }]{Search Conference}{2026-08}{2027-04} \\
+\ganttbar[name=3e, progress=0,  progress label text={ }]{Implementation of collaborative initiatives}{2026-11}{2027-04} \\
+
+
+% Working package 4
+\ganttgroup{WP3: Pilot projects implementation}{2026-02}{2027-04} \\
+
+% Tareas
+\ganttbar[name=4a, progress=0, progress label text={ }]{Pedagogical Integration of Industry at the University}{2026-02}{2026-04} \\
+\ganttbar[name=4b, progress=0,  progress label text={ }]{Pilots implementation}{2026-02}{2026-10} \\
+\ganttbar[name=4c, progress=0,  progress label text={ }]{Cross evaluation of pilot projects between Latin American Universities}{2026-05}{2026-10} \\
+\ganttbar[name=4d, progress=0,  progress label text={ }]{Institutional Recommendations}{2026-08}{2027-04} \\
+
+% Working package 5
+\ganttgroup{WP5: Communication and Dissemination}{2025-02}{2028-01} \\
+
+% Tareas
+\ganttbar[name=5a, progress=0, progress label text={ }]{Definition of a dissemination strategy and its implementation.}{2025-02}{2026-05} \\
+\ganttbar[name=5b, progress=0,  progress label text={ }]{Dissemination Toolbox and Training}{2025-02}{2026-8} \\
+\ganttbar[name=5c, progress=0,  progress label text={ }]{Project Website Launching and Monitoring}{2025-05}{2028-01} \\
+\ganttbar[name=5d, progress=0,  progress label text={ }]{Establishing an Open Digital Repository}{2026-08}{2027-04} \\
+\ganttbar[name=5e, progress=0,  progress label text={ }]{Final Conference}{2027-01}{2028-01} \\
+
+
+% Working package 6
+\ganttgroup{WP6: Project management and Quality assurance}{2025-02}{2028-01}\\
+
+% Tareas
+\ganttbar[name=6a, progress=0, progress label text={ }]{Partnership agreement management with the consortium}{2025-02}{2025-05} \\
+\ganttbar[name=6b, progress=0,  progress label text={ }]{Financial management guidelines, monitoring and reports}{2025-02}{2028-01} \\
+\ganttbar[name=6c, progress=0,  progress label text={ }]{Project Management guidelines, monitoring and reports}{2025-02}{2028-01} \\
+\ganttbar[name=6d, progress=0,  progress label text={ }]{Establishment of quality guidelines and an external committee for monitoring the advancement of the project}{2025-02}{2028-01} \\
+\ganttbar[name=6e, progress=0,  progress label text={ }]{Organization of the Kick-off meeting at Nancy}{2025-02}{2025-05} \\
+
+
+\ganttset{link/.style={Naranja}}
+
+% WP1   
+\ganttlink{1a}{1b}
+\ganttlink{1a}{1c}
+
+\ganttlink{1b}{3c}
+\ganttlink{1c}{3c}
+
+% WP2   
+\ganttlink{2a}{2b}
+\ganttlink{2b}{2c}
+
+\ganttlink{2a}{3c}
+
+% WP3
+\ganttlink{3a}{3b}
+\ganttlink{2b}{2c}
+\ganttlink{2b}{2c}
+
+
+%\ganttlink{1b}{}
+%\ganttlink{T1.1}{T1.4}
+%\ganttlink{T1.1}{T1.5}
+%\ganttlink{T1.4}{Mile1}
+
+         
+
+
+\end{ganttchart}
+
+
