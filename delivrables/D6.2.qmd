@@ -1,6 +1,19 @@
+---
+title: "D6.2. Plan Management"
+WP: "WP6 – Project management and Quality assurance"
+WP_num: "WP6"
+Description: This document reports a quality plan that includes the criteria and indicators to take into account in the project development. It aims to provide sufficient mechanisms and instruments approved by mutual agreement to ensure compliance with the project's objectives and indicators with high-quality standards and delimiting decision-making elements. Also, it will specify the means of communication, frequency and the external advisory board that will join the project.
+Responsible: Université de Lorraine
+Dissemination: Confidential
+Date-delivrable: May 30/2025
+Quality: D6.1.tex
+author: 
+  - Prof. Fabio A. Cruz &nbsp;
+date: today
+date-format: long
+keep-tex: false
+---
 
-
-::: {.callout-note title="Principles of TechTraPlastiCE Quality Committee"}
 
 - **Respect**: Understood as the consideration and appreciation of the work of the other actors involved in the project, as well as respect for the environment and activities that promote its appreciation and conservation.
 
@@ -12,7 +25,7 @@
 
 - **Cooperation**: it emphasizes the importance of open dialogue, trust, and shared commitment among all partners of TechTraPlastiCE. It will foster a working environment where partners actively contribute to common goals, align efforts, and resolve challenges collectively ensuring that the project implementation will benefit from the collective expertise, resources, and engagement of the entire consortium.
 
-:::
+
 
 
 1. Facilitate the resolution of disputes between consortium members in a constructive and conciliatory manner, particularly in cases involving differences of opinion or challenges in the execution of project activities.

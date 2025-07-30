@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 /*-- scss:defaults --*/
+
+
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -15,18 +14,147 @@ $gray-900: #212529 !default;
 $black:    #000 !default;
 
 
+// Colors Techtraplastice
+$Naranja: #F69223; 
+$Celeste: #3299CC;
+$Verde: #98C601;
+$Gris: #5E6F75;
+$Gris_c: #F1F1F1;
+
+
+
+// colors du template TechTraPlastiCE
+$body-bg: $Gris_c !default;;
+$body-color: $Gris !default;
+$link-color: #51483d !default;
+$selection-bg: #26351c !default;
+
+
+
+
 // fonts
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 $font-family-sans-serif: Archivo, Garamond, Baskerville, Helvetica, sans-serif !default;
 $font-family-monospace:  CM Typewriter, SFMono-Regular, Menlo, Monaco, Consolas,
   "Liberation Mono", "Courier New", monospace !default;
 
 $presentation-heading-font: 'Archivo Black';
-
 $presentation-font-size-root: 50px !default;
 $presentation-font-smaller: 0.7 !default;
 $presentation-line-height: 1.3 !default;
 
 
-#title-slide{
-  font-size: 10px;
+
+/*-- scss:rules --*/
+
+#title-slide .title-project {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px 20px;
+
+  > img{
+    max-width: 350px;
+  }
+
+}
+#title-slide .title {
+  font-size: 55px;
+  font-weight: 800;
+  color: $white;
+  text-align: left;
+  padding: 20px 20px 20px 50px;
+
+
+}
+#title-slide .subtitle {
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 30px;
+  color: $white;
+}
+
+#title-slide .quarto-title-author-name {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 30px;
+
+}
+
+#title-slide .institute .date {
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+#title-slide .date {
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+
+
+// TItulos
+
+.reveal h1 {
+    color: $Gris; // or #5CB4C2
+    font-weight: 800;
+    font-size: 2em;
+  }
+
+.reveal h2 {
+    color: $Celeste; // or #5CB4C2
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+
+.reveal h3 {
+    color: $Naranja; // or #5CB4C2
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+
+
+@mixin background-full {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.tema-naranja{
+  &:is(.slide-background) {
+    background-image: url('/assets/img/BG-Naranja.jpg');
+    @include background-full;
+  }
+  h1 {
+    color: $white; // or #5CB4C2
+  }
+
+  section > h2 {
+    color: $Naranja; // or #5CB4C2
+  }
+
+}
+
+
+.tema-azul {
+  &:is(.slide-background) {
+    background-image: url('/assets/img/BG-Azul.jpg');
+    @include background-full;
+  }
+  //background-color: $gray-200;
+  color: $white;
+  h1 {
+    color: $white; // or #5CB4C2
+    font-size: 2em;
+  }
+
+  blockquote {
+    color: $white;
+    padding: .625rem 3.75rem;
+    border-left: .25rem solid $white;
+    box-shadow: $white
+  }
 }

@@ -1,8 +1,13 @@
 <section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$ class="quarto-title-block">
-  <h1 class="title">$title$</h1>
-$if(subtitle)$
-  <p class="subtitle">$subtitle$</p>
-$endif$
+  
+  <div class="title-project">
+    <img src="$title-slide-attributes.logo-Techtra$" alt="">
+    <h1 class="title">$title$</h1>
+  </div>
+  
+  $if(subtitle)$
+    <p class="subtitle">$subtitle$</p>
+  $endif$
 
 <div class="quarto-title-authors">
 $for(by-author)$

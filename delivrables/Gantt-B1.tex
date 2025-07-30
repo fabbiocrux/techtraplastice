@@ -1,0 +1,440 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  12pt,
+  oneside]{book}
+
+\usepackage{amsmath,amssymb}
+\usepackage{setspace}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=30mm,bottom=30mm,left=25mm,right=20mm,headheight=15mm,footskip=33pt]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{Archivo}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage[pages=some]{background}
+\usepackage{setspace}
+\usepackage[table]{xcolor}
+\usepackage{tabularx}
+\usepackage[Bjornstrup]{fncychap}
+\usepackage{multirow}
+
+% Colors Techtraplastice
+\definecolor{Naranja}{HTML}{F69223}
+\definecolor{Celeste}{HTML}{3299CC}
+\definecolor{Verde}{HTML}{98C601}
+\definecolor{Neutro}{HTML}{5E6F75}
+\definecolor{Neutro_claro}{HTML}{F1F1F1}
+
+
+% Headers
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}          
+
+\fancyhead{}
+\fancyfoot{}
+
+\fancyhead[L]{\includegraphics[height=10mm]{assets/images/logo-TTPCE.png}}
+\fancyhead[C]{ }
+\fancyhead[R]{\thepage}
+
+\fancyfoot[L]{\includegraphics[height=8mm]{assets/images/footer-00.png}}
+\fancyfoot[C]{}
+\fancyfoot[R]{\includegraphics[height=8mm]{assets/images/EU.png}}
+
+
+
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\headruleskip}{1mm}
+
+
+
+
+\usepackage{pdfpages}
+\usepackage{wrapfig}
+
+\usepackage{pgfgantt}
+
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Gant},
+  pdfauthor={Prof.~Fabio A. Cruz ~},
+  colorlinks=true,
+  linkcolor={Celeste},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Naranja},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Gant}
+\author{Prof.~Fabio A. Cruz ~}
+\date{July 29, 2025}
+
+\begin{document}
+  \begin{frontmatter}
+  \begin{titlepage}
+  % Inspiration: https://nmfs-opensci.github.io/quarto_titlepages_v1/02-titlepages.html
+  % This is a combination of Pandoc templating and LaTeX
+  % Pandoc templating https://pandoc.org/MANUAL.html#templates
+  % See the README for help
+
+
+
+  \backgroundsetup{
+    scale=1.0,
+    angle=0,
+    opacity=0.90,
+    contents={
+      \includegraphics{assets/Portada.png}}
+      }
+
+  \BgThispage
+
+
+  \begin{minipage}[b][0.78\textheight][s]{0.65\textwidth}
+
+    \raggedright
+    % Title and subtitle
+    
+    \vfill
+
+    \begin{spacing}{2.2}
+      {\color{Naranja}\Huge\bfseries{Gant}} \\[1\baselineskip] 
+    \end{spacing}
+    
+    \begin{spacing}{1.2}
+    {\color{Neutro} \Large\textit{WP6 -- Project management and Quality
+  assurance}}\\[1\baselineskip]
+    
+    {\Large \color{Neutro} 
+    Strengthening University tech transfer capabilities to support circular economy 
+    value chains for plastics in Latin America -
+    \textsc{\centering\bfseries TechTraPlastiCE} }\\[2\baselineskip]
+
+    
+    \end{spacing}
+
+    {\color{Neutro} \Large\textit{July 29, 2025}}
+    
+    \vfill
+  \end{minipage}		
+
+  \vfill
+
+  {\scriptsize
+    \color{Neutro}
+    This project has been funded with the support of Erasmus +.  
+    The contents are the responsibility of the author(s). 
+    The Commission cannot be held responsible for any use which may be made of the information contained therein. 
+    Project No. 101179564 
+    }
+
+
+  \newpage
+
+
+
+  \thispagestyle{plain}
+
+  \begin{tabular}{ >{\centering\arraybackslash}p{6cm}| p{5cm} p{4cm}}
+    \toprule
+    \multirow{5}{*}{ \includegraphics[height=20mm]{assets/images/logo-TTPCE.png}} &  \textbf{Work Package} : & WP6  \\ \cmidrule{2-3}
+      & \textbf{Project Number} : & 101179564  \\ \cmidrule{2-3}
+      &  \textbf{Type of document}:  & Deliverable        \\ \cmidrule{2-3}
+      & \textbf{Due Delivery Date}:    & May
+  30/2025     \\ \cmidrule{2-3}
+      & \textbf{Actual Delivery Date}:    & July 29, 2025       \\ 
+  \bottomrule
+  \end{tabular}
+
+  \vfill
+
+  \begin{tabular}{ >{\raggedright\arraybackslash}p{3.5cm}| p{12.5cm} }
+    \toprule
+    \textbf{Title} : & Gant  \\ \cmidrule{2-2}  
+    \textbf{Work Package} : & WP6 -- Project management and Quality
+  assurance  \\ \cmidrule{2-2}
+    \textbf{Description} : & This document reports a quality plan that
+  includes the criteria and indicators to take into account in the
+  project development. It aims to provide sufficient mechanisms and
+  instruments approved by mutual agreement to ensure compliance with the
+  project's objectives and indicators with high-quality standards and
+  delimiting decision-making elements. Also, it will specify the means
+  of communication, frequency and the external advisory board that will
+  join the project.  \\ \cmidrule{2-2}
+    \textbf{Responsible} : & Université de Lorraine  \\ \cmidrule{2-2}
+    \textbf{Author(s)} : &  Prof.~Fabio A. Cruz ~ \\ \cmidrule{2-2}
+    \textbf{Project Call} : & ERASMUS-EDU-2024-CBHE (Capacity building in the field of higher education)  \\ \cmidrule{2-2}
+    \textbf{Dissemination Level} : & Confidential\\ 
+  \bottomrule
+  \end{tabular}
+
+  \vfill
+
+
+  \input{quality/D6.1.tex}
+
+    
+    
+    \vfill
+    
+    {\scriptsize\centering\color{lightgray} 
+    
+    Disclaimer
+    
+    This document is provided <<as is>> with no warranties whatsoever, 
+    including any warranty or merchantability, non-infringement, fitness for any particular 
+    purpose, or any warranty otherwise arising out of any proposal, specification or sample.  
+    
+    No license, express or implied, by estoppels or otherwise, to any intellectual 
+    property rights are granted herein. 
+    The members of the project TechTraPlastiCE do not accept any liability for actions or 
+    omissions of TechTraPlastiCE members or third parties and disclaim any obligation 
+    to enforce the use of this document. 
+    
+    This document reflects only the authors' view and the Commission is not responsible 
+    for any use that may be made of the information it contains.  
+    This document is subject to change without notice. 
+    
+    }
+    \normalsize
+    
+    
+    
+      \end{titlepage}
+  \end{frontmatter}
+
+\renewcommand*\contentsname{Contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\listoffigures
+\listoftables
+
+\setstretch{1.2}
+\mainmatter
+\begin{ganttchart}[vgrid,
+   y unit title=0.5cm,
+   y unit chart=0.5cm,
+   x unit=1cm,
+   %time slot format=isodate-yearmonth,
+   %time slot unit=month,
+   title/.append style={draw=none, fill=RoyalBlue!50!black},
+   title label font=\sffamily\bfseries\color{white},
+   title label node/.append style={below=-1.6ex},
+   title left shift=.05,
+   title right shift=-.05,
+   title height=1,
+   bar/.append style={draw=none, fill=OliveGreen!75},
+   bar height=.6,
+   bar label font=\normalsize\color{black!50},
+   group right shift=0,
+   group top shift=.6,
+   group height=.3,
+   group peaks height=.2,
+   bar incomplete/.append style={fill=Maroon},
+   bar progress label anchor = west,
+   bar progress label font = \color{white}\scriptsize
+]{1}{10}
+
+\gantttitle[]{Semester (S):}{10}\\  % title 1
+\gantttitlelist{"Year 1", "Year 2", "Year 3", "Year 4", "Year 5"}{2}\\ % Semester title
+\gantttitlelist{"S1","S2","S3","S4", "S5", "S6", "S7", "S8", "S9", "S10"}{1}\\ % Semester title
+
+
+% Working package 1
+\ganttgroup{WP1: Theoretical baseline analysis for closed-loop urban value chains}{1}{6} \\
+
+\ganttbar[name=1a, progress=0, progress label text={PhD1 + PostDoc1 }]{Closing the data gap:}{1}{3} \\
+\ganttbar[name=1b, progress=0, progress label text={PostDoc1  }]{Urban territorial priorities in the frame of ecosystems services.}{2}{6} \\
+\ganttmilestone[]{Milestone 1}{9} \\
+
+%\ganttnewline[thick, blue]  
+
+% Working package 2
+\ganttgroup{WP2: Maturity and techno-diverstity level of the OSATs for distributed recycling}{2}{8} \\
+
+\ganttbar[name=2a, progress=0, progress label text={PhD2 + PostDoc2 }]{Cross-case studies on technical recycling feasibility with the}{2}{3} \\
+\ganttbar[name=2b, progress=0,  progress label text={PhD2 + PostDoc2 }]{Establishment of a maturity in of unit- and system-levels for OSATs }{2}{5} \\
+\ganttbar[name=2c, progress=0,  progress label text={PostDoc2 }]{Mapping of new/adapted practices and tools for OSAT adoption:}{3}{8} \\
+
+%\ganttnewline[thick, blue]  
+
+% Working package 3
+\ganttgroup{WP3: Pluralistic evaluation of distributed recycling systems}{4}{9} \\
+
+\ganttbar[name=3a, progress=0, progress label text={PostDoc1 + PostDoc2 }]{Identify the techno-ecological synergy for an urban closed-loop supply chain.}{4}{6} \\
+\ganttbar[name=3b, progress=0,  progress label text={PostDoc2, }]{Structuring a systems dynamic causal loop model}{4}{7} \\
+\ganttbar[name=3c, progress=0,  progress label text={PostDoc1 + PostDoc1  }]{Definition of the plausible hypothesis and evolution scenarios}{7}{8} \\
+
+%\ganttnewline[thick, blue]  
+
+% Working package 4
+\ganttgroup{WP4: Experimentation and valuation by the local territory}{5}{10} \\
+
+\ganttbar[name=4a, progress=0,  progress label text={PhD 1 + PhD2 + PostDoc2 }]{Technical experimentation and validation of the System dynamics model}{5}{6} \\
+\ganttbar[name=4b, progress=0, progress label text={PhD3 + PostDoc2 }]{Participatory Workshops for a pluralistic valuation}{6}{9} \\
+\ganttbar[name=4c, progress=0,  progress label text={PostDoc1, }]{documentation and dissemination to scientific and open communities }{6}{10} \\
+
+
+
+
+% WP1   
+\ganttlink{1a}{2a}
+\ganttlink{1a}{3a}
+
+\ganttlink{1b}{3a}
+\ganttlink{1b}{3c}
+\ganttlink{1a}{3a}
+
+
+%\ganttlink{1b}{}
+%\ganttlink{T1.1}{T1.4}
+%\ganttlink{T1.1}{T1.5}
+%\ganttlink{T1.4}{Mile1}
+
+         
+
+\ganttset{link/.style={OliveGreen}}
+\end{ganttchart}
+
+
+\backmatter
+
+
+\end{document}
