@@ -104,7 +104,10 @@ resources:
 
 ## Work Plan
 
-The work plan will consist in the following elements;
+
+![](figures/Gantt.jpg){fig-align="center" width="100%"}
+
+
 
 ## Composition
 
