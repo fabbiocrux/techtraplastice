@@ -15,6 +15,9 @@ format:
        - before-body.tex
 ---
 
+%%%%%%%%%% Converting to png. %%%%%%%%%%%%
+%% magick -density 150 _Gantt.pdf -quality 90 Gantt.png
+
 
 \begin{ganttchart}[vgrid,
    y unit title=0.5cm,

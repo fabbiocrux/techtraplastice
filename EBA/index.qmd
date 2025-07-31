@@ -42,6 +42,7 @@ format:
     fig-align: center
     code-copy: true        
     chalkboard: false
+    embed-resources: false
     template-partials: 
      - ../assets/reveal/title-slide.html 
 resources: 
@@ -104,8 +105,9 @@ resources:
 
 ## Work Plan
 
+![](../assets/Gantt/Gantt.png){fig-align="center" width="100%"}
 
-{{< pdf ../assets/Gantt/_Gantt.pdf image=../assets/Gantt/_Gantt.jpg width=100% height=800 >}}
+⬇️ {{< pdf ../assets/Gantt/_Gantt.pdf >}}
 
 ## Composition
 
