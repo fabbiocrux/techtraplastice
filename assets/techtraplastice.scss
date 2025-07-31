@@ -1,6 +1,4 @@
 /*-- scss:defaults --*/
-
-
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -131,6 +129,18 @@ $presentation-line-height: 1.3 !default;
 $light-bg-text-color: $Celeste !default;
 
 
+
+// Blockquotes
+
+.reveal blockquote {
+  margin: 0.5rem 0.5rem 0.5rem 3rem;
+  padding: 0.1rem 1.5rem;
+  font-style: italic;
+  color: $Gris;
+}
+
+
+
 @mixin background-full {
   background-size: 100%;
   background-position: center;
@@ -251,15 +261,13 @@ $light-bg-text-color: $Celeste !default;
   }
 
   .reveal blockquote {
-    display: block;
-    position: relative;
-    margin: 0.5rem 0.5rem 0.5rem 3rem;
+
     color: $Gris;
     padding: .1rem 1.75rem;
     border-left: .25rem solid #aebabe;    
     background: none;
     box-shadow: black;
-    font-style: italic;
+    
 }
 }
 

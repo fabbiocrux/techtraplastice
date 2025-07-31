@@ -159,7 +159,7 @@ experts in this topic can illustrated the consortium, and more particular the la
 :::
 
 
-## Why participate to the EBA?. {.smaller}
+## Why participate to the EBA?. {.smaller .azul}
 
 1. **Impact on Sustainable Development**
 
@@ -175,9 +175,8 @@ experts in this topic can illustrated the consortium, and more particular the la
 
 
 
-# Experts on the External Advisory Board --EBA-- {.tema-verde}
+# Experts on the External Advisory Board --EBA-- {.tema-verde .center}
 
->test
 
 ## Maria José Zapata
 
@@ -203,16 +202,24 @@ experts in this topic can illustrated the consortium, and more particular the la
 Associate Professor at the School of Business, Economics and Law at the University of Gothenburg since 2017. 
 
 María José has reserach interest are Grassroots for Sustainability , Public-private collaboration, Organizing sustainability, Organizing environmental sustainability in cities.
+
+*Somme projects:*
+
+[![](figures/Maria-grassroots-01.png){width="300px" fig-align="center"}](https://www.gu.se/en/research/circular-grassroots-innovations-for-sustainable-and-inclusive-urban-transitions-0)
+[![](figures/Maria-grassroots-00.png){width="300px" fig-align="center"}](https://www.gu.se/en/research/grassroots-for-sustainability)
+
+
 :::
 :::
 
 
-### Ferran GIones
+### Ferran Giones
 
 
 ::: {layout="[30,70]" layout-valign="center"}
 
-![[](https://columbus-web.org/)](figures/Ferran-Giones.jpg)
+![](figures/Ferran-Giones.jpg){.bio-pic fig-align="center"}
+
 
 :::
 
