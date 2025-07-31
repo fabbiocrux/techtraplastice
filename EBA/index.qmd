@@ -125,7 +125,7 @@ experts in this topic can illustrated the consortium, and more particular the la
 :::
 
 
-## EBA participation. 
+## EBA participation. {.smaller .scrollable}
 
 **Goal 2025** 
 
