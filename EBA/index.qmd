@@ -105,9 +105,11 @@ resources:
 
 ## Work Plan
 
-![](../assets/Gantt/Gantt.png){fig-align="center" width="100%"}
+![](../assets/Gantt/Gantt.png){fig-align="center" width="100%" .lightbox}
 
-[⬇️ Pdf file](../assets/Gantt/Gantt.pdf)
+:::footer
+[⬇️ Download Pdf file](../assets/Gantt/Gantt.pdf)
+:::
 
 ## Composition
 
