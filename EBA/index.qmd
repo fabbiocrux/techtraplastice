@@ -35,7 +35,7 @@ format:
     pdf-separate-fragments: true
     toc: true
     toc-title: Content
-    toc-depth: 2
+    toc-depth: 1
     center: false
     center-title-slide: false
     number-sections: false
@@ -159,37 +159,50 @@ experts in this topic can illustrated the consortium, and more particular the la
 :::
 
 
-## Why participate to the EBA?. 
+## Why participate to the EBA?. {.smaller}
 
-1. TechtraPlastiCE is an international consotium aims to create networks of knowledge on the topic of Circular Economy / TechTransfer for the Plastic Value Chain's issues.
+1. **Impact on Sustainable Development**
 
-1. TechtraPlastiCE is an international consotium aims to create networks of knowledge on the topic of Circular Economy / TechTransfer for the Plastic Value Chain's issues.
+>Joining the project allows you to directly contribute to sustainable development goals (SDGs), especially SDG 12 (Responsible Consumption and Production) and SDG 13 (Climate Action). Your expertise can drive real change in reducing plastic waste and improving circularity in resource-intensive sectors.
+
+2. **Bridge Between Regions and Systems**
+
+>As an advisor, you can play a critical role in aligning European circular economy practices with Latin American realities. Your involvement helps facilitate meaningful tech transfers and policy adaptations, ensuring that innovations are context-appropriate and scalable across different socioeconomic environments.
+
+3. **Leverage and Expand Your Network**
+
+>The project provides a unique platform to collaborate with leading European and Latin American institutions, startups, NGOs, and policymakers. This can open doors for future partnerships, research opportunities, and consulting engagements in both regions.
+
 
 
 # Experts on the External Advisory Board --EBA-- {.tema-verde}
 
+>test
+
 ## Maria José Zapata
 
-::: {layout="[30,70]" layout-valign="center"}
-
-:::{.smaller}
-![[](https://columbus-web.org/)](figures/Maria-Jose.jpeg)
-
-
-[{{< ai archive >}}](https://www.gu.se/en/about/find-staff/mariajosezapatacampus)
-[{{< ai orcid >}}](https://orcid.org/0000-0002-2271-0148)
-
-![](figures/Flag-gothenburg.jpg){width="200px"}
-:::
+::: {layout="[30,70]" layout-valign="top"}
 
 :::{}
 
-University of Gothenburg
+![](figures/Maria-Jose.jpeg){.bio-pic fig-align="center"}
 
-Research areas
-Public-private collaboration,
-Organizing sustainability
-Organizing environmental sustainability in cities,
+<center>
+[{{< iconify book >}}](https://www.gu.se/sites/default/files/pop_assets/0d426b2a-d644-4575-b9c3-3ef1645d05eb-resume.pdf) 
+[{{< ai archive >}}](https://www.gu.se/en/about/find-staff/mariajosezapatacampus)
+[{{< ai orcid >}}](https://orcid.org/0000-0002-2271-0148)
+[{{< ai researchgate >}}](https://www.researchgate.net/profile/Maria-Jose-Zapata-Campos-2)
+</center>
+
+
+![](figures/Flag-gothenburg.jpg){width="200px" fig-align="center"}
+:::
+
+
+:::{}
+Associate Professor at the School of Business, Economics and Law at the University of Gothenburg since 2017. 
+
+María José has reserach interest are Grassroots for Sustainability , Public-private collaboration, Organizing sustainability, Organizing environmental sustainability in cities.
 :::
 :::
 

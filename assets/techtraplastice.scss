@@ -193,3 +193,82 @@ $light-bg-text-color: $Celeste !default;
     box-shadow: $white
   }
 }
+
+
+.azul {
+  section > h1, h2, h3 {
+  color: $Celeste;
+  }
+  section.has-light-background {
+    &,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+    color: $Celeste;
+    }
+  }
+}
+
+
+.tema-verde {
+  &:is(.slide-background) {
+    background-image: url('/assets/img/BG-Verde.jpg');
+    @include background-full;
+  }
+  //background-color: $gray-200;
+  color: $white;
+  h1 {
+    color: $white; // or #5CB4C2
+    font-size: 2em;
+  }
+
+  blockquote {
+    color: $white;
+    padding: .625rem 3.75rem;
+    border-left: .25rem solid $white;
+    box-shadow: $white
+  }
+}
+
+
+.verde {
+  section > h1, h2, h3 {
+  color: $Verde;
+  }
+  section.has-light-background {
+    &,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+    color: $Verde;
+    }
+  }
+
+  .reveal blockquote {
+    display: block;
+    position: relative;
+    margin: 0.5rem 0.5rem 0.5rem 3rem;
+    color: $Gris;
+    padding: .1rem 1.75rem;
+    border-left: .25rem solid #aebabe;    
+    background: none;
+    box-shadow: black;
+    font-style: italic;
+}
+}
+
+
+.bio-pic {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #eee;
+}
+
+
