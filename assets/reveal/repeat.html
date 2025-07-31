@@ -1,0 +1,14 @@
+<script>
+  function move_titleSlide() {
+      var titleSlide = document.querySelector('section#title-slide');
+      var titleSlideClone = titleSlide.cloneNode(true);
+      titleSlideClone.id = 'title-slide';
+      document.querySelector('.reveal .slides').appendChild(titleSlideClone);
+      Reveal.sync();
+  }
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    move_titleSlide();
+  });
+</script>
+

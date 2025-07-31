@@ -42,7 +42,7 @@ format:
     fig-align: center
     code-copy: true        
     chalkboard: false
-    embed-resources: false
+    include-in-header: ../assets/reveal/repeat.html 
     template-partials: 
      - ../assets/reveal/title-slide.html 
 resources: 
@@ -178,7 +178,7 @@ experts in this topic can illustrated the consortium, and more particular the la
 # Experts on the External Advisory Board --EBA-- {.tema-verde .center}
 
 
-## Maria José Zapata
+## Maria José Zapata 🇸🇪 {.verde}
 
 ::: {layout="[30,70]" layout-valign="top"}
 
@@ -203,7 +203,7 @@ Associate Professor at the School of Business, Economics and Law at the Universi
 
 María José has reserach interest are Grassroots for Sustainability , Public-private collaboration, Organizing sustainability, Organizing environmental sustainability in cities.
 
-*Somme projects:*
+*Some projects:*
 
 [![](figures/Maria-grassroots-01.png){width="300px" fig-align="center"}](https://www.gu.se/en/research/circular-grassroots-innovations-for-sustainable-and-inclusive-urban-transitions-0)
 [![](figures/Maria-grassroots-00.png){width="300px" fig-align="center"}](https://www.gu.se/en/research/grassroots-for-sustainability)
@@ -213,17 +213,71 @@ María José has reserach interest are Grassroots for Sustainability , Public-pr
 :::
 
 
-### Ferran Giones
+### Ferran Giones 🇩🇪 {.verde .smaller}
 
 
-::: {layout="[30,70]" layout-valign="center"}
+::: {layout="[30,70]" layout-valign="top"}
 
+:::{}
 ![](figures/Ferran-Giones.jpg){.bio-pic fig-align="center"}
 
+<center>
 
+[{{< iconify device-desktop >}}](https://sites.google.com/view/technology-entrepreneurship) 
+[{{< ai archive >}}](https://www.eni.uni-stuttgart.de/en/institute/team/Giones/)
+[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=b3SbCwgAAAAJ&hl=en&oi=ao)
+[{{< ai orcid >}}](https://orcid.org/0000-0002-1927-6918)
+[{{< ai researchgate >}}](https://www.researchgate.net/profile/Ferran-Giones)
+</center>
+
+![](figures/logo-Sttutgart.jpg){width="500px" fig-align="center"}
 :::
 
 
-### Astrid Jaime
+:::{}
+Deputy head of the Institute of Entrepreneurship and Innovation Science (ENI) at the University of Stuttgart (Germany). Before, he was an assistant professor on Technology Entrepreneurship at the University of Southern Denmark (SDU) in Sønderborg, Denmark.
+
+[His research interest are](https://sites.google.com/view/technology-entrepreneurship/research-projects?authuser=0): 
+
+1. Technology Entrepreneurship and Industry Emergence, exploring the role of new ventures, established firms, and technologies.
+2. Science Commercialization and the search of applications for emerging technologies.
+3. 3. Technology Exaptation as part of innovation activities (and strategy) in established and new firms.
+:::
+
+:::
+
+### Astrid Jaime Arias 🇨🇴
+
+
+
+::: {layout="[30,70]" layout-valign="top"}
+
+:::{}
+![](figures/Astrid-Jaime.webp){.bio-pic fig-align="center"}
+
+<center>
+
+[{{< iconify device-desktop >}}](https://sites.google.com/view/technology-entrepreneurship) 
+[{{< ai archive >}}]()
+[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=jul0vw8AAAAJ&hl=en&oi=ao)
+[{{< ai orcid >}}](https://orcid.org/0000-0003-2938-2439)
+[{{< ai researchgate >}}](https://www.researchgate.net/profile/Astrid-Jaime)
+</center>
+
+![](figures/logo-uniminuto.png){width="500px" fig-align="center"}
+:::
+
+
+:::{}
+Associate Researcher at Corporación Universitaria Minuto de Dios.
+Experience and knowledge in management of projects of research and innovation, knowledge transfer,
+entrepreneurship, intellectual property and extension and teaching experience in related topics.
+
+Interested in Management of Knowledge, Science, Technology and Innovation. 
+
+:::
+
+:::
+
 
 

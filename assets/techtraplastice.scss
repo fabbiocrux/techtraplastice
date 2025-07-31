@@ -125,6 +125,14 @@ $presentation-line-height: 1.3 !default;
     font-weight: 400;
   }
 
+
+.reveal a {
+    font-weight: 400;
+    background-color: rgba(234, 232, 232, 0.3);
+    color: $Naranja;
+    text-decoration: underline;
+}
+
 // alternate colors for when the background changes
 $light-bg-text-color: $Celeste !default;
 
