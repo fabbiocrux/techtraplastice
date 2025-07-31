@@ -48,6 +48,10 @@ format:
 resources: 
    - ../assets/img/*.jpg
    - ../assets/img/*.png
+
+extensions:
+  iconify:
+    style: "color: #F69223;"   
 ---
 
 
@@ -74,15 +78,15 @@ resources:
 
 🧩🧩 The ambition is to foster the **collaboration and partnerships of the University with socio-economic stakeholders** to incubate, establish and develop circular initiatives, demonstrating operational success by carrying out joint recycling interventions integrating actors in the plastics value chain in Colombia, Argentina, and Chile.
 
-## Specific Goals {.naranja}
+## Specific Goals {.naranja .smaller}
 
-- SO1: To identify and understand key barriers and leverage points of the local plastic companies to generate university-industry collaboration opportunities.
+- SO1: To identify and understand **key barriers and leverage points** of the local plastic companies to generate university-industry collaboration opportunities.
 
-- SO2: Create and implement services and solutions portfolios for the plastics value chain based on the university's core competencies and knowledge. 
+- SO2: Create and implement **services and solutions portfolios** for the plastics value chain based on the university's core competencies and knowledge. 
 
-- SO3: Encourage multi-actor initiatives to enhance the reuse of plastic involving waste pickers organizations, companies and the local public sectors, taking advantage of the University's articulation capacities. 
+- SO3: Encourage **multi-actor initiatives** to enhance the reuse of plastic involving waste pickers organizations, companies and the local public sectors, taking advantage of the University's articulation capacities. 
 
-- SO4: Develop recommendations on new technologies, business models, and organizational setups for university-industry collaborations based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in HEIs in Latin America. 
+- SO4: Develop **recommendations on new technologies, business models, and organizational setups for university-industry collaborations** based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in HEIs in Latin America. 
 
 ## Approach {.naranja}
 
@@ -94,16 +98,14 @@ resources:
 ![](figures/Milestones.png)
 
 
-# External Advisory Board {.tema-azul}
-
-
+# External Advisory Board --EBA-- {.tema-azul}
 
 **Objective**:
 
 >The main objective of the EAB is **to provide independent, strategic advice** to the project consortium based on the intermediary results, thereby enhancing the overall scientific and societal impact of the initiative.
 
 
-## Composition
+## Composition {.smaller}
 
 Members of the EAB will be selected for their expertise and professional standing in areas directly relevant to the core objectives of the project. Particular focus will be placed on:
 
@@ -125,20 +127,70 @@ experts in this topic can illustrated the consortium, and more particular the la
 
 ## EBA participation. 
 
-Year 2025
+**Goal 2025** 
 
-Year 2026
+::: {.callout-tip title="Introduction to TechTraPlastiCE"}
+1. Inrtoduction to TechTraPlastiCE project. 
+2. Presentation of 30 min on topics related to TechtraPlastiCE objectives. 
+:::
 
-Year 2027
 
-### Maria José Zapata
+**Goal 2026** 
+
+::: {.callout-note title="T2.3: Promoting cross-peer collaboration and mentoring. Time: **Q1 2026**"}
+1. Participation in the online seassion regarding the WP2 on the development of a networked portfolio.
+2. Feedback on the advances of the consortium related to Circular Economy and Tech Transfer University-Society.
+:::
 
 
+::: {.callout-note title="T3.5: Implementation of collaborative initiatives - Time: **Q1 2027**"}
+1. Participation in the online seassion regarding the WP3 on the multi-actor collaborations.
+2. Feedback on the potential collaboration in each country.
+:::
+
+**Goal 2027** 
+
+::: {.callout-warning title="T4.3: Cross evaluation of pilot projects between Latin American Universities. Time **Q2 2027**"}
+1. Participation in the cross-evaluation fo the pilots projects
+:::
+
+::: {.callout-warning title="T3.5: Implementation of collaborative initiatives. Time: **Q4 2027**"}
+1. Feedback on the Institutional Recommendations.
+:::
+
+
+## Why participate to the EBA?. 
+
+1. TechtraPlastiCE is an international consotium aims to create networks of knowledge on the topic of Circular Economy / TechTransfer for the Plastic Value Chain's issues.
+
+1. TechtraPlastiCE is an international consotium aims to create networks of knowledge on the topic of Circular Economy / TechTransfer for the Plastic Value Chain's issues.
+
+
+# Experts on the External Advisory Board --EBA-- {.tema-verde}
+
+## Maria José Zapata
 
 ::: {layout="[30,70]" layout-valign="center"}
 
+:::{.smaller}
 ![[](https://columbus-web.org/)](figures/Maria-Jose.jpeg)
 
+
+[{{< ai archive >}}](https://www.gu.se/en/about/find-staff/mariajosezapatacampus)
+[{{< ai orcid >}}](https://orcid.org/0000-0002-2271-0148)
+
+![](figures/Flag-gothenburg.jpg){width="200px"}
+:::
+
+:::{}
+
+University of Gothenburg
+
+Research areas
+Public-private collaboration,
+Organizing sustainability
+Organizing environmental sustainability in cities,
+:::
 :::
 
 
@@ -152,6 +204,6 @@ Year 2027
 :::
 
 
-### Astrid
+### Astrid Jaime
 
 

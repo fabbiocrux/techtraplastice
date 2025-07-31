@@ -7,7 +7,7 @@ format:
     lof: false
     documentclass: article
     #classoption: [legalpaper]
-    geometry: margin=2cm, paperheight=27cm, paperwidth=49cm
+    geometry: margin=2cm, paperheight=28cm, paperwidth=49cm
     number-sections: true
     include-in-header: [packages.tex]
     keep-tex: false
@@ -88,7 +88,7 @@ format:
 \ganttbar[name=3d, progress=0,  progress label text={ }]{Search Conference}{2026-08}{2027-04} \\
 \ganttbar[name=3e, progress=0,  progress label text={ }]{Implementation of collaborative initiatives}{2026-11}{2027-04} \\
 
-\ganttmilestone[]{Participation EBA II}{2027-02} 
+\ganttmilestone[]{Participation EBA II}{2026-10} 
 \ganttnewline[thick, Celeste] 
 \\
 
@@ -99,9 +99,12 @@ format:
 \ganttbar[name=4a, progress=0, progress label text={ }]{Pedagogical Integration of Industry at the University}{2025-11}{2027-07} \\
 \ganttbar[name=4b, progress=0,  progress label text={ }]{Pilots implementation}{2026-08}{2027-10} \\
 \ganttbar[name=4c, progress=0,  progress label text={ }]{Cross evaluation of pilot projects between Latin American Universities}{2027-02}{2027-10} \\
+
+\ganttmilestone[]{Participation EBA III}{2027-05} \\
+
 \ganttbar[name=4d, progress=0,  progress label text={ }]{Institutional Recommendations}{2027-05}{2028-01} \\
 
-\ganttmilestone[]{Participation EBA III}{2027-11} 
+\ganttmilestone[]{Participation EBA IV}{2027-11} 
 \ganttnewline[thick, Celeste] 
 \\
 
