@@ -105,8 +105,6 @@ resources:
 ## Work Plan
 
 
-![](figures/Gantt.jpg){fig-align="center" width="100%"}
-
 
 
 ## Composition

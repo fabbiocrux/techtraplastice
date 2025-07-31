@@ -16,15 +16,14 @@ format:
 ---
 
 
-
 \begin{ganttchart}[vgrid,
    y unit title=0.5cm,
    y unit chart=0.5cm,
    x unit = 0.7cm,
    time slot format=isodate-year,
    time slot unit=month,
-   today=2025-07,
-   progress=today,
+   %today=2025-07,
+   %progress=today,
    title/.append style={draw=none, fill= Neutro},
    title label font=\sffamily\bfseries\color{white},
    title label node/.append style={below=-1.6ex},
@@ -134,13 +133,6 @@ format:
 \ganttlink{2b}{2c}
 \ganttlink{2b}{2c}
 
-
-%\ganttlink{1b}{}
-%\ganttlink{T1.1}{T1.4}
-%\ganttlink{T1.1}{T1.5}
-%\ganttlink{T1.4}{Mile1}
-
-         
 
 
 \end{ganttchart}
