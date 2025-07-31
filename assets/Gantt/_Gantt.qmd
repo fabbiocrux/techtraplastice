@@ -7,7 +7,7 @@ format:
     lof: false
     documentclass: article
     #classoption: [legalpaper]
-    geometry: margin=2cm, paperheight=26cm, paperwidth=50cm
+    geometry: margin=2cm, paperheight=25cm, paperwidth=49cm
     number-sections: true
     include-in-header: [packages.tex]
     keep-tex: false
@@ -18,15 +18,12 @@ format:
 <!-- %%%%%%%%%% Converting to png. %%%%%%%%%%%%
 %% magick -density 150 _Gantt.pdf -quality 90 Gantt.png -->
 
-\begin{ganttchart}[vgrid]{2025-02}{2028-01}
-\gantttitle[]{TechTraPlastiCE timeline}{36}\\  
-\end{ganttchart}
 
 \begin{ganttchart}[vgrid,
    y unit title=0.5cm,
    y unit chart=0.5cm,
    x unit = 0.7cm,
-   time slot format=isodate-year,
+   time slot format = isodate-yearmonth,
    time slot unit=month,
    %today=2025-07,
    %progress=today,
