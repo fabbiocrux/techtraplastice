@@ -103,7 +103,18 @@ resources:
 >The main objective of the EAB is **to provide independent, strategic advice** to the project consortium based on the intermediary results, thereby enhancing the overall scientific and societal impact of the initiative.
 
 
-## Work Plan
+## Composition
+
+Members of the EAB will be selected for their expertise and professional standing in areas directly relevant to the core objectives of the project. Particular focus will be placed on:
+
+1. **Technological transfer and academia-industry collaboration** : experts in these competences will TechTraPlastiCE consortium to adquire effective knowledge onthe different transfer mechanisms and partnerships and their limitations. This is important in the sscope of the project.
+
+2. **Circular economy within the plastic value chain**: experts in cricular economy could bring to the consortium examples of sustainable practices, lifecycle thinking, and resource efficiency where the academia can collaborate with the socio-economical actors. 
+
+3. **Integration of marginalized actors in the plastic value chain into academic and research ecosystems** : 
+experts in this topic can illustrated the consortium, and more particular the latinamerican context, the relevant role of  inclusivity, equity, and capacity building for underrepresented communities in the circular economy. This is a major competence where the shared of experiences will have a major impact inside and outside of the consortium.
+
+## TechTraPlastiCE's Work Plan
 
 ![](../assets/Gantt/Gantt.png){fig-align="center" width="100%" .lightbox}
 
@@ -111,15 +122,14 @@ resources:
 [⬇️ Download Pdf file](../assets/Gantt/Gantt.pdf)
 :::
 
-## Composition
 
-The major requirements are
+## EBA participation. 
 
-1. 
-2. 
-3. 
+Year 2025
 
+Year 2026
 
+Year 2027
 
 ### Maria José Zapata
 
