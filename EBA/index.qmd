@@ -107,7 +107,7 @@ resources:
 
 ![](../assets/Gantt/Gantt.png){fig-align="center" width="100%"}
 
-⬇️ {{< pdf ../assets/Gantt/_Gantt.pdf >}}
+[⬇️ Pdf file](../assets/Gantt/Gantt.pdf)
 
 ## Composition
 

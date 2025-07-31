@@ -15,9 +15,12 @@ format:
        - before-body.tex
 ---
 
-%%%%%%%%%% Converting to png. %%%%%%%%%%%%
-%% magick -density 150 _Gantt.pdf -quality 90 Gantt.png
+<!-- %%%%%%%%%% Converting to png. %%%%%%%%%%%%
+%% magick -density 150 _Gantt.pdf -quality 90 Gantt.png -->
 
+\begin{ganttchart}[vgrid]{2025-02}{2028-01}
+\gantttitle[]{TechTraPlastiCE timeline}{36}\\  
+\end{ganttchart}
 
 \begin{ganttchart}[vgrid,
    y unit title=0.5cm,
@@ -27,22 +30,22 @@ format:
    time slot unit=month,
    %today=2025-07,
    %progress=today,
-   title/.append style={draw=none, fill= Neutro},
-   title label font=\sffamily\bfseries\color{white},
-   title label node/.append style={below=-1.6ex},
-   title left shift=.05,
-   title right shift=-.05,
-   title height=1,
-   bar/.append style={draw=none, fill=OliveGreen!75},
-   bar height=.6,
-   bar label font=\normalsize\color{black!50},
-   group right shift=0,
-   group top shift=.6,
-   group height=.3,
-   group peaks height=.2,
-   bar incomplete/.append style={fill=Celeste},
-   bar progress label anchor = west,
-   bar progress label font = \color{white}\scriptsize
+   %title/.append style={draw=none, fill= Neutro},
+   %title label font=\sffamily\bfseries\color{white},
+   %title label node/.append style={below=-1.6ex},
+   %title left shift=.05,
+   %title right shift=-.05,
+   %title height=1,
+   %bar/.append style={draw=none, fill=OliveGreen!75},
+   %bar height=.6,
+   %bar label font=\normalsize\color{black!50},
+   %group right shift=0,
+   %group top shift=.6,
+   %group height=.3,
+   %group peaks height=.2,
+   %bar incomplete/.append style={fill=Celeste},
+   %bar progress label anchor = west,
+   %bar progress label font = \color{white}\scriptsize
 ]{2025-02}{2028-01}
 
 \gantttitle[]{TechTraPlastiCE timeline}{36}\\  
