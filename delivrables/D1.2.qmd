@@ -1,0 +1,643 @@
+---
+title: D.1.2 Gap analysis for companies/industries
+WP_num: WP1
+WP: "WP1: Innovation Opportunities for Circular Economy"
+Description: Digital report pre-identifying leverage opportunities from a macro perspective.
+Responsible: Pontificia Universidad Católica de Valparaíso
+Dissemination: Public
+Date-delivrable: Jul 30/2025
+Quality: D1.2.tex
+author: 
+  - Eng. Sandra Ponce,&nbsp;
+  - Prof. Carlos Carlesi Jara, &nbsp;
+  - Prof. Rolando Chamy.
+date: today
+date-format: long
+metadata-files:
+  - _metadata.yml
+bibliography: assets/D1.2.bib
+csl: assets/technological-forecasting-and-social-change.csl
+format:
+  pdf:
+    template-partials:
+     - assets/before-body.tex
+     - assets/_titlepage.tex
+---
+
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.retina = 3, message = FALSE, warning = FALSE)
+options(knitr.kable.NA = '')
+
+
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+
+table1 <- read_csv("tables/1.2/table1.csv")
+#render("Taylor-template.Rmd", output_format = "word_document")
+#library(bibtex)
+
+
+```
+
+
+
+
+# Executive summary {.unnumbered }
+
+
+This report constitutes the second deliverable of Work Package 1 (WP1) of the TechTraPlastiCE project and provides a comparative analysis of the plastics industry in Argentina, Chile, and Colombia from a circular economy perspective. 
+It aims to identify gaps, opportunities, and strategic actors that can drive the transition towards a more sustainable plastics value chain.
+The analysis is based on a common methodological framework and incorporates inputs gathered by national university teams through surveys, interviews, industrial visits, and literature reviews. The information was then systematized and comparatively analyzed to highlight trends, differences, and shared challenges.
+
+The findings show that, despite regulatory advances and some innovative practices, the plastics sector in the three countries remains heavily dependent on virgin materials, suffers from low recycling rates, and faces structural challenges such as 
+1) fragmented governance, 2) weak integration of informal recyclers or waste pickers, and 3) limited university-industry collaboration. 
+At the same time, several opportunities are identified in areas such as eco-design, process innovation, green markets, and inclusive business models.
+
+The report concludes that advancing toward a circular economy in the plastics sector requires a systemic approach that goes beyond technical solutions. It calls for multi-actor collaboration, territorial governance, and the mobilization of universities as key players in fostering inclusive innovation and sustainable transformation.
+
+
+
+# Introduction
+
+The global plastics industry has grown exponentially over recent decades, becoming a fundamental component of modern economies and daily life. However, this growth has also brought severe environmental challenges and highlighted the urgent need to shift toward more sustainable production and consumption models. 
+In Latin America, the situation is particularly complex, marked by low recycling rates, high levels of informality, and fragmented policy frameworks.
+In response to these challenges, the *TechTraPlastiCE* project seeks to strengthen the role of higher education institutions in supporting the transition to a circular economy in the plastics sector. 
+The project fosters collaboration between universities, businesses, and key stakeholders to enhance innovation, technology transfer, and inclusive sustainability strategies.
+
+Work Package 1 (WP1) provides a macro-level diagnostic of the plastics industry in three Latin American countries, Argentina, Chile, and Colombia, by identifying structural barriers, enabling conditions, and strategic actors relevant to circularity. 
+This deliverable, D.1.2, builds on the framework developed during the first phase of the project and presents a comparative analysis based on national findings collected through interviews, surveys, industrial visits, and documentary review.
+
+The document explores four core dimensions: 
+
+1. the structure of the plastics industry, 
+1. enabling factors and key stakeholders in the circular transition, 
+1. opportunities and barriers for companies, and 
+4. modes of interaction across the value chain. 
+
+This deliverable is intended to inform and guide the next work packages of the project, particularly in identifying pilot strategies, capacity-building activities, and inclusive innovation models for circularity in the plastics sector.
+
+
+# Methodology
+
+To guide the development of this deliverable, a structured methodology was designed and implemented by the project team. The approach aimed to ensure consistency across countries, while allowing the flexibility needed to capture national specificities. The process involved multiple phases, from the creation of a shared analytical tool to the consolidation and comparative interpretation of findings. 
+The @fig-1 illustrates the key steps that shaped the methodological pathway:
+
+![Methodological approach](figures/1.2/Figure-1-Methodology.png){#fig-1 width="100%"}
+
+The methodology applied in this stage of the project was developed based on the Framework Tool designed in the initial phase. 
+This tool established the objectives, key questions, and common structure to guide the collection of information in each country. 
+
+Universities from the consortium collected data through interviews, surveys, industrial visits, and a review of secondary sources available at the national level. 
+The interviews and surveys were aimed at companies and organizations belonging to different links within the plastic value chain, including raw material producers, processors, marketers, waste managers, recyclers or waste pickers, and waste valorization companies.
+
+Each University organized and systematized the information collected in its country, generating national inputs that were delivered to the project's central team. 
+Subsequently, teams from the Pontificia Universidad Católica de Valparaíso (PUCV) and the Universidad Central collaborated to carry out a comparative analysis of the information, identifying similarities, differences, and common trends. 
+
+To this end, coordination meetings were conducted before and after the submission of national reports. This facilitated the identification of methodological challenges, unresolved issues detected during the process, and the need to reach consensus on analysis criteria.
+
+Finally, the deliverable was drafted by consolidating the national results, organized according to the sections established in the Framework Tool, and then conducting a comparative analysis, highlighting the main points in common and the differences identified between the three participating countries. 
+
+As supporting material, the annexes contain the full documentation submitted by each University. Country-specific data collection process, institutional contributions, and the complete set of survey responses and interview summaries conducted with actors along the plastic value chain, is included.
+
+
+
+# Results
+## Plastic Industry
+
+The plastics industry is one of the main strategic sectors of the global economy. 
+It has experienced significant expansion in recent decades, driven by growing demand in sectors as diverse as food, construction, automotive, agriculture, healthcare, and electronics. 
+Currently, plastics are used in countless industrial and everyday processes due to their versatility, low cost, durability, and adaptability to multiple applications. 
+
+@fig-1 presents global plastic production from 2020 and its projection through 2060. In this sense, from a global production of just 2 million tons in 1950, output rose to 435 million tons in 2020, and is projected to reach over 1,300 million tons annually by 2060 if no further policy action is taken (OECD, 2022a; 2024).
+
+![Projection of plastics use by application 2020-2060 (OECD, 2024)](figures/1.2/Figure-2-Projection.png){#fig-1 width="80%"}
+
+
+This exponential grow in production has led to a corresponding increase in waste. 
+In the last 20 years, global plastic waste generation has doubled from 180 million tons to over 350 million tons per year, and is expected to nearly triple by 2060. 
+Despite growing awareness, less than 20% of plastic waste is currently recycled, while around 50% is still landfilled, particularly in developing regions where infrastructure and policy frameworks remain limited. 
+The remaining 30% is either incinerated or leaked into the environment, contributing to greenhouse gas emissions, air pollution, and ecosystem degradation.
+In Latin America and the Caribbean, recycling rates are especially low, often below 10%, and informal recycling remains widespread, with high environmental and social costs (OECD, 2022a; 2022b).
+
+
+Latin America, like other emerging regions, faces particular challenges in adapting to this global dynamic. 
+Recycling rates remain low, regulatory frameworks are fragmented, and informal recycling continues to play a major role in plastic recovery.
+These factors hinder progress toward more sustainable models and highlight the importance of coordinated efforts among public institutions, private actors, and civil society. 
+In this context, it is essential to understand how these global trends and the associated challenges influence the plastics industry at the national level. 
+The following sections detail the situation in Argentina, Chile, and Colombia, analyzing their industrial structure, main applications, stakeholders, and segments with the greatest potential for advancing toward more sustainable models.
+
+
+###  Characterization of the plastics industry in Argentina, Chile, and Colombia
+
+The plastics sector is a key industry in the economies of Argentina, Chile, and Colombia. 
+This fact is because of both, its cross-cutting nature in multiple production chains and its potential for transformation towards a more sustainable model. 
+
+In all three countries, the plastics industry involves diverse actors ranging from the production and processing of raw materials to recycling and waste management, as it is described in @fig-3. Additionally, it is important to highlight, that plastic industry represent an important generator of direct and indirect employment.
+
+![Plastic Ecosystem: production, management and regulation.](figures/1.2/Figure-3-actors.png){#fig-3 width="100%"}
+
+Particularly in Argentina, this industry has approximately 2,800 manufacturing companies, more than 300 recovery companies, and a universe of at least 150,000 urban waste pickers who play a key role in the collection of recyclable materials, especially plastics.
+This structure combines medium-sized national companies, multinational firms, small family businesses, and cooperatives, covering the entire value chain: from raw material production to recycling and waste management. 
+The main polymers covered by this industry are polyethylene (PE), polypropylene (PP), polyvinyl chloride (PVC), polyethylene terephthalate (PET), and polystyrene (PS). 
+These materials are used mainly in packaging (almost half of consumption), but also in construction, agriculture, automotive, and electronics. Despite the sector's potential, Argentina faces challenges marked by high logistics costs, international market fluctuations, regulatory fragmentation, and the absence of a national law for Extended Producer Responsibility (EPR).
+
+Regarding Chile, the industry shares a strong focus on packaging (around 50% of consumption), followed by construction, mining, agriculture, fishing, and retail, with plastics also being used in long-life applications. 
+Unlike Argentina and Colombia, Chile does not produce virgin polymers and is totally dependent on imports. The sector includes some 520 companies, with a small group (28%) accounting for more than 80% of direct employment, reflecting a high industrial concentration. 
+Although it has made notable regulatory progress, such as the EPR Law and the Roadmap for a Circular Country by 2040, Chile faces limitations in infrastructure and environmental education, recycling only 7% of plastic waste, while 89% ends up in landfills and the remaining 4% is lost in the ecosystem.
+
+
+In Colombia, the plastics industry contributes about 2.9% to manufacturing Gross Domestic Product (GDP) and is notable for its highly fragmented structure: almost 68% of companies are micro-enterprises, followed by small and medium-sized enterprises. While only 1.8% are large players such as Esenttia S.A[^1]., Mexichem Resinas Colombia S.A.S [^2], and Ajover Darnel S.A.S[^3]:. 
+Unlike Chile, Colombia produces polymers such as PE and PP locally, which strengthens its integrated value chain. 
+
+[^1]: See \href{https://www.esenttia.co/home-clientes/}{https://www.esenttia.co/home-clientes/}
+
+[^2]: See \href{https://www.vestolit.com/about-us-2/region-sites/colombia-offices-and-tarifs/}{https://www.vestolit.com/about-us-2/region-sites/colombia-offices-and-tarifs/}
+
+[^3]: See \href{https://www.vestolit.com/about-us-2/region-sites/colombia-offices-and-tarifs/}{https://www.vestolit.com/about-us-2/region-sites/colombia-offices-and-tarifs/}
+
+
+The products are mainly used in packaging, construction, agriculture, and the automotive industry. Although it faces similar challenges, such as low recycling rates, regulatory pressure, and limitations on innovation, it has shown recent progress with initiatives such as Law 2232 of 2022 and the National Circular Economy Strategy (ENEC), along with growing investment in recycling capacity.
+
+### Geographic distribution of the industry
+
+In the analyzed countries, the plastics industry is highly concentrated in certain regions, as it is possible to observe in @fig-4, where the main industrial, logistics, and consumption hubs are located.
+
+In Argentina, the industry is concentrated in the Buenos Aires Metropolitan Area (AMBA), Córdoba, Santa Fe, and Mendoza. Recycling and recovery companies, on the other hand, are more widely distributed across at least 19 provinces thanks to initiatives such as the Federal Recycling Map.
+
+In Chile, 88% of companies in the sector are located in the central macrozone (Valparaíso, Metropolitan, and O'Higgins regions), benefiting from their proximity to consumption centers and logistics infrastructure.
+
+In Colombia, the industry is concentrated in Bogotá and Cundinamarca (52.1% of companies), followed by Antioquia (24%) and Valle del Cauca, which are the country's main industrial and logistics hubs. 
+
+::: {#fig-4 layout-ncol=2}
+
+![Argentina](figures/1.2/Figure-4-A-Argentina.png){#fig-4a width="70%"}
+
+![Chile](figures/1.2/Figure-4-B-Chile.png){#fig-4b width="70%"}
+
+![Colombia](figures/1.2/Figure-4-C-Colombia.png){#fig-4c width="70%"}
+
+Geographical distribution of the plastics industry in Argentina (A), Chile (B), and Colombia (C), based on the main areas of industrial activity. Darker shades indicate regions with a higher presence of activities related to the plastics industry, based on national sources.
+:::
+
+
+### Products with the greatest national relevance
+
+In all three countries, the polymers with the greatest relevance in the domestic market are PE, in its high-density (HDPE) and low-density (LDPE) variants, PP, PVC, PET, and PS. These materials lead both local production and consumption and form the basis of most processed products.
+
+- In Argentina, the market is dominated by HDPE, LDPE, PP, PVC, and PET, which are also the plastics with the highest recovery and recycling rates.
+- In Chile, the consumption of PE, PP, PVC, PET, and PS is the basis for the manufacture of products for key sectors, although all raw materials are imported.
+- In Colombia, PP and PVC stand out, followed by PS, PE, and other polyolefin resins. PET, although it is consumed in large quantities, is mostly imported.
+
+### Main applications of plastic products
+
+The main applications of plastic products in Argentina, Chile, and Colombia reflect similar patterns, centered on five major sectors described in Figure 5.
+
+![Main sectors according to plastic use](figures/1.2/Figure-5-applications.png){#fig-4a width="80%"}
+
+The **packaging** segment leads consumption in all three countries, accounting for between 45% and 50% of the total. 
+
+It includes bags, films, bottles, jars, drums, boxes, sacks, and maxi sacks, used in food, beverages, pharmaceuticals, personal care, toiletries, cosmetics, meet protection, preservation, and transport needs. 
+
+The second most important sector is construction, where PVC pipes, profiles, insulation, coatings, and structural components stand out, valued for their durability, lightness, and corrosion resistance, which are essential in infrastructure and housing. 
+
+**Agroindustry and mining** rank third, with applications such as irrigation systems, mesh, greenhouses, silo bags, mulching, and containers, which optimize resources and ensure efficiency in agricultural and mining operations. 
+
+The **automotive and household appliance** sectors are also significant, using plastics to manufacture parts, housings, insulation, and safety components, taking advantage of their benefits to reduce weight, facilitate assembly, and improve design. 
+
+Finally, **consumer goods and retail**, along with household items, health, sports, fishing, and emerging technologies (such as 3D printing), complete the range of applications, demonstrating the versatility of plastics in everyday life and in innovative sectors.
+
+
+### Segments with the greatest potential for adopting circular economy models
+
+In Argentina, Chile, and Colombia, the segments of plastics production chain with the greatest potential for adopting circular economy models. 
+They are those where it is possible to maximize the recovery, reuse, and valorization of materials, minimize the use of virgin resources and waste generation. 
+Based on a comparative analysis of experiences, installed capacities, and opportunities identified in the three countries, five major areas for intervention stand out.
+
+The first key segment is **waste management, recycling and valorization industry**, as it has the greatest immediate potential in all three countries; where waste managers, recyclers or waste pickers, recyclers and valorization companies are directly involved. 
+
+- In Argentina, this area requires substantial improvements in infrastructure, source-separated collection, and advanced recycling, both in formal circuits and in the integration of urban waste pickers. 
+- In Chile, managers and recyclers or waste pickers already handle more than 100,000 tons per year, with expanding installed capacity, but with the challenge of decentralizing operations to regions outside the central zone. 
+- In Colombia, strengthening recycling infrastructure, formalizing and training professional waste pickers, and incorporating advanced technologies are fundamental aspects for promoting circularity and increasing the recovery of materials.
+
+The second relevant segment is **product transformation and manufacturing**, which includes processing companies. 
+Noteworthy initiatives in this area include the incorporation of recycled materials, eco-design, innovation with bioplastics, and reduction in the use of virgin polymers. 
+
+- In Argentina, there is strong potential for progress in eco-design and the inclusion of recycled materials, as well as in the development of bioplastics and biodegradable materials. 
+- Chile and Colombia also show opportunity due to their incentives and innovative capacity to redesign packaging, create reusable products, and facilitate the closure of production cycles.
+
+The **production of primary and secondary raw materials** is a third strategic focus, linked to raw material producers and processors who adopt these solutions. 
+This includes the production of recycled or bio-based resins[^5] that can complement virgin polymers, as well as research into new materials. 
+
+- In Argentina and Colombia, developing capacities to produce recycled or bio-based resins represents a significant challenge with high potential impact for transforming the industry. 
+- On the other hand, in Chile, although there are recycling initiatives and regulatory advances that encourage the incorporation of recycled material in final products, the production of plastic resins is not a local activity and depends entirely on imports.
+
+The **consumption, distribution, and post-consumption** stage, which involves marketers, distributors, and users, also plays a central role. 
+Promoting responsible consumption, encouraging reuse, and developing circular business models, such as refill, return, and leasing systems, allows the generation of material returns and strengthens circularity. Initiatives such as deposit-refund systems, reverse logistics programs, and education and awareness campaigns have a particular impact in this segment.
+
+In summary, the segments with the greatest potential for adopting circular economy models in the plastics industry in Argentina, Chile, and Colombia are: (1) waste management and recycling; (2) product transformation and manufacturing, with a focus on incorporating recycled materials and eco-design processes; (3) the production of secondary raw materials, such as recycled or bio-based resins; and (4) the consumption, distribution, and post-consumption stage, through the promotion of reuse and circular models. 
+
+Strengthening these segments, together with coordination between public, private, and social actors, may be key to moving toward a more efficient and sustainable plastics industry. 
+
+
+[^5]:
+     Bio-based material is material that is manufactured from raw materials of biological origin instead of fossil raw materials. Some examples include biopolyethylene (PE) made from sugar cane and polyhydroxyalkanoates (PHA) generated by bacteria from organic waste.
+
+
+## Key factors and actors in the transition to the Circular 
+
+The transition to a circular economy in Latin America, particularly in the plastics sector, faces multiple structural challenges that go beyond the implementation of isolated technologies or regulatory frameworks.
+The Circularity Gap Report 2025 (CGR 2025) and its regional edition for Latin America and the Caribbean ([The Circularity Gap Report Latin America and the Caribbean CEPAL, UNEP, IDB, 2023) ](https://repositorio.cepal.org/server/api/core/bitstreams/10760712-5fde-4106-9afc-953c7d3d569d/content) highlight the magnitude of the problem: the global circularity index has fallen from 7.2% in 2018 to 6.9% in 2021, and in our region the situation is even more critical, with rates below 1%. 
+
+One of the main global gaps identified in the CGR 2025 is the absence of concrete material targets. 
+While carbon and biodiversity have binding international frameworks, the use of materials, such as plastic, remains in a gray area, with no global targets or clear governance mechanisms. 
+At the regional level, this weakness translates into the institutional fragmentation that characterizes Latin America. 
+Circular Economy policies exist, but they are scattered, sectoral, and poorly coordinated, which limits their effectiveness. 
+Colombia, for example, has advanced regulations on solid waste and packaging, but their implementation is uneven. 
+Argentina has promoted local recovery strategies without a clear national policy. 
+Chile, for its part, has made more structured legislative progress (such as the EPR Law), although it faces challenges in its implementation and in the inclusion of non-business actors.
+
+A critical issue is the informality of recycling, particularly in Colombia and Argentina. 
+Up to two-thirds of waste in Latin America is neither registered nor tracked, which perpetuates social inequalities, lowers the quality of secondary materials, and deepens the exclusion of grassroots recyclers or waste pickers. 
+Their lack of formal integration into the value chain restricts access to technology, financing, and capacity-building programs.
+
+In this context, the situation of plastic recycling in the three countries reflects both the gaps and the opportunities for a deeper transition.
+The enabling infrastructure for technical recycling is just beginning; the rate of use of secondary inputs in the region is barely 1%. 
+Meanwhile, materials continue to accumulate in long-life infrastructure with no clear plans for future dismantling, and plastic waste continues to be managed largely by informal circuits. 
+
+Beyond these limitations, it is possible to recognize complementary strengths among the three countries. 
+Chile has built a regulatory framework that can serve as a regional example, while Colombia has significant scientific capabilities in life cycle analysis and eco-design. 
+Argentina, additionally to its scientific know-how, has a rich experience of public organization around recycling, with different organizations and associations that could be strategic allies in inclusive innovation processes.
+
+Summarizing, circularity in the plastic sector cannot be thought as a simple technical improvement to existing processes. 
+It involves rethinking the economic model, rebuilding relationships between actors, democratizing technology, and redesigning public policies from a systemic and territorial perspective. 
+For Colombia, Argentina, and Chile to move toward this horizon, it is necessary to go beyond regulatory compliance and commit to a structural transformation that articulates scientific knowledge, social justice, and actual sustainable transition.
+
+
+### Opportunities to promote the circular economy in the plastics sector
+
+The plastic sector in Argentina, Chile, and Colombia shows opportunities to promote the circular economy associated with: the public policy and regulatory context, recycling and waste management systems, eco-design, process innovations, green markets, responsible consumption, and collaboration between actors. 
+Each of these are described below, contrasting the similarities and differences between Argentina, Chile, and Colombia.
+
+#### a) Public policy and regulatory context
+
+Chile and Colombia have made significant progress on the issues of Extended Producer Responsibility and single-use plastics, while Argentina lacks a national framework to coordinate the specific efforts that some regions have made in these areas. 
+
+The adoption of these regulatory frameworks in the three countries creates opportunities for coordination between actors in the productive sector, academia, and government for the socialization, understanding, and implementation of the actions required for compliance.
+
+#### b) Recycling and waste management systems
+
+The three countries share challenges regarding poor infrastructure and systems for adequate waste management that guarantee process efficiency and material quality. 
+
+In this regard, one opportunity is the implementation of technologies to support waste collection and sorting. 
+For Argentina, this is the area of intervention with the greatest potential for the transition to a circular economy in plastic, with an emphasis on on-site sorting and the decentralization of recycling centers. 
+
+In the case of Chile, the Roadmap for a Circular Chile by 2040 sets targets to increase the recycling rate from 4% (2021) to 65% (2040). 
+However, it has been identified that the lack of infrastructure in that country hinders compliance with legislation promoting the circular economy. 
+An opportunity to promote waste management actions is provided by packaging return systems based on reverse logistics models, which involve actors throughout the plastic value chain and promote new business models. 
+
+For Colombia, the reuse and recycling of plastics is also a priority, as established in the goals of the National Plan for the Sustainable Management of Single-Use Plastics (Ministerio de Ambiente y Desarrollo Sostenible, 2021). 
+
+The policy and regulatory context in that country has created opportunities for the expansion of plastic waste management infrastructure, but challenges remain due to the lack of collection and sorting centers in rural areas.
+
+#### c) Ecodesign
+
+Opportunities for innovation based on ecodesign have been identified in all three countries, driven by the regulatory framework in Chile and Colombia. 
+This includes design based on recyclability and reuse criteria, the use of biodegradable or compostable products, and material minimization in products design.
+
+#### d) Process innovations
+
+There are common opportunities in Argentina, Chile, and Colombia to generate process innovations associated with chemical recycling, automated quality control, and advanced material separation. 
+
+In Colombia, the importance of implementing digital platforms to achieve waste traceability and improve waste management is also highlighted.
+
+#### e) Green markets
+
+In all three countries, opportunities have been identified associated with the growth of markets for recycled products, job creation in areas such as recycling, eco-design, and waste management, and green certification and labeling. 
+
+Fiscal and economic incentives for the circular transition have also been promoted, but they need to be adapted to the needs of small and medium-sized enterprises.
+
+#### f) Responsible consumption - Consumer education and awareness
+
+This is an area of opportunity in all three countries, involving actions to raise public awareness, encourage waste separation, and promote circular economy practices. Chile highlights the role of educational institutions in these areas of intervention.
+
+#### g) Collaboration between actors
+
+Multisectoral collaboration and collaborative business models are identified as opportunities to promote the circular economy of plastics in the three countries. 
+These are enablers of the opportunities mentioned above.
+
+### Weaknesses or barriers faced by local companies in the transition to the circular economy 
+
+The analysis of the weaknesses or barriers faced by companies in the plastics sector in Argentina, Chile, and Colombia in their transition to the circular economy was based on the multidimensional approach to sustainability TBL+ (Triple Bottom Line extended) proposed by Bautista et al. (2016). 
+From this perspective, the traditional notion of sustainability (economic, social, and environmental) is integrated with political-legal, technological, and sociocultural dimensions. 
+
+The analysis carried out for Colombia by Luque Avendaño (2025) is used as a starting point, and each dimension is contrasted with the weaknesses or barriers identified for Argentina and Chile. 
+
+The results of the comparison for the three countries are presented in @tbl-1.
+
+::: {.landscape}
+```{r }
+#| echo: false
+#| warning: false
+#| label: tbl-1
+#| tbl-cap: "Barriers identified by dimension for Argentina, Chile, and Colombia" 
+ 
+
+table1 %>%
+  kbl(booktabs = T,
+    longtable = T, 
+    #linesep = "\\midrule\\addlinespace"
+    ) %>%
+   kable_styling(full_width = F,                 
+                font_size = 10) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 13) %>%
+   column_spec(1, bold = F, width = c("3cm"))  %>%
+   column_spec(2, width = c("8cm"))  %>%
+   column_spec(3, width = c("2cm"))  %>%
+   column_spec(4, width = c("2cm"))  %>%
+   column_spec(5, width = c("2cm"))  %>%
+   collapse_rows(columns = 1, valign = "top")
+   
+
+```
+
+:::
+
+
+
+
+### Key actors to drive the circular economy in the plastics sector
+
+The transition to a circular economy in Latin America faces structural, regulatory, technological, and cultural challenges. 
+In the case of the plastic sector, this transition depends largely on the ability of heterogeneous actors throughout the value chain to coordinate their efforts. 
+
+A comparative analysis of national studies from the TechTraPlastiCE project (Argentina, Chile, and Colombia) reveals the presence of five key categories of actors, whose specific weight, level of formalization, technical capabilities, and degree of interaction vary between countries. This diversity creates both barriers and opportunities for advancing toward collaborative and territorially adapted governance of circularity.
+
+#### a) Manufacturing industry
+
+In all three countries, the plastics industry has a dual structure: large companies with high technological and economic concentration (especially in Chile), and a broad network of small and medium-sized enterprises (SMEs) with limited capacity to adopt circular practices. 
+
+In Argentina, family-owned SMEs predominate (some 2,750 firms involving 56,000 direct workers). In Chile, 28% of companies generate 82% of the sector's employment, evidence of strong industrial concentration. In Colombia, although there are no equivalent precise figures, industrial weight is concentrated in three departments (Cundinamarca, Antioquia and Valle del Cauca).
+
+Despite growing regulatory, social, and market incentives toward circularity, the industry still faces significant barriers: poor collection and sorting infrastructure, underdeveloped markets for recycled materials, and unfair competition from virgin materials, which are often subsidized or imported at lower costs.
+
+### b) Formal and informal recyclers
+
+Recyclers or waste pickers play a structural role in closing material cycles, especially as suppliers of secondary raw materials. 
+In Argentina, there are an estimated 150,000 urban waste pickers, of whom only 18,000 are organized in cooperatives. 
+The Argentine Federation of Cartoneros, Carreros and Urban Recyclers (FACCYR) is an important socio-political actor, although it operates in highly informal conditions. 
+It is important to highlight that these groups of waste pickers not only collect plastic waste but also paper, glass, board, among others. In same cases, plastic is not all of them recover plastics. 
+
+In Colombia, the formalization of waste pickers has been state policy since Decree 596 of 2016, which has promoted the organization of more than 60,000 waste pickers into cooperatives. 
+However, these actors remain invisible in formal systems and face technical, contractual, and sociocultural barriers to being recognized as economic agents. 
+
+Chile legally recognizes "public recyclers" in the EPR Law, but their effective integration into value chains is still low. 
+Organizations such as ASIPLA and AB Chile have taken on a growing role in sectoral coordination and technical capacity building.
+
+In all three countries, recyclers or waste pickers face structural conditions of precariousness, low technification, weak interaction with industry, and limited institutional recognition. Nevertheless, they are essential in the circularity of plastics, and their effective inclusion is a *sine qua non* for a just transition.
+
+#### c) National and local governments
+
+The state plays a decisive role as an enabler, or inhibitor, of the circular economy, depending on its regulatory, enforcement, promotion, and territorial intervention capacities. 
+
+Chile is the most advanced country in terms of regulatory consistency: the EPR Law, the Single-Use Plastics Law, and the Circular Economy Roadmap to 2040 constitute a systemic framework with binding targets and a multisectoral approach. 
+
+Colombia has a robust regulatory framework, Law 2232 of 2022, the National Circular Economy Strategy (ENEC 2019) and Resolutions 1407, 2184 and 0803, but faces significant challenges related with institutional fragmentation, uneven implementation and low compliance at the subnational level. 
+
+In Argentina, the legal framework is more limited and waste management depends heavily on municipalities, which leads to great heterogeneity in capacities, priorities, and approaches. 
+
+In all cases, multilevel coordination remains weak, and the implementation of circular policies requires greater vertical and horizontal coordination mechanisms.
+
+#### d) Academia and R&D and Innovation Center
+
+Universities and research centers have strategic potential to boost technological innovation, circular design, new materials development, life cycle analysis (LCA), and the generation of circularity metrics. 
+However, their role as active players in the circular economy is still at an early stage. 
+
+In Chile, there are examples of university-industry relationships, such as Natural Plas with the University of Concepción, although these remain sporadic and are not part of a broader, systematic policy of technology transfer or multisectoral governance. 
+In Argentina, institutions such as PLAPIQUI at the National University of the South (UNS) demonstrate links with industry and recyclers, while the National University of Río Negro (UNRN) has engaged with social organizations. Nevertheless, the articulation remains limited and funding for applied research projects continues to be insufficient. In Colombia, the connection between academia and both industry and grassroots recyclers is still weak and lacks coordination mechanisms. 
+
+#### e) Intermediary organizations and trade associations
+
+Trade associations and intermediary platforms play a key role as catalysts for public-private coordination, technical training, and the generation of sectoral information. 
+
+In Chile, ASIPLA and AB Chile lead coordination and technical support processes. In Colombia, Acoplásticos plays an active role in the production of sectoral knowledge, although with limited territorial penetration. In Argentina, the Cámara Argentina de la Industria Plástica (CAIP), the Cámara de la Industria de Reciclados Plásticos (CAIRPLAS) and ECOPLAS, have significant institutional representation and promotes plastic circularity through different initiatives among its partners. 
+Moreover, Fundación Banco de Plásticos it is a small growing nonprofit organization who is gaining recognition within the market of plastic credits. 
+
+This tool contributes to plastic circularity and to the interaction between companies and recyclers. These organizations have significant potential as intermediaries between public policy, industry, and science. However, their capacity for influence is conditioned by the existence of coherent regulatory ecosystems and a shared long-term vision.
+
+
+### Interaction between actors and factors influencing the circular economy
+
+The dynamics of interaction between key actors in the circular economy of plastics in Argentina, Chile, and Colombia are determined by a combination of structural, regulatory, cultural, and technological factors. 
+
+Although there are important similarities in the challenges faced by these countries, such as informal recycling, low value of recycled plastic, and institutional fragmentation, there are also substantial differences in the nature and depth of interactions. 
+These differences directly influence the effectiveness and scalability of circular strategies.
+
+
+
+#### 1. Structural factors influencing the circular economy
+
+**Technological and innovation factors:** In Chile, relevant technological capabilities have been identified, especially in mechanical recycling and recyclable product design. 
+The Roadmap to 2040 sets concrete targets for investment in circular technology and university-business collaboration. In Colombia, incipient developments in chemical recycling, bioplastics, and eco-design are led by universities and research centers, but face limited industrial scaling capacity and a disconnect with recyclers or waste pickers. 
+In Argentina, despite a historically strong manufacturing industry, technology adoption for circularity is low and restricted to certain exporting firms.
+
+In terms of data availability, traceability, and enabling technologies, the absence of integrated information systems hinders waste traceability, impact measurement, and evidence-based decision-making. 
+While there are some advances (such as digital platforms in Chile and official registries in Colombia), systems are still in their infancy and are not interoperable between actors.
+
+**Economic factors:** All three countries face a cost structure that discourages the use of recycled materials: low prices for virgin materials, unstable markets for recycled materials, poor traceability, and unfair competition in certain segments. 
+In Chile, some sectors have found added value in circularity as a competitive advantage (mining, retail). Colombia has tax and investment incentives (free trade zones, seed capital), but with low access for SMEs. 
+Argentina has no structural incentives, and informality predominates in materials recycling.
+
+**Formalization and inclusion of recyclers or waste pickers**: The effective inclusion of waste pickers, especially those organized in cooperatives, is key to a fair circular economy. Colombia has taken important steps through Decree 596 of 2016, although persistent operational challenges remain. In Chile, the inclusion of waste pickers in the EPR Law has not yet translated into functional integration within value chains. In Argentina, recognition and institutional coordination with waste pickers depend on local initiatives and the advocacy capacity of social movements such as Argentine Federation of Carreros, Cartoneros, and Urban Recyclers (FACCYR).
+
+**Regulatory coherence and multisectoral governance:** The existence of clear, binding regulatory frameworks with a systemic approach allows for the coordination of actions between producers, recyclers or waste pickers, consumers, and public entities. 
+In this regard, Chile is in a more advanced position thanks to the EPR Law, the Single-Use Plastics Law, enforcement instruments, participation mechanisms, and the Circular Economy Roadmap to 2040. 
+Colombia, on the other hand, has an advanced but scattered set of regulations, which reduces their effectiveness. 
+In addition, their implementation across the country is uneven, creating gaps in the access to infrastructure and management services. Argentina has more fragmented regulatory frameworks, with responsibilities scattered across different levels of government and little inter-institutional coordination.
+
+**University-industry-recycler interaction**: Coordination between universities, industry, and grassroots recyclers is the key for moving toward inclusive circular models. 
+In Chile, concrete experiences of open innovation, technology networks, and the integration of recyclers or waste pickers into reverse logistics systems have been developed. 
+In Colombia, links between academia and industry are still weak, especially with waste pickers, who do not have access to technology or technical training. 
+In Argentina, the interaction between academia, industry, and recyclers shows varying levels of development. While some institutions have limited engagement, others, such as PLAPIQUI at National University of the South (UNS) and National University of Río Negro (UNRN), demonstrate strong ties to the industrial and social dimensions of recycling. 
+These experiences reflect a growing but still uneven articulation across the country.
+
+
+
+#### 2. Types of interaction in the three countries
+
+**Chile:** The country has relatively structured interaction, driven by a robust legal framework that requires producers and managers to coordinate. 
+Companies have responded through consortia, strategic alliances, and the adoption of technologies, partly thanks to regulatory incentives. The existence of sectoral roadmaps makes it possible to plan long-term collaborations, although challenges remain in the territorialization of these policies and the effective inclusion of grassroots recyclers.
+
+**Colombia:** Interaction is more fragmented and dependent on voluntary alliances or pilot projects. Although there is a National Circular Economy Strategy, its implementation depends on the institutional capacity of the regions. Some business sectors (e.g., ACOPLÁSTICOS) have promoted good practices, but coordination with waste pickers and local governments remains uneven. Multi-stakeholder platforms exist, such as the National Alliance for the Circular Economy, although they have limited binding power.
+
+**Argentina:** A grassroots approach to interaction prevails, driven by the movement of waste pickers and cooperatives. While this generates valuable territorial practices, the lack of a national coordinating framework limits the consolidation of stable alliances. Interaction between industry, municipalities, and waste pickers occurs in many cases out of necessity rather than institutional design, which restricts their capacity for systemic transformation.
+
+
+### Relationship between Universities, industry, and plastic recycling
+
+The transition to a circular economy in the plastics sector depends not only on public policies and market dynamics, but also on the development of knowledge, technology, and social innovation. 
+In this context, Universities and research centers play a strategic role as bridges between science, industry, recyclers or waste pickers, and public policy. 
+
+These relationships must be analyzed not only in terms of the existence of actors and initiatives, but also in terms of their density, directionality, and capacity to generate structural transformations. The comparative analysis between Argentina, Chile, and Colombia reveals functional similarities, institutional divergences, and possibilities for complementarity that can be exploited within the framework of the TechTraPlastiCE project.
+
+The role of Universities as drivers of the circular transition is potentially strategic, but still marginal in practice. The comparative analysis shows:
+
+
+
+* **Chile** is the country with the most progress in terms of university-industry coordination in the context of plastic recycling. There are concrete examples of collaboration, such as Natural Plas with the University of Concepción, which has developed solutions to recover plastic waste that is difficult to recycle. Likewise, some universities participate in regional circular economy hubs and in the design of products with recycled content. This coordination has been favored by public policies aimed at sustainable innovation and the existence of competitive funds that promote technological alliances. However, there is still limited participation by academia in multi-stakeholder governance spaces and little connection with grassroots recyclers.
+
+* **In Colombia**, academia has shown growing participation in the circular economy, mainly through applied research programs, sustainable entrepreneurship initiatives, and training in environmental engineering and related fields. Public and private universities have generated projects aimed at improving recycling processes, designing biodegradable materials, or implementing LCA methodologies. However, the relationship with the plastics industry is still weak and fragmented. There are few stable mechanisms for technology transfer or university-business consortia, and experiences tend to be isolated, lacking scalability and institutional continuity. Links with organized waste pickers are even more incipient, except for isolated experiences with a social focus.
+
+* **In Argentina**, the relationship between academia, waste pickers, and the industrial sector varies across regions and institutions. While some universities focus on social and environmental aspects of recycling, others, such as PLAPIQUI, play a key role in technological innovation and industry engagement through applied research and technology transfer. In parallel, institutions like UNRN maintain active collaborations with waste picker cooperatives and local governments, contributing to inclusive waste management strategies. Although national R&D&I policies focused on circular economy remain limited, these university-led initiatives show significant potential to strengthen connections with the productive sector.
+
+In all three countries, universities play a potentially key role in research, capacity building, and technology transfer. All of them have capabilities in materials engineering, life cycle analysis (LCA), eco-design, and recycling technologies. While the level of engagement varies by institution and region, some universities have established collaborations with grassroots recyclers and local governments. However, in many cases, these connections remain isolated rather than institutionalized, limiting the broader impact and inclusiveness of circular strategies. Strengthening these links is essential to ensure the co-creation of solutions and the effective implementation of circular economy models.
+
+Likewise, weak knowledge transfer mechanisms have been identified. In all three countries, most academic projects are geared toward scientific publication or large companies, with little impact on the transformation of the real productive apparatus, especially on a small scale.
+
+The most notable difference is *the degree of institutionalization of the university-industry relationship*. 
+
+In Chile, there are consolidated experiences of university-business collaboration in recycling and eco-design (e.g., Natural Plas with the University of Concepción), within regulatory frameworks that promote this interaction (REP Law, innovation funds). This environment has created favorable conditions for the emergence of joint projects and the development of applied technologies. 
+
+In Colombia, on the other hand, although there are notable academic capacities, especially in regulatory analysis and eco-design, the relationship with the productive sector is fragmented and limited to large companies. 
+
+In Argentina, although there is no comprehensive national framework to promote systematic university-industry collaboration, the relationship is evolving and shows varying degrees of development across regions and institutions. 
+
+Some universities are advancing in applied research, technology transfer, and community engagement related to plastic recycling, combining both industrial and social approaches (such as PLAPIQUI at UNS and UNRN). 
+
+These efforts reflect a broader trend toward strengthening the academic role in the circular economy transition, despite challenges related to coordination and funding.
+
+Regarding relationships with waste pickers, Colombia has greater regulatory potential (Decree 596 of 2016), which requires their formalization and linkage with managers. 
+However, universities have not been effectively integrated into this process. Chile legally recognizes grassroots recyclers in the EPR Law, but their link with academia is indirect. Argentina, although it has a large number of waste pickers organized in cooperatives, does not have national strategies to integrate these actors into university processes.
+
+The strengths observed in each country allow us to visualize regional synergies. Chile can offer models for institutionalizing university-industry links under enabling regulatory frameworks. Colombia can contribute its regulatory framework for the inclusion of recyclers or waste pickers and its academic base in life cycle analysis and circular economy. Argentina, with its strong experience in technology transfer and territorial presence of cooperatives, can be a setting for implementing pilot projects for technology transfer and co-innovation with recyclers or waste pickers.
+
+Preliminary findings identify the need for universities to become key players in the plastic circularity ecosystem, where it will be necessary to move from a disciplinary research model, in some cases disconnected from business needs, to transdisciplinary innovation approaches with strong territorial roots. This will involve promoting:
+
+
+* University-industry-community consortia with co-created projects.
+* Technology centers applied to local recycling challenges.
+* Dual training programs and open innovation laboratories.
+* Direct involvement in sectoral governance processes.
+
+Consolidating this role poses internal challenges for academia, such as making structures more flexible, developing new impact metrics, implementing open science policies, and strengthening technology transfer capacities in order to respond to the urgent challenges of a fair, inclusive, and technologically viable circular economy.
+
+
+### Innovation in the Plastics Industry
+
+The plastics sector in Argentina, Chile, and Colombia has been incorporating product and process innovations and new business models for its transition to the circular economy. 
+Both regulations and market opportunities have been important factors in driving these transformations. In all three countries, companies have implemented process innovations related to recycling. 
+
+Argentina stands out for incorporating advanced recycling technologies that allow recycled inputs to be obtained with the same quality as virgin material. The Chilean industry has also ventured into advanced infrastructure for recycling and transforming waste into new products. In Colombia, examples have been identified of companies that have incorporated chemical recycling and 100% recycled resins. Digital platforms have also been developed to achieve material traceability. Eco-design is the central focus of product innovations in the sector. In Chile, circular economy strategies from design to reconditioning stand out, and in Colombia, companies have developed compostable designs and products that facilitate reduction, reuse, and recycling, as well as the use of new materials.
+
+On the other hand, in Chile and Colombia, regulations on single-use plastics and Extended Producer Responsibility (EPR) have encouraged product and process innovation. In terms of new business models, regulatory and market pressure, and opportunities identified by companies have encouraged collaborative actions in all three countries to comply with regulations or preserve their reputation in the face of green market trends. 
+The innovation dynamic has advanced gradually in all three countries, with differences between types of companies and actors in the value chain. However, the just transition to the circular economy requires forms of collaborative innovation that overcome the marginalization and exclusion of social groups such as recyclers or waste pickers (García Parra et al., 2023, Barford, 2021; Becerra et al., 2020; Bermudez et al., 2019; Duarte et al., 2020; Kain, 2022).
+
+
+# CONCLUSIONS
+
+The comparative analysis of the plastics industry in Argentina, Chile, and Colombia reveals both common patterns and country-specific conditions that shape the opportunities and challenges of transitioning toward a circular economy. Despite differences in regulatory maturity, technological development, and institutional capacity -with Chile standing out for its regulatory consistency, Colombia for its diverse policy instruments and academic engagement, and Argentina for its productive depth and territorial reach- all three countries face structural barriers that hinder a systemic transformation of the plastics value chain.
+
+Across all cases, the industry remains highly concentrated geographically and strongly reliant on a limited group of polymers (PE, PP, PVC, PET, PS), primarily used in packaging, construction, agriculture, and consumer goods. These same sectors represent the greatest potential for circular strategies, particularly in the areas of waste management, recycled material integration, and product redesign.
+
+However, circularity is not only a matter of technical capacity or material flows. It requires systemic innovation and a reconfiguration of how actors interact along the value chain. In this regard, recyclers (especially informal or grassroots) play a critical role in sustaining secondary material flows. Yet their precarious working conditions, invisibility in governance spaces, and limited access to technological innovation severely restrict the potential for a truly inclusive and functional circular economy. Integrating these actors demands not only formalization, but also an institutional redesign of the value chain, where equity and participation become structural principles.
+
+Universities must play a central role in this transformation. Their potential as agents of training, technological development, territorial governance, and impact assessment is evident, but underutilized. This requires moving from a logic of knowledge production toward one of co-creation of solutions, where academia acts as a bridge between technology, public policy, and grassroots social practices. A truly circular plastics economy cannot rely solely on national-level policy. It must be built locally, through multilevel governance, cross-sector partnerships, decentralized financing, and inclusive innovation platforms. The TechTraPlastiCE project has an important opportunity to enable these changes by strengthening trinational collaboration, supporting recycler-led innovation incubators, and promoting applied R&D that integrates sustainability, productivity, and social inclusion.
+
+In summary, the path toward circularity in the plastics sector involves aligning environmental goals with social equity and innovation. Argentina, Chile, and Colombia are advancing along this path at different speeds, but with shared challenges that open the door for joint strategies. The following stage will explore in depth the key factors and actors influencing this transition, identifying leverage points for coordinated action.
+
+
+
+# References  
+
+
+CEPAL, PNUMA, &amp; BID. (2023). Circularity Gap Report América Latina y el Caribe. Comisión Económica para América Latina y el Caribe. https://www.cepal.org/es/publicaciones/68611-circularity-gap-report-america-latina-caribe
+
+
+Circle Economy & Deloitte. (2025). *Circularity Gap Report 2025: A global call to action.* https://circularity-gap.world/2025
+
+
+Bautista, S., Enjolras, M., Narvaez, P., Camargo, M., & Morel, L. (2016). Biodiesel-triple bottom line (TBL): A new hierarchical sustainability assessment framework of principles criteria &amp; indicators (PC&I) for biodiesel production. Part II-validation. *Ecological Indicators*, 69, 803-817. https://doi.org/10.1016/j.ecolind.2016.04.046
+
+
+Barford, A. & Ahmad, S.R. (2021). A call for a socially restorative circular economy: Waste pickers in the recycled plastics supply chain. *Circular Economy and Sustainability*, 1(2), pp. 761-782. Available at: https://doi.org/10.1007/s43615-021-00056-7
+
+
+Becerra, L., Carenzo, S. & Juarez, P. (2020). When circular economy meets inclusive development. Insights from urban recycling and rural water access in Argentina.  *Sustainability,* 12(23), 9809, p.1-21. https://doi.org/10.3390/su12239809
+
+
+Bermúdez, J.F., Montoya-Ruiz, A.M. & Saldarriaga, J.F. (2019). Assessment of the current situation of informal recyclers and recycling: Case study Bogotá. Sustainability, 11(22), 6342. https://doi.org/10.3390/su11226342
+
+
+Duarte, S., -, Á., Osuna, S., Alexandra, J., Miranda, R., & Pablo, J. (2020).Sustainable use of organic solid waste: Approach to a model developed by waste picker organizations. Case study, Bogotá D.C., Colombia. International Journal of Engineering Research and Technology, 13(8), 2067. https://doorg/10.37624/IJERT/13.8.2020.2067-2080
+
+
+García Parra, G., Amezquita, G. & Aguilar Sánchez, C. (eds.) (2023) Transiciones justas: Una agenda de cambios para América Latina y el Caribe. Buenos Aires: CLACSO.
+
+
+Kain, J.-H. et al. (2022). Characteristics, challenges and innovations of waste picker organizations: A comparative perspective between Latin American and East African countries. PLOS ONE, 17(7), e0265889. https://doi.org/10.1371/journal.pone.0265889
+
+
+Luque Avendaño, D. Y. (2025). Análisis multidimensional de la industria del plástico en Colombia para su transición hacia una economía circular [Trabajo de grado pregrado en Ingeniería Ambiental]. Universidad Central.
+
+
+Ministerio de Ambiente y Desarrollo Sostenible (2021). Plan de Nacional para la Gestión Sostenible de Plásticos de un solo Uso. Bogotá D. C. Recuperado de https://www.minambiente.gov.co/consulta/plan-nacional-para-la-gestion-sostenible-de-los-plasticos-de-un-solo-uso/
+
+
+OECD. (2024). *OECD Data Explorer: Projections of Plastics Use*. https://data-explorer.oecd.org/ 
+
+
+OECD (2022a), Global Plastics Outlook: Policy Scenarios to 2060, OECD Publishing, Paris, https://doi.org/10.1787/aa1edf33-en. 
+
+
+OECD (2022b), *Global Plastics Outlook: Economic Drivers, Environmental Impacts and Policy Options*, OECD Publishing, Paris, https://doi.org/10.1787/de747aef-en. 
+
+
+\appendix
+
+
+
+# Annex
+
+
+## Gap analysis for companies and industries -- Argentina
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-A-Argentina.pdf}
+
+## Gap analysis for companies and industries -- Chile
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-B-Chile.pdf}
+ 
+## Gap analysis for companies and industries -- Colombia
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-C-Colombia.pdf}
+ 
+## Meeting minutes template
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-D-Meeting minutes.docx}
+
+
+## Framework Worktool
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-E-Worktool.pdf}
+
+
+## Answers from Argentina
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-F-Responses-Argentina.pdf}
+
+## Answers from Chile
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-G-Responses-Chile.pdf}
+
+## Answers from Colombia
+
+\includepdf[pagecommand={\pagestyle{fancy}}, scale=0.9,
+pages=-]{annex/1.2/D.1.2-Annex-H-Responses-Colombia.pdf}
