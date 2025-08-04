@@ -16,7 +16,7 @@ date-format: long
 metadata-files:
   - _metadata.yml
 bibliography: assets/D1.2.bib
-csl: assets/technological-forecasting-and-social-change.csl
+csl: assets/journal-of-cleaner-production.csl
 format:
   pdf:
     template-partials:
@@ -110,7 +110,7 @@ The plastics industry is one of the main strategic sectors of the global economy
 It has experienced significant expansion in recent decades, driven by growing demand in sectors as diverse as food, construction, automotive, agriculture, healthcare, and electronics. 
 Currently, plastics are used in countless industrial and everyday processes due to their versatility, low cost, durability, and adaptability to multiple applications. 
 
-@fig-1 presents global plastic production from 2020 and its projection through 2060. In this sense, from a global production of just 2 million tons in 1950, output rose to 435 million tons in 2020, and is projected to reach over 1,300 million tons annually by 2060 if no further policy action is taken (OECD, 2022a; 2024).
+@fig-1 presents global plastic production from 2020 and its projection through 2060. In this sense, from a global production of just 2 million tons in 1950, output rose to 435 million tons in 2020, and is projected to reach over 1,300 million tons annually by 2060 if no further policy action is taken [@OECD2024; @OECD2022a; @ECD2022b].
 
 ![Projection of plastics use by application 2020-2060 (OECD, 2024)](figures/1.2/Figure-2-Projection.png){#fig-1 width="80%"}
 
@@ -119,7 +119,7 @@ This exponential grow in production has led to a corresponding increase in waste
 In the last 20 years, global plastic waste generation has doubled from 180 million tons to over 350 million tons per year, and is expected to nearly triple by 2060. 
 Despite growing awareness, less than 20% of plastic waste is currently recycled, while around 50% is still landfilled, particularly in developing regions where infrastructure and policy frameworks remain limited. 
 The remaining 30% is either incinerated or leaked into the environment, contributing to greenhouse gas emissions, air pollution, and ecosystem degradation.
-In Latin America and the Caribbean, recycling rates are especially low, often below 10%, and informal recycling remains widespread, with high environmental and social costs (OECD, 2022a; 2022b).
+In Latin America and the Caribbean, recycling rates are especially low, often below 10%, and informal recycling remains widespread, with high environmental and social costs [@OECD2022a; @ECD2022b].
 
 
 Latin America, like other emerging regions, faces particular challenges in adapting to this global dynamic. 
@@ -248,7 +248,7 @@ Strengthening these segments, together with coordination between public, private
 ## Key factors and actors in the transition to the Circular 
 
 The transition to a circular economy in Latin America, particularly in the plastics sector, faces multiple structural challenges that go beyond the implementation of isolated technologies or regulatory frameworks.
-The Circularity Gap Report 2025 (CGR 2025) and its regional edition for Latin America and the Caribbean ([The Circularity Gap Report Latin America and the Caribbean CEPAL, UNEP, IDB, 2023) ](https://repositorio.cepal.org/server/api/core/bitstreams/10760712-5fde-4106-9afc-953c7d3d569d/content) highlight the magnitude of the problem: the global circularity index has fallen from 7.2% in 2018 to 6.9% in 2021, and in our region the situation is even more critical, with rates below 1%. 
+The Circularity Gap Report 2025 [@UN2023; @circleeconomy2025] and its regional edition for Latin America and the Caribbean highlight the magnitude of the problem: the global circularity index has fallen from 7.2% in 2018 to 6.9% in 2021, and in our region the situation is even more critical, with rates below 1%. 
 
 One of the main global gaps identified in the CGR 2025 is the absence of concrete material targets. 
 While carbon and biodiversity have binding international frameworks, the use of materials, such as plastic, remains in a gray area, with no global targets or clear governance mechanisms. 
@@ -297,7 +297,7 @@ In the case of Chile, the Roadmap for a Circular Chile by 2040 sets targets to i
 However, it has been identified that the lack of infrastructure in that country hinders compliance with legislation promoting the circular economy. 
 An opportunity to promote waste management actions is provided by packaging return systems based on reverse logistics models, which involve actors throughout the plastic value chain and promote new business models. 
 
-For Colombia, the reuse and recycling of plastics is also a priority, as established in the goals of the National Plan for the Sustainable Management of Single-Use Plastics (Ministerio de Ambiente y Desarrollo Sostenible, 2021). 
+For Colombia, the reuse and recycling of plastics is also a priority, as established in the goals of the National Plan for the Sustainable Management of Single-Use Plastics [@min2021]. 
 
 The policy and regulatory context in that country has created opportunities for the expansion of plastic waste management infrastructure, but challenges remain due to the lack of collection and sorting centers in rural areas.
 
@@ -329,10 +329,10 @@ These are enablers of the opportunities mentioned above.
 
 ### Weaknesses or barriers faced by local companies in the transition to the circular economy 
 
-The analysis of the weaknesses or barriers faced by companies in the plastics sector in Argentina, Chile, and Colombia in their transition to the circular economy was based on the multidimensional approach to sustainability TBL+ (Triple Bottom Line extended) proposed by Bautista et al. (2016). 
+The analysis of the weaknesses or barriers faced by companies in the plastics sector in Argentina, Chile, and Colombia in their transition to the circular economy was based on the multidimensional approach to sustainability TBL+ (Triple Bottom Line extended) proposed by @bautista2016a. 
 From this perspective, the traditional notion of sustainability (economic, social, and environmental) is integrated with political-legal, technological, and sociocultural dimensions. 
 
-The analysis carried out for Colombia by Luque Avendaño (2025) is used as a starting point, and each dimension is contrasted with the weaknesses or barriers identified for Argentina and Chile. 
+The analysis carried out for Colombia by @Avendaño2025 is used as a starting point, and each dimension is contrasted with the weaknesses or barriers identified for Argentina and Chile. 
 
 The results of the comparison for the three countries are presented in @tbl-1.
 
@@ -531,10 +531,11 @@ Both regulations and market opportunities have been important factors in driving
 Argentina stands out for incorporating advanced recycling technologies that allow recycled inputs to be obtained with the same quality as virgin material. The Chilean industry has also ventured into advanced infrastructure for recycling and transforming waste into new products. In Colombia, examples have been identified of companies that have incorporated chemical recycling and 100% recycled resins. Digital platforms have also been developed to achieve material traceability. Eco-design is the central focus of product innovations in the sector. In Chile, circular economy strategies from design to reconditioning stand out, and in Colombia, companies have developed compostable designs and products that facilitate reduction, reuse, and recycling, as well as the use of new materials.
 
 On the other hand, in Chile and Colombia, regulations on single-use plastics and Extended Producer Responsibility (EPR) have encouraged product and process innovation. In terms of new business models, regulatory and market pressure, and opportunities identified by companies have encouraged collaborative actions in all three countries to comply with regulations or preserve their reputation in the face of green market trends. 
-The innovation dynamic has advanced gradually in all three countries, with differences between types of companies and actors in the value chain. However, the just transition to the circular economy requires forms of collaborative innovation that overcome the marginalization and exclusion of social groups such as recyclers or waste pickers (García Parra et al., 2023, Barford, 2021; Becerra et al., 2020; Bermudez et al., 2019; Duarte et al., 2020; Kain, 2022).
+The innovation dynamic has advanced gradually in all three countries, with differences between types of companies and actors in the value chain. However, the just transition to the circular economy requires forms of collaborative innovation that overcome the marginalization and exclusion of social groups such as recyclers or waste pickers [@barford2021; @becerra2020; @bermudez2019; @duarte2020; @garcia2023; @kain2022]
 
 
-# CONCLUSIONS
+
+# Conclusions
 
 The comparative analysis of the plastics industry in Argentina, Chile, and Colombia reveals both common patterns and country-specific conditions that shape the opportunities and challenges of transitioning toward a circular economy. Despite differences in regulatory maturity, technological development, and institutional capacity -with Chile standing out for its regulatory consistency, Colombia for its diverse policy instruments and academic engagement, and Argentina for its productive depth and territorial reach- all three countries face structural barriers that hinder a systemic transformation of the plastics value chain.
 
@@ -551,46 +552,11 @@ In summary, the path toward circularity in the plastics sector involves aligning
 # References  
 
 
-CEPAL, PNUMA, &amp; BID. (2023). Circularity Gap Report América Latina y el Caribe. Comisión Económica para América Latina y el Caribe. https://www.cepal.org/es/publicaciones/68611-circularity-gap-report-america-latina-caribe
+::: {#refs}
+:::
 
 
-Circle Economy & Deloitte. (2025). *Circularity Gap Report 2025: A global call to action.* https://circularity-gap.world/2025
 
-
-Bautista, S., Enjolras, M., Narvaez, P., Camargo, M., & Morel, L. (2016). Biodiesel-triple bottom line (TBL): A new hierarchical sustainability assessment framework of principles criteria &amp; indicators (PC&I) for biodiesel production. Part II-validation. *Ecological Indicators*, 69, 803-817. https://doi.org/10.1016/j.ecolind.2016.04.046
-
-
-Barford, A. & Ahmad, S.R. (2021). A call for a socially restorative circular economy: Waste pickers in the recycled plastics supply chain. *Circular Economy and Sustainability*, 1(2), pp. 761-782. Available at: https://doi.org/10.1007/s43615-021-00056-7
-
-
-Becerra, L., Carenzo, S. & Juarez, P. (2020). When circular economy meets inclusive development. Insights from urban recycling and rural water access in Argentina.  *Sustainability,* 12(23), 9809, p.1-21. https://doi.org/10.3390/su12239809
-
-
-Bermúdez, J.F., Montoya-Ruiz, A.M. & Saldarriaga, J.F. (2019). Assessment of the current situation of informal recyclers and recycling: Case study Bogotá. Sustainability, 11(22), 6342. https://doi.org/10.3390/su11226342
-
-
-Duarte, S., -, Á., Osuna, S., Alexandra, J., Miranda, R., & Pablo, J. (2020).Sustainable use of organic solid waste: Approach to a model developed by waste picker organizations. Case study, Bogotá D.C., Colombia. International Journal of Engineering Research and Technology, 13(8), 2067. https://doorg/10.37624/IJERT/13.8.2020.2067-2080
-
-
-García Parra, G., Amezquita, G. & Aguilar Sánchez, C. (eds.) (2023) Transiciones justas: Una agenda de cambios para América Latina y el Caribe. Buenos Aires: CLACSO.
-
-
-Kain, J.-H. et al. (2022). Characteristics, challenges and innovations of waste picker organizations: A comparative perspective between Latin American and East African countries. PLOS ONE, 17(7), e0265889. https://doi.org/10.1371/journal.pone.0265889
-
-
-Luque Avendaño, D. Y. (2025). Análisis multidimensional de la industria del plástico en Colombia para su transición hacia una economía circular [Trabajo de grado pregrado en Ingeniería Ambiental]. Universidad Central.
-
-
-Ministerio de Ambiente y Desarrollo Sostenible (2021). Plan de Nacional para la Gestión Sostenible de Plásticos de un solo Uso. Bogotá D. C. Recuperado de https://www.minambiente.gov.co/consulta/plan-nacional-para-la-gestion-sostenible-de-los-plasticos-de-un-solo-uso/
-
-
-OECD. (2024). *OECD Data Explorer: Projections of Plastics Use*. https://data-explorer.oecd.org/ 
-
-
-OECD (2022a), Global Plastics Outlook: Policy Scenarios to 2060, OECD Publishing, Paris, https://doi.org/10.1787/aa1edf33-en. 
-
-
-OECD (2022b), *Global Plastics Outlook: Economic Drivers, Environmental Impacts and Policy Options*, OECD Publishing, Paris, https://doi.org/10.1787/de747aef-en. 
 
 
 \appendix

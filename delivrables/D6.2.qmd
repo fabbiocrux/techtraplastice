@@ -15,6 +15,238 @@ keep-tex: false
 ---
 
 
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.retina = 3, message = FALSE, warning = FALSE)
+options(knitr.kable.NA = '')
+
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+
+# Project overview
+
+This management plan (MP) is the controlling document for managing the TechTraPlastiCE project. 
+This MP defines the management process necessary to satisfy the project requirements, describes the procedures for developing systems through the lifecycle, discusses scope, assumptions and constraints that may affect the development effort, and defines each phase of the project management plan.  This MP is a part of an interrelated set of plans and processes, each focusing on a specific aspect of the project, such as the following: 
+
+- Governance plan
+- Project organization plan
+- Financial plan
+- Procurement plan 
+- Issue plan
+- Risk plan
+- Quality plan 
+- Organization plan 
+- Communication pla
+
+
+## Project background
+
+TechTraplastiCE is a project  that aims to reinforce the applied research and technological transfer capacities from the universities to the industry focusing on the plastic industry that contributes to the green transition. Given that plastic waste is a wicked problem, the ambition is to foster the collaboration and partnerships of the University with socio-economic stakeholders to incubate, establish, and develop circular initiatives, demonstrating operational success by carrying out joint recycling interventions integrating actors in the plastics value chain in Colombia, Argentina, and Chile. Based on a progressive technology transfer and innovation approach, the primary focus is to facilitate dynamic knowledge exchanges, fostering an environment that encourages active and modular educational collaborations between universities and industries. The major impact relies on establishing enduring partnerships that contribute to long-term engagement between academia and industry to build interdisciplinary and multi-stakeholder advances for research, innovation and educational/training capacities for plastic waste and circular economy. 
+
+
+
+## Objective 
+
+The project aims to reinforce universities’ capacities through co-creating training, applied research and service portfolios to strengthen the plastic industry's contribution to the green transition and circular economy. The project will follow a progressive technology transfer approach to foster University-Industry collaborations locally in Latin America.
+
+Additionally, this projects aims to : 
+- To identify and understand key barriers and leverage points of the local plastic companies to generate university-industry collaboration opportunities.
+- Create and implement services and solutions portfolios for the plastics value chain based on the university's core competencies and knowledge.
+- Facilitate dynamic knowledge exchanges, fostering an environment that encourages active and modular educational collaborations between universities and industries.
+- Encourage multi-actor initiatives to enhance the reuse of plastic involving waste pickers organizations, companies and the local public sectors, taking advantage of the University's articulation capacities. 
+- Develop recommendations on new technologies, business models, and organizational setups for university-industry collaborations based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in Higher Education Institutions in Latin America.
+
+
+# Project Scope
+
+The TechTraplastiCE project will strengthen the technology transfer capabilities of Latin American universities in order to support the transition to a circular economy within the plastics value chain of local companies. Additionally, it will reinforce the  collaboration between academia and industry. This will be achieved through the co-creation of training programs, applied research, and service portfolios aligned with each participating institution's core competencies through six different work packages (WP): 
+- Innovation opportunities for circular economy
+- Development of a network portfolio 
+- Multi-actor collaborations
+- Pilots projects
+- Communication & dissemination 
+- Project management and quality assurance
+
+
+
+## Project outputs
+
+The technology transfer approach adopted in this project serves as the backbone for fostering innovation, collaboration, and sustainability across Latin America and Europe. It ensures that knowledge, tools, and methodologies generated through the project are effectively translated into actionable outcomes for stakeholders involved in the plastics value chain. Thus, each WP contributes specific outputs aligned with the project goal:
+
+**WP1: 	Innovation opportunities for circular economy** 
+
+- A validated framework for analyzing regulatory, technological, and socio-economic barriers to plastic recycling and reuse in Argentina, Chile, and Colombia.
+- A diagnostic report identifying key innovation gaps and leverage points in the plastic value chain across the three countries. 
+- An assessment report on the innovation capacities of local plastic industry sectors, including indicators and comparative analysis.
+
+**WP2: 	Development of a network portfolio**
+- A digital repository containing systematized information on existing university services and solutions (technical assistance, training, co-development) related to the plastics value chain.
+- A set of institutional and collective solution portfolios developed and made accessible for stakeholders in the plastics sector.
+- A series reports for peer mentoring  and inter-institutional collaboration.
+
+**WP3: Multi-actor collaborations**
+A detailed report (or presentation) summarizing the current state of reuse, key clues observed, contextual factors, and a set of actionable strategies to increase reuse rates in the three countries.
+A report based on interviews with waste pickers, companies, and local authorities, aimed at engaging these stakeholders and identifying initiatives in the reuse ecosystem. 
+A benchmark study of local reuse systems and practices to identify strengths, gaps, and opportunities for improvement.
+Four search conferences to co-create solutions and reinforce the university’s neutral articulating role.
+Updated institutional portfolios integrating new solutions and services identified through the search conferences.
+
+**WP4: Pilots projects**
+
+- An implementation of a  set of pilot projects based on the solution portfolios, incorporating pedagogical, technological, and social components tailored to each national context.
+- A digital notebook with cross evaluation reports summarizing identified barriers, lessons learned, and the scalability potential of the pilot initiatives across institutions.
+- A document with institutional recommendations for strengthening technology transfer strategies.
+
+**WP5:  Communication & dissemination**
+
+- A dissemination strategy document addressing institutional, regional, and international audiences, with tailored communication channels and messages.
+- A project website developed and maintained, hosting all materials generated by partner institutions.
+- A communication toolbox and an open digital platform developed to support visibility, knowledge sharing, and stakeholder engagement.
+
+**WP6:  Project management and quality assurance**
+
+- A multinational coordination structure established and operational, facilitating collaboration between European and Latin American partners throughout the project.
+- A series of annual planning and evaluation meetings successfully organized, with documented agendas, minutes, and action plans.
+- A set of monitoring and quality assurance mechanisms implemented to track progress, ensure timely delivery of outputs, and uphold project standards.
+
+
+
+
+
+
+## Assumptions 
+
+The assumptions were based on seven different criteria:
+
+1. Funding & resources 
+   - Sufficient time and human resources will be available to implement and support project activities effectively.
+   - Sufficient funding will be secured to carry out the planned technological transfer initiatives and service improvements. 
+2. Relations
+   - The universities have effective relationships with local plastic companies.
+   - The project team has an insight into the local plastics industry that will allow them to develop trustful relations with companies.
+   - The universities will develop and implement their service portfolios and are willing to share and define them.
+   - The universities actively participate in mentoring and peer-collaboration sessions.
+3. Stakeholder engagement
+   - Stakeholders are willing to openly share information about barriers and benefits related to local legislation.
+   - Stakeholders will actively participate in the co-creation events and collaborative initiatives.
+   - Local plastic companies are open to innovation and improvement.
+   - University authorities will effectively facilitate and support the establishment of multi-actor initiatives involving diverse stakeholders.
+   - The universities organizing search conferences will be able to attract diverse and representative stakeholder participation.
+   - Stakeholders will provide timely feedback on the application of various instruments and consider the results useful and relevant for potential collaborations.
+   - Students will be effectively engaged in pilot projects by each institutional team, fostering creativity and enabling their contributions to be recognized as part of their academic performance.
+
+4. Implementation & adoption 
+   - The proposed initiatives will represent innovative and impactful approaches to plastic reuse.
+   - The exchange of ideas and experiences among partner institutions will result in tangible adaptations and improvements within their respective contexts.
+   - A diverse range of services will be proposed based on different degrees of interaction with companies.
+   - The implemented projects provide sufficient and meaningful lessons learned.
+   - The universities are willing to adopt and implement new technologies, business models, and organizational structures emerging from the project.
+   - The framework developed will be adaptable to the specific contexts and needs of different industries.
+   - There will be sufficient diversity among stakeholders to ensure a critical mass for effectively applying instruments and determining the most relevant services and solutions that universities can provide.
+
+5. Communication & visibility 
+   - Project partners will agree on the core elements of the communication strategy and actively participate in the related training program.
+   - The design and branding elements developed during the project will align with its objectives and overall expectations.
+   - The institutional portfolios will effectively communicate their contributions to addressing plastic-related challenges and will present key solutions and potential projects for industry partners
+   - Accurate and up-to-date information will be available to support the assessment of local plastic reuse systems.
+   - Partners will actively contribute to the development of the dissemination strategy, content creation, and activation of the project’s website and social media channels.
+   - The project will successfully attract target audiences beyond the partnership through its results and communication campaigns.
+
+
+6. Management & monitoring 
+   - Guaranty that all partners will sign the partnership agreement in a timely manner to ensure the proper start of the project.
+   - Guaranty that all work package leaders will effectively oversee and actively contribute to the implementation of the quality assurance plan.
+   - Guaranty that all partners will effectively implement the financial guidelines, actively participate in monitoring activities, and provide accurate insights to support project management.
+7. Lessons learned 
+   - Project partners will provide constructive feedback on the pilot projects, enabling their continuous improvement and the generation of accurate and timely recommendations.
+
+
+
+## Constrains
+According to the previous assumptions the constraints that might arise are the following:
+
+- A lack of pre-existing or effective relationships between universities and local plastic companies may limit collaboration opportunities.
+- Limited engagement from the universities in defining and sharing service portfolios could reduce knowledge exchange and collective learning.
+- Delays or limitations in securing adequate funding.
+- Stakeholders may be reluctant to share sensitive information.
+- If local plastic companies are not open to innovation, the implementation of proposed solutions could be limited.
+- Lack of timely and constructive feedback from stakeholders could affect the usefulness and applicability of the instruments used.
+- Some initiatives may not be perceived as innovative or relevant by stakeholders, limiting their adoption and impact.
+- Universities might struggle to propose a diverse enough range of services to meet companies' varying needs.
+- The framework developed may prove too generic or too specific, making it difficult to adapt across different industrial contexts.
+- If portfolios are not well-communicated, their usefulness for industry stakeholders could be diminished.
+- Inaccurate or outdated data may lead to flawed assessments of reuse systems.
+Inconsistent or passive involvement of WP leaders could undermine the quality assurance process.
+- If partners fail to provide timely and constructive feedback, the pilot projects may not evolve or generate transferable recommendations.
+- A lack of structured mechanisms for documenting and disseminating lessons learned could limit their long-term value.
+
+
+## Success criteria 
+For the success criteria of the scope five parts are taking into consideration:  
+
+- Functional, tailored solution portfolios at each university.
+- At least 4 implemented and evaluated pilot projects with multi-actor involvement.
+- Completion of 4 Search Conferences and one final international conference.
+- Applicable institutional recommendations for knowledge and technology transfer.
+- Open-access repository with training materials and project results for broader use.
+
+# Governance 
+
+As part of the governance management plan, the coordinator of the project will provide strong experience in managing cross-heirs and cross-sectorial projects, together with their remarkable innovation capabilities, offering a good base for setting the current proposal. Additionally, each WP will have a designated leader, each leader will ensure the delivery of the activities on time and facilitate reporting to the coordination. Regarding the division of tasks amongst partners, each task assignment has been carefully negotiated with each of the project’s partners, balancing the institution staff and also the direct involvement on erasmus+ projects in the past as a mechanism to ensure that, during the project, partners are not overloaded due to a sub-ponderation of the tasks. 
+
+The project will deploy a strategy focusing on the integration of the teachers, the technological transfers teams and external stakeholders related to the plastic value chain at each Latin American university. The first year will be dedicated to, on one side, the definition of the roles and responsibilities of each partner of the consortium through a partnership agreement document, together with financial management guidelines, monitoring and reports. On the other hand, the main goal is to effectively establish a collaboration framework of the universities with the local partners related to the plastic value chains in Colombia, Argentina and Chile. The second year will be focused on the interaction of the universities with the local external actors including small and medium enterprises and cooperatives of the plastic value chain. This will lead to the preparation of a set of recycling pilot initiatives that will be developed mostly at the end of the second and the rest of the third year of the project. 
+
+The system will include a quality committee responsible for defining open and transparent governing principles. This committee will ensure that all decisions made during the initial stage of the project are fully traceable by any project member.  This system will also enable all partners to contribute to the strategic conversation. Additionally,  the quality committee will decide the change in the scope of the deliverable at the request of the affected partner and regarding the resource allocation for each activity, it was budgeted taking into consideration the opinion of the involved partners, and also the experience of some partners in previous projects. Additionally, an external quality advisory committee will also be designed. This committee will be composed of external advisory experts who have the role of reviewing the external deliverables of the project, in order to enhance the relationship of the project’s partners external networks. 
+
+The quality control and monitoring will have  two levels of development,  internal and external.  The internal level will be composed by the Steering Committee (SC) in charge of the definition and supervision of project management and risk management procedures, as well as other project management activities, such as organization and preparation of Steering Committee meetings/General Assemblies and dealing with IPR, legal and Consortium Agreement issues, and also internal communication i.e. communication measures to ensure smooth and transparent project execution, monitoring and documenting of project activities, reporting, distribution and sharing of information and documents across the consortium. A steering committee will be set up during the first months of the project and will be composed by a representative of the project partners.
+
+The external level will be formed by a quality advisory board and external stakeholders: The consortium will name a board of experts that will meet twice a year to give advice to the consortium on topics related to quality and results. The group will be constituted by 5 external members from different areas of knowledge, backgrounds, and geographic areas, and can represent different sectors, including industry, academia, government and civil society. All members in the consortium will be able to propose names for the board, which will be elected by the Work Package leaders through a decision making mechanism. All members can elevate questions or issues for the board meetings.
+
+Overall, to guarantee the accomplishment of this governance plan:
+
+- UL’s coordinator team will provide strong experience in management.
+- The overall governance system will be formed by an internal and external quality committee. 
+- Each Work Package leader will ensure the delivery of the activities.
+- The UL will establish a shared platform where all relevant documents will be shared and available for all partners. Also, At least one virtual meeting of 2 hours every  month will be structured in order to make a review of the advancement of the project with the all consortium. 
+
+
+## Steering committee 
+
+The steering committee (SC) is formed by the project coordinator, the work package leader. The SC  is the supervisory body for the execution of the project and is in charge of the proper execution and implementation of the decisions and monitoring the effective and efficient implementation of the lasting project. in charge of the definition and supervision of project management and risk management procedures, as well as other project management activities, such as organization and preparation of Steering Committee meetings/General Assemblies and dealing with IPR, legal and Consortium Agreement issues, and also internal communication i.e. 
+
+
+
+```{r}
+#| label: tbl-meetings
+#| tbl-cap: "Planification of Official Meetings of the project quality committee"
+
+
+
+table <- 
+tibble(
+  Role= c("Coordinator","WP 1  leader ","WP 2  leader","WP 3  leader","WP 4  leader","WP 5  leader"),
+
+  Name= c("Fabio Cruz","Carlos Carlesi Jara","Yamila Victoria Vazquez","Daniel Samoilovich","Daniel Galvez","Luis vivas") 
+  )
+
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, align = c('c','c','l'),
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("5cm"))  %>%
+   column_spec(2, width = c("6cm"))  
+
+```
+
+
+
 - **Respect**: Understood as the consideration and appreciation of the work of the other actors involved in the project, as well as respect for the environment and activities that promote its appreciation and conservation.
 
 - **Transparency**: it specifies that any information addressed to the PQC, consortium, general public, or stakeholders of the project will be easily accessible and easy to understand, and clear language shall be used. This principle also stipulates free access to meeting minutes and always having a clear and honest response regarding decision-making mechanisms.

@@ -1,0 +1,100 @@
+---
+title: "Strengthening University Tech Transfer Capabilities to support Circular Economy Value Chains for Plastics in Latin America"
+subtitle: "Mercadotecnia, innovación y emprendimiento 2025 <br> Universidad Nacional de Colombia --UNAL--"
+email: "fabio.cruz@univ-lorraine.fr"
+author: 
+  - "MdC. Fabio Cruz"
+institute:
+  - "Université de Lorraine"
+
+link-citations: true
+date: today
+date-format: long
+
+title-slide-attributes:
+  data-background-image: ../assets/img/Tema-Verde-Final.png
+  data-background-size: contain
+  data-background-opacity: "0.9"
+  logo-Techtra: figures/logo-TTPLCE.png
+  
+ 
+format:
+  revealjs:
+    slide-number: c/t
+    slide-level: 3
+    controls: true
+    transition: none
+    #margin: 10
+    width: 1600
+    height: 900
+    theme: [default, ../assets/techtraplastice.scss]
+    logo: "../assets/img/EU/EU.png"
+    header-logo: "../assets/img/logos/TTPCE.png"
+    #embed-resources: false
+    echo: false
+    pdf-separate-fragments: true
+    toc: true
+    toc-title: Content
+    toc-depth: 1
+    center: false
+    center-title-slide: false
+    number-sections: false
+    fig-align: center
+    code-copy: true        
+    chalkboard: false
+    include-in-header: ../assets/reveal/repeat.html 
+    template-partials: 
+     - ../assets/reveal/title-slide.html 
+resources: 
+   - ../assets/img/*.jpg
+   - ../assets/img/*.png
+
+extensions:
+  iconify:
+    style: "color: #F69223;"   
+---
+
+
+
+# TechTraPlastiCE Project {.tema-naranja .center}
+
+## Consortium {.naranja background-image="figures/Consorcio.png" background-size="30%" background-position="90% 50%"}
+
+![](figures/Consorcio-flags.png)
+
+🏛️ 9 Higher Education Institutions | 1 Association <br>
+⏳ Feb. 2025 - Jan. 2028 <br>
+€ 799.887 Euros
+
+
+
+## Main Goal {.naranja}
+
+
+🎯 The main goal is to **reinforce the applied research and technological transfer capacities of the universities** improving their services portfolios to strengthen the plastic industry's contribution to the green transition.
+
+
+<br><br>
+
+🧩🧩 The ambition is to foster the **collaboration and partnerships of the University with socio-economic stakeholders** to incubate, establish and develop circular initiatives, demonstrating operational success by carrying out joint recycling interventions integrating actors in the plastics value chain in Colombia, Argentina, and Chile.
+
+## Specific Goals {.naranja .smaller}
+
+- SO1: To identify and understand **key barriers and leverage points** of the local plastic companies to generate university-industry collaboration opportunities.
+
+- SO2: Create and implement **services and solutions portfolios** for the plastics value chain based on the university's core competencies and knowledge. 
+
+- SO3: Encourage **multi-actor initiatives** to enhance the reuse of plastic involving waste pickers organizations, companies and the local public sectors, taking advantage of the University's articulation capacities. 
+
+- SO4: Develop **recommendations on new technologies, business models, and organizational setups for university-industry collaborations** based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in HEIs in Latin America. 
+
+## Approach {.naranja}
+
+![](figures/TechTraPlastiCE-Approach.png)
+
+
+## Milestones {.naranja}
+
+![](figures/Milestones.png)
+
+
