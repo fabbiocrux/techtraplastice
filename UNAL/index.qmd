@@ -1,6 +1,6 @@
 ---
 title: "Strengthening University Tech Transfer Capabilities to support Circular Economy Value Chains for Plastics in Latin America"
-subtitle: "Mercadotecnia, innovación y emprendimiento 2025 <br> Universidad Nacional de Colombia --UNAL--"
+subtitle: "Mercadotecnia, Innovación y  Emprendimiento"
 email: "fabio.cruz@univ-lorraine.fr"
 author: 
   - "MdC. Fabio Cruz"
@@ -16,6 +16,7 @@ title-slide-attributes:
   data-background-size: contain
   data-background-opacity: "0.9"
   logo-Techtra: figures/logo-TTPLCE.png
+  logo-partner: figures/UNAL.png
   
  
 format:
