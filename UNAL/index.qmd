@@ -33,7 +33,7 @@ format:
     #embed-resources: false
     echo: false
     pdf-separate-fragments: true
-    toc: true
+    toc: false
     toc-title: Content
     toc-depth: 1
     center: false
@@ -54,7 +54,7 @@ extensions:
     style: "color: #F69223;"   
 ---
 
-
+# {background-image="figures/Chris-Jordan.webp" background-size="100%" background-position="90% 50%"}
 
 # TechTraPlastiCE Project {.tema-naranja .center}
 
