@@ -1,14 +1,14 @@
 ---
-title: "D6.2. Plan Management"
+title: "D6.2 Financial and technical management"
 WP: "WP6 – Project management and Quality assurance"
 WP_num: "WP6"
-Description: This document reports a quality plan that includes the criteria and indicators to take into account in the project development. It aims to provide sufficient mechanisms and instruments approved by mutual agreement to ensure compliance with the project's objectives and indicators with high-quality standards and delimiting decision-making elements. Also, it will specify the means of communication, frequency and the external advisory board that will join the project.
+Description: Implementation  of  project	 management mechanisms, in their operational, financial  and accountability aspects.Financial management guidelines, training, and monitoring reports will be addressed.
 Responsible: Université de Lorraine
 Dissemination: Confidential
 Date-delivrable: May 30/2025
-Quality: D6.1.tex
+Quality: D6.2.tex
 author: 
-  - Prof. Fabio A. Cruz &nbsp;
+  - Prof. Fabio A. Cruz &nbsp; PhD. Catalina Suescun.
 date: today
 date-format: long
 keep-tex: false
@@ -26,55 +26,167 @@ library(readxl)
 ```
 
 
-# Project overview
+# Executive Summary {.unnumbered}
 
-This management plan (MP) is the controlling document for managing the TechTraPlastiCE project. 
-This MP defines the management process necessary to satisfy the project requirements, describes the procedures for developing systems through the lifecycle, discusses scope, assumptions and constraints that may affect the development effort, and defines each phase of the project management plan.  This MP is a part of an interrelated set of plans and processes, each focusing on a specific aspect of the project, such as the following: 
+The Project Management Plan (PMP) establishes the foundation for effective collaboration and coordinated implementation of the TechTraPlastiCE project. It outlines the management framework, operational guidelines, and quality standards necessary to ensure efficient execution and the achievement of project objectives.
 
-- Governance plan
-- Project organization plan
-- Financial plan
-- Procurement plan 
-- Issue plan
-- Risk plan
-- Quality plan 
-- Organization plan 
-- Communication pla
-
-
-## Project background
-
-TechTraplastiCE is a project  that aims to reinforce the applied research and technological transfer capacities from the universities to the industry focusing on the plastic industry that contributes to the green transition. Given that plastic waste is a wicked problem, the ambition is to foster the collaboration and partnerships of the University with socio-economic stakeholders to incubate, establish, and develop circular initiatives, demonstrating operational success by carrying out joint recycling interventions integrating actors in the plastics value chain in Colombia, Argentina, and Chile. Based on a progressive technology transfer and innovation approach, the primary focus is to facilitate dynamic knowledge exchanges, fostering an environment that encourages active and modular educational collaborations between universities and industries. The major impact relies on establishing enduring partnerships that contribute to long-term engagement between academia and industry to build interdisciplinary and multi-stakeholder advances for research, innovation and educational/training capacities for plastic waste and circular economy. 
+This document provides a comprehensive description of the project’s objectives, scope, and work plan; the coordination and governance aspects; project management details and financial management considerations. 
 
 
 
-## Objective 
+# Introduction
 
-The project aims to reinforce universities’ capacities through co-creating training, applied research and service portfolios to strengthen the plastic industry's contribution to the green transition and circular economy. The project will follow a progressive technology transfer approach to foster University-Industry collaborations locally in Latin America.
+This Project Management Plan (PMP) has been developed to provide a comprehensive framework for the effective governance, coordination, and execution of the TechTraPlastiCE project. Prepared under the leadership of the Université de Lorraine as the project coordinator, the PMP serves as the principal reference document for all consortium partners, outlining the procedures, responsibilities, and standards necessary to achieve the project’s objectives.
 
-Additionally, this projects aims to : 
-- To identify and understand key barriers and leverage points of the local plastic companies to generate university-industry collaboration opportunities.
-- Create and implement services and solutions portfolios for the plastics value chain based on the university's core competencies and knowledge.
-- Facilitate dynamic knowledge exchanges, fostering an environment that encourages active and modular educational collaborations between universities and industries.
-- Encourage multi-actor initiatives to enhance the reuse of plastic involving waste pickers organizations, companies and the local public sectors, taking advantage of the University's articulation capacities. 
-- Develop recommendations on new technologies, business models, and organizational setups for university-industry collaborations based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in Higher Education Institutions in Latin America.
+The plan defines the methodologies and operational structures to be applied throughout the project lifecycle, ensuring that activities are implemented in a timely, efficient, and transparent manner. It establishes the mechanisms for decision-making, communication, quality assurance, and risk management, enabling the consortium to maintain high performance standards and adapt to evolving circumstances.
+
+Additionally, the PMP describes the project’s governance model, organizational arrangements, and interdependencies among work packages. It aligns all management activities with the agreed work plan, European Commission requirements, and the overarching goal of advancing circular economy practices in plastics value chains in Latin America.
+
+As a living document, the PMP will be periodically reviewed and updated to incorporate new insights, respond to emerging challenges, and ensure the continued relevance and effectiveness of project management processes.
 
 
-# Project Scope
 
-The TechTraplastiCE project will strengthen the technology transfer capabilities of Latin American universities in order to support the transition to a circular economy within the plastics value chain of local companies. Additionally, it will reinforce the  collaboration between academia and industry. This will be achieved through the co-creation of training programs, applied research, and service portfolios aligned with each participating institution's core competencies through six different work packages (WP): 
-- Innovation opportunities for circular economy
-- Development of a network portfolio 
-- Multi-actor collaborations
-- Pilots projects
-- Communication & dissemination 
-- Project management and quality assurance
+# TechTraPlastiCE project overview: 
+
+## TechTraPlastiCE Key facts
+
+
+- **Call**: ERASMUS-EDU-2024-CBHE-STRAND-2 
+- **Topic**: Capacity building in the field of higher education
+- **Project title**: Strengthening University tech transfer capabilities to support circular economy value chains for plastics in Latin America
+- **Project start**: 01/02/2025
+- **Duration**: 36 months from 01/02/2025 to 31/01/2028
+- **Project Coordinator**: Université de Lorraine
+- **Consortium**: 10 organizations, 9 HEI's, 1 Association, from 4 Countries (Argentina, Chile, Colombia, Francia y Portugal)
+
+
+::: {layout="[[20,20,20, 20, 20 ], [20,20, 20, 20, 20]]" layout-valign="center"}
+
+![[](https://www.unc.edu.ar/)](../images/logo/AR-UNC.png)
+
+![[](https://www.unrn.edu.ar/home)](../images/logo/AR-UNRN.png)
+
+![[](https://www.uns.edu.ar/)](../images/logo/AR-UNS.png)
+
+![[](https://www.ucentral.edu.co/)](../images/logo/CO-UC.png)
+
+![[](https://unal.edu.co/)](../images/logo/CO-UNAL.png)
+
+![[](https://www.pucv.cl/)](../images/logo/CL-PUCV.png)
+
+![[](https://www.usach.cl/)](../images/logo/CL-USACH.png)
+
+![[](https://columbus-web.org/)](../images/logo/COLUMBUS.png)
+
+![[](https://columbus-web.org/)](../images/logo/UA.png)
+
+![[](https://columbus-web.org/)](../images/logo/UL.png)
+
+:::
+
+
+
+## TechtraPlastiCE in brief
+
+TechTraPlastiCE proposes a novel approach to reinforce the interaction of the universities with the plastic industry value chain with the purpose of the green transition.
+
+The project aims to **reinforce the applied research and technological transfer capacities of the universities improving their services portfolios to strengthen the plastic industry's contribution to the green transition.**. 
+The ambition is to foster the collaboration and partnerships of the University with socio-economic stakeholders to incubate, establish and develop circular initiatives, demonstrating operational success by carrying out joint recycling interventions integrating actors in the plastics value chain in Colombia, Argentina, and Chile. 
+
+The project will follow a progressive technology transfer approach to foster University-Industry collaborations locally in Latin America.
+The major impact relies on establishing enduring partnerships that contribute to long-term engagement between academia and industry to build interdisciplinary and multi-stakeholder advances for research, innovation and educational/training capacities for plastic waste and circular economy. 
+
+
+**The specific objective are** : 
+
+1. To identify and understand key barriers and leverage points of the local plastic companies to generate university-industry collaboration opportunities.
+2. Create and implement services and solutions portfolios for the plastics value chain based on the university's core competencies and knowledge.
+3. Facilitate dynamic knowledge exchanges, fostering an environment that encourages active and modular educational collaborations between universities and industries.
+4. Encourage multi-actor initiatives to enhance the reuse of plastic involving waste pickers organizations, companies and the local public sectors, taking advantage of the University's articulation capacities. 
+5. Develop recommendations on new technologies, business models, and organizational setups for university-industry collaborations based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in Higher Education Institutions in Latin America.
+
+
+## Project structure
+
+The TechTraplastiCE project is structured in 6 Work Packages : 
+
+1. Work Package 1:  Innovation Opportunities for Circular Economy. **Coordinated by: Pontificia Universidad Católica de Valparaíso (PUCV)**
+
+2. Work Package 2: Development of a networked portfolio. **Coordinated by: Universidad Nacional del Sur (UNS) in collaboration with University of Aveiro (UA)**
+
+3. Work Package 3: Multi-actor collaborations for just and safe plastic’s circular economy. **Coordinated by:  COLUMBUS**
+
+4. Work Package 4: Pilot projects implementation. **Coordinated by: University of Santiago de Chile (USACH)**
+
+5. Working Package 5: Communication and Dissemination. **Coordinated by:  Universidad Nacional de Río Negro (UNRN)**
+
+6. Work Package 6: Project Management and Quality assurance. **Coordinated by: Université de Lorraine**
+
+
+The project’s  structure is illustrated in **@fig-structure**.  
+
+![TechtraPlastiCE structure](figures/6.2/Structure.png){#fig-structure width="90%" fig-align="center"}
+
+
+
+**WP1** is focusing on identifying and understanding the key barriers and leverage points faced by local plastic companies in transitioning to a circular economy.  
+
+Building on this, **WP2** will explore potential responses to industry and sector needs for a circular economy, based on university missions, while highlighting existing gaps.  
+
+Using insights from WP1 and WP2, **WP3** will promote multi-actor initiatives to increase the involvement of key stakeholders—such as waste pickers’ organizations, companies, and local public authorities—leveraging the university’s capacity to foster win–win collaborations.  
+
+In **WP4**, the emphasis will be on implementing pilot projects that address technology-based solutions as well as knowledge-sharing and social exchange initiatives. These will be developed within the defined portfolios at each participating university, creating a collaborative learning environment. WP4 will conclude with specific recommendations for institutional policies and strategies that strengthen higher education institutions’ (HEIs) organizational culture, strategic capacity, and commitment to multi-actor knowledge sharing, based on lessons learned from the circular economy challenge.  
+
+**WP5** and **WP6** are providing support to the entire project. 
+**WP5** manage communication, dissemination, and visibility activities to promote the project’s actions and results, maximizing its impact. 
+**WP6** is focusing on establishing the necessary baseline and management structures to ensure effective coordination and progress monitoring across the project.  
+
 
 
 
 ## Project outputs
 
-The technology transfer approach adopted in this project serves as the backbone for fostering innovation, collaboration, and sustainability across Latin America and Europe. It ensures that knowledge, tools, and methodologies generated through the project are effectively translated into actionable outcomes for stakeholders involved in the plastics value chain. Thus, each WP contributes specific outputs aligned with the project goal:
+Each Work Package consists of a number of tasks led by a task leader, who will be responsible for managing and coordinating the specific tasks for the timely finalization of the corresponding deliverable. 
+
+
+@tbl-tasks provides an overall view of the TechTraPlastiCE work packages and the corresponding tasks and deliverables including the beneficiaries in the lead. 
+
+:::landscape
+
+```{r}
+#| label: tbl-tasks
+#| tbl-cap: "TechTraPlastiCE work packages and the corresponding tasks"
+
+table <- read_csv("tables/D6.2/Management TechTraPlastiCE - Hoja 6.csv")
+
+
+
+table %>% select(1,3:5, 9) %>%
+   mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, align = c('c','l','l', 'l', 'l', 'l'), longtable = T) %>%
+   kable_styling(full_width = F,
+                  latex_options = "repeat_header" ,
+                font_size = 9) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 10) %>%
+   collapse_rows(columns = 1, valign = "top") %>%
+   column_spec(1, width = c("1cm"))  %>%
+   column_spec(2, width = c("1.5cm"))  %>%
+   column_spec(3, width = c("6cm"))  %>%
+   column_spec(4, width = c("2cm"))  %>%
+   column_spec(5, width = c("6cm"))  
+   #column_spec(5, width = c("6cm")) 
+   #column_spec(7, width = c("5cm")) 
+   #column_spec(8, width = c("4cm")) 
+
+```
+
+:::
+
+
+The technology transfer approach adopted in this project serves as the backbone for fostering innovation, collaboration, and sustainability across Latin America and Europe. 
+It ensures that knowledge, tools, and methodologies generated through the project are effectively translated into actionable outcomes for stakeholders involved in the plastics value chain. 
+
+In that sense, each WP contributes specific outputs aligned with the project goal:
 
 **WP1: 	Innovation opportunities for circular economy** 
 
@@ -83,18 +195,20 @@ The technology transfer approach adopted in this project serves as the backbone 
 - An assessment report on the innovation capacities of local plastic industry sectors, including indicators and comparative analysis.
 
 **WP2: 	Development of a network portfolio**
+
 - A digital repository containing systematized information on existing university services and solutions (technical assistance, training, co-development) related to the plastics value chain.
 - A set of institutional and collective solution portfolios developed and made accessible for stakeholders in the plastics sector.
-- A series reports for peer mentoring  and inter-institutional collaboration.
+- A series of reports for peer mentoring  and inter-institutional collaboration.
 
 **WP3: Multi-actor collaborations**
-A detailed report (or presentation) summarizing the current state of reuse, key clues observed, contextual factors, and a set of actionable strategies to increase reuse rates in the three countries.
-A report based on interviews with waste pickers, companies, and local authorities, aimed at engaging these stakeholders and identifying initiatives in the reuse ecosystem. 
-A benchmark study of local reuse systems and practices to identify strengths, gaps, and opportunities for improvement.
-Four search conferences to co-create solutions and reinforce the university’s neutral articulating role.
-Updated institutional portfolios integrating new solutions and services identified through the search conferences.
 
-**WP4: Pilots projects**
+- A detailed report (or presentation) summarizing the current state of reuse, key clues observed, contextual factors, and a set of actionable strategies to increase reuse rates in the three countries.
+- A report based on interviews with waste pickers, companies, and local authorities, aimed at engaging these stakeholders and identifying initiatives in the reuse ecosystem. 
+- A benchmark study of local reuse systems and practices to identify strengths, gaps, and opportunities for improvement.
+- Four search conferences to co-create solutions and reinforce the university’s neutral articulating role.
+- Updated institutional portfolios integrating new solutions and services identified through the search conferences.
+
+**WP4: Pilot projects**
 
 - An implementation of a  set of pilot projects based on the solution portfolios, incorporating pedagogical, technological, and social components tailored to each national context.
 - A digital notebook with cross evaluation reports summarizing identified barriers, lessons learned, and the scalability potential of the pilot initiatives across institutions.
@@ -112,9 +226,40 @@ Updated institutional portfolios integrating new solutions and services identifi
 - A series of annual planning and evaluation meetings successfully organized, with documented agendas, minutes, and action plans.
 - A set of monitoring and quality assurance mechanisms implemented to track progress, ensure timely delivery of outputs, and uphold project standards.
 
+## TechTraPlastiCE Gantt Chart
+
+The project is structured around a series of strategic events and deliverables distributed over the three-year period as illustrated in @fig-gantt. 
+
+
+\newpage
+
+::: landscape
+![Timeline of the project from Fev. 2025 - Jan. 2028. Updated on August 2025](../assets/Gantt/_Gantt.pdf){#fig-gantt fig-align="center"}
+:::
+
+## TechTraplastiCE Milestones
+
+As illustrated in the @fig-gantt, the following milestones were 
 
 
 
+- Milestone 1: Industries / companies are committed with the project and \newline responds consultations.   \textit{\dotfill\color{orange} Date:2025-07} 
+
+- Milestone 2: Solutions identification and potential providers at each partner (at least 2 per partner provided).  \textit{\dotfill\color{orange} Date: 2025-11} 
+
+- Milestone 3: Local stakeholders are engaged  \textit{\dotfill\color{orange} Date: 2026-07} 
+
+- Milestone 4: Pilots implementation completed.  \textit{\dotfill\color{orange} Date: 2027-08} 
+
+- Milestone 5: Cross-evaluation completed.  \textit{\dotfill\color{orange} Date: 2027-10} 
+
+- Milestone 6: 1 or 2 Team members trained by each partner in \newline the usage of toolbox.  \textit{\dotfill\color{orange} Date: 2025-04} 
+
+- Milestone 7: Toolbox materials available for everyone.  \textit{\dotfill\color{orange} Date: 2025-04} 
+
+- Milestone 8: Signed partnership agreement among the consortium.   \textit{\dotfill\color{orange} Date: 2025-04} 
+
+- Milestone 9: External quality committed established and \newline presented to the consortium.   \textit{\dotfill\color{orange} Date: 2025-04}
 
 
 ## Assumptions 
@@ -155,87 +300,101 @@ The assumptions were based on seven different criteria:
    - Partners will actively contribute to the development of the dissemination strategy, content creation, and activation of the project’s website and social media channels.
    - The project will successfully attract target audiences beyond the partnership through its results and communication campaigns.
 
+6. Project Management & quality monitoring
 
-6. Management & monitoring 
-   - Guaranty that all partners will sign the partnership agreement in a timely manner to ensure the proper start of the project.
-   - Guaranty that all work package leaders will effectively oversee and actively contribute to the implementation of the quality assurance plan.
-   - Guaranty that all partners will effectively implement the financial guidelines, actively participate in monitoring activities, and provide accurate insights to support project management.
+   - Ensure that all partners sign the partnership agreement in a timely manner to enable the proper start of the project.
+   - Require work package leaders to effectively oversee and actively contribute to the implementation of the quality assurance plan.
+   - Make certain that all partners follow the financial guidelines, participate in monitoring activities, and provide accurate information to support project management.
+
 7. Lessons learned 
    - Project partners will provide constructive feedback on the pilot projects, enabling their continuous improvement and the generation of accurate and timely recommendations.
 
 
 
-## Constrains
+## Constraints
+
 According to the previous assumptions the constraints that might arise are the following:
 
 - A lack of pre-existing or effective relationships between universities and local plastic companies may limit collaboration opportunities.
-- Limited engagement from the universities in defining and sharing service portfolios could reduce knowledge exchange and collective learning.
-- Delays or limitations in securing adequate funding.
-- Stakeholders may be reluctant to share sensitive information.
-- If local plastic companies are not open to innovation, the implementation of proposed solutions could be limited.
+<!-- - Limited engagement from the universities in defining and sharing service portfolios could reduce knowledge exchange and collective learning. -->
+<!-- - Delays or limitations in securing adequate funding. -->
+<!-- - Stakeholders may be reluctant to share sensitive information. -->
+<!-- - If local plastic companies are not open to innovation, the implementation of proposed solutions could be limited. -->
 - Lack of timely and constructive feedback from stakeholders could affect the usefulness and applicability of the instruments used.
-- Some initiatives may not be perceived as innovative or relevant by stakeholders, limiting their adoption and impact.
+<!-- - Some initiatives may not be perceived as innovative or relevant by stakeholders, limiting their adoption and impact. -->
 - Universities might struggle to propose a diverse enough range of services to meet companies' varying needs.
 - The framework developed may prove too generic or too specific, making it difficult to adapt across different industrial contexts.
 - If portfolios are not well-communicated, their usefulness for industry stakeholders could be diminished.
 - Inaccurate or outdated data may lead to flawed assessments of reuse systems.
-Inconsistent or passive involvement of WP leaders could undermine the quality assurance process.
+<!-- - Inconsistent or passive involvement of WP leaders could undermine the quality assurance process. -->
 - If partners fail to provide timely and constructive feedback, the pilot projects may not evolve or generate transferable recommendations.
-- A lack of structured mechanisms for documenting and disseminating lessons learned could limit their long-term value.
+<!-- - A lack of structured mechanisms for documenting and disseminating lessons learned could limit their long-term value. -->
 
+<!-- 
+## Performance benchmarks
 
-## Success criteria 
-For the success criteria of the scope five parts are taking into consideration:  
+For the success criteria of the  
+The following aspects are elements to 
+
+Five parts are taking into consideration:  
 
 - Functional, tailored solution portfolios at each university.
 - At least 4 implemented and evaluated pilot projects with multi-actor involvement.
 - Completion of 4 Search Conferences and one final international conference.
 - Applicable institutional recommendations for knowledge and technology transfer.
-- Open-access repository with training materials and project results for broader use.
-
-# Governance 
-
-As part of the governance management plan, the coordinator of the project will provide strong experience in managing cross-heirs and cross-sectorial projects, together with their remarkable innovation capabilities, offering a good base for setting the current proposal. Additionally, each WP will have a designated leader, each leader will ensure the delivery of the activities on time and facilitate reporting to the coordination. Regarding the division of tasks amongst partners, each task assignment has been carefully negotiated with each of the project’s partners, balancing the institution staff and also the direct involvement on erasmus+ projects in the past as a mechanism to ensure that, during the project, partners are not overloaded due to a sub-ponderation of the tasks. 
-
-The project will deploy a strategy focusing on the integration of the teachers, the technological transfers teams and external stakeholders related to the plastic value chain at each Latin American university. The first year will be dedicated to, on one side, the definition of the roles and responsibilities of each partner of the consortium through a partnership agreement document, together with financial management guidelines, monitoring and reports. On the other hand, the main goal is to effectively establish a collaboration framework of the universities with the local partners related to the plastic value chains in Colombia, Argentina and Chile. The second year will be focused on the interaction of the universities with the local external actors including small and medium enterprises and cooperatives of the plastic value chain. This will lead to the preparation of a set of recycling pilot initiatives that will be developed mostly at the end of the second and the rest of the third year of the project. 
-
-The system will include a quality committee responsible for defining open and transparent governing principles. This committee will ensure that all decisions made during the initial stage of the project are fully traceable by any project member.  This system will also enable all partners to contribute to the strategic conversation. Additionally,  the quality committee will decide the change in the scope of the deliverable at the request of the affected partner and regarding the resource allocation for each activity, it was budgeted taking into consideration the opinion of the involved partners, and also the experience of some partners in previous projects. Additionally, an external quality advisory committee will also be designed. This committee will be composed of external advisory experts who have the role of reviewing the external deliverables of the project, in order to enhance the relationship of the project’s partners external networks. 
-
-The quality control and monitoring will have  two levels of development,  internal and external.  The internal level will be composed by the Steering Committee (SC) in charge of the definition and supervision of project management and risk management procedures, as well as other project management activities, such as organization and preparation of Steering Committee meetings/General Assemblies and dealing with IPR, legal and Consortium Agreement issues, and also internal communication i.e. communication measures to ensure smooth and transparent project execution, monitoring and documenting of project activities, reporting, distribution and sharing of information and documents across the consortium. A steering committee will be set up during the first months of the project and will be composed by a representative of the project partners.
-
-The external level will be formed by a quality advisory board and external stakeholders: The consortium will name a board of experts that will meet twice a year to give advice to the consortium on topics related to quality and results. The group will be constituted by 5 external members from different areas of knowledge, backgrounds, and geographic areas, and can represent different sectors, including industry, academia, government and civil society. All members in the consortium will be able to propose names for the board, which will be elected by the Work Package leaders through a decision making mechanism. All members can elevate questions or issues for the board meetings.
-
-Overall, to guarantee the accomplishment of this governance plan:
-
-- UL’s coordinator team will provide strong experience in management.
-- The overall governance system will be formed by an internal and external quality committee. 
-- Each Work Package leader will ensure the delivery of the activities.
-- The UL will establish a shared platform where all relevant documents will be shared and available for all partners. Also, At least one virtual meeting of 2 hours every  month will be structured in order to make a review of the advancement of the project with the all consortium. 
+- Open-access repository with training materials and project results for broader use. -->
 
 
-## Steering committee 
 
-The steering committee (SC) is formed by the project coordinator, the work package leader. The SC  is the supervisory body for the execution of the project and is in charge of the proper execution and implementation of the decisions and monitoring the effective and efficient implementation of the lasting project. in charge of the definition and supervision of project management and risk management procedures, as well as other project management activities, such as organization and preparation of Steering Committee meetings/General Assemblies and dealing with IPR, legal and Consortium Agreement issues, and also internal communication i.e. 
+# Coordination and Governance 
+
+
+The organizational structure of TechTraPlastiCE at a general level consists of a number of individuals and bodies and the roles they perform.
+The management structure presented in @fig-management will be established under the TechTraPlastiCE project:
+
+![Project management structure for TechTraPlastiCE](figures/6.2/Management.png){#fig-management width="90%" fig-align="center"}
+
+
+The paragraphs below will provide a more in-depth understanding of each actor and the relevant role. 
+
+## Project coordination
+
+The main elements of the project coordination are:
+
+1. The **Project Coordinator** is in charge of coordinating the TechTraPlastiCE project and is responsible for all contacts with the EU. 
+Serves as the main liaison between the local coordinators of each partner institution, the associated partners, and all other consortium members ensuring that the project is met in their technical and financials aspects.  
+Also, the project coordinator chairs the steering committee.
+1. the **Project Manager**, supporting the Project Coordinator in administrative, financial and management issues.
+
+
+In that sense, The Université de Lorraine (UL) as entity coordinator of TechTraPlastiCE will:
+
+1.	Take all the steps necessary to prepare for, perform and correctly manage the work programme set out in accordance with the objectives of the project as set out in the Grant Agreement concluded between the EACEA and the Coordinator; 
+1.	Send to the Partners a copy of the Grant Agreement # 101179564 and its annexes, concluded with the EACEA, of the various reports and of any other official document concerning the project; 
+1.	Notify and provide the Partner with any amendment made to the Grant Agreement # 101179564 concluded with the EACEA;
+1.	Define in conjunction with the Partners the role and rights and obligations of the parties, including those concerning the attribution of the intellectual property rights; 
+1.	Comply with all the provisions of Agreement n° 101179564 binding the Coordinator to the EACEA.
+1. Establish a shared platform where all relevant documents will be shared and available for all partners. Also, At least one virtual meeting of 2 hours every  month will be structured in order to make a review of the advancement of the project with the all consortium. 
 
 
 
 ```{r}
-#| label: tbl-meetings
-#| tbl-cap: "Planification of Official Meetings of the project quality committee"
-
+#| label: tbl-coordination
+#| tbl-cap: "Project Coordination names of the Université de Lorraine (UL)"
+#| tbl-pos: H
 
 
 table <- 
 tibble(
-  Role= c("Coordinator","WP 1  leader ","WP 2  leader","WP 3  leader","WP 4  leader","WP 5  leader"),
-
-  Name= c("Fabio Cruz","Carlos Carlesi Jara","Yamila Victoria Vazquez","Daniel Samoilovich","Daniel Galvez","Luis vivas") 
+  Role= c("Project Coordinator", "Project Manager"),
+  `Assigned representatives`= c("Fabio A. Cruz Sanchez", "Catalina Suescun") ,
+  `Partner`= c("Université de Lorraine (UL)", "Université de Lorraine (UL)") 
   )
 
 
 table %>%
   mutate_all(linebreak) %>%
-  kbl("latex", booktabs = T, escape = F, align = c('c','c','l'),
+  kbl("latex", booktabs = T, escape = F, align = c('c','l'),
       linesep = "\\midrule\\addlinespace") %>%
    kable_styling(full_width = F,                 
                 font_size = 11) %>% 
@@ -245,19 +404,734 @@ table %>%
 
 ```
 
+## TechTraPlastiCE roles
+
+For each TechTraPlastiCE partner, there will be three main roles:
+
+1. **Managers**: Each partner institution will appoint a manager responsible for facilitating communication and coordination between the Project Coordinator and the partner’s internal  structures—scientific, academic, and administrative. 
+This role ensures the effective integration and implementation of project activities at the institutional level.
+
+2. **Researcher / Teacher**: The Researchers are the scientific and academic staff directly engaged in the project’s technical activities. They will contribute their expertise in circular economy, plastic recycling, and technology transfer to achieve the project’s objectives. 
+
+3. **Administrative**: The Administrative Staff will provide the necessary operational, financial, and logistical support for the smooth execution of the project at the partner level.
+
+## Steering committee
+
+The steering committee (SC) is formed by one member of each beneficiary organization and chaired by the project coordinator. 
+
+The SC is the supervisory body for the execution of the project and is in charge of the proper execution and implementation of the decisions and monitoring the effective and efficient implementation of TechTraPlastiCE project. 
+
+The SC makes decisions on the main academic / technical aspects of the programme, and all financial aspects.
+The SC is the highest level decision making body in the project.
+
+The following decisions shall be taken by the SC:
+
+- In exceptional cases, proposals for changes to the Grant Agreement to be agreed by the Funding Authority.
+- Propositions for changes to the consortium agreement.
+- Entry of a new partner to the consortium and approval of the settlement on the conditions of the accession of such new Partner.
+- Withdrawal of a Partner from the consortium and the approval of thesettlement on the conditions of withdrawal.
+- Identification of a breach by a Partner of its obligations under the Consortium Agreement or the Grant Agreement.
+- Declaration of a Partner to be a Defaulting Partner.
+- Remedies to be performed by a Defaulting Partner.
+- Termination of a Defaulting Partner’s participation in the consortium andmeasures relating to this.
+- Proposal to the Funding Authority for a change of the Coordinator.
+- Proposal to the Funding Authority for suspension of all or part of the Project.
+- Proposal to the Funding Authority for termination of the Project and the Consortium Agreement.
+
+The Steering Committee shall prepare the meetings, propose decisions and prepare the agenda of the General Assembly.
 
 
-- **Respect**: Understood as the consideration and appreciation of the work of the other actors involved in the project, as well as respect for the environment and activities that promote its appreciation and conservation.
 
-- **Transparency**: it specifies that any information addressed to the PQC, consortium, general public, or stakeholders of the project will be easily accessible and easy to understand, and clear language shall be used. This principle also stipulates free access to meeting minutes and always having a clear and honest response regarding decision-making mechanisms.
-
-- **Accountability**: it assigns clear roles, responsibilities, and performance expectations to each project partner and governing body. In the TechTraPlastiCE project, each institution is held responsible for their commitments, outputs, and use of resources. Mechanisms for regular performance evaluation, issue resolution, and corrective action are integral to this principle, ensuring that all project activities are conducted with integrity and aligned with agreed standards and objectives.
-
-- **Strategic Alignment**: it ensures that all project activities, decisions, and resource allocations are consistently guided by the project's overarching goals, priorities, and intended impacts. This principle implies that efforts remain focused, coherent, and capable of delivering measurable value throughout the project duration. 
-
-- **Cooperation**: it emphasizes the importance of open dialogue, trust, and shared commitment among all partners of TechTraPlastiCE. It will foster a working environment where partners actively contribute to common goals, align efforts, and resolve challenges collectively ensuring that the project implementation will benefit from the collective expertise, resources, and engagement of the entire consortium.
+```{r}
+#| label: tbl-sc
+#| tbl-cap: "Steering committee of the TechTraPlastiCE project"
+#| tbl-pos: H
 
 
+table <- 
+tribble(
+~` `, ~Partner, ~`Assigned representative`, 
+"UL", "UNIVERSITÉ DE LORRAINE ","Fabio CRUZ",
+"UA", "UNIVERSIDADE DE AVEIRO ","Paula Ferreira", 
+"UNS", "UNIVERSIDAD NACIONAL DEL SUR ", "Yamila Victoria Vazquez",
+"UNC", "UNIVERSIDAD NACIONAL DE CORDOBA ", "Luis Vivas",
+"PUCV", "PONTIFICIA UNIVERSIDAD CATOLICA DE VALPARAISO ", "Rolando Chamy",
+"UC", "UNIVERSIDAD CENTRAL ", "Sandra Bautista",
+"COLUMBUS", "COLUMBUS PARTNERS ", "Daniel Samoilovich",
+"UNAL", "UNIVERSIDAD NACIONAL DE COLOMBIA ", "Paulo Narváez ",
+"USACH", "UNIVERSIDAD DE SANTIAGO DE CHILE ", "Daniel Galvez"
+)
 
 
-1. Facilitate the resolution of disputes between consortium members in a constructive and conciliatory manner, particularly in cases involving differences of opinion or challenges in the execution of project activities.
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, align = c('l','l'),
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(2, width = c("9cm"))  %>% 
+   column_spec(3, width = c("5cm"))  
+
+```
+
+
+
+
+## Work Package Leaders
+
+Each WP will have a designated leader ensuring the delivery of the activities on time and facilitate reporting to the coordination. 
+
+The Work Package Leader’s role includes:
+
+1. Plan and organise the technical activities within the respective Work Packages (WPs)
+2. Coordination with the Task-Leaders and the Project Coordinator to ensure good project progress and timely completion of all project deliverables and milestones. 
+3. Communicate any success, deviation and/or proposed contingency, via the Project Coordinator, to the Steering Committee for their consideration.
+4. Organise, chair and prepare the minutes of WP meetings.
+5. Particpate in the meetings with the project quality committee.
+6. Where unforeseen circumstances necessitate deviation from the work plan, the WP Leader will be responsible for identifying suitable contingencies;
+1. Provide WP progress reports every 6 months delineating adherence (or otherwise) to the project workplan;
+
+
+The @tbl-wpleaders appoints the WP's of the TechTraPlastiCE leaders
+
+
+```{r}
+#| label: tbl-wpleaders
+#| tbl-cap: "Appointed Persons as WP Leaders"
+
+
+table <- 
+tribble(
+~`WP Leader`, ~Partner, ~`Assigned representative`, 
+"WP1", "PUCV ","Sandra Ponce \n Carlos Carlesi Jara \n Rolando Chamy",
+"WP2", "UNS / (UA)"," Yamila Victoria Vazquez (UNS) \n Yanela N. Alonso (UNS) \n Paula Ferreira (UA) \n Idalina José Gonçalves (UA)",
+
+"WP3", "COLUMBUS","Daniel Samoilovich
+Kelly Henao
+Cecilia Valdes",
+
+"WP4", "USACH","Daniel Galvez
+Lorena Delgado
+Pavlo Santander",
+
+"WP5", "USACH","Marcos Del Bello
+Marian Lenchours Pezzano
+María Paula Awe Luca",
+
+"WP6", "UL","Fabio A. Cruz
+Catalina Suescun",
+
+)
+
+
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, align = c('l','l','l'),
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(2, width = c("4cm"))  %>%
+   column_spec(3, width = c("7cm"))  
+
+```
+
+
+
+## Task Leaders
+
+
+Each task of TechTraPlastiCE (see @tbl-tasks) will have a designated manager ensuring the delivery of the activities on time and facilitate reporting to the coordination. 
+
+The Task Leader’s role includes:
+
+1. Execute the technical activities within the respective Work Packages (WPs).
+2. Coordination with internal and external members to ensure the technical/academica completion of  deliverables and milestones. 
+3. Communicate any success, deviation and/or proposed contingency, via the, WP leader,  Project Coordinator for their consideration.
+4. Documentate the minutes of WP meetings.
+5. Particpate in the meetings.
+
+
+## External Stakeholders
+
+TechTraPlastiCE project will deploy a strategy focusing on the integration of the teachers, the technological transfers teams and external stakeholders related to the plastic value chain at each Latin American university. 
+
+Therefore, the first year will be dedicated to effectively establish a collaboration framework of the universities with the local partners related to the plastic value chains in Colombia, Argentina and Chile. 
+
+The second year will be focused on the interaction of the universities with the local external actors including small and medium enterprises and cooperatives of the plastic value chain. 
+This will lead to the preparation of a set of recycling pilot initiatives that will be developed mostly at the end of the second and the rest of the third year of the project. 
+
+The interaction with the external stakeholders will be documentated in the development of the different deliverables. 
+
+
+## Project Quality Committee
+
+TechtraPlastiCE will asure a **Project Quality Committee --PQC-** (See Deliverable 6.1 for more details) responsible for defining open and transparent quality guidelines. 
+
+This committee will interact with the Steering commitee regarding:
+
+- Validation the timely fulfillment of the tasks and obligations acquired by the partners.
+-  The quality control and monitoring of the deliverables
+- Preparation of General Assemblies 
+- Internal communication 
+- Project execution, monitoring and documenting of project activities, reporting, distribution and sharing of information and documents across the consortium. 
+
+
+
+## External Advisory Board
+
+TechtraPlastiCE will appoint a **External Advisory Board --EAB-** 
+
+The consortium will name a board of experts that will meet twice a year to give feedback and advice to the consortium on topics related to quality and results.
+
+The group will be constituted by 5 external members from different areas of knowledge, backgrounds, and geographic areas, and can represent different sectors, including industry, academia, government and civil society. 
+
+All members in the consortium will be able to propose names for the board, which will be elected by the Work Package leaders through a decision making mechanism. 
+All members can elevate questions or issues for the board meetings.
+
+The EAB  will interact with the Steering commitee regarding:
+
+- Technical / Academical alignment of the expertise of EAB members with the TechTraPlastiCE goals.
+- Feedback on the TechTraPlastiCE results
+- Communication & disseminations joint activitis.
+- synergies between TechTraPlastiCE with external initiatives at local, national and European levels.
+
+See Deliverable 6.1 for more details on the work plan of the EAB . 
+
+## General Assembly
+
+The General Assembly is the main decision-making body of the project. 
+The General Assembly consists of the coordinator, by whom it is chaired, and all other beneficiaries.
+
+The General Assembly is a platform to exchange information on work progress and results between all partners. 
+It also decides on overall main project issues such as strategies, corrective measures, project redirection, conflict resolution and non-performance. 
+
+
+### Decision making and conflict resolution
+
+Decision making and conflict resolution processes have the objetive to set the procedures, flows and rules based on two main principles: 
+
+
+1. Voting will be based on one-vote-per-partner,
+2. Decisions to be taken by each steering committee will be taken upon 6/10 of the votes.
+
+Any signs of disagreement between project participants should be solved amicably between those partners involved. If not resolved at that level, and only if it is strictly necessary, a conflict resolution process must be enforced:
+
+- TechTraPlastiCE participants will escalate the issue to higher management levels until resolved (form taskleader, WP Leaders and Project Coordination) and consensus to solve the problem is sought at each level.
+- Eventually, if stilll not resolved, the SC will take care of the issue applying the two principles.
+
+The Steering Committee will make proposals for such decisions to be made in the General Assembly (if needed). 
+
+The General Assembly has to competence regarding issues impacting the overall work plan, the Grant Agreement and the Consortium Agreement. 
+
+
+
+# Project management
+
+It is expected that over the course of the TechTraPlastiCE project that many documents will be produced, it is therefore vital that document management processes are followed in order to enableusers to locate and identify relevant files and to ensure version control.
+
+
+
+## Communication plan 
+
+Clear, consistent, and transparent communication is essential for the successful coordination and implementation of the TechTraPlastiCE project. To ensure fluid internal communication and effective collaboration among all partners, the Université de Lorraine (UL), as project coordinator, will establish a shared digital platform where all relevant documents and materials will be stored and made accessible to all members of the consortium.
+
+
+In addition to this platform, the project will implement monthly virtual meetings (minimum duration: 2 hours) to monitor progress, share updates, and coordinate tasks across Work Packages. 
+
+These regular meetings will provide a structured space for reviewing advancements and addressing potential challenges collectively.
+To further strengthen internal coordination, the partners have agreed on setting up a governance system, drawing on UL's extensive experience in project management. 
+
+This system will guide the decision-making process, support the efficient execution of activities, and ensure that all voices within the consortium are heard and integrated throughout the project lifecycle.
+
+Beyond internal communication, this project also places a strong emphasis on external communication, dissemination, and visibility, which are organized under a dedicated WP ead by the Universidad Nacional de Río Negro (UNRN). (*Please refers to the D6.1. Quality assurance plan for more details*) 
+
+This WP is responsible for planning and executing a comprehensive strategy to promote project activities and results, maximize their impact, and ensure the visibility of the project. 
+
+The overarching objective is to make the outcomes accessible and relevant to a wide range of audiences, well beyond the partner institutions and associated stakeholders.
+The communication will be supported by a communication team composed by at least one person responsible for each partner. 
+This team will be responsible for creating content, reviewing and approving dissemination materials. Additionally, the stakeholders will be continuously provided with updated information regarding project activities, news and events, thus the dissemination will have four levels: 
+
+- **Institutional level**: To create awareness and branding influence within each university community (leaders, administrators, professors, researchers, students, etc.)
+- **Socio-economic actors**: It refers to companies leaders, leaders of associations of waste-pickers, local public authorities interested in sustainability, plastics and circular economy, and the society at
+large.
+- **Consortium**: Targeting all European and Latin-American partners
+- **International/Regional level**: To impact other non-partners, universities, associations or organizations interested in the project's objectives at international and regional level.
+
+
+:::landscape
+## Communication strategy 
+
+
+```{r}
+#| label: tbl-comm
+#| tbl-cap: "Communication strategy of TechTraPlastiCE project"
+#| tbl-pos: H
+
+table <- 
+tribble(
+~"Activity",
+~"Description of Activity/Information Required",
+~"Audience/Stakeholder",
+~"Channel (Method)",   
+~"Coordinator",
+~"Frequency",
+
+"Digital platform", 
+"Share of documents and materials.", 
+"Institutional", 
+"Google drive", 
+"UL", 
+"On an as-needed basis", 
+
+
+"Meeting",
+"Virtual meetings minimum duration: 2 hours",
+"Institutional",
+"Teams",
+"UL",
+"Monthly",
+
+"Messaging",
+"Define the messages for each target group, in order to reach our communication goals                      ",
+"Institutional",
+"Message matrix",
+"UNRN",
+"On an as-needed basis",
+
+"Website",
+"Design the project website and all the RSS that will generate traffic to the main website of the project.",
+"Institutional /International/Regional",
+"Website",
+"UNRN (COO)",
+"Monthly",
+
+"Social Media",
+"Disseminate the results and to engage with a broader audience",
+"International/Regional",
+"LinkedIn, X, and Youtube",
+"UNRN (COO)",
+"On an as-needed basis",
+
+"Email",
+"Official and direct contact to the project administration",
+"Internal",
+"Email",
+"UNRN (COO)",
+"On an as-needed basis",
+
+"Digital newsletter",
+"Share content with activities of the project.",
+"Collaborative contact list",
+"Email",
+"UNRN (COO)",
+"Semestral",
+
+"Events",
+"Conference, workshops and seminars",
+"Interational/Regional",
+"Digital",
+"UNRN (COO)",
+"On an as-needed basis"
+)
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, longtable = T,
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F, 
+               latex_options = "repeat_header" ,                
+                font_size = 9) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("2.5cm"))  %>%
+   column_spec(2, width = c("6cm"))  %>%
+   column_spec(3, width = c("3cm"))  %>%
+   column_spec(4, width = c("3cm"))  %>%
+   column_spec(5, width = c("2cm"))  %>%
+   column_spec(6, width = c("3cm"))  
+
+```
+
+:::
+
+
+
+
+
+
+
+
+## Meetings for project development
+
+The project management involves two types of meetings: 
+
+1. Face-to-face meetings
+2. Online meetings.
+
+@tbl-presencial presents the planned events scheduled throughout the three-year implementation of the project, including workshops, meetings, and training sessions involving partner institutions.
+
+```{r}
+#| label: tbl-presencial
+#| tbl-cap: "Planned face-to-face meetings"
+#| tbl-pos: H
+
+table <- 
+tribble(
+~Code, ~"Event name" , ~Type, ~Objectives, ~Location, 
+"E1.1","Kick-off meeting" ,"Event" ,"Define management and baseline for tech-transfer" ,"Nancy, Francia" ,
+"E1.2" ,"Portafolio pre-definition" ,"Event" ,"Share institutional experiences" ,"Santiago, Chile" ,
+"E1.3" ,"Pilot implementation  follow-up" ,"Event" ,"General follow-up and evaluation team definition" ,"Bogota, Colombia" ,"E1.4" ,"Results and dissemination " ,"Event" ,"Dissemination of pilot results" ,"Bariloche, Argentina" ,
+"E1.5-E1.8" ,"Search conferences (x4)" ,"Workshop" ,"Local co-creation with stakeholders " ,"Various LATAM locations" ,
+"E1.9-E1.10" ,"Reactive solving challenge" ,"Workshop" ,"Early-stage innovation with university’s staff and industry " ,"Multiple cities" ,
+"E1.11" ,"Cross-evaluation of pilots" ,"Training" ,"Evaluation and exchange of lessons " ,"LATAM"
+    )
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F,
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("3cm"))  %>%
+   column_spec(2, width = c("2cm"))  %>%
+   column_spec(3, width = c("2.5cm"))  %>%
+   column_spec(4, width = c("4cm"))  %>%
+   column_spec(5, width = c("3cm"))  
+
+```
+
+
+
+Face-to-face  meeting are a combination of management meeting (steering committee) and training sessions.  
+The meetings are described description of action and are budgeted for each partner in the project budget. 
+
+Regarding the online meetings, should be programmed at least a week in advance and should follow a set agenda.
+Online meetings are planned periodically, the video of online meetings will be recorded and published in the project platform available to partners.
+To hold online meetings, the TEAMS plateform are generally used.
+Minutes of the meeting (PPT slides) will be available in the Google drive plateform.
+
+Telephone is used when personal interaction, a fast answer or reliable confirmation is needed.
+Telephone calls can sometimes be appropriate for urgent matters so it is important that up to datetelephone numbers are made available. 
+It is highly recommended to send an e-mail with the conclusion of a telephone call to limit any ambiguity.
+
+Refer to **Deliverable 6.1 Quality assurance plan**, for more details of internal communication.
+
+## Document management
+
+Document templates have been produced which use a standard format including defined styles,page layout and content structure. 
+
+To ensure consistency in the TechtraPlastic project when communicating with external stakeholders or interested parties, a set of standard templates for various communications activities has been developed. 
+These templates include:
+
+- Deliverable template standard 
+- Meeting Minutes (MS Word format)
+- PowerPoint presentation template
+- Standard logos for the project.
+
+
+These templates may be updated as the project progresses and may be redesigned to fit with the design style of the project logo.Therefore,consortium partners should always use the most up-to-date version.
+
+## Deliverables
+
+Each deliverable should follow a set structure as set out in the templates of:
+
+1. **Executive summary**: a brief description of the key points of the main document
+2. **Table of Contents**
+3. **Introduction**: an outline of the aims and objectives of the deliverable andwhere it fits in the context of the TechTraPlastiCE project. The introduction should also explain the interdependences related to this deliverable, whether thiswork is drawing on earlier tasks and deliverables and what other tasks will usethis deliverable as input or for structuring their work.• 
+4. **Main body of the report**: this section will explain the task that was carried outand the results generated and illustrate the technical and scientific progress madewithin the task.
+5. **Conclusions**: this section should be a summary of the major outputs of thedeliverable and potential implications of the results on other parts of the project. The conclusions should also highlight where future improvements or further workshould be directed.
+6. **References**
+7. **Annexes**: Annexes of data or further information not suitable for the mainbody of the report, either due to its detailed nature or separated forconfidentiality purposes.
+
+## Tracking of deliverables
+
+Deliverables are listed in the Grant Agreement Annex1 Part A – List of deliverables. 
+
+Deliverables will be tracked by the project coordination, identifying deliverables due in the near future, the deadlines for each deliverable, follow-up actions and the names of the persons producing and reviewing. 
+
+The deliverables will be uploaded to Funding & Tenders Portal Continuous Reporting tool.
+
+## Quality managment
+
+The quality assurance process will be grounded in both qualitative and quantitative evaluations, drawing from feedback and data shared by all project partners and relevant stakeholders. Key quality criteria include:
+
+- Relevance: The alignment of objectives with the strategic needs and priorities of the partners.
+- Effectiveness: The extent to which outputs contribute to the intended outcomes.
+- Pertinence: The efficiency and appropriateness of resource use in achieving deliverables in a cost-effective and timely way.
+- Collaboration and Communication: The strength of coordination and transparency among consortium members, including the adequacy of communication tools and practices.
+- Continuous Improvement: The presence of feedback mechanisms and iterative evaluations that allow the consortium to adapt and optimize practices throughout the project lifecycle.
+
+This comprehensive approach will support not only the delivery of high-quality outputs but also a culture of shared responsibility, learning, and excellence among all project participants.
+For more information please refer to the **Deliverable 6.1 Quality assurance
+plan**. 
+
+## Project Reporting and Reviews
+
+According to the Grant Agreement, the project is divided into two reporting periods:
+
+- Mid-term report: from project month 1 (Feb 2025) to project month 18 (August 2026);
+- Final report: from project month 19 (Sept 2027) to project month 36 (Jan 2028).
+
+
+To ensure a timely delivery of the reports, the project coordination will prepare the templates and notify the partners of their duties and where they should contribute to the report, at least 2 calendar months before the end of the reporting period. 
+
+The project coordination will then ask that each Partner contributes to the report, reporting on their participation with work package leaders also reporting on the progress made within their work package.
+
+The Period 1 mid-project review will include both technical reports and financial statements, as described in the grant agreement, with the following documents:
+
+A ‘periodic technical report’ containing:
+
+- A resumé of the TechTraPlastiCE project
+- Deliverables which are due within the Period 1 reporting period, according to the Grant Agreement Annex 1 Part A – List of deliverables.
+- Periodic Activity Report on the results and achievements of the project overthis reporting period, including the progress made on tasks, deliverables andachievement of milestones. If any deviations have occurred from the Description of Action in Annex 1 of the Grant Agreement, an explanation justifying the differences must also be provided. 
+- The Periodic Activity Report will also include a plan for the exploitation and dissemination of the results.
+- Individual financial statements of each partner and a consolidated financial statement.
+- Explanation of the use of resources
+- Issues related to the action implementation and the economic and societal impact.
+
+
+The Period 2 end-of-project review will include the same documents as Period 1, but applied to the whole project. 
+In addition, it will include:
+
+- A publishable summary report of all of the results, conclusions and the impact of the project, the benefits to end-users and society
+- A final technical report
+- An update to the exploitation plan for the implementation and disseminationof the products of the project
+- Certificate of the Financial Statement (CFS) provided by auditor if necessary.
+
+
+
+
+## Risk Management Approach
+
+
+Effective risk management is essential to ensure the success and continuity of the TechTraPlastiCE project.  
+The main categories of potential risks are:
+
+- **Technical:** Insufficient expertise to address unexpected challenges.
+- **Financial:** Economic difficulties faced by a partner, leading to a halt or significant reduction in their activities.
+- **Key resources:** Withdrawal of personnel with critical roles from the project.
+
+The most probable and highest-impact risks have been integrated into the project’s logical framework as illustrated in @tbl-risk. 
+
+This ensures that assigned risk task leaders can take timely action to implement mitigation measures. The risk assessment framework will be reviewed and updated regularly to maintain the project’s resilience and adaptability to emerging challenges.  
+
+
+@tbl-risk presents risk register outlines the main potential risks identified across the different WP. 
+
+:::landscape
+
+```{r}
+#| label: tbl-risk
+#| tbl-cap: "Risk management"
+#| tbl-pos: H
+
+table <- 
+tribble(
+
+ ~"WP No",  ~"Risk Description", ~"Likelihood",  ~"Proposed risk-mitigation measures", ~"Type", 
+
+"WP1", 
+ "Long administrative delays in the formalization of the administrative documents.", 
+ "Low",
+ "Follow-up meeting will established to determine the delays and to adjust the delay in order to assure the overall progress",
+"Technical",
+
+"WP2",
+"Project Staff turnover during the project that put in risk its continuity.",
+"Low",
+"- Establish a knowledge management approach in the quality criteria to systematize the methodological transfer and construction of own models to easily incorporate new members to the work teams.
+- Partially disseminate the results of the project's progress with the university community to integrate the different areas.
+- Designate backup personnel that can be inserted into the project in case of staff turnover.
+",
+"Technical",
+
+"WP2",
+"Incompatibility of the methodologies and knowledge transferred with the contexts of the Latin American partners in terms of culture and regulations.",
+"Low",
+"- Establish a quality measure of consistency at the kick-off meeting regarding the methodologies and knowledge transfer.
+- Establish a map around the possible inconsistencies and weak points to adjust since the beginning of the project.
+",
+"Technical",
+
+"WP3",
+"Lack of enterprises that wish to participate or to be part of the joint recycling initiatives in the plastic value chain.",
+"Medium",
+"- The definition of the potential external enterprises mobilized are based on current collaborations.
+- Chamber of commerce and networks business also intended in the project in order to map potential local partners.
+- Definition around the benefits and responsibilities for the enterprises that decide to be part of the joint recycling initiatives.
+- Create a benefits package for the enterprises to participate in the ecosystems.
+- Use the enterprises as trainers/speakers to convince or attract other companies to participate.
+",
+"**Key resources**:",
+
+"WP4",
+"Knowledge gap about technological transfer and innovation and circular economy in the project team participants.",
+"Medium",
+"Definition of a procedure of disengagement, including the knowledge that can be mapped of failures experiences.
+",
+"Technical",
+
+
+"WP4",
+"Disengagement of external enterprises in the participation of the project.",
+"Medium",
+"Definition of a procedure of disengagement, including the knowledge that can be mapped of failures experiences.",
+"Key resources",
+
+"WP4",
+"Economic instability that reduces the risk-taking of companies (in particular SMEs)",
+"Medium",
+"The project will promote local cooperation and networking between different stakeholders to eventually motivate the participation of SMEs",
+"Financial"
+
+)
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F,
+      linesep = "\\midrule\\addlinespace",
+      longtable = T) %>%
+   kable_styling(full_width = F,                 
+                font_size = 10,
+                latex_options = "repeat_header" 
+                ) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("1.5cm"))  %>%
+   column_spec(2, width = c("4cm"))  %>%
+   column_spec(3, width = c("3cm"))  %>%
+   column_spec(4, width = c("8cm"))  %>%
+   column_spec(5, width = c("3cm"))  
+
+```
+
+:::
+
+
+From the outset, every effort will be made to identify risks early and implement suitable mitigation strategies:  
+
+- **Technical risks:** Rely primarily on the internal expertise of the TechTraplastiCE consortium.
+- **Financial or resource-related risks:**  
+  - If a partner faces financial difficulties or resource shortages, corrective measures may include reallocating the unfinished work to other partners, subcontracting it to a third party, or using a combination of both.  
+  - The chosen approach will be based on an assessment of its impact and relevance to the project.  
+  - Each work package (WP) leader will have a designated backup leader to ensure continuity if the original leader becomes unavailable.  
+
+
+At the project’s conclusion, the project manager will:
+
+1. Evaluate each identified risk and the overall risk management process.
+2. Identify potential improvements to the process.
+3. Document these improvements in the lessons-learned knowledge base for use in future projects.
+
+
+### Change management plan  
+
+Based on the risk analysis, to ensure structured and transparent change management throughout the project, the following steps will be followed:
+
+- **Identification**: Any project partner identifying the need for a change will initiate the process by documenting the nature and justification of the proposed change.
+- **Submission** : The person requesting the change will formally submit the request via email to the project coordination, including relevant details and rationale.
+- **Evaluation**: The Project coordination, in collaboration with the Steering Committee (SC), will assess the potential impact of the change on the project’s cost, risk, schedule, and scope.
+- **Decision**:  The Steering Committee will review the proposed change and all supporting information to make a final decision on whether the change will be approved.
+- **Implementation**: If approved, the Project Manager will implement the change, update and re-baseline all relevant project documentation, and ensure that the change is effectively communicated to all team members and stakeholders.
+
+
+
+
+## Project closure
+
+The project's expected outcomes, including the development of a holistic framework, capacity building for universities, implementation of progressive technology transfer services, pilot projects, creation of an open-source repository, and policy recommendations, contribute to sustainable strategies. 
+Each outcome serves to enhance the project's long-term impact and ensure its continued success beyond the funding period, crucial for maximizing its benefits.
+
+At the project's conclusion, a comprehensive impact assessment will be conducted to evaluate outcomes, lessons learned, and areas for improvement. 
+Comprehensive documentation of project processes, methodologies, and results will be undertaken to create a handbook guiding future initiatives.
+Knowledge transfer sessions and training programs will be facilitated for key stakeholders to retain expertise gained during the project. 
+Efforts will also focus on exploring and securing additional funding sources, including follow-up grants, industry partnerships, or private investments. 
+
+Priority will be given to ongoing capacity building for project team members to keep them abreast of the latest developments in their respective fields. 
+Successful project outcomes will be seamlessly integrated into existing institutional structures or processes to embed the project's impact in the organization's long-term strategy. A final meeting, held in Bariloche, will disseminate the project's main results to a large target community of actors involving partner universities, other non-partner companies, waste-pickers, and local government. 
+
+
+
+
+
+# Financial management plan	
+
+As specified in the Consortium Agreement, the financial contribution of the Funding Authority to the
+TechTraPlastiCE project is distributed by the Project Coordinator. according to 
+
+- the consortium agreement;
+- the approval of reports by the Funding Authority.
+
+
+The project Coordinator commits to carrying out payments relating to the subject matter of the contract to the partners  receiving the funds by the EACEA, according to the achievement of the tasks and the following schedule: 
+
+   - 1st payment: the Coordinator must transfer the pre-financement payment to the Partners within 30 days following the reception of the funds from the EACEA, which should correspond to 70 % of the maximum grant amount attributed to each Partner, as set on the Grant Agreement n° 101179564 and its annexes. 
+   - Final payment: the payment of the balance, up to 30 %, shall be made by the Coordinator to the Partners within 30 days following the reception of the funds from the EACEA, at the end of the project. This payment is made by the EACEA once the partner’s contractual agreements have been fully met and all the necessary supporting documentation has been received and validated in the final report of the project. The beneficiary reserves the right to withhold the balance and demand a refund of the amounts already paid if the report is presented after the deadline mentioned in article 9 of the consortium agreement.
+
+All payments shall be regarded as advances pending explicit approval by the EACEA of the final report including approval of the eligibility of the activities, the corresponding cost statement (if applicable) and the assessment of the quality of the results of the project. 
+
+The aim of the pre-financing is to provide the beneficiaries with a float. It remains the property of the EU until the payment of the balance. 
+The funds made available shall be exclusively spent for the implementation of the project.
+
+
+
+The budget allocation to each partner is based on the specific activities they are responsible for within the project. 
+Each partner has been allocated a minimum number of person-months to participate effectively in project actions. 
+This approach ensures that all members have the necessary resources to fully engage and contribute to the project's success.
+
+
+
+
+##  Expenditure control
+
+The objective of applying cost management is to ensure that the project is completed within budget.
+Expendure control refers to the process of gathering, tracking and managing the financial resourcesthroughout the project’s life cycle. 
+This process relies heavily on accurate estimates and actual data that need to be maintained and updated accordingly. 
+Having quality input data is the key to obtaining reliable cost information for managing resources and making decisions. 
+Cost summaries information at the different levels are rolled up from task level to the project level.
+
+In order to keep track of the estimated and real budget spent by each partner, the PM requests a financial internal report every year, where real personnel costs, other direct costs and indirect
+costs during the period are indicated. 
+The control and management of the financial resources allocated to each institution will be the sole responsibility of the affiliated universities. 
+
+Each university will handle its internal costs in accordance with its own institutional rules and procedures. 
+At the end of each defined reporting period, they will prepare a detailed financial report to be submitted to the Project Coordinator for consolidation and verification. 
+
+Furthermore, during each audit, the universities will be required to present full and transparent accounts regarding the use of their allocated funds. 
+Additionally, to ensure proper tracking and accountability of the spending, each partner will be responsible for regularly completing the table presented in @sec-financial, detailing the expenses incurred by their institution.
+
+
+## Procurement management plan 
+
+All procurement activities will be conducted in accordance with the Grant Agreement and the guidelines for the use of the grant. 
+
+The Project Manager will provide overall oversight and coordination of procurement procedures across the project. However, each affiliated university will carry out its procurement processes following its own institutional rules and national regulations. 
+During each audit, procurement documentation must be presented in line with the internal templates and reporting standards of each institution, ensuring traceability and compliance.
+
+
+Equipment for the pilot's implementation was established to the 7 Latin American Universities that will be leading the implementation of recycling initiatives. 
+Embracing open source technology solutions (hardware/software) to reduce administrative overheads and to possibly adapt to the context was a strategy adopted to improve the resources. 
+
+Scientific equipment and open source hardware for developing the recycling initiative were envisioned as a major strategy to guarantee the cost efficiency of the project. The equipment per country will be purchased from a single supplier, ensuring a lower value per volume. In addition, the guidelines of the institution will be followed to call for tenders with a minimum of 3 suppliers to ensure the best value for money.
+
+# Conclusions
+
+The Financial and technical management plan is a central, living document that guides the execution, monitoring, and quality assurance of the TechTraPlastiCE project. It ensures alignment with the agreed work plan, provides mechanisms for effective internal and external communication, and establishes processes for risk management, quality control, and decision-making.
+
+As the project evolves, the PMP will be periodically updated to reflect new insights, operational adjustments, and lessons learned. This iterative approach will enable the consortium to maintain high performance standards, adapt to emerging challenges, and strengthen collaborative practices.
+
+Ultimately, the PMP’s structured methodology and continuous improvement framework will support the achievement of the project’s strategic objectives, ensuring that the outcomes deliver lasting value for higher education institutions, industry stakeholders, and the wider community engaged in advancing circular economy value chains for plastics in Latin America.
+
+
+
+\appendix
+
+# Templates Financial Statement {#sec-financial}
+
+A template was designed to all memebers in order to put news of techtraplastice website.
+
+![](figures/6.2/template.png)
+
+

@@ -7,7 +7,7 @@ format:
     lof: false
     documentclass: article
     #classoption: [legalpaper]
-    geometry: margin=2cm, paperheight=28cm, paperwidth=49cm
+    geometry: margin=2cm, paperheight=34cm, paperwidth=49cm
     number-sections: true
     include-in-header: [packages.tex]
     keep-tex: false
@@ -16,7 +16,8 @@ format:
 ---
 
 <!-- %%%%%%%%%% Converting to png. %%%%%%%%%%%%
-%% magick -density 150 _Gantt.pdf -quality 90 Gantt.png -->
+%% magick -density 150 assets/Gantt/_Gantt.pdf -quality 90 assets/Gantt/EBAGantt.png -->
+
 
 
 \begin{ganttchart}[vgrid,
@@ -27,7 +28,7 @@ format:
    time slot format = isodate-yearmonth,
    time slot unit=month,
    today=2025-07,
-   progress=today,
+   progress= today,
    title/.append style={draw=none, fill= Neutro},
    title label font=\sffamily\bfseries\color{white},
    title label node/.append style={below=-1.6ex},
@@ -44,9 +45,11 @@ format:
    bar incomplete/.append style={fill=Celeste},
    bar progress label anchor = west,
    bar progress label font = \color{white}\scriptsize,
-   milestone/.append style={fill=Naranja, rounded corners=2pt},
+   milestone/.append style={fill=Naranja , inner sep=2pt},
    milestone incomplete/.style={/pgfgantt/milestone, fill=orange},
-   milestone label font=\large\bfseries\color{orange},
+   milestone label font=\small\bfseries\color{orange},
+   milestone progress label node/.style={anchor = west, inner sep=10pt},
+   EBA/.style={milestone incomplete/.append style={fill=OliveGreen}}
 ]{2025-02}{2028-01}
 
 \gantttitle[]{TechTraPlastiCE timeline}{36}\\  
@@ -62,18 +65,26 @@ format:
 % Tareas
 \ganttbar[name=1a, progress=100, progress label text={Completed}]{Developing a framework to understand the companies/industries' performance for circular economy}{2025-02}{2025-04} \\
 \ganttbar[name=1b, progress=80, progress label text={90\%}]{Identifying gaps and drivers at targeted Industries/Companies to comply with the norms and consumers' preferences}{2025-05}{2025-10} \\
-\ganttbar[name=1c, progress=10, progress label text={10\%}]{Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} 
-\ganttnewline[thick, blue]  \\
+\ganttbar[name=1c, progress=10, progress label text={10\%}]{Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} \\
+
+% Milestone 1
+\ganttmilestone[progress=90]{Milestone 1: Industries/companies are committed with the project and responds consultations}{2025-07} 
+
+\ganttnewline[thick, Celeste]  \\
 
 % Working package 2
-\ganttgroup{WP2: Development of a networked portfolio}{2025-07}{2026-04} \\
+\ganttgroup{WP2: Development of a networked portfolio}{2025-08}{2026-04} \\
 
 % Tareas
 \ganttbar[name=2a, progress=0, progress label text={ }]{Identifying existing core services for plastics challenges within the network of partners}{2025-08}{2026-01} \\
 \ganttbar[name=2b, progress=0,  progress label text={ }]{Design of Institutional Portfolios}{2025-11}{2026-04} \\
 \ganttbar[name=2c, progress=0,  progress label text={ }]{Promoting cross-peer collaboration and mentoring}{2025-11}{2026-04} \\ 
 
-\ganttmilestone[]{Participation EBA I}{2026-02} 
+% Milestone 1
+\ganttmilestone[progress=0]{Milestone 2: Solutions identification and potential providers at each partner (at least 2 per partner provided)}{2025-11} \\
+
+% External Board
+\ganttmilestone[EBA]{\colorbox{OliveGreen}{\color{white}\large I Participation External Board Advisory}}{2026-02} 
 \ganttnewline[thick, Celeste] \\
 
 
@@ -88,23 +99,33 @@ format:
 \ganttbar[name=3d, progress=0,  progress label text={ }]{Search Conference}{2026-08}{2027-04} \\
 \ganttbar[name=3e, progress=0,  progress label text={ }]{Implementation of collaborative initiatives}{2026-11}{2027-04} \\
 
-\ganttmilestone[]{Participation EBA II}{2026-10} 
+
+\ganttmilestone[progress=0]{Milestone 3: Local stakeholders are engaged}{2026-07} \\
+
+\ganttmilestone[EBA]{\colorbox{OliveGreen}{\color{white}\large  II Participation External Board Advisory}}{2026-10} 
 \ganttnewline[thick, Celeste] 
 \\
 
 % Working package 4
 \ganttgroup{WP4: Pilot projects implementation}{2025-11}{2027-04} \\
 
+
 % Tareas
 \ganttbar[name=4a, progress=0, progress label text={ }]{Pedagogical Integration of Industry at the University}{2025-11}{2027-07} \\
 \ganttbar[name=4b, progress=0,  progress label text={ }]{Pilots implementation}{2026-08}{2027-10} \\
 \ganttbar[name=4c, progress=0,  progress label text={ }]{Cross evaluation of pilot projects between Latin American Universities}{2027-02}{2027-10} \\
 
-\ganttmilestone[]{Participation EBA III}{2027-05} \\
+
+% III EBA
+\ganttmilestone[EBA]{\colorbox{OliveGreen}{\color{white}\large  III Participation External Board Advisory}}{2027-05} \\
 
 \ganttbar[name=4d, progress=0,  progress label text={ }]{Institutional Recommendations}{2027-05}{2028-01} \\
 
-\ganttmilestone[]{Participation EBA IV}{2027-11} 
+\ganttmilestone[progress=0]{Milestone 4: Pilots implementation completed}{2027-08} \\
+\ganttmilestone[progress=0]{Milestone 5: Cross-evaluation completed}{2027-10} \\
+
+% IV EBA
+\ganttmilestone[EBA]{\colorbox{OliveGreen}{\color{white}\large IV Participation External Board Advisory}}{2027-11} 
 \ganttnewline[thick, Celeste] 
 \\
 
@@ -116,9 +137,12 @@ format:
 \ganttbar[name=5b, progress=100,  progress label text={Completed}]{Dissemination Toolbox and Training}{2025-02}{2025-7} \\
 \ganttbar[name=5c, progress=20,  progress label text={20\% }]{Project Website Launching and Monitoring}{2025-05}{2028-01} \\
 \ganttbar[name=5d, progress=0,  progress label text={ }]{Establishing an Open Digital Repository}{2026-08}{2027-04} \\
-\ganttbar[name=5e, progress=0,  progress label text={ }]{Final Conference}{2027-01}{2028-01} 
-\ganttnewline[thick, Celeste] 
-\\
+\ganttbar[name=5e, progress=0,  progress label text={ }]{Final Conference}{2027-01}{2028-01} \\
+
+
+\ganttmilestone[progress=100]{Milestone 6: 1 or 2 Team members trained by each partner in the usage of toolbox}{2025-04} \\
+\ganttmilestone[progress=100]{Milestone 7: Toolbox materials available for everyone}{2025-04} \\
+\ganttnewline[thick, Celeste] \\
 
 
 % Working package 6
@@ -131,6 +155,9 @@ format:
 \ganttbar[name=6d, progress=0,  progress label text={ }]{Establishment of quality guidelines and an external committee for monitoring the advancement of the project}{2025-02}{2028-01} \\
 \ganttbar[name=6e, progress=100,  progress label text={Completed}]{Organization of the Kick-off meeting at Nancy}{2025-02}{2025-05} \\
 
+\ganttmilestone[progress=100]{Milestone 8: Signed partnership agreement among the consortium}{2025-04} \\
+\ganttmilestone[progress=90]{Milestone 9: External quality committed established and presented to the consortium}{2025-04} \\
+\ganttnewline[thick, Celeste] \\
 
 \ganttset{link/.style={Naranja}}
 

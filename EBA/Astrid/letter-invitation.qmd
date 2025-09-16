@@ -1,0 +1,58 @@
+---
+author:
+  - name: Assist. Prof. Fabio A. CRUZ SANCHEZ
+    affiliation:
+      - name: Université de Lorraine
+        department:  ERPI Laboratory
+        address: 8 rue Bastien Lepage
+        city: Nancy
+        country: France
+        postal-code: 54000
+address:
+  - Director Doe & Co
+  - 35 Anthony Road
+  - Newport
+  - Ipswich IP3 5RT
+subject-title: "Subject"
+subject: "**Mission Letter for External Advisory Board Member**"
+opening: "Dear Professor Astrid Jaime"
+closing: "Yours Faithfully,"
+
+fontsize: 12pt
+format:
+  letter-pdf:
+    output-file: index
+    include-in-header: [../../assets/TTPLCE-packages.tex]
+    keep-tex: false
+---
+
+
+\thispagestyle{fancy}
+
+
+It is with great pleasure that we welcome you as a member of the *External Advisory Board (EAB) for the European project “Strengthening Applied Research and Technology Transfer for Circular Plastics.*”
+
+
+This project aims to reinforce the applied research and technological transfer capacities of Higher Education Institutions (HEIs), enhancing their service portfolios to support the plastic industry’s contribution to the green transition. By engaging universities and socio-economic stakeholders, we seek to co-develop circular initiatives, foster innovation, and build enduring partnerships between academia and industry across Colombia, Argentina, and Chile, with lessons and recommendations applicable both in the Global South and the European Union.
+
+As a member of the External Advisory Board, your role is pivotal in ensuring that the project remains relevant, impactful, and aligned with international standards and stakeholder needs. 
+
+Specifically, your mission includes:
+
+- Strategic Guidance: Provide expertise and independent advice on the project’s overall orientation, ensuring that research, innovation, and educational activities effectively address the challenges of plastic waste and circular economy.
+
+- Quality Assurance: Contribute to the evaluation of project outputs, including knowledge transfer models, training activities, and collaborative interventions with industry and universities.
+
+- Knowledge Brokerage: Support the dissemination of results and best practices within wider academic, industrial, and policy networks, reinforcing the project’s international visibility and transferability.
+
+- Capacity Building: Advise on mechanisms to strengthen the educational and research capacities of HEIs, particularly in relation to industry engagement, modular training, and interdisciplinary collaboration.
+
+- Sustainability and Policy Impact: Contribute to the formulation of institutional and policy recommendations that ensure long-term partnerships between academia, industry, and society in both Europe and Latin America.
+
+
+Your participation will primarily involve attending periodic advisory meetings, reviewing project outputs, and providing strategic feedback. Your independent perspective will help guide the consortium in achieving its objectives and ensuring the relevance, sustainability, and scalability of the project results.
+
+
+We are grateful for your commitment to this mission. Your expertise and guidance will be instrumental in advancing applied research, innovation, and circular economy practices, thereby contributing to the global effort of building more sustainable plastic value chains.
+
+We look forward to a fruitful collaboration.
