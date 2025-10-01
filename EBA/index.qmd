@@ -248,8 +248,6 @@ Deputy head of the Institute of Entrepreneurship and Innovation Science (ENI) at
 
 ### Astrid Jaime Arias 🇨🇴
 
-
-
 ::: {layout="[30,70]" layout-valign="top"}
 
 :::{}
@@ -280,4 +278,121 @@ Interested in Management of Knowledge, Science, Technology and Innovation.
 :::
 
 
+### Magali Maida 
 
+::: {layout="[30,70]" layout-valign="top"}
+
+:::{}
+![](figures/Magali-Maida.png){.bio-pic fig-align="center"}
+
+<center>
+
+[{{< ai archive >}}](https://www.linkedin.com/in/magalimaida/)
+
+</center>
+
+
+
+
+![](figures/UDD.jpg){width="500px" fig-align="center"}
+:::
+
+
+
+:::{}
+Director of Knowledge Development and Transfer at Universidad del Desarrollo.
+
+Magali is a Lawyer with focus in intellectual property and technology transfer, providing comprehensive support in the management of research results, patent searches, and global IP strategy. 
+Skilled in technology valuation, market analysis, and the development of licensing strategies, including the identification of potential licensees. 
+
+
+:::
+
+:::
+
+
+
+### Veronica Bucala 🇦🇷
+
+::: {layout="[30,70]" layout-valign="top"}
+
+:::{}
+![](figures/Veronica-Bucala.webp){.bio-pic fig-align="center"}
+
+<center>
+
+[{{< ai researchgate >}}](https://www.researchgate.net/profile/Veronica-Bucala)
+</center>
+
+
+
+:::
+
+
+
+:::{}
+
+Ex-Professor at the Universidad Nacional del Sur and ex-Director at PLAPIQUI (UNS-CONICET). 
+
+:::
+:::
+
+
+
+### Mara Volpe  🇦🇷
+
+
+::: {layout="[30,70]" layout-valign="top"}
+
+:::{}
+![](figures/Mara-Volpe.jpeg){.bio-pic fig-align="center"}
+
+<center>
+
+[{{< ai archive >}}](https://www.linkedin.com/in/marcosmaldonado/)
+</center>
+
+![](figures/cyclus.jpeg){width="500px" fig-align="center"}
+
+:::
+:::{}
+
+
+Mara is Technical Manager at Cyclus, where she lead consulting and technological services grounded in the principles of Circular Economy and Decarbonization. 
+
+She has over 30 years of experience as a scientific researcher, with expertise in Heterogeneous Catalysis, biomass Pyrolysis, Biochar production for the steel and agricultural industries, and Advanced Chemical Recycling of mixed plastics and end-of-life tires.
+
+She have worked on interdisciplinary projects across Biology, Agronomy, Electronic and Mechanical Engineering, while also collaborating closely with the private sector. 
+
+Her focus is on the development and implementation of projects with a triple-impact approach, assessing social, environmental, and economic outcomes to foster sustainable practices and innovative solutions. 
+
+
+:::
+:::
+
+
+### Marcos Maldonado 🇨🇱
+
+
+::: {layout="[30,70]" layout-valign="top"}
+
+:::{}
+![](figures/marcos-maldonado.jpeg){.bio-pic fig-align="center"}
+
+<center>
+
+[{{< ai archive >}}](https://www.linkedin.com/in/marcosmaldonado/)
+</center>
+:::
+
+:::{}
+
+Marcos is the Head of R&D at the Ministry of Science of the Government of Chile, where his work focuses on public policy and research coordination.
+Industrial engineer with a double Chilean–French diploma in Industrial and Systems Engineering and a Master II in Innovation Management and Industrial Design. 
+
+He has more than six years of experience in technology and innovation.
+His professional trajectory includes fostering innovation projects aligned with forestry and agricultural priorities, contributing to sustainable development and the integration of scientific knowledge into policy and practice.
+
+
+:::
+:::
