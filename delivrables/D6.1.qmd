@@ -28,15 +28,14 @@ library(readxl)
 
 # Executive summary {.unnumbered}
 
-This document contains the deliverable **D6.1 - Quality assurance plan** of the TechTraPlastiCE project of Working Package 6. 
-The scope is to provide a reference point for the quality assurance control processes during the  project development.
-Therefore, the present deliverable describes the project organization, roles and responsibilities related to the quality management that will be carried out throughout the whole project.
 
-The document  will be used as an instruction guide based on the terms and conditions established in the Grant Agreement GAP-101179564 and and its Annexes, as well as in the Consortium Agreement.
-The use of the present plan can ensure better collaboration among the Consortium Partners, individuals and groups.
+This document contains the deliverable **D6.1 - Quality assurance plan** of the TechTraPlastiCE project of Working Package 6. The scope is to provide a reference point for the quality assurance control processes during the  project development. Therefore, the present deliverable describes the project organization, roles and responsibilities related to the quality management that will be carried out throughout the whole project. This includes the project Quality Committee –PQ–, the internal and external communication process and the External Advisory Board –EAB–. 
+
+The document  will be used as an instruction guide based on the terms and conditions established in the Grant Agreement GAP-101179564 and its Annexes, as well as in the Consortium Agreement. The use of the present plan can ensure better collaboration among the Consortium Partners, individuals and groups.
+
 The main goal is to assure that the project processes and the deliverables output are of high quality, preventing as much as possible deviations from the original work plan.
 
-**Consortium Partners** 🇪🇺🇦🇷🇨🇱🇨🇴
+**Consortium Partners** 
 
 
 ::: {layout="[[20,20,20, 20, 20 ], [20,20, 20, 20, 20]]" layout-valign="center"}
@@ -87,7 +86,7 @@ The overarching goal of the project is to foster innovation by addressing circul
 The quality system framework of the project is built around three key components:
 
 1. **Project Quality Committee**: it is responsible for guarateeing the deliverances of the outputs of the project. 
-The Université de Lorraine (UL), in collaboration with selected partners will establish a quality committee that validate the criteria, indicators, and procedures to guide the project’s development and ensure high standards of quality.
+The Université de Lorraine (UL), in collaboration with selected partners will establish a quality committee that validates the criteria, indicators, and procedures to guide the project’s development and ensure high standards of quality.
 
 2. **Communication Tools and Procedures**: UL will establish a shared digital platform to ensure that all relevant documents and materials are accessible to all consortium members. 
 In addition, a monthly virtual meeting (minimum two hours) will be held to review progress, share updates, and coordinate upcoming tasks, fostering consistent communication and alignment across the consortium.
@@ -95,7 +94,7 @@ In addition, a monthly virtual meeting (minimum two hours) will be held to revie
 3. **External Advisory Committee**: An external committee, composed of independent experts, will be appointed to review and provide feedback on the project’s public deliverables and on-going tasks. 
 Their role will be to strengthen external engagement and ensure that outputs meet high-quality standards, while also offering strategic advice on the project’s overall development.
 
-The TechTraPastiCE project is strategically structured to maximize its impact on the transition toward a Circular Economy in the Latin American industrial plastic sector. 
+The TechTraPlastiCE project is strategically structured to maximize its impact on the transition toward a Circular Economy in the Latin American industrial plastic sector. 
 Therefore, the quality efforts will ensure the delivery of pertinent outcomes, support long-term capacity building, and contribute to the development of sustainable interaction of the academia with the socio-economic ecosystems. 
 The following sections will provide further detail on the implementation strategies, monitoring mechanisms, and expected quality guidelines of the project.
 
@@ -103,16 +102,16 @@ The following sections will provide further detail on the implementation strateg
 # Project Quality Committee --PQC-
 
 The Université de Lorraine is in charge of the coordination of the project following the Grant Agreement # 101179564 and under the delegation of the consortium members expressed through the mandates annexed to the agreement. 
-In that sense, UL will lead to establish a **Project Quality Committee (PQC)** that will at the heart of the quality assurance of the project outcomes.
+In that sense, UL will lead to establish a **Project Quality Committee (PQC)** that will be at the heart of the quality assurance of the project outcomes.
 
-This internal structure is entrusted with the revision and continuous improvement of the project quality of the deliverables of the project, and responsibilities to be adhered to throughout the project lifecycle in theirs tasks. 
+This internal structure is entrusted with the revision and continuous improvement of the project quality of the deliverables of the project, and responsibilities to be adhered to throughout the project lifecycle in their tasks. 
 In the following subsections, an attention will be made to the different guidelines for the PQC.
 
 
 
 ## Role and principles of the PQC
 
-The major goals of the project quality committee regarding the differents deliverables of TechTraPlastiCE project are:
+The major goals of the project quality committee regarding the different deliverables of TechTraPlastiCE project are:
 
 1. Deliverables are designed to enhance proficiency in project management, thereby supporting more effective project execution and oversight.
 
@@ -190,17 +189,16 @@ The project quality committee will be composed of 4 members of the consortium of
 4. A rotating position *[RO]* will be assigned according to the status of the project. Based on the timetable of the project, the partners that has the most significant relevance in the on-going phase will be invited to the committee to inform the factual development of the tasks. 
 This includes advances and difficulties found to take action proactively.  
 
-Regarding the consolidation of the members of the PQC, 
-an open call will made at the begginning of the project to establish the first committee.
+Regarding the consolidation of the members of the PQC, an open call will be made at the beginning of the project to establish the first committee.
 Then, there will be an open call at *Month 18* to change the participants. 
 
 On the other hand, regarding the [RO] position, it is suggested the following rotation as illustrated in the @tbl-rotation.
-In the case that one of the participants of [EU] or [LA] takes the position as [RO], there will be an open call to  the consortium in order to restablish the composition of the quality committee.
+In the case that one of the participants of [EU] or [LA] takes the position as [RO], there will be an open call to the consortium in order to restructure the composition of the quality committee.
 It is established that the committee will internally validate the member to be invited to the next cycle of the rotating position and agree on the interest of the declared institution in participating.
 
 ```{r}
 #| label: tbl-rotation
-#| tbl-cap: "Planification of rotation position in the quality comittee"
+#| tbl-cap: "Planification of rotation position in the quality committee"
 
 
 table <- read_csv("tables/D6.1/rotation.csv")
@@ -240,16 +238,16 @@ Regarding the [RO] position, the Pontificia Universidad de Valparaiso - Chile wa
 
 ![Procedure of the quality management of the TechTraPlastiCE development](figures/6.1/Procedure-PQC.png){#fig-pqc-procedure}
 
-@fig-pqc-procedure illustrates the procedure of the delevopment of the TechTraPlastiCE project.
-Each step present the objective expected. 
+@fig-pqc-procedure illustrates the procedure of the development of the TechTraPlastiCE project.
+Each step presents the objective expected. 
 
 1. *Step 1*: aims that WP leaders interact with the task leaders and the coordination before the WP starts in order to define the shared language and vision for the WP.
 1. *Step 2*: seeks to  task leader organize and structure the instruments to be used with th the whole consortium to the development of the tasks.
-1. *Step 3*: Managers of each partners will lead the implementation of the task within its local university/ecosystem taking the support of the leaders tasks.
+1. *Step 3*: Managers of each partner will lead the implementation of the task within its local university/ecosystem taking the support of the leader tasks.
 1. *Step 4*: The participants develop the respective tasks according to the indications of task leaders.
-1. *Step 5*: Managers of each university will collect, synthethise and share the results with the task leaders.
+1. *Step 5*: Managers of each university will collect, synthesize and share the results with the task leaders.
 1. *Step 6*: Task leaders will formalize the set of results obtained by the consortium, validating the respective objectives and milestones.
-1. *Step 7*: WP and task leaders will formalize the deliverable to be share to the PCP and for the cross-reviewing process before submission to the EU commission. 
+1. *Step 7*: WP and task leaders will formalize the deliverable to be shared to the PCP and for the cross-reviewing process before submission to the EU commission. 
 
 Based on that process, the quality committee will promote a quick and effective identification of the problems during the project. 
 In that sense, it aims to co-create solutions between the parties in case of disagreements and divergence of perspectives in the project development.
@@ -269,7 +267,7 @@ Any modification must be framed within the objectives and results established in
 ## Official Meetings of the PQC
 
 As a general rule, at least one official meeting per semester will be made in order to guarantee the advancement of the project. 
-@tbl-meetings present an proposition of expected meetings will take place during the project.
+@tbl-meetings present a proposition of expected meetings that will take place during the project.
 This is a first draft proposition that will evolve during the project development.
 The call for sessions of the quality committee will be notify by the project coordinator at least *fifteen days* in advance. 
 
@@ -318,21 +316,30 @@ The leaders of the aforementioned work packages will participate with voice, but
 
 ## Quality Guidelines
 
-The quality guidelines of the TechTraPlastiCE project are not limited to the end results or deliverables; but rather, the purpose is to have an integral consideration across every phase of the project, from planning, execution and evaluation of each tasks.
+The quality guidelines of the TechTraPlastiCE project are not limited to the end results or deliverables; but rather, the purpose is to have an integral consideration across every phase of the project, from planning, execution and evaluation of each task.
 
-In that sense, based on the timetable plan and on the Logical Framework Matrix the proposal, the quality committe will help to assess expectations, level of progress and difficulties of each task and milestones.  
+In that sense, based on the timetable plan and on the Logical Framework Matrix the proposal, the quality committee will help to assess expectations, level of progress and difficulties of each task and milestones.  
 Additionally, in the regular consortium planned meetings (virtual and physical), the checking progress and difficulties of the work packages will be monitored. 
 Therefore, two major approaches are envisaged: 
 
 1. The quality processes of the project are based on internal monitoring. 
-2. Cross-revision of the deliverables by the consortium before sumbmission.
+2. Cross-revision of the deliverables by the consortium before submission.
 
 
 ### Internal monitoring
 
-In the physical meetings planned by in the TechTraPlastiCE, the progress and difficulties of the work packages will be internally monitoring by the project quality committee.
+In the physical meetings planned by TechTraPlastiCE, the progress and difficulties of the work packages will be internally monitored by the project quality committee..
+The quality control and monitoring processes will identify both qualitative and quantitative data collected from all project partners and key stakeholders based on specific criteria:
+
+1. **Relevance**: Evaluate the alignment of objectives with the needs and priorities of the partners.
+2. **Effectiveness**: Examine whether the project outputs are contributing to the achievement of projected outcomes and meeting its objectives.
+2. **Pertinence**: Assess the relevance, usefulness, and efficiency of inputs in delivering outputs in an economical and timely manner.
+3. **Collaboration and Communication**: Assessing the effectiveness of communication channels and collaboration among project partners, ensuring transparent information exchange, and fostering a cohesive working environment conducive to achieving project objectives.
+4. **Continuous Improvement**: Implementing mechanisms for ongoing evaluation and feedback loops to identify areas for improvement and optimize project processes, fostering a culture of continuous learning and enhancement throughout the project lifecycle.
+
+
 Thus, @tbl-int.monitoring presents the guideline points to be discussed in each event.
-Appropriate instruments will be structured for those sessions with the whole consortium to especify the quality of the tasks.
+Appropriate instruments will be structured for those sessions with the whole consortium to specify the quality of the tasks.
 
 ```{r}
 #| label: tbl-int.monitoring
@@ -395,7 +402,7 @@ The WP leaders must send the final version of the documents of their package to 
 In the event of any delay, it is possible to write to the project coordinator explaining the reasons. 
 The project coordination can grant an extra delay without the need to consult with the quality committee. 
 
-The coordinatiion will oversee the review process and ensure the incorporation of relevant feedback before final submission.
+The coordination will oversee the review process and ensure the incorporation of relevant feedback before final submission.
 This quality management process aims to enhance the reliability, professionalism, and impact of all project outputs while fostering mutual accountability and collaboration among partners throughout the project's duration.
 
 In the event of force majeure that makes it impossible to comply with the activities and deliverables established in the work package, the package leader must notify the project coordinator who will replicate the information to the quality committee to validate strategies that ensure the successful completion of the project.
@@ -511,122 +518,175 @@ Any content to be shared using social media shall be sent in advance to the WP5 
 
 # External Advisory Board
 
-The quality control and monitoring processes will identify both qualitative and quantitative data collected from all project partners and key stakeholders based on specific criteria:
-
-1. **Relevance**: Evaluate the alignment of objectives with the needs and priorities of the partners.
-2. **Effectiveness**: Examine whether the project outputs are contributing to the achievement of projected outcomes and meeting its objectives.
-2. Pertinence: Assess the relevance, usefulness, and efficiency of inputs in delivering outputs in an economical and timely manner.
-3. **Collaboration and Communication**: Assessing the effectiveness of communication channels and collaboration among project partners, ensuring transparent information exchange, and fostering a cohesive working environment conducive to achieving project objectives.
-4. **Continuous Improvement**: Implementing mechanisms for ongoing evaluation and feedback loops to identify areas for improvement and optimize project processes, fostering a culture of continuous learning and enhancement throughout the project lifecycle.
-
-In that sense, a dedicated **External Advisory Board (EAB)** will be established, composed of five high-level experts from relevant fields.
+A dedicated **External Advisory Board (EAB)** has been established as a core component of the TechTraPlastiCE project's quality assurance strategy. The EAB plays a dual role: ensuring the excellence of project outputs and enhancing engagement with key external stakeholders in academia, industry, and the circular economy sector.
+In that sense, EAB will be established, composed of at least five high-level experts from relevant fields.
 The main objective of the EAB is to provide independent, strategic advice to the project consortium based on the obtained data, thereby enhancing the overall scientific and societal impact of the initiative.
 
 The EAB will serve as a critical interface between the TechTraPlastiCE consortium and external stakeholders, offering guidance on key issues, responding to consortium queries, and contributing to the broader dissemination and visibility of project results.
-Its role will be instrumental in aligning project activities with current trends, best practices, and emerging opportunities in the field, especially at the European and global levels.
+Its role will be instrumental in aligning project activities with current trends, best practices, and emerging opportunities in the field, at the European and Latin American context.
 
-Members of the EAB will be selected for their expertise and professional standing in areas directly relevant to the core objectives of the project. Particular focus will be placed on:
+Members of the EAB will be selected for their expertise and professional standing in areas directly relevant to the core objectives of the project. 
+Particular focus will be placed on:
 
-1. **Technological transfer and academia-industry collaboration** : experts in these competences will TechTraPlastiCE consortium to adquire effective knowledge onthe different transfer mechanisms and partnerships and their limitations. This is important in the sscope of the project.
+1. **Technological transfer and academia-industry collaboration** : experts in these competences will TechTraPlastiCE consortium to acquire effective knowledge on the different transfer mechanisms and partnerships and their limitations. 
+This is important in the scope of the project.
 
-2. **Circular economy within the plastic value chain**: experts in cricular economy could bring to the consortium examples of sustainable practices, lifecycle thinking, and resource efficiency where the academia can collaborate with the socio-economical actors. 
+2. **Circular economy within the plastic value chain**: Experts in circular economy will provide the consortium with concrete examples of sustainable practices, lifecycle thinking, and resource‑efficiency measures, where the collaboration between academia and socio‑economic stakeholders can take place.
 
 3. **Integration of marginalized actors in the plastic value chain into academic and research ecosystems** : 
-experts in this topic can illustrated the consortium, and more particular the latinamerican context, the relevant role of  inclusivity, equity, and capacity building for underrepresented communities in the circular economy. This is a major competence where the shared of experiences will have a major impact inside and outside of the consortium.
+Researchers / practitioners in this topic can illustrated the consortium, and more particular the latin-american context, the relevant role of inclusivity, equity, and capacity building for underrepresented communities in the circular economy. This is a major competence where the shared of experiences will have a major impact inside and outside of the consortium.
 
 The EAB will work closely with the project coordinator and select members of the consortium. **Two formal meetings per year** will be coordinated by the project coordinator, although **ad hoc consultations** may occur as needed.
 In addition to strategic input, EAB members will also be invited to participate in key project events, workshops, and public engagement activities, thereby contributing to increased visibility and uptake of project outcomes across multiple sectors.
 
 By incorporating diverse perspectives and expertise, the **External Advisory Board** will play a vital role in reinforcing the relevance, inclusiveness, and long-term sustainability of TechTraPlastiCE’s results.
 
-
-
-The settting up proposition 
+The EAB is presented in the official TechTraPlastiCE's website  [https://techtraplastice.eu/comite-asesor/](https://techtraplastice.eu/comite-asesor/)
 
 
 :::landscape
 ```{r}
 #| label: tbl-eab
-#| tbl-cap: "Communication Methods of TechTraPlastiCE"
+#| tbl-cap: "External Advisory Board of TechTraPlastiCE project"
 
 
 table <- 
 tribble(
-~People, ~Organisation, ~Profile, ~Contact,
+~People, ~Organisation, ~Profile, 
 
-"Maria José Zapata", 
-"Department of Business Administration, School of Business, Economics and Law
-University of Gothenburg - Sweden", 
-"Associate Professor at the University of Gothenburg.
-Her scholarship is rooted in examining how public-private collaborations and grassroots initiatives shape environmental sustainability in urban contexts.
+"Maria José Zapata 
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Maria-jose.png}", 
+
+"Department of Business Administration, School of Business, Economics and Law University of Gothenburg - Sweden", 
+
+"Associate Professor at the University of Gothenburg. Her scholarship is rooted in examining how public-private collaborations and grassroots initiatives shape environmental sustainability in urban contexts.
 As project leader of the enduring 'Grassroots for Sustainability' research group, she explores how grassroots networks and community-led practices enhance resilience, mitigate climate impacts, and reshape urban environmental governance.
-   
-Her research has been widely published in leading journals such as Habitat International, Environment and Urbanization, and Accounting, Organizations and Society.", 
-"- Website: https://www.gu.se/en/about/find-staff/mariajosezapatacampus
-- ORCID: https://orcid.org/0000-0002-2271-0148
-",
+\\textbf{Areas of expertise}: Grassroots Innovation; Waste Pickers;  Sustainability 
+\\textbf{Contact:}
+- \\faDesktop: \\href{https://www.gu.se/en/about/find-staff/mariajosezapatacampus}{https://www.gu.se/en/about/find-staff/mariajosezapatacampus}
+- \\aiOrcidSquare :  \\href{https://orcid.org/0000-0002-2271-0148}{https://orcid.org/0000-0002-2271-0148} 
+", 
 
-"Ferran Giones",  
+
+"Ferran Giones
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Ferran.png}",  
+
 "Institute of Entrepreneurship and Innovation Science (ENI)
-Unversity of Sttutgart - Germany", 
-"Associate Professor and Deputy Director at the Institute of Entrepreneurship and Innovation Science (ENI), University of Stuttgart. He holds a BBA and MBA from ESADE Business School and earned his Ph.D. from La Salle – Ramon Llull University in Barcelona. 
+University of Stuttgart - Germany", 
 
-Before entering academia, he built his expertise in strategy consulting and international project management, later serving as Assistant Professor in Technology Entrepreneurship at the University of Southern Denmark. He leads teaching in Technology Entrepreneurship.",
-"- Website: https://www.eni.uni-stuttgart.de/en/institute/team/Giones/ 
-- ORCID: https://orcid.org/0000-0002-1927-6918
+"Associate Professor and Deputy Director at the Institute of Entrepreneurship and Innovation Science (ENI), University of Stuttgart. 
+He holds a BBA and MBA from ESADE Business School and earned his Ph.D. from La Salle – Ramon Llull University in Barcelona. He built his expertise in strategy consulting and international project management in industry. Later as Assistant Professor in Technology Entrepreneurship at the University of Southern Denmark, he leads teaching in Technology Entrepreneurship.
+\\textbf{Areas of expertise}: Entrepreneurship; Tech-Transfer; Strategy
+\\textbf{Contact:}
+- \\faDesktop: \\href{https://www.eni.uni-stuttgart.de/en/institute/team/Giones/}{https://www.eni.uni-stuttgart.de/en/institute/team/Giones/}
+- \\aiOrcidSquare : \\href{https://orcid.org/0000-0002-1927-6918}{https://orcid.org/0000-0002-1927-6918}
 ",
 
-"Astrid Jaime",
-"Associate researcher, Industrial Engineering
+
+
+"Astrid Jaime
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Astrid.png}",
+
+"Associate researcher,
 Corporación Universitaria Minuto de Dios - Colombia",
-"PhD in Industrial Engineering, with emphasis on Knowledge Management in Research. 
-Experience in Management of Technology, Knowledge Management and general issues related to technological innovation. At present, working as Associate Proffesor at the University El Bosque. 
 
-Previously, Chief of Knowledge Generation Management at the University Antonio Nariño, Director of Knowledge Transfer at the Industrial University of Santander, Advisor of the Colombian Administrative Department of Science, Technology and Innovation.",
-"- ResearchGate: https://www.researchgate.net/lab/Astrid-Jaime-Lab 
-- ORCID: https://orcid.org/0000-0003-2938-2439
+"PhD in Industrial Engineering, with emphasis on Knowledge Management in Research. She has experience in Management of Technology, Knowledge Management and general issues related to technological transfer. 
+Currently, she is working as Associate Professor at the University El Bosque. 
+Previously, Chief of Knowledge Generation Management at the University Antonio Nariño, Director of Knowledge Transfer at the Industrial University of Santander, Advisor of the Colombian Administrative Department of Science, Technology and Innovation.
+\\textbf{Areas of expertise}: Knowledge Transfer; Tech-Transfer  
+\\textbf{Contact:}
+- \\faDesktop: \\href{https://www.researchgate.net/lab/Astrid-Jaime-Lab }{https://www.researchgate.net/lab/Astrid-Jaime-Lab} 
+- \\aiOrcidSquare : \\href{https://orcid.org/0000-0003-2938-2439}{https://orcid.org/0000-0003-2938-2439} 
 ",
 
-"Mara Volpe",
+
+"Mara Volpe
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Mara.png}",
+
 "Cyclus - Enterprise on Circular Economy and Decarbonation - Argentina",
+
 "Founder of CYCLUS - Technical and technological solutions in Circular Economy and Decarbonization.
-She have developed and implementated sustainable transformation projects with the a triple botton line impact analysis, evaluating social, environmental and economic effects to promote sustainable practices and innovative solutions.",
-"- Website: https://cyclus.com.ar/",
+She has developed and implemented sustainable transformation projects with a triple bottom line impact analysis, evaluating social, environmental and economic effects to promote sustainable practices and innovative solutions.
+\\textbf{Areas of expertise}: Circular Economy; Low-carbon economy
+\\textbf{Contact:}
+- \\faDesktop: \\href{https://cyclus.com.ar/}{https://cyclus.com.ar/}",
 
 
-"Carolina Pizarro *",
-"Sustainability Manager at Alimentos y Bebidas de Chile A.G.",
-"She leads the sustainability strategy at Alimentos y Bebidas de Chile AG, coordinating circular economy initiatives with 28 major companies. She has experience in waste valorization, sustainable packaging, and biofuels. She can provide a strong technical and operational perspective to strengthen industry-academia collaboration within the project.",
-"- Website: https://www.abchile.cl/nosotros",
+"Veronica Bucala
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Veronica.png}",
+
+"Co-founder of SophIA-X
+
+Retired Professor Universidad Nacional del Sur",
+
+"Verónica Bucalá holds a PhD in Chemical Engineering and was a Principal Investigator at CONICET (National Institute of Technology and Technology), with a distinguished career in research, teaching, and scientific management. 
+She served as director of the Chemical Engineering Pilot Plant (PLAPIQUI, UNS-CONICET) and as dean of the Department of Chemical Engineering at the National University of the South. She promoted the link between science and industry, fostering technology transfer. 
+She is currently the *co-founder of SophIA-X*, where she leads innovation initiatives and corporate training programs in artificial intelligence aimed at implementing responsible solutions.
+\\textbf{Areas of expertise}: Portfolio Design, Academy-Industry Partnership
+\\textbf{Contact:}
+- \\faDesktop: \\href{https://www.linkedin.com/company/sophia-x/about/}{https://www.linkedin.com/company/sophia-x/about/}
+- \\aiOrcidSquare : \\href{https://orcid.org/0000-0002-5707-4436}{https://orcid.org/0000-0002-5707-4436} 
+",
 
 
-"Paula Juarez *",
-"National University of Quilmes (UNQ) and an Senior Researcher at the Institute of Studies on Science and Technology (IESCT-UNQ)",
-"Paula Juarez currently works at the Institute for the Study of Science and Technology, National University of Quilmes (Argentina). Paula does research in Science and Technology Policy for Inclusive Sustainable Development, Water, Food and Climate Policy and Circular Economy. Her perspective of research is socio-technical and interdisciplinary. She works with non-academic actors to improve development strategies and policies in Argentina, Gran Chaco Americano and the world.",
-"- ORCID: https://orcid.org/0000-0002-8955-2068",
+"Marcos Maldonado Vargas 
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Marcos.png}",
+
+"Public Policy Division Advisor at the Ministry of Science, Technology, Knowledge and Innovation of the Government of Chile.",
+"His work focuses on public policy and research coordination. He holds a dual Chilean-French degree in Industrial and Systems Engineering and a Master's Degree II in Innovation Management and Industrial Design.
+He has over six years of experience in technology and innovation.
+His professional career includes promoting innovation projects aligned with forestry and agricultural priorities, contributing to sustainable development and the integration of scientific knowledge into policy and practice.
+\\textbf{Areas of expertise}: Public policy and R\\&D coordination; Sustainable development strategies; Research and innovation policies
+\\textbf{Contact:}
+- \\faDesktop: 
+\\href{https://www.linkedin.com/in/marcosmaldonado/}{https://www.linkedin.com/in/marcosmaldonado/}
+",
 
 
-"Lucas Dardo Becerra *",
-"Regular Professor of International Economics at the National University of Quilmes (UNQ). He is a Visiting Professor at the Sorbonne Nouvelle University in Paris, where he teaches courses on social studies of science and technology and development and technology policy",
-"Lucas has developed a strong expertise in inclusive and sustainable development, science, technology and innovation policy, and circular economy. He has participated in numerous research projects, published academic papers, conducted field work, and provided strategic inputs for decision making in Latin America and beyond. He is currently the Director of the R\\&D project on public policies of science, technology and innovation and the Coordinator of the Open Lab of Innovation and Circular Economy.",
-" - ORCID: https://orcid.org/0000-0001-6514-3182",
+"Flavio Salgado
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Flavio.png}",
+
+"General Manager of the European School of Materials (EUSMAT) at the University of Saarland (Germany), researcher at the Materials Engineering Center Saarland (MECS)",
+
+"Flavio is a Mechanical Engineer and holds a PhD in Materials Science and Engineering. 
+He has more than 25 years of experience in scientific research related to advanced materials for electrical applications; 3D analysis of micro/nano-structures; and electron microscopy and focused ion beam applications. He also has more than 20 years of experience in the coordination and management of international research and education projects.
+As part of MECS, an institute dedicated to technology transfer between academia and industry, he has extensive experience working with industry on problems related to materials characterization and issues relating to Circular Economy.
+\\textbf{Areas of expertise}: Material science; Technology Transfer; Circular Economy
+\\textbf{Contact:}
+- \\aiOrcidSquare : \\href{https://orcid.org/0000-0002-5904-496X}{https://orcid.org/0000-0002-5904-496X}
+",
+
+
+"Magali Maida
+
+\\includegraphics[width=2cm]{figures/6.1/EBA/Magali.png}",
+
+"Director of Development and Knowledge Transfer at the Universidad del Desarrollo.",
+
+"She specializes in intellectual property and technology transfer, providing comprehensive support in research results management, patent searches, and global intellectual property strategy. She has experience in technology valuation, market analysis, and licensing strategy development, including the identification of potential licensees.
+\\textbf{Contact:}
+- \\faDesktop: \\href{https://ecosistema.udd.cl/profesores/magali-maida/}{https://ecosistema.udd.cl/profesores/magali-maida/}
+"
 )
-
 
 table %>%
   mutate_all(linebreak) %>%
-  kbl("latex", booktabs = T, escape = F, align = c('l','l','l','l'), longtable = T,
+  kbl("latex", booktabs = T, escape = F, align = c('c','l','l'), longtable = T,
       linesep = "\\midrule\\addlinespace") %>%
    kable_styling( full_width = F,   
                   latex_options = c("repeat_header"),
                   font_size = 9) %>% 
    row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
    column_spec(1, width = c("2cm"))  %>%
-   column_spec(2, width = c("3cm"))  %>%
-   column_spec(3, width = c("8cm"))  %>%
-   column_spec(4, width = c("5cm")) %>%
-   footnote(symbol = c("To be confirmed"))
-
+   column_spec(2, width = c("4cm"))  %>%
+   column_spec(3, width = c("12cm"))  
 ```
 
 :::
@@ -638,7 +698,8 @@ table %>%
 ## Planning with Expected work with EAB and TechTraPlastiCE Consortium
 
 The highlighted green lines in @fig-EBA represent the proposed interventions of the External Advisory Board (EAB) during the development of TechTraPlastiCE.
-These interventions are planned at specific stages of the project, when the consortium is carrying out critical tasks. At these moments, the contribution of external advisors plays a key role in consolidating progress and ensuring alignment with project objectives.
+These interventions are planned at specific stages of the project, when the consortium is carrying out critical tasks. 
+At those moments, the contribution of external advisors plays a key role in consolidating progress and ensuring alignment with project objectives.
 
 The expected collaboration with the Advisory Board is structured by year:
 
@@ -649,7 +710,7 @@ The expected collaboration with the Advisory Board is structured by year:
 
 
 :::landscape
-![](../assets/Gantt/EBAGantt.png){#fig-EBA fig-align="center" width="95%"}
+![Participation of the EBA in the TechTraPlastiCE development](../assets/Gantt/EBAGantt.png){#fig-EBA fig-align="center" width="95%"}
 :::
 
 
@@ -657,28 +718,37 @@ The expected collaboration with the Advisory Board is structured by year:
 
 ## Logic of Participation of the External Board Advisory (EBA) in TechTraPlastiCE
 
-The External Board Advisory (EBA) will play a central role in guiding and validating the TechTraPlastiCE project throughout its lifecycle. 
-The main purpose is to bring together experts in **circular economy, technology transfer between academia and industry, and plastic recycling**, the EBA will ensure that the project’s activities are aligned with both international best practices and the specific socio-economic realities of Latin America.  
+The External Board Advisory (EBA) will play a central role in guiding the TechTraPlastiCE project throughout its lifecycle. 
+The main purpose is to bring together experts in **circular economy, technology transfer between academia and industry, and plastic value chain**, to the project’s activities in order to have a external perspective aligned with both international best practices and the specific socio-economic realities of Latin America.  
 
 The EBA’s participation is structured across key points, each corresponding to critical phases of the project, where their expertise will be most impactful.  
 
 
-
 ### Introduction Participation EBA - 2025
 
-The purpose of 2025 for EBA will be present the project and exchange first EBA's experiences for all consortium in order to establish a baseline of mutual confidence.
-As example, during the kick of meeting, we had the opportunity to invite Prof. Ferran Giones[^2] of the university of Sttutgart and the Prof. Maria Jose Zapata[^3] of the University of Gottemburg.
+
+The purpose of 2025 for EBA will be to present the project and exchange first EBA's experiences for all consortiums in order to establish a baseline of mutual confidence.
+For example, during the kickoff meeting, we had the opportunity to invite Prof. Ferran Giones[^2] of the university of Stuttgart and the Prof. Maria Jose Zapata[^3] of the University of Gothenburg.
 They share with the TechTraPlastiCE consortium a presentation on "*Technology Transfer
-Challenges & Opportunities*"" (Prof. Ferran Giones) and "*Circular Grassroots Innovations*" (Prof. Marioa Jose Zapata); giving remarkables insigths in the challenges that TechTraPlastiCE aims to tackle. 
+Challenges & Opportunities*"" (Prof. Ferran Giones) and "*Circular Grassroots Innovations*" (Prof. Maria José Zapata); giving remarkable insights on grassroot innovation (Waste Pickers) in the challenges that TechTraPlastiCE aims to tackle. 
 
 
-![Participation of Prof. Ferran Giones from University of Sttutgart and Prof. Maria José Zapata from the University of Gotemburg during Kick-off meeting at Nancy, France on March 25-28/2025.](figures/6.1/External-committe.png){#fig-kick width="70%"}
+![Participation of Prof. Ferran Giones from University of Stuttgart and Prof. Maria José Zapata from the University of Gothenburg during the kick-off meeting at Nancy, France on March 25-28/2025.](figures/6.1/External-committe.png){#fig-kick width="70%"}
 
 
 
 [^2]: See her profile on [https://www.gu.se/en/about/find-staff/mariajosezapatacampus](https://www.gu.se/en/about/find-staff/mariajosezapatacampus)
 
 [^3]: See his profile on [https://www.eni.uni-stuttgart.de/en/institute/team/Giones/](https://www.eni.uni-stuttgart.de/en/institute/team/Giones/)
+
+
+Likewise, we introduced Prof. Astrid Jaime from the UNIMINUTO from Colombia (@fig-astrid), in the frame of the *WP2: Development of a networked portfolio* at the general meeting of October 22/2025.
+She shared her experience on the development of the Technology Transfer Office at the Universidad Industrial de Santander (UIS), giving  learned lessons of the process to the consortium. 
+This was very useful to the current activities of the TechTraPlastiCE consortium. 
+Therefore, the intention is to present the different members of the EAB, through general presentation of their background and experiences that match the tasks of the TechTraPlastiCE.
+
+![Participation of Prof. Astrid Jaime from University UNIMINUTO of Colombia in General Meeting of TechTraPlastiCE of October 22/2025.](figures/6.1/Astrid.png){#fig-astrid width="70%"}
+
 
 
 
@@ -697,7 +767,9 @@ Therefore, the EBA’s Contribution  will around :
 2. Identify **shared barriers** across the three participating countries, highlighting systemic challenges to academia-industry collaboration.
 3. Help map **specific opportunities** that each HEI can explore, considering the diversity of socio-economic contexts.
 
-The format expected will be joint workshop where HEIs present their findings and local challenges that may involve in-depth advisory and mentoring session with EBA experts to refine collaboration strategies.  
+
+The format expected will be a joint workshop where HEIs present their findings and local challenges that may involve in-depth advisory and mentoring sessions with EBA experts to refine collaboration strategies.  
+
 
 
 ## II. Participation of EBA – 2026, Q4
@@ -713,11 +785,11 @@ Likewise, this participation is enframed in the tasks:
 
 In that sense, the EBA will join the TechTraPlastiCE :  
 
-1. Give a feedback  on the proposed pilot projects in terms of feasibility, innovation, and regional impact.
+1. Give feedback  on the proposed pilot projects in terms of feasibility, innovation, and regional impact.
 2. Provide recommendations to strengthen partnerships between HEIs and ecosystem actors (industry, municipalities, NGOs).
 3. Anticipate potential risks and suggest strategies for effective implementation.
 
-It would be expected that EBA join in project meetings and (if posible for EBA colombian) presencial conferences in Colombia. 
+It is expected that EBA may join in project meetings and (if possible for EBA Colombian, Chilean and Argentinian) in-situ search conferences. 
 As a result,  structured recommendations report highlighting *critical success factors* for the pilot phase.  
 
 
@@ -753,16 +825,18 @@ Therefore, the EBA will:
 2. Add contrasting viewpoints that enrich the institutional recommendations and ensure they are relevant for both academia and practice.
 3. Suggest **strategic pathways** for HEIs to advance circular economy and technology transfer initiatives after the project’s completion.
 
-The add value of EBA in this point of the project is to extract **transferable best practices** according their experience to the HEI's, not only from TechTraPlastiCE, but for latin-american HEI's.
-This will contribute to the final recommendations report and evetually working for  post-project sustainability strategies.  
+
+The add value of EBA in this point of the project is to extract **transferable best practices** according to their experience to the HEI's, not only from TechTraPlastiCE, but for latin-american HEI's.
+This will contribute to the final recommendations report and eventually working for  post-project sustainability strategies.  
+
 
 
 # Conclusions
 
-This document reports a quality plan that will be implememented in the TechTrasPlastiCE project.
-The quality plan will take three major elements, namely 1) quality committee project that establish an overall governance of the quality aspect of the project, 2) internal and external communications and 3) external advisory committee.
+This document reports a quality plan that will be implemented in the TechTrasPlastiCE project.
+The quality plan will take three major elements, namely 1) quality committee project that establishes an overall governance of the quality aspect of the project, 2) internal and external communications and 3) external advisory committee.
 
-These elements aims to provide sufficient mechanisms and instruments approved by mutual agreement to ensure compliance with the project's objectives and indicators with high-quality standards and delimiting decision-making elements. 
+These elements aim to provide sufficient mechanisms and instruments approved by mutual agreement to ensure compliance with the project's objectives and indicators with high-quality standards and delimiting decision-making elements. 
 Also, it will specify the means of communication, frequency and the external advisory board that will join the project to guarantee the outputs of the project implementation.
 
 

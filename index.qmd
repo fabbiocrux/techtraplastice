@@ -13,7 +13,6 @@ lightbox: true
 
 
 
-
 # Welcome to the Kick-Off Meeting
 ## Join us in Nancy, France !!
 

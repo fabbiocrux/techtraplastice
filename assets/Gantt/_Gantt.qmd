@@ -7,7 +7,7 @@ format:
     lof: false
     documentclass: article
     #classoption: [legalpaper]
-    geometry: margin=2cm, paperheight=34cm, paperwidth=49cm
+    geometry: margin=2cm, paperheight=35cm, paperwidth=49cm
     number-sections: true
     include-in-header: [packages.tex]
     keep-tex: false
@@ -27,7 +27,7 @@ format:
    x unit = 0.7cm,
    time slot format = isodate-yearmonth,
    time slot unit=month,
-   today=2025-07,
+   today=2025-10,
    progress= today,
    title/.append style={draw=none, fill= Neutro},
    title label font=\sffamily\bfseries\color{white},
@@ -68,8 +68,8 @@ format:
 \ganttbar[name=1c, progress=10, progress label text={10\%}]{Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} \\
 
 % Milestone 1
-\ganttmilestone[progress=90]{Milestone 1: Industries/companies are committed with the project and responds consultations}{2025-07} 
-
+\ganttmilestone[progress=90]{Milestone 1: Industries/companies are committed with the project and responds consultations}{2025-07} \\
+\ganttmilestone[EBA]{\colorbox{OliveGreen}{\color{white}\large Presentation of External Board Advisory}}{2025-12} \\
 \ganttnewline[thick, Celeste]  \\
 
 % Working package 2
