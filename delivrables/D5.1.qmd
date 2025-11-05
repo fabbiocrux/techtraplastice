@@ -37,6 +37,7 @@ library(readxl)
 
 # Introduction
 
+
 With the support of Université de Lorraine  (UL) as TechTraPlastiCE Project Coordinator and the participation and colaboration of all partners, Universidad Nacional de Río Negro (UNRN) will lead **Work Package 5 (WP5) - Dissemination and Communication**.
 
 This work package is supporting the TechTraPlastiCE Project throughout the whole implementation process and aims at a widespread impact. Therefore**, WP5 leader, fully supported by all other partners of the project, will execute the five work areas (tasks) that involves this WP:**
@@ -51,10 +52,10 @@ In this document, we will address the **Dissemination and Exploitation strategy 
 
 
 All these activities support the TechTraPlastiCE Project in the development of a **coherence communication, unified appearance and the creation of the Project branding**. Therefore, the digital dissemination materials and tools will be accessible at any time. One of the main difficulties in a big consortium is the distribution of communication and delivery of timely information. To this aim, **partner’s training** will help to ensure each partner understands its role, the channels, and the means to create accurate and proper content for the different channels. 
-The formation of a **communication team** with representatives from all partners institutions will be key to ensure the correct implementation of this plan. WP5´s leader will *monitor* the dissemination efforts of the consortium on a regular basis.
+The formation of a **communication team** with representatives from all partners institutions will be key to ensure the correct implementation of this plan. WP5's leader will *monitor* the dissemination efforts of the consortium on a regular basis.
 
 
-Considering that communication is a *dynamic process*, WP5´s leader will regularly provide updates of the dissemination Plan according to the partners’ needs and will provide support in the organization of events from other WPs when it comes to dissemination tools and branding.
+Considering that communication is a *dynamic process*, WP5's leader will regularly provide updates of the dissemination Plan according to the partners’ needs and will provide support in the organization of events from other WPs when it comes to dissemination tools and branding.
 
 
 # Dissemination and Exploitation within the TECHTRAPLASTICE Project

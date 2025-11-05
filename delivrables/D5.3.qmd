@@ -17,81 +17,140 @@ lof: true
 ---
 
 
+# Executive Summary
+
+Deliverable **D5.3 – Project Website and Social Media Accounts** presents the development, deployment, and coordination of TechTraPlastiCE’s digital communication ecosystem, led by the *Universidad Nacional de Río Negro (UNRN)* under **Work Package 5 – Communication and Dissemination**.  
+This deliverable outlines the establishment of the project’s official website — [https://techtraplastice.eu](https://techtraplastice.eu) — and its associated social media channels on **LinkedIn**, **X (formerly Twitter)**, and **YouTube**, which collectively ensure visibility, engagement, and accessibility of the project’s activities and outputs.
+
+The website serves as the **primary communication platform** for the consortium, providing updated information about project objectives, news, events, and results. It is designed to deliver clear, accessible, and bilingual content (English and Spanish) targeting diverse audiences, from higher education stakeholders and researchers to enterprises and policy actors in the plastic value chain. The site’s structure — comprising *Home, Project, Partners, News, Agenda,* and *Contact* sections — supports intuitive navigation and transparent communication of the project’s scope and achievements.
+
+A monthly content calendar and standardized templates coordinate partner contributions to the website’s **News** and **Agenda** sections, ensuring timely and coherent dissemination.  
+All key project deliverables will be made publicly available upon completion, in accordance with the **EACEA’s principle of knowledge sharing**.
+
+To extend outreach beyond the website, a coordinated social media strategy integrates **LinkedIn, X, and YouTube** as complementary dissemination tools. These platforms are used to highlight project milestones, promote events, share multimedia materials, and redirect audiences toward the main website.  
+Partners are encouraged to actively engage by sharing, reposting, and commenting on content to amplify visibility through their institutional and professional networks.
+
+The dissemination strategy also emphasizes **multi-level engagement**:
+- At the **local level**, within Higher Education Institutions (HEIs), to build internal capacity and awareness;
+- At the **national level**, to connect with enterprises, chambers of commerce, and associations linked to the plastic value chain; and
+- At the **international level**, to contribute to scientific and policy discussions on the circular economy transition.
+
+The **WP5 leader** maintains a monitoring database to track partner contributions, ensuring balanced participation and systematic evaluation of communication impact.  
+User experience (UX) analysis confirms that the website’s design — minimalistic, responsive, and professionally branded — effectively reflects the project’s academic and technological nature. It combines visual clarity, functional usability, and a consistent identity aligned with the European Commission’s visibility requirements.
+
+Overall, Deliverable D5.3 demonstrates that the TechTraPlastiCE website and social media channels effectively support the project’s mission to **promote knowledge exchange, visibility, and stakeholder engagement** throughout its lifecycle.  
+
+
 # Introduction
 
-With the coordination of *Université de Lorraine (UL – P1)* and the active collaboration of all project partners, the *Universidad Nacional de Río Negro (UNRN – P3)* leads Work Package 5 (WP5) – Dissemination and Communication within the TechTraPlastiCE project. 
-This work package plays a strategic role in ensuring that the project’s objectives, activities, and results are effectively communicated to a wide range of stakeholders at local, national, and international levels.
+Effective communication and dissemination are key enablers of the TechTraPlastiCE mission, which aims to strengthen the applied research and innovation capacities of Higher Education Institutions (HEIs) to become relevant actors in the circular economy transition within the plastic value chain in the Latin American context.
 
-WP5 accompanies the entire project lifecycle and is designed to maximize visibility and impact through a comprehensive dissemination strategy. It encompasses five core deliverables:
+In this regard, The *Universidad Nacional de Río Negro (UNRN)* leads Work Package 5 (WP5) – Dissemination and Communication, which plays a strategic role in ensuring that the project’s objectives, activities, and results are effectively communicated to a broad range of stakeholders at local, national, and international levels. 
+With the support and coordination of the Université de Lorraine (UL – P1), the entire TechTraPlastiCE consortium contributes actively to maximizing visibility and impact throughout the project’s lifecycle.
 
-- the Digital Communication Strategy (D5.1),
-- the Branding Toolkit and Training Plan (D5.2),
-- the Project Website and Social Media Accounts (D5.3),
-- the Open Digital Repository (D5.4), and
-- the Final Conference and Results Summary (D5.5).
+WP5 encompasses a comprehensive set of deliverables designed to implement the project’s dissemination and communication strategy:
 
-This report presents **Deliverable D5.3 - Project Website and Social Media accounts**, focused on the design, structure, and deployment of the official project website (techtraplastice.eu) and the associated social media platforms (@techtraplastice on LinkedIn, X, and YouTube). 
-
-These digital tools function as the main communication and interaction channels for the project, providing a central space where stakeholders can access official updates, activities, and results. Furthermore, the project's Dissemination Plan (D5.1) includes guidelines for amplifying outreach through the social media networks of partner institutions—particularly in channels where the project does not maintain a dedicated presence, such as Facebook and Instagram. 
-This integrated communication strategy is fundamental to fostering engagement and ensuring the long-term sustainability and accessibility of the project’s outputs.
+- D5.1 -- Digital Communication Strategy ,
+- D5.2 -- Branding Toolkit and Training Plan ,
+- D5.3 -- **Project Website and Social Media Accounts**,
+- D5.4 -- Open Digital Repository , and
+- D5.5 -- Final Conference and Results Summary .
 
 
-# Dissemination and Exploitation within the TECHTRAPLASTICE Project
+This document presents **Deliverable D5.3 – Project Website and Social Media Accounts**, developed under **Work Package 5 (WP5) – Communication and Dissemination**, led by the *Universidad Nacional de Río Negro (UNRN)*.  
+The deliverable focuses on the **design, structure, and deployment** of the official TechTraPlastiCE website (\href{techtraplastice.eu}{https://techtraplastice.eu/})  and associated social media channels ([@techtraplastice on LinkedIn](https://www.linkedin.com/company/techtraplastice/), [X](https://x.com/techtraplastice), and [Youtube](https://www.youtube.com/@TechTraPlastiCE)), which together form the project’s digital communication ecosystem.
+These digital tools function as the main communication and interaction channels for the project, providing a central space where external stakeholders can access official updates, activities, and results. 
 
 
-As it was developed on the project's Dissemination and Exploitation Plan (D5.1),  effective dissemination is about delivering the right message to the right person. 
-Relevant stakeholders will be continuously provided with updated information regarding project activities, news and events. 
+In alignment with the *Digital Strategy for Dissemination and Exploitation (Deliverable D5.1)*, this deliverable supports the project’s overarching objective of **amplifying outreach and engagement** through both dedicated and partner-led channels.  
+This includes leveraging additional networks such as *Facebook* and *Instagram*, where the project may not maintain direct accounts but can still ensure visibility through partners and associated initiatives.
 
-All results will be solely promoted among the partners’ national and international networks. 
+The integrated communication and dissemination strategy described in this deliverable is designed to:
 
-On the other hand, *exploitation* also refers to transferring the project’s results after its completion and providing main target groups with tools and information to expand the impact of such results. 
+- Foster engagement among stakeholders and target audiences;
+- Enhance the visibility of project results and activities; and
+- Ensure the *long-term sustainability and accessibility* of TechTraPlastiCE outputs beyond the project’s duration.
 
-At the end, final outputs materials will be shared with the open public (OERs) - D5.4 and D5.5.
-
-## Dissemination and Exploitation channels
-
-In order to delivering the right message to the right person,  the project's Dissemination and Exploitation Plan contemplates differents channels: 
-
-1. Project website, 
-1. social media profiles,
-1. Newsletters, email,  brochures, press releases and events.
-1. Open Digital Repository (c.f.  D5.4), 
+This document is structured in three major section. 
+First, project website launching and monitoring is detailed. 
+Then, a focus wil be made on the social media accounts. 
 
 
-In the following sections
+#  TechTraPlastiCE Website launching and Monitoring --[techtraplastice.eu/](https://techtraplastice.eu)--
+
+TechTraPlastiCE aims to deliver the *right message to the right audience*.
+As highlighted in *Deliverable D5.1 – Digital Strategy for Dissemination and Exploitation*, it is essential that all relevant stakeholders are continuously informed through timely and updated information on project activities, news, and events.  
+
+Therefore, the project website [https://techtraplastice.eu](https://techtraplastice.eu) (see Figure @fig-web) serves as the **main communication platform** for the TechTraPlastiCE consortium. 
+It provides a clear and accessible overview of the project’s progress, achievements, and outputs. 
+The website is designed to be comprehensive, and regularly updated, ensuring that information is relevant and understandable for a broad public audience as well as for specific target groups.
 
 
-### Project Website [techtraplastice.eu/](https://techtraplastice.eu/)
+![Project Website: [https://techtraplastice.eu/](https://techtraplastice.eu/)](figures/5.3/website-00.png){#fig-web fig-align="center" width="70%"}
 
 
-![Project Website: [https://techtraplastice.eu/](https://techtraplastice.eu/)](figures/5.3/website-00.png){fig-align="center" width="90%"}
+In addition, all project results will be promoted through the partners’ national and international networks, thereby maximizing impact and ensuring wide outreach across sectors and regions.
 
+## TechTraPlastiCE Website Visibility 
 
-Te project website is the main platform of the project, as it is the only one to have the most clearly structured, complete and updated public information of the project for the broad public and all target groups.
+All communication and dissemination actions are designed to direct audiences to the official TechTraPlastiCE website for further information and for contacting the project management team.
+To maximize outreach, the website is also interconnected with each partner’s institutional communication channels, ensuring consistent visibility across the consortium network.
 
-The website will be actively cross-linked with other websites and platforms which add value to the TechTraPlastiCE dissemination. 
-Further, the website includes a contact form in order to give the possibility to get in contact with the consortium whenever needed. 
-All communication actions should lead to the website for more information and to contact the project management. 
+To enhance visibility and reach a broader audience throughout the project’s implementation, the website is actively cross-linked with other relevant institutional, national, and international platforms that support the dissemination objectives of TechTraPlastiCE.  
 
+![TechTraPlastiCE Website visibility: [https://techtraplastice.eu/](https://techtraplastice.eu/)](figures/5.3/Visibility.png){#fig-web fig-align="center" width="70%"}
 
-The website will be updated on a monthly basis. 
-WP5 leader will be in charge of designing, administering and keeping updated the TechTraPlastiCE website with the collaboration of all the partners. 
-To this aim, a mensual calendar (See @fig-calendar) was shared to define the content generation by each partner for NEWS and AGENDA sections for dissemination purposes. 
+In this regard, each partner university or organization has a dedicated webpage pointing to the official TechTraPlastiCE website, thereby strengthening its online presence and ensuring coherence across partner communications.
+The current list of partner webpages referencing TechTraPlastiCE includes:
+
+- **Université de Lorraine (France):** [TechTraPlastiCE – un projet Erasmus+ pour une économie circulaire du plastique](https://ensgsi.univ-lorraine.fr/recherche-ensgsi/chaires-partenariales-et-grands-projets-ensgsi/techtraplastice-un-projet-erasmus-pour-une-economie-circulaire-du-plastique/)
+- **Columbus Association:** [COLUMBUS forma parte del proyecto TechTraPlastiCE](https://columbus-web.org/servicios/)
+- **Universidad Central de Colombia:** [Proyectos Internacionales – Universidad Central](https://www.ucentral.edu.co/investigacion/proyectos-internacionales)
+- **Universidad Nacional de Colombia:** [La Universidad Nacional forma parte de un proyecto internacional para impulsar la economía circular en la industria del plástico](https://ingenieria.bogota.unal.edu.co/la-universidad-nacional-forma-parte-de-un-proyecto-internacional-para-impulsar-la-economia-circular-en-la-industria-del-plastico/
+)
+- **Universidad Nacional de Río Negro (UNRN):** [Programas y Redes – UNRN](https://www.unrn.edu.ar/section/38/programas-y-redes.html)
+- **Universidad Nacional del Sur (UNS):** [La Universidad Nacional del Sur se suma a un proyecto europeo para fortalecer la economía circular del plástico.](https://internacionalizacion.uns.edu.ar/techtraplastice/)
+- **Pontifia  Universidad Católica de Valparaiso (PUCV):** [Escuela de Ingeniería Química participa en proyecto "TechTraPlastiCE"](https://www.ingenieria.pucv.cl/escuela-de-ingenieria-quimica-participa-en-proyecto-techtraplastice-para-impulsar-la-economia-circular-en-la-industria-del-plastico/)
+- **Universidad de Santiago de Chile (USACH):** [Proyecto Erasmus TechTraPlastiCE avanza en propuestas de soluciones para la economía circular](https://www.ingenieriaindustrial-usach.cl/noticias/proyecto-erasmus-techtraplastice-avanza-en-propuestas-de-soluciones-para-la-economia-circular-en-colombia/)
+
+These institutional links significantly contribute to increasing the visibility of TechTraPlastiCE, reinforcing its credibility, and promoting engagement across the consortium’s extended networks.
+
+## Content creation and dissemination
+
+The TechTraPlastiCE website will be *updated on a monthly basis* to ensure that all information remains current and relevant.
+The WP5 leader is responsible for designing, administering, and maintaining the website, in close collaboration with all project partners.  
+
+To coordinate content production, a monthly dissemination calendar (see Figure @fig-calendar) has been established. This calendar defines the contributions expected from each partner for the **News** and **Agenda** sections, thereby ensuring regular and balanced updates across the consortium.
 
 ![Calendar for dissemination contents](figures/5.3/Calendar.png){#fig-calendar fig-align="center" width="90%"}
 
-Further, given the fact that EACEA follows the concept of knowledge sharing, the most important content deliverables of the project will be uploaded after completion on the website to guarantee easy access.
-
-Templates were provided to send the content as it is expected (see @sec-template), including all the kind of information needed and the requirements of the image format with the corresponding assignment of image using rights.
+To facilitate the preparation of dissemination materials, **standardized templates** have been provided to all partners (see Section @sec-template). These templates define the expected content format, specify the required information fields, and outline the **image format and usage rights** to ensure compliance with copyright and communication guidelines.
 
 
+### Multi-Level Dissemination and Partner Engagement
+
+In line with the EACEA’s principle of knowledge sharing, the most significant project deliverables and outputs will be made publicly available on the project website once finalized, ensuring open and easy access to key results and resources.
+
+As illustrated in @fig-vis2, the main objective is to enable each partner institution to disseminate project outcomes at **local**, **national**, and **international** levels, according to their specific networks and outreach capacity.
+
+![Visibility](figures/5.3/Visibility-2.png){#fig-vis2 fig-align="center" width="40%"}
+
+- **Local level:** Refers to the internal audiences within each Higher Education Institution (HEIs) population — including students, researchers, and academic staff.  
+  Dissemination at this level aims to identify and strengthen local competences within the HEIs, thereby enhancing their institutional capacity and expanding their educational and innovation portfolio in the field of circular economy.
+
+- **National level:** Encompasses outreach to enterprises, chambers of commerce, professional associations, and other relevant actors of the plastic value chain.  
+  Dissemination activities at this scale allow project results to reach stakeholders who can directly benefit from or contribute to the practical implementation of the project’s outcomes.
+
+- **International level:** Involves participation in scientific conferences, publications, and academic collaborations that arise from the collective work of the consortium.  
+  Although TechTraPlastiCE is primarily a capacity-building project, it also contributes to the broader research agenda on the circular economy transition in the plastics sector, a topic of growing societal and scientific relevance.
+
+To effectively coordinate these multi-level dissemination activities, the WP5 leader maintains a monitoring database (see @fig-vis3).  
+This tool allows for systematic tracking of the content generated and shared by each partner, ensuring balanced contributions and identifying opportunities to leverage each HEI’s local and national networks for maximum dissemination impact.
+
+![Partner Dissemination Monitoring Database](figures/5.3/Visibility-3.png){#fig-vis3 fig-align="center" width="100%"}
 
 
-This Plan also considers each partner’s institutional website as channels of communication, as they will replicate content (news and events) and will also have a visible and direct link to the main website of the Project on a permanent section.
-
-All the publications -on the project’s website and on institutional websites related to the project- will be registered - by the leader of package 5 in the first case and by the corresponding partner in the second case - in a shared database for reporting purposes.
-
-### Website tree structure and components
+## Website tree structure and components
 
 A first version of the TechTraPlastiCE website was created in February 2025 for the kick off meeting.
 It was completed in June 2025 with all sections and functionalities required for the initial stage of the project.
@@ -131,31 +190,41 @@ A gallery of logos displays the institutions involved, and each is linked to ext
 The *NEWS* section (@fig-news) compiles all project-related publications in a chronological list.
 Each entry includes the title, date, a featured image, and a “Read more” button, allowing users to follow project milestones and access detailed updates. This section helps demonstrate transparency, dissemination of results, and community outreach.
 
-![TechTraPlastiCE Website structuration](figures/5.3/website-02.png){#fig-news fig-align="center" width="60%"}
+![TechTraPlastiCE Website structure](figures/5.3/website-02.png){#fig-news fig-align="center" width="60%"}
 
-In the *AGENDA* section, users can find a calendar of relevant events.
+In the *AGENDA* section (@fig-agenda), users can find a calendar of relevant events.
 Each listing provides comprehensive details such as the event name, description, date, location, and direct links to add the event to personal calendars (e.g., Google Calendar). 
 This encourages active participation from stakeholders and the general public.
 
-
-The *CONTACT* section includes a contact form where users can submit inquiries by filling in their name, email, subject, and message. Additionally, a direct email address [info@techtraplastice.eu](mailto:info@techtraplastice.eu) is provided for more direct communication. 
-
-**This is very important in order to identify the enterprises that want to be part of the project in Colombia, Chile and Argentina contexts** 
-
-::: {layout="[50,50]"}
-![Agenda](figures/5.3/website-03.png)
-
-![Contact](figures/5.3/website-04.png)
-:::
-
+![Agenda](figures/5.3/website-03.png){#fig-agenda fig-align="center" width="60%"}
 
 The footer across the site contains essential elements such as legal text, EU funding disclaimers, and quick access to social media channels.
-
 Overall, the TechTraPlastiCE website tree reflects a well-organized, user-friendly interface that supports communication, transparency, and collaboration within a major European research initiative.
 
-### User Experience Report (UX/UI)
 
-The TechTraPlastiCE website features a clean and professional design that aligns with the academic and technological nature of the project as illustrated in  @fig-ux. 
+## Stakeholder Engagement and Contact Mechanisms
+
+All communication actions are designed to direct audiences toward the project website, which serves as the central hub for further information and for contacting the project management team.  
+
+One of the innovative features of TechTraPlastiCE is the early and continuous engagement of HEIs with the local ecosystem of the plastic value chain, initiated already in *WP1 Innovation Opportunities for Circular Economy* .  
+This strategy of TechTraPlastiCE aims to ignite a close interaction since the beginning between academia, industry, and society, ensuring that project activities are aligned with real-world challenges and opportunities.  
+
+![External stakeholder contact to TechTraPlastiCE consortium](figures/5.3/Engagement.png){#fig-engagement fig-align="center" width="70%"}
+
+
+To facilitate this engagement, the website includes a dedicated contact form (see @fig-engagement) that enables **external stakeholders** to reach the TechTraPlastiCE consortium directly. 
+**This is very important in order to identify the enterprises that want to be part of the project in Colombia, Chile and Argentina contexts**. 
+
+The *CONTACT* section includes a contact form where users can submit inquiries by filling in their name, email, subject, and message. Additionally, a direct email address [info@techtraplastice.eu](mailto:info@techtraplastice.eu) is provided for more direct communication.
+This feature supports potential collaboration and knowledge exchange throughout the project’s lifetime.
+This contact mechanism also plays a key role in the exploitation phase, enabling interested stakeholders to access information and tools that support the transfer and adoption of project results beyond its completion.  
+
+At the end of the project, all final outputs and dissemination materials will be made publicly available through the Open Educational Resources (OERs) platform, as are going to be detailed in Deliverables D5.4 and D5.5.
+
+
+## User Experience Report (UX/UI)
+
+The TechTraPlastiCE website features a clean and professional design that aligns with the academic and technological nature of the project as illustrated in @fig-ux. 
 
 Its visual identity has been developed to reflect the standards commonly associated with European research initiatives, prioritizing clarity, reliability, and institutional presence. The overall aesthetic avoids unnecessary ornamentation or visual clutter, favoring a minimalist and structured layout that enhances user experience. The site’s design serves not only as a visual representation of the project’s credibility but also as a practical tool for communication and dissemination. This thoughtful approach ensures that the content is easily accessible to a wide audience, including researchers, partners, policymakers, and the general public. Every element on the website contributes to a sense of coherence and professionalism, reinforcing the project's role within the broader European research and innovation landscape.
 
@@ -174,14 +243,13 @@ Content is organized into well-defined blocks, each with ample white space, maki
 
 This minimalistic and structured approach contributes to an intuitive user experience, helping users find relevant content quickly and without distraction. Overall, the website’s visual and structural design reflects a balance between aesthetic restraint and practical usability, in line with the professional and research-driven focus of TechTraPlastiCE.
 
-#### Usability and Access to Information
+### Usability and Access to Information
 
 The TechTraPlastiCE website intends a well-thought-out structure and user-friendly design, particularly in terms of navigation and content accessibility in **English and Spanish** given the international context as presented in @fig-consortium. A clear top menu provides direct links to the main sections—Home, Project, Partners, News, and Agenda—ensuring users can easily find key information. 
 
 ![TechTraPlastiCE in Spanish and English as international project](figures/5.3/consortium.png){#fig-consortium fig-align="center" width="80%"}
 
 The site is responsive and functions well on mobile devices, although certain areas, such as the news modules, could benefit from improved formatting for smaller screens. 
-
 Content is logically organized, with each section featuring concise titles, short descriptive paragraphs, and calls to action like “see more” to guide user interaction. 
 
 On the homepage, news and events are prominently displayed, drawing attention to the latest updates and project milestones. Additionally, the site includes several useful features, such as calendar integration for events, external links to partner institutions and social media platforms, and visible contact information in the footer. 
@@ -189,14 +257,14 @@ On the homepage, news and events are prominently displayed, drawing attention to
 These elements collectively contribute to a functional, accessible, and informative user experience.
 
 
-#### Observations and Opportunities for Improvement
+### Observations and Opportunities for Improvement
 
-WP5 leader, with the support of the Communication Team of the project, will work in a greater presence of images or infographics that explain the project to non-technical audiences, especially in the PROJECT section. 
+The WP5 leader, with the support of the project’s Communication Team, will enhance the visual dimension of the website by increasing the use of images, infographics, and visual storytelling elements to better communicate the project’s objectives and results to non-technical audiences, particularly within the Project section.
 
-This will be implemented throughout the development of each working packages. 
+Furthermore, the website will evolve dynamically in response to emerging communication and dissemination needs, ensuring that its content remains relevant and engaging throughout the project’s implementation.
+These improvements will be progressively defined and implemented in coordination with the development of each Work Package, ensuring alignment between project activities and communication outputs.
 
-
-##  Social Media of TechTraplastiCE: LinkedIn, Youtube and X 
+#  Social Media of TechTraplastiCE: LinkedIn, Youtube and X 
 
 @fig-social lists the social media accounts that will be used as communication channels. 
 LinkedIn [^1] and X [^2] (@techtraplastice) were defined as the most suitable social media network for the TechTraPlastiCE Project to engage with a broader audience and to disseminate its results. 
@@ -225,21 +293,41 @@ Partners have to follow the project's accounts, replicate the content and commen
 
 The WP5, with the collaboration of all partners, will create content considering other social media networks to be shared by the partners through their institutional accounts, such as Instagram.
 
-
-
 The linkedIn account was created on  April 2025 and it count 51 followers at the moment of writing this rapport. 
 The main purpose with this account is to connect with external socio-economic actor thanks to this professional account channel. 
 
 The X account was created on 24 June 2025. 
 The main purpose with this account is to connect with a general audience that can be interested in the topic of circular economy that eventually can pass to a professional communication. 
 
-Finnaly, the YouTube Channel was created on May 19, 2025. At the moment of writing this rapport, there are 
+Finally, the YouTube Channel was created on May 19, 2025. At the moment of writing this rapport, there are 
 
 - Subscribers: 9
 - Videos Published: 7 
 - Views: 68
 
-WP5 leader will map the audience indicators as a proxy of the impact of the activities developed at TeTraPastiCE project
+WP5 leader will map the audience indicators as a proxy of the impact of the activities developed at TechTraPlastiCE project
+
+## Social Media Content Coordination
+
+Social media channels play a complementary and amplifying role in the overall dissemination strategy of TechTraPlastiCE.
+Their purpose is to extend the visibility of the project’s activities, connect with diverse stakeholder communities, and drive traffic toward the official project website, where detailed information and resources are hosted.
+
+To ensure coherence and consistency across all communication platforms, the WP5 leader coordinates the planning and publication of content on **LinkedIn**, **X (formerly Twitter)**, and **YouTube**, with contributions from all partners.  
+Each partner is encouraged to share and repost TechTraPlastiCE content through their institutional and professional networks, thereby enhancing the project’s outreach and engagement.
+
+Social media content is prepared following a shared editorial calendar, aligned with the monthly website update cycle (see Figure @fig-calendar). 
+This coordination guarantees that the messaging remains timely, coherent, and aligned with project milestones and events.
+
+The types of content published on social media include:
+
+- Announcements of **project events, workshops, and training activities**. 
+- Highlights of **key deliverables and milestones**
+- **Partner achievements** and relevant collaborations.
+- **Multimedia content** (e.g., short videos, infographics, and visuals) to increase audience engagement.
+- Links to **news articles, publications, and website updates**.
+
+All posts follow the project’s visual identity and branding guidelines (as defined in D5.2 – Branding Toolkit and Training Plan) and adhere to the principles of clarity, accessibility, and professionalism expected in European projects.
+
 
 # Conclusions
 
@@ -259,7 +347,7 @@ Future development stages could also improve mobile optimization—particularly 
 
 # Templates for content generation {#sec-template}
 
-A template was designed to all memebers in order to put news of techtraplastice website.
+A template was designed to all members in order to put news of techtraplastice website.
 
 
 \includepdf[scale=0.8, 

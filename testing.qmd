@@ -1,0 +1,25 @@
+---
+format: html
+---
+
+# Introduction
+
+The TechTraPlastiCE project aims to strengthen the applied research and technology transfer capabilities of Higher Education Institutions (HEIs) in Latin America, enhancing their ability to support industry and contribute to the green and circular transition of the plastics sector.  
+Within this framework, Work Package 1 (WP1) focuses on identifying and understanding the scope of HEIs’ engagement with the **Latin American plastics ecosystem**, as a foundation for reinforcing their role as innovation enablers. 
+*This constitutes one of the key innovative approaches implemented by the consortium across the participating universities in Colombia, Chile, and Argentina*.
+
+A central methodological principle of this stage is to consider innovation processes as boundary objects, conceptual tools that bridge the gap between academic knowledge and industrial practice. This approach enables HEIs to align their capacity-building competencies with the needs and dynamics of the industrial ecosystem.
+To operationalize this perspective, WP1 applies the *Innovation Potential Index*, a methodological instrument jointly developed by the Université de Lorraine and the Universidad de Santiago de Chile** [@refs].
+
+Accordingly, this deliverable, *D1.3 – Results of the Application of the Innovation Metrology Index to Targeted Industries of the Plastic Value Chain*, informs the results of assessing the innovation capacity of companies within the plastics sector in Chile, Colombia, and Argentina, with the goal of identifying their potential to develop sustainable and circular innovations.
+In the scientific and policy literature, *innovation dynamics* are widely recognized as a critical competence for advancing the circular economy transition [@hermundsdottir2021], as they enable organizations to identify and develop solutions that enhance both sustainability and competitiveness.
+Sustainable innovation includes the development of products, processes, services, and technologies that generate positive *economic, environmental, and social outcomes* in both the short and long term. 
+It responds not only to the sector’s immediate challenges but also integrates sustainability dimensions across all levels of operation, fostering resilient, equitable, and competitive growth.  
+In this sense, innovation becomes a *strategic capability* that allows organizations to improve continuously while reinforcing their commitment to social and environmental responsibility.
+
+The outputs of this deliverable are closely linked to the activities of *Work Package 2 (WP2) – Development of a Networked Portfolio*.  
+The insights obtained from applying the Innovation Metrology Index will inform HEIs about the *specific needs, gaps, and innovation profiles* of companies in the plastics sector. 
+This knowledge will enable universities to refine their missions in terms of *research, innovation, lifelong learning, technical assistance, and service provision*, which is in direct alignment with industrial and societal needs for a circular economy.  
+
+Finally, the findings from WP1 will play a crucial role in guiding the design and implementation of WP2, facilitating the identification of *synergies between industrial demands and HEIs’ core competencies*.  
+On this basis, the following milestones with be to inquiry on the  collective innovation portfolio for the plastics value chain to be be co-created, leveraging universities’ expertise and knowledge assets to accelerate sustainable transformation in Latin America.

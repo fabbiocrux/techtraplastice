@@ -1,0 +1,590 @@
+---
+title: D.1.3 Results of the application of the innovation metrology index to target industries of the plastic value chain
+WP_num: WP1
+WP: "WP1: Innovation Opportunities for Circular Economy"
+Description: Digital report containing the results with data analysis on the evaluation of each industry/company/sectors.
+Responsible: Universidad Santiago de Chile
+Dissemination: Confidential
+Date-delivrable: Oct 31/2025
+Quality: D1.3.tex
+author: 
+  - Prof. Pavlo Santander,&nbsp;
+  - Prof. Daniel Galvez, &nbsp;
+  - Prof. Lorena Delgado,&nbsp;
+  - PhD. Catalina Suescun,&nbsp;
+  - Prof. Fabio Cruz.
+date: today
+date-format: long
+metadata-files:
+  - _metadata.yml
+bibliography:
+  - assets/D1.3.bib
+  - assets/Zotero.bib
+csl: assets/journal-of-cleaner-production.csl
+
+format:
+  pdf:
+    template-partials:
+     - assets/before-body.tex
+     - assets/_titlepage.tex
+---
+
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.retina = 3, message = FALSE, warning = FALSE)
+options(knitr.kable.NA = '')
+
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+library(here)
+
+
+# Global data
+datos <- read_excel(here("delivrables/figures/1.3/Data-USACH.xlsx"), sheet = "total")
+#datos <- read_excel("figures/1.3/Data-USACH.xlsx", sheet = "total")
+datos <- 
+  datos %>% 
+    mutate(
+      Size = factor(Size, levels = c("Large", "Medium", "Small", "Micro"))
+    )
+
+
+# === 2) MAPEO DE FACTORES ===
+factor_map <- tibble(
+  Variable = c("A.E","I.N","E.S","R.P","R.S",
+               "I.E.C","H.C","M.I","S.M","C.K","LEA",
+               "I.P","E.P.P","S.T","D.M","T.A","I.P.M","CIRC","C.I","CREA",
+               "MARK","F.M","I.P2","C.I3","R.D","T.S","S.P.S.P"),
+  Factor = c(rep("External Factors",5),
+             rep("Team",6),
+             rep("Innovation Process",9),
+             rep("Organization",7))
+)
+
+#View(factor_map)
+
+```
+
+
+# Executive Summary {.unnumbered}
+
+This document presents the deliverable 1/3 of the Work Package 1 (WP1) of the TechTraplatiCE project called Results of the Application of the Innovation Metrology Index to Targeted Industries of the Plastic Value Chain in Chile, Colombia, and Argentina. In the framework of a master’s thesis in Industrial Engineering at the University of Santiago, a model was developed to evaluate the sustainable innovation capabilities of companies in the plastics sector, where 27 practices were identified and grouped into four pillars: Organization, Innovation Process, Team, and External factor. The model applied the Analytic Hierarchy Process (AHP) to determine the relative importance of practices within a hierarchical structure and uses five-level maturity grids to evaluate performance and guide improvement actions. The main objective of this deliverable was  to identify the capacity of each company to innovate, diagnose their innovation maturity, identify critical weaknesses, and define targeted strategies to strengthen sustainable innovation capabilities.
+
+The findings in sustainable innovation maturity across companies in Colombia, Argentina, and Chile reveals strong differences driven by company size and structural capabilities. In Colombia, large firms show the highest maturity, with solid Innovation Processes and Intellectual Property management, though weaknesses persist in Financial Management. Medium and small companies display fragmented structures and limited consistency, reflecting early-stage innovation maturity. In Argentina, most companies reach medium maturity levels. Large firms stand out in Team and Innovation Process factors, while microenterprises reveal both excellence in Eco-innovation and Creativity and weaknesses in Financial Management and Knowledge Capitalization. Lastly,  in Chile, large companies achieve the most advanced maturity, particularly in Eco-innovation and Technological Strategy, while smaller companies remain heterogeneous and financially constrained, with innovation concentrated in a few specialized actors.
+Overall, the findings show that large firms anchor innovation, while MSMEs face financial and organizational barriers. Strengthening financial mechanisms, collaboration networks, and technological capabilities is essential to reduce maturity gaps and foster sustainable innovation across the region.
+
+
+# Introduction
+
+The TechTraPlastiCE project aims to strengthen the applied research and technology transfer capabilities of Higher Education Institutions (HEIs) in Latin America, enhancing their ability to support industry and contribute to the green and circular transition of the plastics sector. Within this framework, Work Package 1 (WP1) focuses on identifying and understanding the scope of HEIs’ engagement with the Latin American plastics ecosystem, as a foundation for reinforcing their role as innovation enablers. *This constitutes one of the key innovative approaches implemented by the consortium across the participating universities in Colombia, Chile, and Argentina*.
+
+A central methodological principle of this stage is to consider innovation processes as boundary objects [@ballard2021], conceptual tools that bridge the gap between academic knowledge and industrial practice. This approach enables HEIs to align their capacity-building competencies with the needs and dynamics of the industrial ecosystem. To operationalize this perspective, WP1 applies the Innovation Potential Index, a methodological instrument jointly developed by the Université de Lorraine and the Universidad de Santiago de Chile [@ureta2025].
+
+Accordingly, this deliverable, *D1.3 – Results of the Application of the Innovation Metrology Index to Targeted Industries of the Plastic Value Chain*, informs the results of assessing the innovation capacity of companies within the plastics sector in Chile, Colombia, and Argentina, with the goal of identifying their potential to develop sustainable and circular innovations. In the scientific and policy literature, innovation dynamics are widely recognized as a critical competence for advancing the circular economy transition [@hermundsdottir2021; @cillo2019], as they enable organizations to identify and develop solutions that enhance both sustainability and competitiveness. Sustainable innovation includes the development of products, processes, services, and technologies that generate positive economic, environmental, and social outcomes in both the short and long term [@tuckerman2023]. It responds not only to the sector’s immediate challenges but also integrates sustainability dimensions across all levels of operation, fostering resilient, equitable, and competitive growth. In this sense, innovation becomes a strategic capability that allows organizations to improve continuously while reinforcing their commitment to social and environmental responsibility.
+
+The outputs of this deliverable are closely linked to the activities of *Work Package 2 (WP2) – Development of a Networked Portfolio*. The insights obtained from applying the innovation metrology index will inform HEIs about the specific needs, gaps, and innovation profiles of companies in the plastics sector. This knowledge will enable universities to refine their missions in terms of research, innovation, lifelong learning, technical assistance, and service provision, which is in direct alignment with industrial and societal needs for a circular economy.
+
+Finally, the findings from WP1 will play a crucial role in guiding the design and implementation of WP2, facilitating the identification of synergies between industrial demands and HEIs’ core competencies. On this basis, the following milestones will be to inquiry on the collective innovation portfolio for the plastics value chain to be co-created, leveraging universities’ expertise and knowledge assets to accelerate sustainable transformation in Latin America.
+
+# Methodology
+
+
+This section describes the methodological approach adopted to assess a management indicator of the capability of organizations for the development of sustainable innovations within the plastics value chain in Argentina, Chile, and Colombia. Aligned with the objectives of WP1 of Universities in identifying and understanding key barriers and leverage points of the local plastic companies to encourage collaboration opportunities with industries, the methodology seeks to generate a quantitative and comparable diagnostic that enables HEIs to better understand industrial needs, strengthen their technology transfer services, and guide future collaboration in the transition toward a circular plastic economy. To evaluate the internal capabilities of companies for developing sustainable innovation projects, a three-stage methodological approach was applied (see @fig-1). 
+
+The **stage I** seeks to define a conceptual framework to assess companies’ sustainable innovation capabilities. This framework was built based on existing models and methodologies found in the scientific literature [@hermundsdottir2021; @harsono2024; @tuckerman2023; @cillo2019; @ghobakhloo2021; @ureta2025]  which were analyzed and adapted to the specific evaluation context of the TechTraPlastiCE project. The resulting reference model integrates four major factors (External, Team, Innovation process and Organizational) and 27 specific practices, ensuring its relevance to the plastics value chain in Latin America. This is explaining in detail in the following subsection.
+
+The **stage II** focused on defining the application strategy for the evaluation model developed in Stage I. This step required specifying three key elements:
+
+
+1. Scope of the evaluation: to conduct a quantitative diagnostic assessment of companies in the plastics industry across Argentina, Chile, and Colombia.
+2. Target industries: to include firms representing different segments of the plastics value chain (production, transformation, recycling, and services).
+3. Individualized diagnosis for companies: develop a personalized diagnosis to share witht he participants identifying their sustainable innovation potential. 
+
+To ensure effective implementation, an academia–industry collaboration strategy was established based on two key levers: 1) Leveraging existing collaborations between HEIs and industry partners already engaged in innovation and technology transfer activities. and 2) Engaging trade associations within the plastics sector, acting as intermediaries between universities and companies to facilitate participation and data collection. The involvement of the external socio-economic ecosystem—including industrial partners, associations, and other stakeholders—is essential for the success of TechTraPlastiCE.
+
+Lastly, each participating company receives an individualized diagnostic report highlighting its strengths and weaknesses in sustainable innovation. These reports serve as a foundation for developing improvement and action plans that guide subsequent collaboration phases within the project.
+
+Lastly, **stage III** involves a comprehensive analysis of the results obtained. At the national level, a descriptive statistical analysis identifies general trends and sectoral characteristics in each country. Subsequently, a cluster analysis groups companies according to their profiles in sustainable innovation capability. This enables the identification of distinct patterns, maturity levels, and best practices that influence innovation performance within the plastics value chain.
+
+![Three-stage methodology.](figures/1.3/01-Methodology.jpg){#fig-1 width="90%"}
+
+
+## I. Definition of framework
+
+
+In the framework of a master’s thesis in engineering sciences, specializing in industrial engineering at the University of Santiago de Chile, a conceptual model was developed to evaluate the sustainable innovation capabilities of companies in the plastics sector.
+
+Following an exhaustive literature review of existing models for assessing corporate innovation capabilities [@scarpellini2019; @ortega-lapiedra2019; @garcia-pozo2016; @bhatti2023], and a comparative analysis of their respective features, a model was designed with the following key characteristics: 
+
+
+
+1. Based on best practices identified in the literature and industrial experience.
+2. Structured as a multi-criteria framework to capture different dimensions of sustainable innovation.
+3. Applying a maturity grid evaluation method to assess the level of capability development within each company.
+
+This approach draws not only on theoretical insights from previous studies but also on the practical experience of the *Université de Lorraine and the Universidad de Santiago de Chile* in developing management indicators for SMEs [@galvez2013; @munoz2022].  \
+
+
+The identification of good practices [@galvez2018] serves as the foundation for understanding the internal functioning of companies, allowing the recognition of key activities and routines that support the implementation of sustainable innovation projects. From the literature review, an initial list of potential practices was compiled and subsequently refined through iteration, ensuring relevance to the specific context of the plastics industry in Latin America.
+
+As a result, 27 good practices were identified and grouped into four main pillars representing the core dimensions of sustainable innovation capability within the plastics sector as illustrated in @fig-2.
+
+
+![Main pillars of the sustainable innovation capability.](figures/1.3/02-framework.pdf){#fig-2 width="100%"}
+
+The first pillar represents practices associated with the organization of the company, considering aspects such as strategy, financing, intellectual property, among others [@bhatti2023]. The second pillar focuses on practices that support the innovation process from divergence (idea creation) to convergence (design and prototyping) [@monteiro2024; @severo2017]. The third pillar refers to the work team, analyzing competencies, leadership, and communication in the company's operations [@ortega-lapiedra2019]. Finally, the fourth pillar evaluates how the company relates to the outside world in terms of competition analysis, customers, regulatory aspects, among others [@li2021a]. The definition of each factor is presented in the following @tbl-1.
+
+
+::: landscape
+```{r}
+#| label: tbl-1
+#| tbl-cap: "Definition of the good practices in the implementation of sustainable innovation projects."
+
+
+# Table SPII
+table.1 <- read_excel(here("delivrables/tables/1.3/tables.xlsx"), sheet = "SPII")
+
+#table.1$Group = cell_spec(table.1$Group, angle = 90)
+
+table.1 %>% 
+  fill(Group)  %>% 
+  mutate(Group = cell_spec(Group, angle = 90))  %>% 
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, 
+  longtable = T, 
+  align=c('c', 'c', 'l','l')
+  ) %>%
+   kable_styling(full_width = F,  
+   latex_options = c("repeat_header"),               
+                font_size = 11) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 11) %>%
+   column_spec(1, width = c("1cm"))  %>%
+   column_spec(2, width = c("1cm"))  %>%
+   column_spec(3, width = c("3cm"))  %>%
+   column_spec(4, width = c("14cm"))   %>% 
+   collapse_rows(columns = 1, valign = "top")
+
+```
+
+:::
+
+
+Once the practices were defined, the model was structured using the Analytic Hierarchy Process  (AHP) multi-criteria method. This approach was selected for its hierarchical structure and its ability to calculate a weighting vector that determines the relative importance of the practices comprising the model. @fig-3  shows the final structure of the proposed model. 
+
+
+![Final structure of the model.](figures/1.3/03-Model.pdf){#fig-3 width="90%"}
+
+
+The hierarchy structure of the model is divided into three levels. At the first level, the global sustainable innovation index is found, which represents the company's capability to implement this type of project. At the intermediate level are placed the four pillars described in the evaluation framework. At the lowest level are the practices that characterize each pillar. These practices represent activities and routines that the company can implement to improve its capacity for sustainable innovation. In other words, the company's overall capability is determined by its performance across these practices.
+
+According to the functioning of the multi-criteria structure based on the AHP method, the evaluation is applied at the lowest level of the hierarchical structure, that is, to the practices. Each practice represents different activities undertaken by the company, allowing it to evaluate its performance. This performance depends on factors such expertise, human capital, methods and tools employed, among other resources. The evaluation approach adopted is the maturity grid, a widely used method for assessing the performance of internal organizational activities or practices through the definition of progressive levels of maturity.
+
+The definition of these grids is essential, as it allows the assessment to be adapted to the specific type of sustainable innovation. The grid reflects how companies implement practices and identify the resources and actions required to achieve triple-impact innovations. Each practice is evaluated using a  five-level maturity grid as illustrated in @tbl-maturity. For example, the grid developed for the *innovation networks* (*I.N*) practice illustrates this approach. 
+Each good practice is related to a precise level of maturity. For the complete questionnaire refer to the Annex @sec-instrument.
+
+The main advantage of using maturity grids lies in their ability to reduce response subjectivity, since each level is defined according to observable phenomena. In addition, they facilitate the development of targeted improvement plans, as the five maturity levels for each practice are available. Therefore, if the company is  positioned at an intermediate level for a given practice, it becomes evident which actions must be undertaken to reach the next level.
+
+```{r}
+#| label: tbl-maturity
+#| tbl-cap: "Maturity grid example for innovation networks --IN-."
+
+
+table <- 
+tribble(
+~"Level 1",
+~"Level 2",
+~"Level 3",
+~"Level 4",
+~"Level 5",
+"The company works only with internal resources",
+"The company works with customers or suppliers.",
+"The company typically uses external resources privileging two of the three impacts",
+"The company regularly engages in collaborative projects that are selected according to its sustainable innovation strategy.",
+"The company follows an openness strategy with leading actors in sustainability.",
+    )
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F,
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("3cm"))  %>%
+   column_spec(2, width = c("3cm"))  %>%
+   column_spec(3, width = c("3cm"))  %>%
+   column_spec(4, width = c("3cm"))  %>%
+   column_spec(5, width = c("3cm"))  
+
+```
+
+
+
+The development of this model for assessing the sustainable innovation capability of companies was presented by a master's student at the IAMOT (International Association for Management of Technology) 2025 international conference in Canada [@astudillo2025]. 
+
+
+## II. Application of evaluation Model
+
+To implement the proposed assessment model in partner companies, a dedicated tool was developed. 
+It consists of a survey comprising 27 questions structured according to the maturity grid approach, where one maturity grid question corresponds to each of the 27 practices defined in the model. 
+The survey was made available online to facilitate participation and data collection from companies. 
+
+
+
+### Scope of Application
+
+Within the objective to evaluate partner companies across  the three Latin American countries participating in the project and ensure comparability, a set of basic characteristics was defined to guide the selection of companies in each country.  The assessment primarily targets companies within the plastics industry, with a goal of engaging at *least ten companies per country*.
+A socialization of the task was made on June 09/20025 at the general monthly meeting of the TechTraPlastiCE consortium as presented in @fig-4.
+
+![Socialization of the task on General Meeting June 09/2025.](figures/1.3/Socialization.png){#fig-4 width="80%"}
+
+
+### Academia-industry collaboration strategy
+
+
+The success of the survey implementation is directly linked to the strength of the relationship between academia and industry. To promote this collaboration, two strategies were adopted: (1) leveraging existing connections within the university environment and (2) engaging trade associations in the plastics industry. In the first strategy, the partner universities that already have experience in projects involving companies from this sector, helped to foster trust in their work and, consequently, increased the willingness of these companies to participate. The second strategy aims to expand the scope of action and engage a larger number of companies through intermediaries, specifically, trade associations within the plastics industry. For instance, in Colombia this involves the participation of **ACOPLASTICOS** ([https://acoplasticos.org/](https://acoplasticos.org/)), and in Chile with **ASIPLA** ([https://asipla.cl/](https://asipla.cl/)). These associations  serve as facilitators by promoting participation in the survey among their member companies.
+
+For both strategies, explanatory manuals are being developed to support understanding of the model and to facilitate the application of the survey. Additionally, a designated contact person is made available to address any questions or requests for clarification from participating companies.
+
+
+
+
+### Individualized diagnosis for companies
+
+Once the questionnaire is completed and analysed, each company receives a diagnostic report assessing its sustainable innovation capabilities. 
+This report presents the companies' overall index, along with detailed profiles organized by pillar and by practice, thereby identifying specific strengths and weaknesses. 
+The diagnosis enables companies to better understand the activities that influence  their potential to implement sustainable innovation projects. 
+
+Companies that have already developed sustainable innovation projects can use the report's findings to standardize their practices, thereby enhancing their capacity to replicate and scale similar projects. Furthermore, companies interested in developing an improvement plan are invited to contact the research team to schedule a follow-up meeting.
+
+The entire process of conducting the survey and delivering diagnostic reports to companies was conducted by a *master's student from the University of Santiago, Chile, and a master's student from the National University of Colombia, with support from undergraduate students who provided methodological and technical assistance to the participating companies*.
+
+The final stage of the methodology involves the analysis of the results, which is presented in the following section.
+
+
+# Results
+
+This section presents the results of the survey, organized by country.  First, a descriptive analysis of the responses is conducted for each country, categorized by company size.  Subsequently, a cluster analysis is performed to identify company profiles based on the evaluated factors, allowing for the characterization of their capacity to implement sustainable innovations.
+
+
+## Descriptive Analysis of the Results
+
+
+The distribution of participating companies by size is summarized in Table @tbl-summary.
+For the purposes of this study, company size was categorized according to the number of employees, as follows:
+
+* Micro enterprises: 1–9 employees
+* Small enterprises: 10–49 employees
+* Medium-sized enterprises: 50–199 employees
+* Large enterprises: 200 or more employees
+
+Between June 15, 2025, and October 15, 2025, a total of 68 enterprises from Argentina, Chile, and Colombia participated in the survey and completed the evaluation instrument. The analysis reveals that medium-sized and large companies represent the majority of participants across the three countries, accounting for approximately 58.8% of the total sample. In Colombia, these companies constitute around 63.9% of national participants and 33.8% of the overall sample. In Argentina, medium and large firms make up about 60% of national participants, corresponding to 17.6% of the total sample. Finally, in Chile, companies of similar size represent 41.7% of national participants and 7.4% of the total sample.
+
+
+```{r}
+#| label: tbl-summary
+#| tbl-cap: "Distribution of participating companies by size"
+
+
+# Grafico: Proporcio de empresas por Tamana y 
+by.size <- datos %>%
+  group_by(Country,Size) %>%
+  summarise(Count = n()) %>%
+  mutate(
+    Percentage = round((Count / sum(Count) * 100), 2)
+  )
+
+#sum(by.size$Count)
+#by.size %>% group_by(Country) %>% summarise(n = sum(Count))
+
+
+
+names(by.size)<- c("Country","Size", "\\# Enterprises", "\\% per country")
+
+by.size %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F,
+      align = c("c","c","c","c"),
+      #linesep = "\\midrule\\addlinespace"
+      ) %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("3cm"))  %>%
+   column_spec(2, width = c("3cm"))  %>%
+   column_spec(3, width = c("3cm"))  %>%
+   column_spec(4, width = c("3cm"))  %>%
+   collapse_rows(columns = 1, valign = "top")
+   #pack_rows("Argentina", 1, 4, label_row_css = "background-color: #666; color: #fff;")
+
+```
+
+
+
+@fig-4 illustrates the distribution of participating enterprises from Colombia, Chile, and Argentina according to company size. The sample indicates a particularly active participation from Colombian enterprises, which account for 52.9% of the total respondents.
+
+
+![Distribution of enterprises by size](figures/1.3/Participation.png){#fig-4 width="90%"}
+
+
+In the following section, an analysis by country is made to better understand the global results.
+
+## Analysis by Country
+### Colombia
+
+@fig-Col presents the results of the average value of the evaluated practices discrimated by the size of the enterprises at Colombian enterprises.
+
+![Global Sustainable Innovation index per practice at  Colombia enterprise ](figures/1.3/Comparison-Colombia.png){#fig-Col width="90%"}
+
+
+In the Colombian context, analysis of the level of maturity in innovation and business management reveals a landscape where strengths and weaknesses vary significantly depending on the size of the company, reflecting the structural diversity and capabilities of the national productive fabric. 
+
+Large companies show the greatest strengths, with an average maturity level of around 3.6, particularly in *Intellectual Property* (4.5). Innovation Processes, Organizational management and Team factors, with values ranging from 3 to 4.5, demonstrating solid structures, clear technological strategies, and a consolidated culture of continuous improvement. However, their main weakness lies in financial management which averages 3.2. Although not critical, this represents an area of opportunity for improving the financial sustainability of innovation activities. 
+
+Medium-sized companies, with an average maturity level (~ 2.6), show partial strengths in some specific indicators, such as *Analysis of the Environment* (3.75) and *Motivation for Innovation* (3.3), as well as good results in certain components of the Innovation Process (*Design Methodologies, Support Tools, Innovation Project Management, and Eco-innovation in products and processes*) with values between 3.5 and 4. 
+However, their main weakness lies in a general lack of consistency, as most indicators remain between 2 and 3, (specially organizational factors) reflecting an incipient and heterogeneous maturity. In the case of small enterprises (~2.4) exhibit the lowest levels of maturity, with few strengths, such as *Analysis of the Environment*(3) and *Human Capital* (3), and multiple weaknesses in innovation and organization, *Customer Integration CI* (1.8), *Financial Management *(2.0), *Research and Development *(1.9), and *Technological Strategy* (1.8) reflect deficiencies in technological, financial, and knowledge management capabilities. This result is to be expected, as small companies normally only plan for the short term and spend their time solving day-to-day problems, which makes it difficult to manage sustainable innovation projects that require greater uncertainty management. 
+
+In the case of micro-enterprises (~2.9), there is greater variability in their assessments. They show some isolated strengths in External Factors, with values close to 3.5, and in some indicators such as *Eco-innovation in products and processes *(4.1), but they have significant weaknesses in *Financial Management *(2), *Regulatory Support* (2.6), and* Competence Management* (2.6), suggesting a fragile structure. Due to their size, these companies have a flexible structure, which favors agility in some processes but hinders resource support in other activities, which is why there is greater variability in their practices,
+
+In summary, the analysis shows that Colombia faces a marked gap in business maturity, where large companies act as poles of development and innovative leadership, while micro, small, and some medium-sized companies still need to strengthen their organizational, financial, and technological capabilities to achieve sustainable and competitive performance at the national and international levels.
+
+
+### Argentina
+
+As presented in the @fig-AR, the analysis of the level of maturity in sustainable innovation management  in the case of Argentina reveals a picture of strengths and weaknesses that vary according to company size, with a general trend toward medium levels of development in the practices evaluated.
+
+
+![Global Sustainable Innovation index per practice at Argentina](figures/1.3/Comparison-Argentina.png){#fig-AR width="90%"}
+
+The analysis of Argentinian companies reveals distinct patterns in sustainable innovation maturity across different firm sizes, as summarized below.
+
+Large enterprises (7 in total) demonstrate an intermediate to high level of maturity (between 3.0 and 4.0). They perform particularly well in the *Team* and *Innovation Process* practices, where results are both solid and consistent. However, they show specific weaknesses in *External Supervision* (2.7), *Financial Management*, and *Intellectual Property*, all with average scores below 3.0. These findings indicate that large companies possess robust organizational structures but still have room for improvement in external monitoring and resource management.
+
+On the other hand, medium-sized companies (5 in total) display a medium-to-low maturity level (~ 2.8), with homogeneous evaluations and no major contrasts between factors. Their main strengths are found in *Leadership* (3.4) and *Task Organization* (3.6), whereas significant weaknesses appear in Organizational Management, particularly *Sustainable Purchasing within the Supply Chain* (1.4). Overall, these companies exhibit a lack of comprehensive coordination across their innovation processes.
+
+*Regarding the *small enterprises (3 in total) present low to medium maturity levels (~ 2.8), with strengths in *Analysis of the Environment and Innovation Networks (above 3.7) *and* leadership *(LEA 3.6), but with heterogeneous Innovation Processes where weaknesses are evident in *Creativity *(2.0) and *Innovation Portfolio* (2.7), and *limited organizational management*, with exceptions such as *Continuous Improvement* (3.3).
+
+Micro-enterprises (5 in total) exhibit a more dispersed maturity profile. They perform well in external factors, including Environmental Analysis and Innovation Networks (both near 4.0), and in team-related dimensions such as Internal and External Communication, Human Capital, and Leadership, all scoring above 4.0. Additionally, they show promising results in Creativity (4.2) and Continuous Improvement (4.0). However, these strengths are counterbalanced by structural weaknesses in Financial Management (2.0), R&D (2.2), and Knowledge Capitalization (2.6), which hinder the consolidation of their innovation capabilities.
+
+Overall, the variation in performance among Argentinian companies is not strongly correlated with firm size. This uniformity may be influenced by the regional industrial ecosystem, where local institutional support and development programs contribute to a more level playing field among companies.
+
+In general terms, practices associated with operational management tend to achieve higher evaluations than those linked to strategic planning, which explains the lower average scores in the Organizational Pillar.
+
+###  Chile
+
+In the case of Chile in @fig-CH, analysis of the level of maturity in innovation and business management shows notable differences between companies of different sizes, although the results should be interpreted with caution due to the limited sample size.
+
+
+![Global Sustainable Innovation index per practice at Chile](figures/1.3/Comparison-Chile.png){#fig-CH width="90%"}
+
+Large companies (two in total) have the highest levels of maturity, with scores between 4 and 5 in most pillars, standing out in Innovation Process (with *Eco-innovation in products and processes* at 5 and *Technological Strategy*, *Task Organization*, *Innovation Project Management*, and *Customer Integration* at 4.5) and in Organization, where the *Marketing, Financial Management, Intellectual Property*, and *Research and Development *factors reach averages of 4.5 and *Technological Strategy* reaches 5. 
+They also excel in Team, with high values in *Skills Management* (4.5) and *Leadership* (4.0), and consistent performance in external factors, with averages between 3 and 4, indicating an advanced level of internal structuring and management. 
+
+In contrast, medium, small, and micro companies show intermediate or low levels of maturity, with overall averages between 2 and 3, evidencing processes in consolidation and heterogeneity in results. Medium-sized companies generally have the lowest assessment profile, showing weaknesses in the innovation process (*Innovation Portfolio* 1.3, *Eco-innovation in products and processes* 2.3) and organizational management (*Research and Development* 1.7, *Financial Management* 2.0).  Small companies obtain averages close to 2.5, with better results in Innovation *Networks* (3.5) and *Leadership* (3.5), but with low values in *Regulatory Support* (1.6) and basic innovation processes (*Innovation Portfolio, Support Tools, Innovation Project Management* ~2). Finally, micro-enterprises combine strengths in *Eco-innovation in Products and Processes *(4.7), *Environment Analysis and Innovation Networks *(4.0), and *Human Capital* (4.0) with weaknesses in *External Supervision* (2.0) and *Financial Management* (2.0), suggesting partial and uneven maturity.
+
+The Chilean context shows a heterogeneous business profile, where leadership, planning, and technological process capabilities are concentrated in a small group of companies, while the rest of the business fabric maintains less mature structures with potential for strengthening. 
+
+These results, although based on a limited sample, indicate the need to continue promoting the systematization of innovative practices, knowledge management, and inter-company coordination as key areas for advancing toward greater levels of maturity and competitiveness in the Chilean business environment.
+
+
+## Analysis of the Sustainable Innovation Index by Size of the Enterprise
+
+###  Large companies at Colombia, Argentine,Chile
+
+This section presents the comparative Analysis of the Innovation Index for large enterprises across  Colombia, Argentine, and Chile.  
+@fig-large shows the assessment of factors for large size companies in the Colombian, Argentinian and Chilean context. In total, 20 enterprises were considered  in the set of answers. From the results is observed that large Chilean companies stand out as the best rated in indicators associated with innovation processes and organizational management, with average values in the range of 4-5. However, it should be noted that the number of companies evaluated in Chile was lower compared to those in Colombia and Argentina.
+
+
+![Comparison of the practices for Large companies Argentina, Colombia and Chile](figures/1.3/Comparison-Large.png){#fig-large width="60%"}
+
+
+Large Colombian companies, on the other hand, show intermediate levels of maturity in these factors (averages in the range of 3.4), while large Argentine companies receive the lowest ratings, with average values between 2.5 to 3.5. These results show that large Chilean companies have internalized and consolidated innovation processes and tools within the organization, which is supported internally by clear organizational management in areas relevant to innovation processes, such as *research and development, intellectual property management, financial management*, and *marketing*.  
+
+In the case of Colombia, the results of large Colombian companies show *innovation* and *organizational management processes and practices* in the process of maturing to carry out sustainable innovations, with balanced levels of maturity in their practices. Finally, the values reported by large Argentine companies show medium-low levels of maturity in terms of innovation and organizational processes, which must be strengthened for the development of sustainable innovations.
+
+Regarding practices associated with team management and external factors, @fig-large shows similar behavior in large companies in the three countries, except for the factors such as,  *Skill Management (S.M)* and *Regulatory Support (R.S)*. In the case of S.M, large Chilean companies report high maturity values (average 4.5), while large Colombian and Argentine companies report intermediate maturity values close to 3.5. Therefore, large Chilean companies would have skill management strategies more aligned with innovation and sustainability than large Colombian and Argentine companies. However, large Colombian and Argentine companies show a high level of maturity in this practice. 
+
+Finally, in relation to regulatory support, large Argentine companies report having low regulatory support compared to Chilean and Colombian companies. In other words, they report having few government policies and programs to support the development of sustainable innovations. Despite this, large companies are trying to take advantage of opportunities for *innovation* (A.E high) and *collaboration* (I.N medium-high).
+
+
+### Medium companies at Colombia, Argentine,Chile
+
+@fig-medium shows the assessment of factors for medium size companies in the Colombian, Argentinian and Chilean context. 
+In total, 20 enterprises were considered  in the set of answers.
+
+![Comparison of the practices for Medium companies](figures/1.3/Comparison-Medium.png){#fig-medium width="60%"}
+
+
+Medium-sized companies in Colombia, Argentina, and Chile show low-to-medium levels of maturity in the factors evaluated, with average values equal to or below 3.5. 
+
+In the case of factors associated with **Organizational management**, the lowest factors in the three countries correspond to *intellectual property management (IP2) *and *financial management (F.M)*, which represent the greatest challenges in this area for medium-sized companies in the three countries. In the particular case of Chile, *research and development (R&D)* is added as an additional management need. In the case of Argentina, procurement management with a focus on *sustainability (S.P.S.P)*.
+
+In relation to **Innovation processes**, low levels of development can be observed in terms of innovation strategies, processes, and tools to support the development of sustainable innovations in medium-sized companies. 
+In particular, Chilean and Argentine medium-sized companies have lower values compared with Colombian counterparts, with the lowest values being those associated with the *development of methodologies (D.M), sport tools (S.T)*, and *eco-innovation in products and processes*, thus representing the greatest needs of this group of companies to enhance their capacity for sustainable innovation.
+
+Considering the factors associated with **Team management**, these show similar maturity results in medium-sized companies in the three countries, although  *skills management and motivation to innovate* emerge as the two lowest-performing practices.
+
+Finally, in relation to the values associated with **External Factors**, it is worth mentioning that companies try to take advantage of opportunities in the *environment (A.E.)* through collaboration *(I.N.)*. However, the regulatory environment (*E.S., RP*, medium-low) and government incentives (low *R.S*) are not mature enough to promote the development of sustainable innovations.
+
+
+### Small companies at Colombia, Argentine,Chile
+
+Regarding the small companies  in total 13 enterprises were considered  in the set of answers (@fig-small). 
+Small Colombian companies report low-to-medium levels of maturity in most practices compared to Argentina and Chile. 
+In other words, small Colombian companies face difficulties in terms of organizational management, formalization and support for innovation processes, team management, and an adequate context for taking advantage of opportunities to carry out sustainable innovations. 
+
+
+![Comparison of the practices for Small companies](figures/1.3/Comparison-Small.png){#fig-small width="60%"}
+
+
+For their part, Argentina and Chile show better, but not greatly superior, levels of maturity. 
+In particular, small Argentine companies show better levels in all four categories, representing better conditions (especially contextual and at the level of innovation processes) for carrying out sustainable innovations compared to Chile and Colombia.
+
+
+### Micro companies at Colombia, Argentine,Chile
+
+Within the micro size companies in the Colombian, Argentinian and Chilean context 15 enterprises were considered, @fig-micro present the results obtained. 
+
+
+![Comparison of the practices for micro companies](figures/1.3/Comparison-Micro.png){#fig-micro width="60%"}
+
+In general, Colombian, Chilean, and Argentine microenterprises show heterogeneous behavior in terms of their level of maturity in each practice. 
+
+At the organizational level, microenterprises in all three countries have needs in relation to financial management, with acceptable levels of maturity (medium-high) in relation to the other practices in this group. 
+In terms of innovation processes, Argentine microenterprises seem to have the most consolidated innovation processes and tools when comparing the three countries, especially in r*elation to creativity, customer integration, design methodologies, and support tools*. In terms of team management, micro-enterprises in the three countries exhibit similar behaviors, although Argentine micro-enterprises score higher *in motivation to innovate* and *skills management*. *Human capital management* and *leadership* excel as the highest-rated practices in this category. Finally, in terms of environment and context, micro-enterprises in the three countries report medium-high levels of maturity, indicating a moderately favorable environment for sustainable innovation.
+
+
+
+
+## Closure of WP1 of TechTraPlastiCE
+
+The present deliverable closure the Work Package 1 (WP1) of the TechTraPlastiCE project.
+As stated in description of action, this WP aimed to define instruments, create capacities and guide Universities in identifying and understanding key barriers and leverage points of the local plastic companies to encourage collaboration opportunities with industries in each participating partner institution. 
+After navigating through this WP, universities will identify the most appropriate industries and sectors to engage in the later stages of the projects, identifying fundamental driving forces for innovation as illustrated in @fig-baseline.
+
+![WP1 baseline for TechTraplastiCE Project](figures/1.1/Fig1.png){#fig-baseline width="70%"}
+
+The deliverable 1.1 of WP1 under the TechTraPlastiCE project establishes a comparative framework to understand the barriers and benefits of applying local plastics legislation in Argentina, Chile, and Colombia. 
+Its main objective is to provide a shared baseline for analyzing regulatory structures, institutional gaps, and key stakeholders across the plastic value chain, supporting the transition toward a circular economy in Latin America. 
+
+The framework was developed collaboratively among partner universities through four steps: identifying national legislation on plastics and circular economy, analyzing secondary data to detect barriers and enablers, validating results during the project’s kick-off workshop in Nancy, France (March 2025), and synthesizing country-level reports into a regional comparative analysis. This process produced a coherent overview of similarities, differences, and shared challenges that shape circular plastics implementation in the three countries.
+
+Findings reveal that Argentina, Chile, and Colombia have all advanced in enacting regulations targeting single-use plastics, recycling, and circular strategies, but uneven implementation persists. Chile stands out with a consolidated national framework and measurable goals; Colombia has progressed rapidly with a national circular economy strategy and inclusion of recyclers; Argentina demonstrates strong local initiatives but lacks a unified national policy. Common challenges include limited enforcement, uneven territorial application, insufficient incentives for circular innovation, weak coordination among stakeholders, and limited adoption by small and medium enterprises.
+Analysis of the plastic value chain shows that Argentina and Colombia produce plastic resins domestically, while Chile depends on imports. Municipalities play a central role in waste management, yet infrastructure gaps remain, especially in rural areas. The formalization of recyclers is most advanced in Colombia, whereas cooperatives in Argentina and Chile operate with varying levels of support. Informal actors continue to play a critical role but lack the incentives and institutional frameworks needed for full integration into circular systems.
+Across all three countries, the early stages of the plastics value chain (production and manufacturing) are more structured, while post-consumption stages (collection, recycling, and valorization) rely heavily on informal labor and local government initiatives. Strengthening collaboration between universities, industry, and policymakers emerges as a key opportunity to accelerate circular innovation, improve regulatory coherence, and develop targeted capacity-building tools. 
+
+Overall, this deliverable provides a foundational understanding of the regional regulatory landscape and the conditions affecting circular plastics adoption. It emphasizes the need for coherent policy design, stronger enforcement mechanisms, investment in waste valorization systems, and inclusive collaboration across sectors. These insights will guide the next stages of the TechTraPlastiCE project, informing the development of practical tools, policy recommendations, and innovation pilots that foster a more circular and sustainable plastics economy in Latin America.
+
+
+The deliverable 1.2 of WP1 provided a comparative analysis of the plastics industry in Argentina, Chile, and Colombia from a circular economy perspective. 
+The plastics industry is a central pillar of the global economy and a major driver of environmental challenges. 
+Global plastic production has grown from 2 million tons in 1950 to 435 million tons in 2020 and is projected to exceed 1.3 billion tons by 2060 if no corrective policies are implemented. This surge has led to parallel increases in waste generation, with less than 20% of plastics being recycled worldwide. In Latin America, recycling rates are below 10%, largely due to limited infrastructure and persistent informality in waste management. Within this context, Argentina, Chile, and Colombia exemplify both the opportunities and structural barriers to building a circular plastics economy.
+
+It aims to identify gaps, opportunities, and strategic actors that can drive the transition towards a more sustainable plastics value chain.
+The analysis is based on a common methodological framework and incorporates inputs gathered by national university teams through surveys, interviews, industrial visits, and literature reviews. The information was then systematized and comparatively analyzed to highlight trends, differences, and shared challenges.
+The findings show that, despite regulatory advances and some innovative practices, the plastics sector in the three countries remains heavily dependent on virgin materials, suffers from low recycling rates, and faces structural challenges such as 
+1) fragmented governance, 2) weak integration of informal recyclers or waste pickers, and 3) limited university-industry collaboration. 
+
+In the three countries, the plastics sector plays a key economic and employment role, supplying multiple industries such as packaging, construction, agriculture, and automotive manufacturing. 
+Argentina’s industry comprises around 2,800 firms and more than 150,000 waste pickers, combining formal and informal systems of collection and recycling. 
+Chile’s industry, fully dependent on imported resins, has a smaller but more concentrated structure of 520 companies, backed by robust regulatory instruments such as the Extended Producer Responsibility (EPR) Law and the Circular Economy Roadmap to 2040. 
+Colombia contributes 2.9% of its manufacturing GDP through a highly fragmented industrial base dominated by micro and small enterprises, though it benefits from domestic polymer production and a progressive legal framework that includes the 2022 plastics law and the National Circular Economy Strategy (ENEC).
+Geographically, production and consumption are concentrated around major metropolitan regions—Buenos Aires, Santiago, and Bogotá—while recycling and recovery remain decentralized and underdeveloped. 
+Across the three countries, polyethylene (PE), polypropylene (PP), polyvinyl chloride (PVC), polyethylene terephthalate (PET), and polystyrene (PS) dominate consumption, mainly in packaging, which represents about half of total use. Construction, agroindustry, mining, and consumer goods follow as major applications, underlining plastics’ economic importance but also their environmental footprint.
+
+
+Advancing toward a circular economy in the plastics sector requires a systemic approach that goes beyond technical solutions. It calls for multi-actor collaboration, territorial governance, and the mobilization of universities as key players in fostering inclusive innovation and sustainable transformation.
+Indeed, several opportunities were identified as the greatest potential for circular transition: 
+(1) waste management and recycling, 
+(2) product transformation and manufacturing through eco-design and recycled inputs, 
+(3) production of recycled or bio-based resins, and (4) post-consumption models that promote reuse and reverse logistics. 
+Progress in these areas depends on improving infrastructure, integrating informal recyclers, investing in technology, and developing coherent policies that align incentives along the value chain.
+
+
+Lastly, this deliverable 1.3 make the focus on the companies of the three countries to make the link between the Global and local perspectives.
+Large, medium, small and micro companies were contacted in order to better understand the difficulties and pain points that can be converted into opportunities of action for TechTraPlastiCE consortium.
+THey stated structural limitations regarding the differences practices evaluated.
+Nevertheless, there are emerging opportunities. 
+Regulatory advances in Chile and Colombia, together with Argentina’s strong civil society and industrial base, open pathways for coordinated action. 
+Common opportunities include expanding EPR mechanisms, upgrading recycling infrastructure, promoting eco-design, incentivizing green markets, and strengthening consumer education. 
+These elements wil be explore in more detail in WP3 to encourage multi-actor initiatives to enhance the reuse of plastic involving waste pickers' organizations, companies, and the local public sectors, taking advantage of the University's articulation capacities. 
+This WP will address the involvement of key players in the circular economy challenge that overpasses the margins of industries' actions: the waste pickers' organizations and the local public sectors. 
+Intersectoral collaboration—linking governments, academia, industry, and social organizations—appears as a decisive factor for scaling circular models.
+
+
+::: {.callout-tip title="Milestone Achieved – TechTraPlastiCE WP1"}
+
+- **MS1: Industry engagement and participation in project consultations**
+
+A total of **68 companies** across Colombia, Argentina, and Chile actively participated in the implementation of Deliverable 1.3, demonstrating strong engagement from the regional plastics industry. The detailed list of companies contacted by each Latin American higher education institution (HEI) is available in the internal documentation of the TechTraPlastiCE project.
+
+Additional achievements within WP1 include:
+
+- **Integration of master’s students** from Colombia and Chile, strengthening academic collaboration and capacity-building.
+- **Dissemination of preliminary results** in international research conferences, enhancing the project’s visibility within the scientific community.
+- **Ongoing communication and coordination** among partner institutions across the three countries, fostering a cohesive regional approach to circular plastics research.
+:::
+
+# Conclusions
+
+Overall, the three countries show a comparable average assessment. In all cases, large companies demonstrate strong performance in sustainable innovation, especially in Colombia and Chile, where they distinctly position themselves as leaders in this domain. 
+This can be explained by the presence of a more consolidated structure that offers greater resource availability for innovation in this domain. Another similarity between the countries is that the profile of micro-enterprises shows the greatest variability in their assessments, due to their flexible structure, which benefits some practices but hinders others. 
+In general, medium-sized, small, and micro-enterprises showed various weaknesses, highlighting the need for support and training to carry out sustainable innovation projects.
+
+Applying the assessment model to companies creates a link between academia and industry. It generates a win-win relationship. For the university, this process yields data that validate the proposed evaluation tool and enable the analysis of sustainable innovation capabilities across countries. 
+For companies, it offers a practical diagnostic assessment of their activities and processes, supporting informed decision-making to strengthen these capabilities. Additionally, for this project (Erasmus), the application of this assessment allows the establishment of relationships with companies for future work packages, as these companies can participate in the implementation of projects. In addition, trade associations expressed interest in continuing to participate in the project, contributing their expert opinion on the plastics industry and serving as a link with companies.
+
+This task also produces academic results by engaging master’s and undergraduate students, enabling them to use this work as part of their final graduation projects.
+In terms of research, an article was presented at the IAMOT 2025 conference with the formulation of the evaluation model. 
+In addition, work is currently underway on an article to be presented at the Iamot 2026 conference (the initial abstract has already been submitted). This article is being produced in cooperation between the Universidad de Santiago de Chile, Universidad Nacional de Colombia Universidad Central de Colombia.
+
+
+# References
+
+
+::: {#refs}
+:::
+
+
+
+\appendix
+
+
+# Technical Annex of the {#sec-instrument}
+
+
+## Total of Answers 
+
+:::landscape
+```{r}
+ 
+datos %>% select(2:30)  %>% 
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F,
+      longtable = T, 
+      #linesep = "\\midrule\\addlinespace"      
+      ) %>%
+   kable_styling(full_width = F, latex_options = c("repeat_header", "scale_down"),                               
+                font_size = 6) %>% 
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 7) %>%
+   column_spec(1, width = c("1cm"))  %>%
+   column_spec(2, width = c("0.5cm"))  %>%
+   column_spec(3:29, width = rep("0.19cm",29)) 
+   
+```
+:::
+
+
+\includepdf[landscape=false, delta=2 2, frame=true,  
+scale=0.8, offset=0 0cm, pagecommand*={\pagestyle{fancy} \section{Questionnaire for the Task 1.3}},
+pagecommand={\pagestyle{fancy}},
+nup=3x2,pages=-]{annex/1.3/Instrument.pdf}
+
+
+\includepdf[landscape=false, delta=2 2, frame=true,  
+scale=0.75, offset=0 0cm, pagecommand*={\pagestyle{fancy} \section{Example of Rapport sent to the Companies}},
+pagecommand={\pagestyle{fancy}},
+nup=2x2, pages=-]{annex/1.3/Rapport-Example.pdf}
+
+
