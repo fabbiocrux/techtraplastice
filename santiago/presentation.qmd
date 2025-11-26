@@ -1,0 +1,199 @@
+---
+title: "Strengthening University Tech Transfer Capabilities to support Circular Economy Value Chains for Plastics in Latin America -- TechTraPlastiCE"
+subtitle: "WP6: Management -- USACH Meeting"
+email: "fabio.cruz@univ-lorraine.fr"
+author: 
+  - "MdC. Fabio Cruz"
+institute:
+  - "Université de Lorraine"
+
+link-citations: true
+date: today
+date-format: long
+
+title-slide-attributes:
+  data-background-image: ../assets/img/Tema-Verde-Final.png
+  data-background-size: contain
+  data-background-opacity: "0.9"
+  logo-Techtra: ../images/logo/logo-TTPLCE.png
+  
+ 
+format:
+  revealjs:
+    slide-number: c/t
+    slide-level: 3
+    controls: true
+    transition: none
+    #margin: 10
+    width: 1600
+    height: 900
+    theme: [default, ../assets/techtraplastice.scss]
+    logo: "../assets/img/EU/EU.png"
+    header-logo: "../assets/img/logos/TTPCE.png"
+    #embed-resources: false
+    echo: false
+    pdf-separate-fragments: true
+    toc: true
+    toc-title: Content
+    toc-depth: 1
+    center: false
+    center-title-slide: false
+    number-sections: false
+    fig-align: center
+    code-copy: true        
+    chalkboard: false
+    include-in-header: ../assets/reveal/repeat.html 
+    template-partials: 
+     - ../assets/reveal/title-slide.html 
+resources: 
+   - ../assets/img/*.jpg
+   - ../assets/img/*.png
+
+extensions:
+  iconify:
+    style: "color: #F69223;"   
+---
+
+
+
+# WP6: Management Deliverables 
+
+## Delivrables
+
+![](figures/deliverables.png){fig-align="center"}
+
+## Milestones: 
+
+![](figures/milestones-01.png){fig-align="center"}
+
+
+## WP6: Management Deliverables {background-image="figures/management.png" background-size="50%" background-position="100% 50%"}
+
+1. **D6.1. Quality assurance plan.** 
+2. **D6.2 Financial and <br>Technical management**
+
+
+## D6.1. Quality assurance plan. {background-image="../delivrables/figures/6.1/Quality-management-plan.png" background-size="50%" background-position="50% 50%"}
+
+
+### I. Project Quality Committee {background-image="../delivrables/figures/6.1/Quality-procedure.png" background-size="50%" background-position="100% 50%"}
+
+To validate:
+
+- Is this working? 
+- Continue and Needs to be change?
+
+UL, UNRN, PUCV, COLUMBUS 
+
+
+**Meeting on December**
+
+### II. External Advisory Board {background-image="figures/EAB.png" background-size="20%" background-position="95% 50%"}
+
+
+![](figures/EAB-planning.png){fig-align="left" width="30%"}
+
+
+### III.  Internal & External Communication {background-image="" background-size="50%" background-position="100% 50%"}
+
+
+::: {layout="[50,50]"} 
+
+:::{}
+1. **Internal**
+:::
+
+:::{}
+1. **External**
+:::
+
+:::
+
+
+
+## Questionnaire {background-image="figures/questions.png" background-size="50%" background-position="90% 50%"}
+
+- Time: Feb - October 2025
+- Scope:
+     - WP1: Inno. Opportunities for CE
+     - WP5: Comm. & Diss.
+     - WP6: Management
+
+
+## Questionnaire Results and Discussion 
+
+::: {layout="[40,60]"} 
+
+:::{}
+**Good points**
+
+- 90% Satisfaction in terms of Coordination
+
+- Deliverables update. 
+
+- Good Comments of PO
+
+:::
+
+:::{}
+
+![](figures/cedric.png){fig-align="center" width="100%"}
+
+
+:::
+
+:::
+
+
+
+## Questionnaire Results and Discussion 
+
+::: {layout="[50,50]"} 
+
+:::{}
+
+
+1. **Difficulties and/or To Improve**
+
+- External contacts (Difficult)
+
+- **Work team at each University.** 
+     - Hope to include students.
+
+- Internal communication
+
+:::
+
+:::{}
+
+:::
+
+:::
+
+
+
+# Next Steps
+
+## Mid-term report
+
+- Joint construction
+- Validation 
+
+
+
+## Next Meeting Online
+
+:::{.r-fit-text}
+
+**December 17 / 2026**
+
+:::
+
+## Next Presential Meeting: Colombia
+
+:::{.r-fit-text}
+**July 21-23 / 2026**
+:::
+
+## Thanks {background-image="figures/thanks.jpg" background-size="50%" background-position="50% 50%"}
+
