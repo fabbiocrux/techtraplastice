@@ -120,7 +120,7 @@ UL, UNRN, PUCV, COLUMBUS
      - WP6: Management
 
 
-## Questionnaire Results and Discussion 
+## Questionnaire Results and Discussion {.smaller}
 
 ::: {layout="[40,60]"} 
 
@@ -132,6 +132,9 @@ UL, UNRN, PUCV, COLUMBUS
 - Deliverables update. 
 
 - Good Comments of PO
+  - Involvement of students 
+  - Private sector
+  - Endorsed by the authorities of the HEIs’ department,
 
 :::
 
@@ -139,6 +142,15 @@ UL, UNRN, PUCV, COLUMBUS
 
 ![](figures/cedric.png){fig-align="center" width="100%"}
 
+
+:::{ }
+Opportunities
+
+- bilateral partnerships between HEIs (?)
+- At least one pilot project: *Informality*
+- Communication: *National administration*
+- Include the oil industry (?)
+:::
 
 :::
 
