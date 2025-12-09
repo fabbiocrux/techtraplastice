@@ -16,7 +16,7 @@ format:
 ---
 
 <!-- %%%%%%%%%% Converting to png. %%%%%%%%%%%%
-%% magick -density 150 assets/Gantt/_Gantt.pdf -quality 90 assets/Gantt/2025-Dec-Gantt.jpg-->
+%% magick -density 150 assets/Gantt/_Gantt.pdf -quality 90 images/2025-Dec-Gantt.png-->
 
 
 
