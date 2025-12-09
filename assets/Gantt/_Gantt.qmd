@@ -16,7 +16,7 @@ format:
 ---
 
 <!-- %%%%%%%%%% Converting to png. %%%%%%%%%%%%
-%% magick -density 150 assets/Gantt/_Gantt.pdf -quality 90 assets/Gantt/EBAGantt.png -->
+%% magick -density 150 assets/Gantt/_Gantt.pdf -quality 90 assets/Gantt/2025-Dec-Gantt.jpg-->
 
 
 
@@ -64,11 +64,11 @@ format:
 
 % Tareas
 \ganttbar[name=1a, progress=100, progress label text={Completed}]{Developing a framework to understand the companies/industries' performance for circular economy}{2025-02}{2025-04} \\
-\ganttbar[name=1b, progress=80, progress label text={90\%}]{Identifying gaps and drivers at targeted Industries/Companies to comply with the norms and consumers' preferences}{2025-05}{2025-10} \\
-\ganttbar[name=1c, progress=10, progress label text={10\%}]{Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} \\
+\ganttbar[name=1b, progress=100, progress label text={90\%}]{Identifying gaps and drivers at targeted Industries/Companies to comply with the norms and consumers' preferences}{2025-05}{2025-10} \\
+\ganttbar[name=1c, progress=100, progress label text={10\%}]{Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} \\
 
 % Milestone 1
-\ganttmilestone[progress=90]{Milestone 1: Industries/companies are committed with the project and responds consultations}{2025-07} \\
+\ganttmilestone[progress=100]{Milestone 1: Industries/companies are committed with the project and responds consultations}{2025-07} \\
 \ganttmilestone[EBA]{\colorbox{OliveGreen}{\color{white}\large Presentation of External Board Advisory}}{2025-12} \\
 \ganttnewline[thick, Celeste]  \\
 
@@ -76,8 +76,8 @@ format:
 \ganttgroup{WP2: Development of a networked portfolio}{2025-08}{2026-04} \\
 
 % Tareas
-\ganttbar[name=2a, progress=0, progress label text={ }]{Identifying existing core services for plastics challenges within the network of partners}{2025-08}{2026-01} \\
-\ganttbar[name=2b, progress=0,  progress label text={ }]{Design of Institutional Portfolios}{2025-11}{2026-04} \\
+\ganttbar[name=2a, progress=80, progress label text={ }]{Identifying existing core services for plastics challenges within the network of partners}{2025-08}{2026-01} \\
+\ganttbar[name=2b, progress=10,  progress label text={ }]{Design of Institutional Portfolios}{2025-11}{2026-04} \\
 \ganttbar[name=2c, progress=0,  progress label text={ }]{Promoting cross-peer collaboration and mentoring}{2025-11}{2026-04} \\ 
 
 % Milestone 1
