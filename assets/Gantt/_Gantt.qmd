@@ -27,7 +27,7 @@ format:
    x unit = 0.7cm,
    time slot format = isodate-yearmonth,
    time slot unit=month,
-   today=2025-10,
+   today=2025-12,
    progress= today,
    title/.append style={draw=none, fill= Neutro},
    title label font=\sffamily\bfseries\color{white},

@@ -191,6 +191,11 @@ Opportunities
 - Joint construction
 - Validation 
 
+:::{.r-fit-text}
+
+**August  2026**
+
+:::
 
 
 ## Next Meeting Online
