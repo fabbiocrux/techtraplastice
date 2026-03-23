@@ -11,4 +11,32 @@ date-format: short
 lightbox: true
 ---
 
+
+
+# Work Package 2: Development of a networked portfolio
+
+:::{.callout-important }
+
+## Goal of WP2
+
+This WP will address the various types of responses to the needs of the industry and sectors for a circular economy by identifying University missions - research, innovation, lifelong learning, assistance, and services.  Based on that, a collective portfolio for the plastics value-chain based on the university's core competencies and knowledge will be created. This WP will also promote cross-peer collaboration and sharing of practices and knowledge among partners.  
+
+:::}
+
+
+## Methodology
+
+### Capacity building and training activities
+
+
+{{< video https://www.youtube.com/embed/MTIznGqz8Ec?si=NZ-Dch2uF7d5vmda >}}
+
+
 ## Session with External Advisory Board - March 26, 2026
+
+
+ The External Advisory Board (EAB) session is a crucial component of the TechTraPlastiCE project, providing an opportunity for key stakeholders to engage in a collaborative dialogue about the project's progress, challenges, and future directions.
+
+
+
+ # Methodology of WP2
