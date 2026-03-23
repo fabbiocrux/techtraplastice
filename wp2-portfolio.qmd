@@ -1,0 +1,14 @@
+---
+title: "Strengthening University tech transfer capabilities to support circular economy value chains for plastics in Latin America -- TechTraPlastiCE"
+subtitle: "WP2 "
+title-block-banner: false
+last_update: 2026-03-26
+date-format: short
+#author:
+#  - name: Fabio CRUZ
+#    affiliations:
+#      - Université de Lorraine
+lightbox: true
+---
+
+## Session with External Advisory Board - March 26, 2026
