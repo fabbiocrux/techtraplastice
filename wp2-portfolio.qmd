@@ -14,7 +14,7 @@ layout: full
 
 
 
-# Work Package 2: Development of a networked portfolio
+# Development of a networked portfolio
 
 :::{.callout-tip }
 
@@ -23,6 +23,16 @@ layout: full
 This WP will address the various types of responses to the needs of the industry and sectors for a circular economy by identifying University missions - research, innovation, lifelong learning, assistance, and services.  Based on that, a collective portfolio for the plastics value-chain based on the university's core competencies and knowledge will be created. This WP will also promote cross-peer collaboration and sharing of practices and knowledge among partners.  
 
 :::
+
+
+### Objetive of the External Advisory Board Participation:
+
+**The objetive it to promote cross-peer collaboration and mentoring**.
+You participation will be to encourage cross-peer collaboration and mentoring activities, allowing more experienced partners to transfer practices of delivering solutions and service on methodologies for portfolio implementation. 
+This task will create matching possibilities among partners to help others advance according to their institutional needs and the opportunities they want to take advantage of. 
+
+
+
 
 
 ## Methodology 
