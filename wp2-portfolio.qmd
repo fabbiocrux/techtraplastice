@@ -27,9 +27,42 @@ This WP will address the various types of responses to the needs of the industry
 
 ## Methodology 
 
+:::{.column-page}
+
+### Presentation of the Methodology
+
+:::{layout="[[20,20,20,20,20],[20,20,20,20,20]]" layout-valign="center"}
+
+![](figures/WP2/PPT-EBA/Diapositive1.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive2.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive3.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive4.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive5.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive6.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive7.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive8.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive9.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive10.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive11.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive12.jpeg){group="my-gallery"}
+
+![](figures/WP2/PPT-EBA/Diapositive13.jpeg){group="my-gallery"}
+:::
+
+
 
 :::{.column-page-inset}
-
 
 :::{layout="[[50, 50],[50,50]]" layout-valign="center"}
 ### Services
