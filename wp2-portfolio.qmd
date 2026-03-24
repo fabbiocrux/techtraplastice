@@ -9,34 +9,145 @@ date-format: short
 #    affiliations:
 #      - Université de Lorraine
 lightbox: true
+layout: full
 ---
 
 
 
 # Work Package 2: Development of a networked portfolio
 
-:::{.callout-important }
+:::{.callout-tip }
 
 ## Goal of WP2
 
 This WP will address the various types of responses to the needs of the industry and sectors for a circular economy by identifying University missions - research, innovation, lifelong learning, assistance, and services.  Based on that, a collective portfolio for the plastics value-chain based on the university's core competencies and knowledge will be created. This WP will also promote cross-peer collaboration and sharing of practices and knowledge among partners.  
 
-:::}
+:::
 
 
-## Methodology
+## Methodology 
 
-### Capacity building and training activities
 
+:::{.column-page-inset}
+
+
+:::{layout="[[50, 50],[50,50]]" layout-valign="center"}
+### Services
 
 {{< video https://www.youtube.com/embed/MTIznGqz8Ec?si=NZ-Dch2uF7d5vmda >}}
+
+### Capabilities
+
+{{< video https://www.youtube.com/embed/yh2_x371ZkM?si=Fxf7sXCUCd2kJsTu >}}
+
+
+
+### Developments
+
+{{< video https://www.youtube.com/embed/e6GLrBWYfsc?si=sBeCNm_S4pKmgNgs >}}
+
+### Trainings
+
+{{< video https://www.youtube.com/embed/oFv0gY086io?si=pO6Prplwa6hKe6f3 >}}
+
+:::
+ 
 
 
 ## Session with External Advisory Board - March 26, 2026
 
 
- The External Advisory Board (EAB) session is a crucial component of the TechTraPlastiCE project, providing an opportunity for key stakeholders to engage in a collaborative dialogue about the project's progress, challenges, and future directions.
+## Argentine
 
 
+:::{layout="[30, 30, 30]" layout-valign="center"}
 
- # Methodology of WP2
+:::{}
+### Universidad Nacional de Rio Negro
+
+<iframe
+  width="100%"
+  height = auto
+  src="https://drive.google.com/file/d/1iMwveKJmqK2w0pOcvV5zAbzOAAf5kHsB/preview">
+</iframe>
+:::
+
+:::{}
+### Universidad Nacional del Sur
+
+
+<iframe
+  width="100%"
+  height = auto
+  src="https://drive.google.com/file/d/1u_VT8CQKF_Wv1e66J7iLUH4Yg123NZjO/preview">
+</iframe>
+:::
+
+:::{}
+### Universidad Nacional de Cordoba
+
+{{< video https://www.youtube.com/embed/8_39r2wsMW0?si=kWoORlr9IkNnjNmw >}}
+:::
+:::
+
+ 
+
+## Colombia
+
+
+:::{layout="[50, 50]" layout-valign="center"}
+
+### Universidad Nacional de Colombia
+
+{{< video https://www.youtube.com/embed/F0ppReFFPi4?si=W9y_p3Xv3qHklvJB >}}
+
+
+### Universidad Central
+
+{{< video https://www.youtube.com/embed/hftJyN0g5VY?si=xaxXtL6Qw8bJVN6o >}}
+
+
+:::
+
+ 
+## Chile
+
+
+:::{layout="[50, 50]" layout-valign="center"}
+
+
+:::{}
+### Pontificia Universidad Catolica de Chile
+
+{{< video https://www.youtube.com/embed/nZjDW0AyN4w?si=YbIRoQzfyTI0boCC >}}
+:::
+
+:::{}
+### Universidad Santiago de Chile
+
+
+<iframe
+  width="100%"
+  height = auto
+  src="https://drive.google.com/file/d/15-h_F5JeVK9hF7LbDdUFZ9N_DUKiT08q/preview">
+</iframe>
+
+:::
+:::
+ 
+
+## European Union
+
+:::{layout="[50, 50]" layout-valign="center"}
+
+### Université de Lorraine
+
+{{< video https://www.youtube.com/embed/OQ_eBD1_tTQ?si=y9G0AF0u7Je5eiuA >}}
+
+
+:::{}
+### Universidade de Aveiro
+
+{{< video https://www.youtube.com/embed/L_sT4tGCuN0?si=_YX4V637226X7jAI >}}
+:::
+:::
