@@ -1,5 +1,5 @@
 ---
-title: D2.1 Repository with proposed solutions/services
+title: D2.2 Document with Portfolio definition by Institution
 WP_num: WP2
 WP: "WP2: Development of a networked portfolio"
 Description: Each University will report the portfolio designed by the institutional teams following the guidelines provided by Universidad Nacional del Sur & Universidade de Aveiro. 
