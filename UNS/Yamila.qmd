@@ -1,0 +1,69 @@
+---
+author:
+  - name: Assist Prof. Fabio A. CRUZ SANCHEZ
+    affiliation:
+      - name: \vspace{-2cm}Université de Lorraine
+        department:  ENSGSI / ERPI
+        address: 8 rue Bastien Lepage
+        city: Nancy
+        country: France
+        postal-code: 54000
+address:
+  - \vspace{-1cm}Prof. **Yamila Victoria Vazquez**
+  - Universidad Nacional del Sur -- UNS --
+  - Cam. de la Carrindanga km. 7, B8000 Bahía Blanca, 
+  - Provincia de Buenos Aires, Argentina
+  
+subject-title: "Subject"
+subject: "**Certification of Participation and Budget Allocation – Erasmus+ Project TechTraPlastiCE**"
+opening: "Dear Sir/Madam,"
+closing: "Yours Faithfully,"
+
+geometry:
+ - top=3cm
+ - bottom=2cm
+ - left=2cm
+ - right=2cm
+fontsize: 12pt
+format:
+  letter-pdf:
+    output-file: index
+    include-in-header: [../assets/letters.tex]
+    keep-tex: true
+    
+---
+
+
+\thispagestyle{fancy}
+
+I, Fabio A. Cruz Sanchez, Assistant Professor at the Université de Lorraine, hereby certify that I serve as the Coordinator of the Erasmus+ project **TechTraPlastiCE** --[https://techtraplastice.eu/](https://techtraplastice.eu/) -- *"Strengthening University Tech Transfer Capabilities to Support Circular Economy Value Chains for Plastics in Latin America"*.
+This project aims to strengthen the applied research and technology transfer capacities of Higher Education Institutions (HEIs), enhancing their service portfolios to better support the plastic industry’s contribution to the green transition.
+Further information about the project is available at the Erasmus+ project database:  
+[https://erasmus-plus.ec.europa.eu/projects/search/details/101179564](https://erasmus-plus.ec.europa.eu/projects/search/details/101179564)
+
+I hereby confirm that Prof. Yamila Victoria Vazquez, Assistant Professor at the Universidad Nacional del Sur (Argentina), is appointed as the **Institutional Project Manager** for her university within the framework of the TechTraPlastiCE project.
+Within the scope of this project, a dedicated budget of **\texteuro15000 euros** has been allocated to the Universidad Nacional del Sur for the acquisition of equipment. 
+This equipment will support the implementation of pilot actions aimed at strengthening technological transfer capabilities and fostering stronger collaboration with the local plastics value chain.
+
+By engaging universities and socio-economic stakeholders, the project seeks to co-develop circular initiatives, foster innovation, and build long-term partnerships between academia and industry across Colombia, Argentina, and Chile. The outcomes are expected to generate valuable insights and recommendations applicable both in Latin America and the European Union.
+
+We look forward to a fruitful and impactful collaboration.
+
+
+
+\begin{textblock}{10}(12,23)
+  \fontsize{11}{8}
+  \selectfont \sffamily
+  \color[gray]{0.4}
+  \begin{tabular}{@{}l@{}}
+    \hline \\
+    Asst. Prof. \textbf{Fabio A. CRUZ SANCHEZ} \\
+    8 rue Bastien Lepage,  54000 Nancy \\[0.15cm]
+    \faIcon{envelope} \href{mailto:fabio.cruz@univ-lorraine.fr}{fabio.cruz@univ-lorraine.fr} \\
+    \faIcon{phone} +33 3 72 74 35 31 \\
+    \faIcon{house}  \href{https://ensgsi.univ-lorraine.fr/}{https://ensgsi.univ-lorraine.fr/}
+  \end{tabular}
+\end{textblock}
+
+
+[^1]: See more details at [https://erasmus-plus.ec.europa.eu/projects/search/details/101179564](https://erasmus-plus.ec.europa.eu/projects/search/details/101179564)
