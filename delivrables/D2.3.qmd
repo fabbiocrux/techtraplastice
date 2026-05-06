@@ -443,13 +443,13 @@ Table 1 describes potential actions between partners, with a focus on specific a
 
 
 
-:::{#fig-matchs layout="[30,-2,33,-2, 30]"}
-![Mentoring-based matching](figures/2.3/Match-00.png){#fig-match0 width="90%" fig-align="center"}
+:::{#fig-matchs layout="[[50,50],[100]]"}
+![Mentoring-based matching](figures/2.3/Match-00.png){#fig-match0 width="300px" fig-align="center"}
 
 
-![Complementarity-based matching](figures/2.3/Match-01.png){#fig-match1 width="90%" fig-align="center"}
+![Complementarity-based matching](figures/2.3/Match-01.png){#fig-match1 width="300px" fig-align="center"}
 
-![Affinity-based matching](figures/2.3/Match-02.png){#fig-match2 width2="90%" fig-align="center"}
+![Affinity-based matching](figures/2.3/Match-02.png){#fig-match2 width="300px" fig-align="center"}
 
 Potential interactions among partner institutions
 :::
