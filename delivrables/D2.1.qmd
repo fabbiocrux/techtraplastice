@@ -316,10 +316,10 @@ The process began with a comprehensive guidance phase, where partner institution
 
 Partners were instructed to complete the questionnaires following a predefined sequence:
 
-1. Services (Mid Sept 2026 )
-2. Capacities (Oct 2026)
-3. Developments (Mid Oct 2026)
-4. Training (November 2026)
+1. Services (Mid Sept 2025 )
+2. Capacities (Oct 205)
+3. Developments (Mid Oct 2025)
+4. Training (November 2025)
 
 This sequence was strategically defined to guide institutions through a structured reflection process. 
 Starting with services, typically more visible and externally oriented, allowed institutions to identify their immediate offerings. 
@@ -351,14 +351,14 @@ The data collection process was conducted between October and early December 202
 
 A consortium workshop held in Chile implemented a canvas-based co-creation exercise (@fig-canva), designed to capture additional qualitative insights, identify existing gaps and future opportunities, and support the co-design of institutional portfolios. 
 
-![Canva used at the workshop  at the meeting consortium in Chile Nov 2026](figures/2.1/Canva.png){#fig-canva width="100%" fig-align="center"}
+![Canva used at the workshop  at the meeting consortium in Chile Nov 2025](figures/2.1/Canva.png){#fig-canva width="100%" fig-align="center"}
 
 The canvas was organized into eight dimensions: i) human and organizational capabilities; ii) infrastructure and equipment; iii) applied R&D results; iv) scientific and technological services and developments; v) training and education; vi) institutional engagement strategies; vii) barriers and opportunities; and viii) ideas for inter-university collaboration. 
 Each dimension was explored through guiding questions and collective discussion. 
 The outputs generated through this exercise were documented and integrated as complementary qualitative data, enriching the structured dataset built through the questionnaires as illustrated in @fig-chile. 
 Obtained results from this activity complemented the analysis carried out in the following deliverables (D2.2 and D2.3).
 
-![Presential workshop on the Canva of at the meeting consortium in Chile Nov 2026](figures/2.1/Chile.jpg){#fig-chile width="60%" fig-align="center"}
+![Face-to-face workshop on the Canva of at the meeting consortium in Chile Nov 2025](figures/2.1/Chile.jpg){#fig-chile width="60%" fig-align="center"}
 
 
 <!-- ## External advisory board contribution
@@ -395,22 +395,29 @@ In the annexes @sec-A2, the complete raw data is plotted for the four questionna
 
 :::landscape
 
-## Developments at each HEI's
+## Developments at each HEIs
 
 ```{r}
 #| label: tbl-developments
 #| tbl-cap: "Primary dataset of **Developments** at each HEI. Complete dataset is found in the Annex"
 
 # Global data
-datos <- read_excel(here("delivrables/tables/2.1/Developments - Responses.xlsx"))
-#datos <- read_excel("figures/1.3/Data-USACH.xlsx", sheet = "total")
-
-
 datos <- 
-  datos %>% select(HEI, Title, Subtitle) %>%   
-  mutate(Subtitle = tolower(Subtitle))  %>% 
+read_excel(here("delivrables/annex/2.1/Developments - Responses.xlsx")) %>% 
+  select(1,3,5)  %>% 
+  set_names(c("HEI", "Title", "Description"))  %>% 
+   arrange(desc(HEI))
+
+
+
+
+View(datos)
+#datos <- read_excel("figures/1.3/Data-USACH.xlsx", sheet = "total")
+  
+datos %>%   
+  mutate(Description = tolower(Description))  %>% 
   rowid_to_column("ID") %>% 
-  select(HEI, ID, Title, Subtitle) %>% 
+  select(HEI, ID, Title, Description) %>% 
   arrange(HEI) %>%
   mutate_all(linebreak) %>%
   kbl("latex", booktabs = T, escape = F, row.names = F,
@@ -435,7 +442,7 @@ datos
 
 \newpage
 
-## Capabilities at each HEI's
+## Capabilities at each HEIs
 
 ```{r}
 #| label: tbl-capabilities
@@ -487,7 +494,7 @@ datos
 
 \newpage
 
-## Technical Services at each HEI's
+## Technical Services at each HEIs
 
 ```{r}
 #| label: tbl-technical
@@ -535,7 +542,7 @@ datos
 
 
 
-## Training Programs
+## Training Programs at each HEIs
 
 \newpage
 
@@ -588,17 +595,17 @@ datos
 
 
 On the other hand, complementary qualitative data was obtained through the canvas-based workshop carried out during the consortium meeting in Chile as illustrated in the @fig-workshop. 
-This includes visual records of the completed canvas (@fig-canva1) by each HEI's, which capture collective reflections (@fig-canva2 and @fig-canva3) on the institutional insights, and identified opportunities for collaboration. 
+This includes visual records of the completed canvas (@fig-canva1) by each HEIs, which capture collective reflections (@fig-canva2 and @fig-canva3) on the institutional insights, and identified opportunities for collaboration. 
 These materials provide additional context and depth to the structured dataset that are  included in the @sec-A2.
 
 
 :::{#fig-workshop layout="[[100],[48,-3,48]]"}
 
-![Example of canva discussed at the consortium meeting in Chile in Nov. 2026](figures/2.1/Canva-00.jpg){#fig-canva1 width="60%" fig-align="center"}
+![Example of canva discussed at the consortium meeting in Chile in Nov. 2025](figures/2.1/Canva-00.jpg){#fig-canva1 width="60%" fig-align="center"}
 
-![Workshop developed by each HEI's](figures/2.1/Canva-01.jpg){#fig-canva2 width="60%" fig-align="center"}
+![Workshop developed by each HEIs](figures/2.1/Canva-01.jpg){#fig-canva2 width="60%" fig-align="center"}
 
-![Feedback made by the consortium meeting at Chile in Nov. 2026](figures/2.1/Canva-02.jpg){#fig-canva3 width="60%" fig-align="center"}
+![Feedback made by the consortium meeting at Chile in Nov. 2025](figures/2.1/Canva-02.jpg){#fig-canva3 width="60%" fig-align="center"}
 
 :::
 
@@ -718,7 +725,7 @@ pages=-]{annex/2.1/Annex-Trainings_a4.pdf}
 \newgeometry{a3paper, left=15mm,right=15mm, top=20mm, bottom=20mm}
 
 
-# Complete raw data collected throughrout T2.1 {#sec-A2}
+# Complete raw data collected throughout T2.1 {#sec-A2}
 ## Complete collected data - Developments
 
 \includepdf[landscape=true, scale=0.85, offset=0 0cm, pagecommand*={\pagestyle{fancy} },
