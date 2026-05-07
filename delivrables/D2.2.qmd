@@ -8,14 +8,8 @@ Dissemination: Public
 Date-delivrable: April 30/2026
 Quality: D2.2.tex
 author: 
-  - Prof. Paula Ferreira, &nbsp; 
-  - Prof. Idalina José Gonçalves, &nbsp;
-  - Prof. Cláudia Nunes, &nbsp;
-  - Prof. Yamila Victoria Vazquez, &nbsp;
-  - Prof. Yanela N. Alonso, &nbsp;
-  - Prof. Luciana A. Castillo, &nbsp;
-  - Econ. Yesica Soledad Dilernia
-  - DI. Tere Dutari 
+  - Prof. Paula Ferreira (UA), Prof. Idalina José Gonçalves (UA), Prof. Cláudia Nunes (UA).
+  - Prof. Yamila Victoria Vazquez (UNS), Prof. Yanela N. Alonso (UNS), Prof. Luciana A. Castillo, (UNS), Econ. Yesica Soledad Dilernia (UNS), ID. Teresa Dutari (UNS).
 date: today
 date-format: long
 metadata-files:
@@ -31,7 +25,6 @@ format:
      - assets/before-body.tex
      - assets/_titlepage.tex
 ---
-
 
 
 # Introduction
@@ -60,7 +53,7 @@ As a result, the tech cards function as the building blocks for the subsequent c
 In this sense, universities can improve their capacity to communicate their expertise, engage with external stakeholders, and respond strategically to emerging challenges in the plastic value chain.
 
 
-![Deliverable *D2.2 Portfolio definition for each HEI's*](figures/2.2/D2.2.png){#fig-baseline fig-alt="alt"}
+![Deliverable *D2.2 Portfolio definition for each HEIs*](figures/2.2/D2.2.png){#fig-baseline fig-alt="alt"}
 
 
 
@@ -86,7 +79,7 @@ This multi-level approach ensures both depth and comparability, allowing the ana
 
 The work carried out through WP2 reinforces the role of higher education institutions as key actors in advancing a circular economy for plastics at micro, meso and macro level (as illustrated in @fig-method ), increasing their capacity to deliver tangible impacts at regional and international scales. 
 
-![Methodological approach for portfolio definition for HEI's](figures/2.2/Method-2.2.png){#fig-method width="90%"}
+![Methodological approach for portfolio definition for HEIs](figures/2.2/Method-2.2.png){#fig-method width="90%"}
 
 
 
@@ -219,7 +212,7 @@ Finally, the system for developing the tech cards was based on an editable Power
 @fig-techcards shows the set of tech cards constituted the basis for the construction of the institutional portfolios of each participating university, which can be accessed through the following link: [https://techtraplastice.eu/resultados/](https://techtraplastice.eu/resultados/). 
 
 
-![Set of Tech Cards of all consortium putted at the TechTraPlastiCE website [https://techtraplastice.eu/resultados/](https://techtraplastice.eu/resultados/)](figures/2.2/Tech-cards-00.jpg){#fig-techcards width="80%" fig-align="center"}
+![Set of Tech Cards of all consortium available on the TechTraPlastiCE website [https://techtraplastice.eu/resultados/](https://techtraplastice.eu/resultados/)](figures/2.2/Tech-cards-00.jpg){#fig-techcards width="80%" fig-align="center"}
 
 
 Based on this material, a presentation strategy was defined to ensure accessibility, intuitive navigation, and scalability of the system. 
@@ -268,7 +261,7 @@ The main results of the institutional analysis for each of the member universiti
 The profile of the Universidad Central (@fig-UC) was analysed based on 33 technology cards, including 16 capacities forming the knowledge and infrastructure base supporting different types of transfer. These include 13 technical services, 3 training activities and 1 technological development.
 
 
-![Tech card of the Universidad Central of Colombia. Accesible at [https://techtraplastice.eu/resultados/universidad-central/](https://techtraplastice.eu/resultados/universidad-central/)](figures/2.2/UC.png){#fig-UC width="60%"}
+![Tech card of the Universidad Central of Colombia. Accessible at [https://techtraplastice.eu/resultados/universidad-central/](https://techtraplastice.eu/resultados/universidad-central/)](figures/2.2/UC.png){#fig-UC width="60%"}
 
 
 The analysis shows a high relative concentration of technical services, which constitute the core of the activities, while training and technological developments have a significantly lower presence. 
@@ -281,7 +274,7 @@ Transfer activities show an integrated approach, combining technological capacit
 
 The profile of the Universidad Nacional de Colombia was analysed based on 38 technology cards (@fig-UNAL). Within this set, 6 capacities define the institutional knowledge core. These support 22 technical services, 5 training activities and 5 technological developments.
 
-![Tech card of the Universidad Nacional of Colombia. Accesible at [https://techtraplastice.eu/resultados/universidad-nacional-de-colombia/](https://techtraplastice.eu/resultados/universidad-nacional-de-colombia/)](figures/2.2/UNAL.png){#fig-UNAL width="60%"}
+![Tech card of the Universidad Nacional of Colombia. Accessible at [https://techtraplastice.eu/resultados/universidad-nacional-de-colombia/](https://techtraplastice.eu/resultados/universidad-nacional-de-colombia/)](figures/2.2/UNAL.png){#fig-UNAL width="60%"}
 
 Technical services predominate, representing more than half of the activities, followed by training and developments. Services include a wide range of testing and characterisation techniques for polymeric materials, such as thermal, mechanical and physicochemical analyses, along with advanced methodologies including chromatography, microstructural analysis and durability assessment.
 Capacities also incorporate a strategic dimension linked to sustainability, circular economy, process scaling and materials characterisation. Training activities reinforce this approach through courses on life cycle analysis, eco-design and innovation. Technological developments focus on bioeconomy and resource valorisation, including biopolymers, bio-based plasticisers and biodegradable packaging, some reaching intermediate to advanced maturity levels (up to TRL 7).
@@ -292,7 +285,7 @@ Transfer activities show a technological–applied orientation with a strong env
 
 @fig-PUCV presents the profile of Pontificia Universidad Católica de Valparaíso was defined based on the analysis of a total of 31 tech cards, including: 6 technical services, 8 capacities, 8 training activities and 9 technological developments. It is worth noting that the identified capacities constitute the foundation upon which the different types of transfer are articulated, integrating and supporting service, training and development activities.
 
-![Tech card of the Pontificia Universidad Católica de Valparaíso of Chile. Accesible at [https://techtraplastice.eu/resultados/pontificia-universidad-catolica-de-valparaiso/](https://techtraplastice.eu/resultados/pontificia-universidad-catolica-de-valparaiso/)](figures/2.2/PUCV.png){#fig-PUCV width="60%"}
+![Tech card of the Pontificia Universidad Católica de Valparaíso of Chile. Accessible at [https://techtraplastice.eu/resultados/pontificia-universidad-catolica-de-valparaiso/](https://techtraplastice.eu/resultados/pontificia-universidad-catolica-de-valparaiso/)](figures/2.2/PUCV.png){#fig-PUCV width="60%"}
 
 
 In terms of distribution, a relatively balanced structure is observed across the different types of activities, with a slight predominance of technological developments and training activities, while technical services have a lower relative proportion. 
@@ -307,7 +300,7 @@ Based on these elements, *PUCV can be classified as having a hybrid profile, as 
 The profile of the Universidad de Santiago de Chile (@fig-USACH) was determined based on 57 tech cards (14 capacities, 24 technical services, 14 developments and 5 training activities), indicating a diversified structure with a predominance of services.
 
 
-![Tech card of the Universidad Santiago de Chile. Accesible at [https://techtraplastice.eu/resultados/universidad-de-santiago-de-chile/](https://techtraplastice.eu/resultados/universidad-de-santiago-de-chile/)](figures/2.2/USACH.png){#fig-USACH width="50%"}
+![Tech card of the Universidad Santiago de Chile. Accessible at [https://techtraplastice.eu/resultados/universidad-de-santiago-de-chile/](https://techtraplastice.eu/resultados/universidad-de-santiago-de-chile/)](figures/2.2/USACH.png){#fig-USACH width="50%"}
 
 Capacities focus on the development of innovation tools, organisational management and sustainability, integrating technical and strategic dimensions for solution design. In this sense, they function as a conceptual and methodological support enabling the deployment of consultancy services, company support processes and training activities, rather than as a direct basis for highly complex technological developments. Accordingly, technical services are primarily oriented towards planning, optimisation and evaluation of productive and organisational systems, incorporating modelling tools, environmental analysis and innovation management. Technological developments cover areas such as energy, recycled materials and circular economy, with intermediate maturity levels (TRL 2–5). Training activities complement the offer with courses in circular economy, innovation and agile methodologies, supporting the adoption of these tools.
 
@@ -317,7 +310,7 @@ Overall, transfer activities show a hybrid orientation, combining technological 
 
 The profile of the Universidad Nacional de Córdoba was constructed based on 10 technology cards, including 3 capacities, 3 technical services, 3 training activities and 1 technological development as illustrated in @fig-UNC. 
 
-![Tech card of the Universidad Nacional de Córdoba in Argentina. Accesible at [https://techtraplastice.eu/resultados/universidad-nacional-de-cordoba/](https://techtraplastice.eu/resultados/universidad-nacional-de-cordoba/)](figures/2.2/UNC.png){#fig-UNC width="60%"}
+![Tech card of the Universidad Nacional de Córdoba in Argentina. Accessible at [https://techtraplastice.eu/resultados/universidad-nacional-de-cordoba/](https://techtraplastice.eu/resultados/universidad-nacional-de-cordoba/)](figures/2.2/UNC.png){#fig-UNC width="60%"}
 
 The portfolio shows a balanced structure between technical services and training, with a lower presence of technological developments. However, training activities have a relatively strong weight, indicating an institutional orientation towards knowledge generation and dissemination in sustainability, circular economy and emerging economic models.
 
@@ -327,7 +320,7 @@ Capacities are focused on polymer processing and characterisation, while service
 
 The profile of the Universidad Nacional de Río Negro (@fig-UNRN) was analysed based on 21 technology cards, including 4 capacities, 9 technical services, 5 training activities and 3 technological developments, indicating a relatively balanced structure.
 
-![Tech card of the Universidad Nacional de Río Negro in Argentina. Accesible at [https://techtraplastice.eu/resultados/universidad-nacional-de-rio-negro/](https://techtraplastice.eu/resultados/universidad-nacional-de-rio-negro/)](figures/2.2/UNRN.png){#fig-UNRN width="50%"}
+![Tech card of the Universidad Nacional de Río Negro in Argentina. Accessible at [https://techtraplastice.eu/resultados/universidad-nacional-de-rio-negro/](https://techtraplastice.eu/resultados/universidad-nacional-de-rio-negro/)](figures/2.2/UNRN.png){#fig-UNRN width="50%"}
 
 Capacities show an integrated approach to sustainability and circular economy, with strong emphasis on inclusive recycling systems and interdisciplinary solutions for microplastics. These underpin technical assistance services, training, and developments, with strong territorial anchoring and engagement with local stakeholders and public policies. Technical services differ from those of other institutions, focusing on organisational consultancy, strategic planning, human resource management and environmental diagnostics. Technological developments address environmental challenges such as microplastic detection sensors, microbial consortia for polymer biodegradation and environmental management plans.
 
@@ -338,7 +331,7 @@ Its transfer activities show a predominantly socio-environmental orientation wit
 The profile of the Universidad Nacional del Sur (@fig-UNS) was analysed based on 51 technology cards, including 16 capacities, 14 developments, 15 technical services and 6 training activities, showing a highly balanced and comprehensive structure.
 
 
-![Tech card of the Universidad Nacional del Sur in Argentina. Accesible at [https://techtraplastice.eu/resultados/universidad-nacional-del-sur/](https://techtraplastice.eu/resultados/universidad-nacional-del-sur/)](figures/2.2/UNS.png){#fig-UNS width="60%"}
+![Tech card of the Universidad Nacional del Sur in Argentina. Accessible at [https://techtraplastice.eu/resultados/universidad-nacional-del-sur/](https://techtraplastice.eu/resultados/universidad-nacional-del-sur/)](figures/2.2/UNS.png){#fig-UNS width="60%"}
 
 Capacities reflect strong expertise in process engineering, materials science and advanced modelling, including polymer synthesis and processing, bioplastics design, process optimisation and environmental assessment. Technological developments are a central component, with applications in packaging, recycling, energy and advanced materials, spanning various maturity levels from experimental validation to real-world implementation. Technical services are highly specialised and supported by advanced analytical infrastructure, enabling materials characterisation, quality control and product validation. Training activities complement the portfolio through advanced technical education.
 
@@ -349,7 +342,7 @@ The transfer activities show a clearly technological–industrial orientation, f
 The profile of the Universidade de Aveiro (@fig-UA) was established based on the analysis of 29 tech cards, distributed as follows: 12 technical services, 13 capacities, 3 training activities and 1 technological development. 
 As with the other institutions, the identified capacities constitute the core of the transfer offer, concentrating technical knowledge and available infrastructure, from which services, training activities and, to a lesser extent, technological developments are structured and deployed.
 
-![Tech card of the Universidade de Aveiro in Portugal. Accesible at [https://techtraplastice.eu/resultados/universidad-de-aveiro/](https://techtraplastice.eu/resultados/universidad-de-aveiro/)](figures/2.2/UA.png){#fig-UA width="60%"}
+![Tech card of the Universidade de Aveiro in Portugal. Accessible at [https://techtraplastice.eu/resultados/universidad-de-aveiro/](https://techtraplastice.eu/resultados/universidad-de-aveiro/)](figures/2.2/UA.png){#fig-UA width="60%"}
 
 In this case, a high relative number of technical services is observed, while training activities and, especially, technological developments have a significantly lower proportion. Capacities are mainly oriented towards advanced materials characterisation (mechanical, thermal, structural, optical and morphological) and processing technologies such as extrusion, compounding, 3D printing and injection moulding. Technical services operationalise these capacities in applied settings, offering testing, materials validation, process optimisation and sample production at laboratory and pilot scale. Regarding transfer orientation, a predominantly technological–operational approach is evident, supported by the infrastructure available and the provision of specialised services to the productive sector. Training activities, although present, are focused on specific topics such as bioplastics, sustainability and innovation, while technological developments are limited to a single proposal with an intermediate maturity level (TRL 6), related to materials recycling.
 
@@ -362,7 +355,7 @@ The profile of the Université de Lorraine (@fig-UL) was determined based on the
 
 The composition shows a clear predominance of technical services, which represent the main component of the identified activities, followed by training activities, while technological developments have a more limited presence. Technical services are primarily oriented towards advanced characterisation of polymeric materials, including chemical, structural, morphological, rheological and mechanical analyses, as well as manufacturing processes, prototyping, material formulation and specialised consultancy. 
 
-![Tech card of the Universidade de Aveiro in Portugal. Accesible at [https://techtraplastice.eu/resultados/universidaddelorraine/](https://techtraplastice.eu/resultados/universidaddelorraine/)](figures/2.2/UL.png){#fig-UL width="60%"}
+![Tech card of the Universidade de Lorraine. Accessible at [https://techtraplastice.eu/resultados/universidaddelorraine/](https://techtraplastice.eu/resultados/universidaddelorraine/)](figures/2.2/UL.png){#fig-UL width="60%"}
 
 
 Capacities reflect a consolidated scientific infrastructure focused on polymer characterisation and processing, with emphasis on understanding structure–property–process relationships. Training activities complement this framework through a broad and structured educational offer, ranging from specialised short courses to full engineering programmes, showing strong integration between academic training and applied research. Regarding transfer orientation, a strongly scientific–technological approach is observed, based on the generation of advanced knowledge and its application through highly specialised services. Technological developments are positioned at intermediate maturity levels (TRL 4), indicating a focus on experimental validation and proof of concept. 

@@ -73,7 +73,7 @@ It integrates internal analysis, collective reflection, and external validation 
 
 ## Canvas-based institutional analysis
 
-As it was presented in D2.1, a key activity was conducted during the consortium meeting held in Chile during November 2026, where the nine partner universities participated in a structured exercise based on the canvas methodology. 
+As it was presented in D2.1, a key activity was conducted during the consortium meeting held in Chile during November 2025, where the nine partner universities participated in a structured exercise based on the canvas methodology. 
 his activity aimed to map institutional capacities related to knowledge and technology transfer and to identify opportunities for inter-university collaboration.
 
 The exercise was structured around eight analytical blocks: 
@@ -90,12 +90,12 @@ The exercise was structured around eight analytical blocks:
 Guiding questions (@fig-canva) were used to stimulate reflection on institutional strengths, available resources, transfer potential, interaction mechanisms with external stakeholders, and key challenges. 
 While blocks 1 to 7 informed the characterization of institutional profiles (submitted via the Google Forms described in D2.1 and analyzed in D2.2), **block 8 focused specifically on identifying complementarities and opportunities for collaboration. This component was further developed through a dedicated follow-up form completed by each institution.**
 
-![Canva used at the workshop  at the meeting consortium in Chile Nov 2026](figures/2.1/Canva.png){#fig-canva width="100%" fig-align="center"}
+![Canva used at the workshop  at the meeting consortium in Chile Nov 2025](figures/2.1/Canva.png){#fig-canva width="100%" fig-align="center"}
 
 In addition to the canvas-based mapping exercise, a complementary perspective mentoring based on *open innovation* was incorporated through a subsequent virtual session at the general meeting of the consortium in December 2066.
-This approach aimed to enrich the analytical framework by introducing collaborative and co-creation dynamics as a key dimension of technology transfer processes from the presential meeting made at Chile in Nov. 2026 (See the presentation in the Annex). 
+This approach aimed to enrich the analytical framework by introducing collaborative and co-creation dynamics as a key dimension of technology transfer processes from the presential meeting made at Chile in Nov. 2025 (See the presentation in the Annex). 
 
-![Presentation on Open Innovation made by the UNS at the General meeting of December 2026](figures/2.3/Open-inno.png){#fig-open width="95%" fig-align="center"}
+![Presentation on Open Innovation made by the UNS at the General meeting of December 2025](figures/2.3/Open-inno.png){#fig-open width="95%" fig-align="center"}
 
 From a methodological standpoint, the integration of open innovation allowed to move beyond a static identification of institutional capacities towards a more dynamic understanding of how these capacities can be mobilized, in interaction with external stakeholders. 
 In particular, it introduced a shift from linear models of technology transfer (based on predefined demands) towards iterative and collaborative processes, where problems and solutions are jointly defined and developed. 
@@ -105,7 +105,7 @@ As a result, the combined use of the canvas methodology and the open innovation 
 ## External Advisory Board workshop and structured exchange
 
 A second core component of the methodology was the interaction with the EAB.
-During the second semester of 2026, the members of the EAB made a official presentation to the TechTraPlastiCE consortium on topic related to the technology transfer and Circular Economy.
+During the second semester of 2025, the members of the EAB made a official presentation to the TechTraPlastiCE consortium on topic related to the technology transfer and Circular Economy.
 Then, a virtual workshop with most of the EAB was carried out through on March 26th, 2026. 
 The composition of the EAB reflects the diversity of expertise required to address technology transfer challenges within the circular economy of plastics, combining academic, industrial, and strategic perspectives. The workshop aimed to deepen the understanding of institutional barriers and opportunities, and to obtain strategic recommendations for strengthening technology transfer practices.
 
@@ -152,13 +152,13 @@ Associate Professor at the Faculty of Economics, Law and Business at the Univers
 
 ### Astrid Jaime - Associate Researcher at the Universidad Minuto de Dios in Colombia 
 
-At the monthly general consortium of TechTraPlastiCE of Oct. 2026, Prof. Jaime presented her expertise research on innovation project management, knowledge transfer processes, entrepreneurship, and intellectual property as illustrated @fig-UIS. 
+At the monthly general consortium of TechTraPlastiCE of Oct. 2025, Prof. Jaime presented her expertise research on innovation project management, knowledge transfer processes, entrepreneurship, and intellectual property as illustrated @fig-UIS. 
 She has extensive experience in teaching and outreach activities related to these fields, contributing to the dissemination and application of knowledge. 
 THe TechTraPlastiCE consortium could have on overview of her work which is centered on the articulation of science, technology, and innovation systems, with a particular focus on knowledge management and its role in strengthening institutional and socio-productive linkages.
 
 :::{layout="[45,-5,45]"}
 
-![Presentation of Prof. Astrid Jaime to the TechTraPlastiCE Consortium on general meeting of Oct. 2026](figures/2.3/Astrid-00.png){#fig-id fig-alt="alt"}
+![Presentation of Prof. Astrid Jaime to the TechTraPlastiCE Consortium on general meeting of Oct. 2025](figures/2.3/Astrid-00.png){#fig-id fig-alt="alt"}
 
 ![Prof. Astrid Jaime presented to the consortium her experience on the Tech Transfer Office of the Universidad Industrial de Santander](figures/2.3/Astrid-01.jpg){#fig-UIS fig-alt="alt"}
 :::
@@ -175,12 +175,12 @@ She served as Director of PLAPIQUI (UNS–CONICET) and as Dean of the Department
 
 :::{layout="[45,-5,45]"}
 
-![Presentation of Ex-Prof. Veronical Bucala to the TechTraPlastiCE Consortium on general meeting of Dec. 2026](figures/2.3/Veronica-00.png){#fig-id fig-alt="alt"}
+![Presentation of Ex-Prof. Veronical Bucala to the TechTraPlastiCE Consortium on general meeting of Dec. 2025](figures/2.3/Veronica-00.png){#fig-id fig-alt="alt"}
 
 ![Ex-Prof. Véronica Bucala presented her experience on the implementation of Tech Transfer Office at the "Planta Piloto de Ingenieria Quimica" (Universidad Nacional del Sur)](figures/2.3/Veronica-01.png){#fig-UIS fig-alt="alt"}
 :::
 
-On the monthly general meeting of TechTraPlastiCE in Dec. 2026, she shared to the consortium her experience on the key role in strengthening the link between science and industry and promoting technology transfer processes. 
+On the monthly general meeting of TechTraPlastiCE in Dec. 2025, she shared to the consortium her experience on the key role in strengthening the link between science and industry and promoting technology transfer processes. 
 The major output of this session was to better understand the value of her expertise on process engineering, innovation management, for the articulation between academic knowledge and industrial application.
 She gives insigths on the structuration of the portfolio of chemical
 
@@ -193,12 +193,12 @@ The engineering domain plays in oustanding role in this transition.
  
  She has over 30 years of experience as a scientific researcher, with expertise in heterogeneous catalysis, biomass pyrolysis, biochar production for steel and agricultural industries, and advanced chemical recycling of mixed plastics and end-of-life tires. 
  
- Likewise Veronica, on the general meeeting of Dec. 2026, TechTraPlastiCE consortium had the opportunity to understand the work of Mara at the circular Economy start-up CYCLUS to understand the decarbonization challenges  including the extensive interdisciplinary work across biology, agronomy, and electronic and mechanical engineering, alongside strong collaboration with the private sector. 
+ Likewise ex-Prof. Veronica Bucala, on the general meeeting of Dec. 2025, TechTraPlastiCE consortium had the opportunity to understand the work of Mara at the circular Economy start-up CYCLUS to understand the decarbonization challenges  including the extensive interdisciplinary work across biology, agronomy, and electronic and mechanical engineering, alongside strong collaboration with the private sector. 
  
  
 :::{layout="[45,-5,45]"}
 
-![Presentation of PhD. Mara Volpe to the TechTraPlastiCE Consortium on general meeting of Dec. 2026](figures/2.3/Mara-00.png){#fig-id fig-alt="alt"}
+![Presentation of PhD. Mara Volpe to the TechTraPlastiCE Consortium on general meeting of Dec. 2025](figures/2.3/Mara-00.png){#fig-id fig-alt="alt"}
 
 ![PhD. Mara Volpe presented her experience on the start-up [CYCLUS - https://cyclus.com.ar/ ](https://cyclus.com.ar/) on circular economy issues](figures/2.3/Mara-01.jpg){#fig-UIS fig-alt="alt"}
 
@@ -243,7 +243,7 @@ He holds dual Chilean and French degrees in Industrial and Systems Engineering, 
 :::{layout="[[45,-5,45] ]"}
 
 :::{}
-![Meeting of TechTraPlastiCE at Chile. Nov. 2026](figures/2.3/Chile-00.jpg){#fig-chile width="90%"}
+![Meeting of TechTraPlastiCE at Chile. Nov. 2025](figures/2.3/Chile-00.jpg){#fig-chile width="90%"}
 
 ![Implementation of Extended Reponsability scheme in Chile by Tomás Saieg](figures/2.3/Chile-01.jpg){#fig-flavio1 width="90%"}
 :::
@@ -706,7 +706,7 @@ In this context, D2.3 highlights the importance of moving towards a network-base
 pages=-]{figures/2.3/Agenda.pdf}
 
 
-\includepdf[landscape=false,  delta=2 2, frame=true,  nup=2x3, pagecommand*={\pagestyle{fancy} \section{Presentation of Open Innovation and presentation of Véronica Bucala and Mara Volpe on General Meeting of Dec. 17/2026}}, 
+\includepdf[landscape=false,  delta=2 2, frame=true,  nup=2x3, pagecommand*={\pagestyle{fancy} \section{Presentation of Open Innovation and presentation of Véronica Bucala and Mara Volpe on General Meeting of Dec. 17/2025}}, 
 scale=0.8, pages=-]{annex/2.3/2025-12-17-General-Meeting.pdf}
 
 
