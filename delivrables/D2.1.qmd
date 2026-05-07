@@ -1,5 +1,5 @@
 ---
-title: D2.1 Repository with Proposed Solutions  Services
+title: D2.1 Repository with Proposed Solutions / Services
 WP_num: WP2
 WP: "WP2: Development of a networked portfolio"
 Description: This repository will consist of digital documents/pieces grouping in a visual manner the collective portfolio, the providers, and the main assets of partner institutions; to openly sharing with different targets/industries.
@@ -38,6 +38,18 @@ library(readxl)
 library(here)
 
 ```
+
+
+
+# Executive summary {.unnumbered}
+
+This deliverable presents the **D2.1 Repository with Proposed Solutions / Services** of the *Work Package 2 (WP2) Development of a networked portfolio* of the TechTraPlastiCE project, focused on the structuration of a networked portfolio of services, capacities, developments, and training activities related to the circular economy of plastics across partner Higher Education Institutions (HEIs). 
+The report establishes a baseline mapping of institutional competencies to support technology transfer, strengthen university–industry collaboration, and foster innovation ecosystems in Latin America and Europe.
+
+The methodology combines structured questionnaires, iterative validation processes, and participatory canvas-based workshops. This mixed-method approach enabled the collection of both standardized and context-sensitive data from a diverse consortium with varying levels of institutional maturity and regional contexts. The resulting dataset captures technical services, research and innovation capabilities, transferable developments, and educational activities connected to circular economy challenges.
+
+The repository generated through WP2 provides a consolidated and comparable overview of partner expertise and resources, creating the foundation for future collaboration and co-creation activities in subsequent work packages. The report also highlights differences in terminology, data structure, and detail among participating institutions, emphasizing the need for further harmonization and analytical refinement. Overall, D2.1 delivers a strategic operational framework for strengthening technology transfer and sustainable innovation in the plastics circular economy sector.
+
 
 
 

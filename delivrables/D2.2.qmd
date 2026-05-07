@@ -27,6 +27,22 @@ format:
 ---
 
 
+
+# Executive summary {.unnumbered}
+
+This deliverable presents the **D2.2 Document with Portfolio definition by Institution** of the *Work Package 2 (WP2) Development of a networked portfolio* of the TechTraPlastiCE project.
+The development of institutional portfolios within the TechTraPlastiCE project aims to transform the raw information collected in Deliverable 2.1 into structured, validated, and actionable knowledge related to the circular economy of plastics. 
+The report focuses on how Higher Education Institutions (HEIs) can organize and communicate their technology transfer capacities, services, developments, and training activities to strengthen collaboration with industry, government, and society.
+
+The methodology combines qualitative, comparative, and multi-level analysis. Information gathered from partner institutions was reviewed, standardized, and validated through the creation of “tech cards,” which serve as harmonized units describing services, capabilities, and innovations associated with the plastics value chain. 
+These cards enabled the construction of institutional portfolios that reflect each university’s strengths, orientation, and transfer potential.
+
+The analysis was conducted at three levels: micro (individual transfer records), meso (institutional profiles), and macro (cross-institutional comparison). 
+Results reveal diverse but complementary institutional models, ranging from highly technological and infrastructure-based approaches to socio-territorial and sustainability-oriented profiles. 
+The report highlights the strategic role of universities as facilitators of sustainable innovation and demonstrates how structured portfolios can enhance visibility, cooperation, and impact within regional and international circular economy ecosystems.
+
+
+
 # Introduction
 
 The transition towards a circular economy for plastics requires not only the identification of innovative solutions but also the development of structured mechanisms that enable their effective implementation within specific institutional and territorial contexts. 

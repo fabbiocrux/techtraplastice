@@ -8,16 +8,9 @@ Dissemination: Confidential
 Date-delivrable: April 30/2026
 Quality: D2.3.tex
 author: 
-  - Prof. Paula Ferreira, &nbsp; 
-  - Prof. Idalina José Gonçalves, &nbsp;
-  - Prof. Cláudia Nunes, &nbsp;
-  - Prof. Yamila Victoria Vazquez, &nbsp;
-  - Prof. Yanela N. Alonso, &nbsp;
-  - Prof. Luciana A. Castillo, &nbsp;
-  - Econ. Yesica Soledad Dilernia
-  - DI. Tere Dutari, &nbsp; 
-  - PhD. Catalina Suescun, &nbsp;
-  - Prof. Fabio Cruz.
+  - Prof. Paula Ferreira (UA), Prof. Idalina José Gonçalves (UA), Prof. Cláudia Nunes (UA).
+  - Prof. Yamila Victoria Vazquez (UNS), Prof. Yanela N. Alonso (UNS), Prof. Luciana A. Castillo, (UNS), Econ. Yesica Soledad Dilernia (UNS), ID. Teresa Dutari (UNS).
+  - PhD. Catalina Suescun (UL), Prof. Fabio Cruz (UL).
 date: today
 date-format: long
 metadata-files:
@@ -51,6 +44,22 @@ library(here)
 
 
 
+# Executive summary {.unnumbered}
+
+
+
+This document contains the deliverable **D2.3 Mentoring  and peer-collaboration learning reports** of the *Work Package 2 (WP2) Development of a networked portfolio* of the TechTraPlastiCE project.
+The scope of this deliverable is to present the mentoring and peer-collaboration activities developed within the TechTraPlastiCE project to strengthen technology transfer and circular economy capacities among partner Higher Education Institutions (HEIs). 
+Building on the institutional portfolios created in Deliverables D2.1 and D2.2, the report shifts the focus from mapping institutional capabilities to activating them through collaborative learning, mentoring, and inter-university exchange.
+
+The methodology is based on a participatory, qualitative, and iterative approach combining canvas-based institutional analysis, peer-learning workshops, consortium meetings, and external expert validation. Universities jointly identified strengths, needs, and opportunities for cooperation across areas such as infrastructure, applied research, innovation services, industry engagement, and training. 
+This process enabled the detection of complementary institutional profiles and the creation of potential collaboration pathways within the consortium.
+
+A central component of the deliverable is the contribution of the External Advisory Board (EAB), composed of international experts in innovation, entrepreneurship, sustainability, and technology transfer. 
+Their recommendations highlighted the importance of long-term strategic coordination, institutional flexibility, and stronger links between academia, industry, and society.
+Overall, D2.3 demonstrates how network-based collaboration and mentoring can enhance institutional learning, improve technology transfer practices, and support the development of sustainable innovation ecosystems in the plastics circular economy sector.
+
+
 
 # Introduction
 
@@ -64,6 +73,9 @@ To support this process, an External Advisory Board (EAB) was established, compo
 
 The present deliverable presents an integral analysis of the portfolios, member profiles, and EAB perspectives, in order to combine internal reflection, collective analysis, and external feedback. This analysis allowed to identify complementarities, shared challenges, and opportunities for collaboration. 
 In this sense, D2.3 contributes to bridging the gap between structured knowledge (institutional portfolios) and actionable collaboration, reinforcing the role of the consortium as a dynamic network capable of co-developing solutions and scaling impact in the field of plastic circular economy.
+
+![Mentoring and peer-collaboration for TechTraplastiCE Project](figures/2.3/D2.3.png){#fig-baseline fig-alt="alt"}
+
 
 # Methodological Approach
 
