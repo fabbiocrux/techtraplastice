@@ -31,8 +31,8 @@
   {\color{Neutro} \Large\textit{$WP$}}\\[1\baselineskip]
   
   {\Large \color{Neutro} 
-  Strengthening University tech transfer capabilities to support circular economy 
-  value chains for plastics in Latin America -
+  Strengthening University Tech Transfer Capabilities to Support Circular Economy 
+  Value Chains for Plastics in Latin America -
   \textsc{\centering\bfseries TechTraPlastiCE} }\\[2\baselineskip]
 
   
@@ -59,30 +59,39 @@
 
 
 \thispagestyle{plain}
-
-\begin{tabular}{ >{\centering\arraybackslash}p{6cm}| p{5cm} p{4cm}}
+\begin{tabu} to \linewidth {X[1.3,l]  | X[1,l] X[1,l]}
   \toprule
   \multirow{5}{*}{ \includegraphics[height=20mm]{assets/images/logo-TTPCE.png}} &  \textbf{Work Package} : & $WP_num$  \\ \cmidrule{2-3}
     & \textbf{Project Number} : & 101179564  \\ \cmidrule{2-3}
-    &  \textbf{Type of document}:  & Deliverable        \\ \cmidrule{2-3}
+    &  \textbf{Type of document}:  & Deliverable   \\ \cmidrule{2-3}
     & \textbf{Due Delivery Date}:    & $Date-delivrable$     \\ \cmidrule{2-3}
     & \textbf{Actual Delivery Date}:    & $date$       \\ 
-\bottomrule
-\end{tabular}
+  \bottomrule
+\end{tabu}
 
 \vfill
 
-\begin{tabular}{ >{\raggedright\arraybackslash}p{3.5cm}| p{12.5cm} }
+
+\begin{tabu} to \linewidth {X[1,l]  | X[3.5,l]}
   \toprule
-  \textbf{Title} : & $title$  \\ \cmidrule{2-2}  
+  \textbf{Title} : & $title$  \\ \cmidrule{2-2}
   \textbf{Work Package} : & $WP$  \\ \cmidrule{2-2}
   \textbf{Description} : & $Description$  \\ \cmidrule{2-2}
   \textbf{Responsible} : & $Responsible$  \\ \cmidrule{2-2}
-  \textbf{Author(s)} : &  $author$ \\ \cmidrule{2-2}
+  \textbf{Author(s)} : &  
+  $for(author)$ 
+    $if(foo)$
+    \newline
+    $else$
+    $author$
+    $endif$
+   $endfor$  \\ \cmidrule{2-2}
   \textbf{Project Call} : & ERASMUS-EDU-2024-CBHE (Capacity building in the field of higher education)  \\ \cmidrule{2-2}
-  \textbf{Dissemination Level} : & $Dissemination$\\ 
+  \textbf{Dissemination Level} : & $Dissemination$\\   
 \bottomrule
-\end{tabular}
+\end{tabu}
+
+
 
 \vfill
 

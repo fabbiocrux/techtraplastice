@@ -628,7 +628,7 @@ table %>%
       linesep = "\\midrule\\addlinespace"
       ) %>%
    kable_styling(full_width = F,    
-               latex_options = c("repeat_header"),
+                latex_options = c("repeat_header"),
                 font_size = 9) %>% 
    row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
    column_spec(1, width = c("2.5cm"))  %>%

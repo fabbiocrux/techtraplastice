@@ -1,5 +1,5 @@
 ---
-title: D2.1 Repository with proposed solutions/services
+title: D2.1 Repository with Proposed Solutions  Services
 WP_num: WP2
 WP: "WP2: Development of a networked portfolio"
 Description: This repository will consist of digital documents/pieces grouping in a visual manner the collective portfolio, the providers, and the main assets of partner institutions; to openly sharing with different targets/industries.
@@ -8,13 +8,8 @@ Dissemination: Public
 Date-delivrable: April 30/2026
 Quality: D2.1.tex
 author: 
-  - Prof. Paula Ferreira, &nbsp; 
-  - Prof. Idalina José Gonçalves, &nbsp;
-  - Prof. Cláudia Nunes, &nbsp;
-  - Prof. Yamila Victoria Vazquez, &nbsp;
-  - Prof. Yanela N. Alonso, &nbsp;
-  - Prof. Luciana A. Castillo, &nbsp;
-  - DI. Tere Dutari 
+  - Prof. Paula Ferreira (UA), Prof. Idalina José Gonçalves (UA), Prof. Cláudia Nunes (UA).
+  - Prof. Yamila Victoria Vazquez (UNS), Prof. Yanela N. Alonso (UNS), Prof. Luciana A. Castillo, (UNS), Econ. Yesica Soledad Dilernia (UNS), ID. Teresa Dutari (UNS).
 date: today
 date-format: long
 metadata-files:
@@ -26,6 +21,7 @@ csl: assets/journal-of-cleaner-production.csl
 fig-align: center
 format:
   pdf:
+    keep-tex: true
     template-partials:
      - assets/before-body.tex
      - assets/_titlepage.tex
@@ -136,6 +132,7 @@ This categorization allows us for a systematic organization of institutional con
 ```{r}
 #| label: tbl-link
 #| tbl-cap: "Operational link between WP1 findings and WP2 components."
+#| tbl-pos: H
 
 
 
@@ -185,9 +182,11 @@ tribble(
 
 table %>%
   mutate_all(linebreak) %>%
-  kbl("latex", booktabs = T, escape = F,
+  kbl("latex", booktabs = T, escape = F, 
+      longtable = T, 
       linesep = "\\midrule\\addlinespace") %>%
-   kable_styling(full_width = F,                 
+   kable_styling(full_width = F, 
+                latex_options = c("repeat_header"),                
                 font_size = 11) %>% 
    row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
    column_spec(1, width = c("5cm"))  %>%
@@ -289,10 +288,10 @@ In this sense, @fig-questionnaires includes the Google questionnaires for each a
 To support a consistent interpretation of the categories and ensure methodological alignment across partners, the questionnaires were complemented by a set of guidance materials. 
 These included detailed written instructions as well as explanatory videos specifically developed for each category (services, capacities, developments, and training). 
 Although the slides in the videos are presented in English, the audio is in Spanish, as it is the common working language among consortium members. 
-The videos can be accessed through the following link: [https://wp6.techtraplastice.eu/wp2-portfolio.html](https://wp6.techtraplastice.eu/wp2-portfolio.html)
+@fig-videos present the videos that can be accessed through the following link: [https://wp6.techtraplastice.eu/wp2-portfolio.html](https://wp6.techtraplastice.eu/wp2-portfolio.html)
 
 
-![Videos to support the common understanding of the Questionnaires.](figures/2.1/Videos.png){#fig-videos width="75%" fig-align="center"}
+![Videos to support the common understanding of the Questionnaires.](figures/2.1/Videos.png){#fig-videos width="80%" fig-align="center"}
 
 The incorporation of video-based guidance represents a key methodological innovation within WP2. 
 These videos provided clear definitions and conceptual boundaries for each category; practical examples illustrating how to complete the forms; clarifications on common sources of confusion or overlap between categories; and step-by-step instructions for completing the questionnaires. 
@@ -301,7 +300,7 @@ It contributed significantly to reducing interpretation biases and improving the
 
 The structured nature of the questionnaires ensured a high degree of comparability across institutions, enabling cross-case analysis; a comprehensive coverage of key thematic areas relevant to the circular economy of plastics; and a consistent format that facilitates subsequent coding, categorization, and analysis.
 Through these questionnaires, institutions were able to provide detailed descriptions of their activities; highlight specific features or innovations; and reflect on the potential applications and beneficiaries of their activities.
-The timeline for respond the questionnaires was between **September 20206 - Nov 2026**.
+The timeline for respond the questionnaires was between **September 2026 - Nov 2026**.
 
 ## Iterative data collection process
 
@@ -588,22 +587,22 @@ datos
 :::
 
 
-On the other hand, complementary qualitative data was obtained through the canvas-based workshop carried out during the consortium meeting in Chile. 
-This includes visual records of the completed canvases, which capture collective reflections, institutional insights, and identified opportunities for collaboration. 
-These materials provide additional context and depth to the structured dataset and are available through the following link: 
+On the other hand, complementary qualitative data was obtained through the canvas-based workshop carried out during the consortium meeting in Chile as illustrated in the @fig-workshop. 
+This includes visual records of the completed canvas (@fig-canva1) by each HEI's, which capture collective reflections (@fig-canva2 and @fig-canva3) on the institutional insights, and identified opportunities for collaboration. 
+These materials provide additional context and depth to the structured dataset that are  included in the @sec-A2.
 
 
-:::{layout="[[100],[48,-3,48]]"}
+:::{#fig-workshop layout="[[100],[48,-3,48]]"}
 
-![Example of canva discussed at the consortium meeting in Chile in Nov. 2026](figures/2.1/Canva-00.jpg){#fig-canva width="60%" fig-align="center"}
+![Example of canva discussed at the consortium meeting in Chile in Nov. 2026](figures/2.1/Canva-00.jpg){#fig-canva1 width="60%" fig-align="center"}
 
-![Workshop developed by each HEI's](figures/2.1/Canva-01.jpg){#fig-canva1 width="60%" fig-align="center"}
+![Workshop developed by each HEI's](figures/2.1/Canva-01.jpg){#fig-canva2 width="60%" fig-align="center"}
 
-![Feedback made by the consortium meeting at Chile in Nov. 2026](figures/2.1/Canva-02.jpg){#fig-canva2 width="60%" fig-align="center"}
+![Feedback made by the consortium meeting at Chile in Nov. 2026](figures/2.1/Canva-02.jpg){#fig-canva3 width="60%" fig-align="center"}
 
 :::
 
-Together, these sources constitute a comprehensive and multi-layered dataset, enabling both systematic analysis and contextual interpretation of the technology transfer capacities within the consortium.
+Together, these sources constitute a comprehensive and multi-layered dataset that will be fully used during the WP2 development, enabling both systematic analysis and contextual interpretation of the technology transfer capacities within the consortium.
 
 ## Key performance indicators
 
@@ -621,6 +620,8 @@ This approach preserves the granularity of the information. More detailed and ac
 ```{r}
 #| label: tbl-kpi
 #| tbl-cap: "Key performance indicators of Task 2.1."
+#| tbl-pos: H
+
 
 table <- 
 tribble(
