@@ -1,0 +1,302 @@
+"","HEI","Title","Description","Aplication"
+"1","Universidade de Aveiro","Structural analysis of plastic materials","Structural characterisation using XRD, FTIR, Raman and complementary techniques.","Structural analysis to identify phases, functional groups and crystallinity in polymeric materials. 
+Acquisition and basic interpretation of XRD, FTIR, Raman and NMR spectra to assess formulations and chemical modifications. 
+Evaluation of thermal, oxidative or photochemical degradation in virgin and recycled plastics. 
+Compatibility and miscibility assessment in blends and composites through spectral analysis. 
+Elemental analysis to verify composition, purity or the presence of additives and contaminants. 
+Technical support for recycling studies, quality control and validation within circular-economy projects."
+"2","Universidade de Aveiro","Mechanical testing of plastic materials","Evaluation of mechanical properties through tensile, compression, flexural, hardness, and impact testing","Production of thermoplastic sheets, films, or specimens. 
+Optimization of pressing conditions and processability validation. 
+Preparation of samples for thermal, mechanical, or barrier testing. 
+Processing of recycled or modified formulations."
+"3","Universidade de Aveiro","Optical analysis of polymers","Optical analysis of polymers by UV-Vis spectrometry and colorimetric analysis","Quality control of films and coatings 
+
+Transparency and color assessment 
+
+Degradation study under recycling or UV exposure 
+
+Development of functional polymers and additives"
+"4","Universidade de Aveiro","Plastic surface coating","Surface coating by screen printing, doctor blade coating, and spray coating","Controlled application of functional coatings and labelling on plastic sheets and parts. 
+Validation of inks, varnishes, barrier layers, or protective coatings. 
+Optimization of screen-printing and doctor blade coating parameters for specific formulations. 
+Production of coated samples for advanced characterization or industrial validation. 
+Evaluation of adhesion, thickness, and uniformity of functional coatings. 
+Technical support for the development of printed electronics and functional devices on plastic substrates."
+"5","Universidade de Aveiro","Morphological analysis technical service","Micro- and nanoscale characterization of plastic materials using optical and electron microscopy techniques.","Provision of micro- and nanoscale morphological analysis of plastic materials. 
+Service for detecting and diagnosing defects, porosity, interfaces, and degradation in polymer parts or formulations. 
+Morphology-based assessment of the effects of recycling, reformulation, or material modification processes. 
+Morphological quality control of materials and parts for industrial, pilot-scale, or laboratory environments."
+"6","Universidade de Aveiro","Analysis of Barrier and surface properties","Determination of water vapor and oxygen permeability and contact angle measurement.","Evaluation of packaging materials;  
+
+Development of functional coatings;  
+
+Study of nanocomposites;  
+
+Quality control of materials"
+"7","Universidade de Aveiro","Thermal analysis of polymers","Thermal analysis of polymers using Thermogravimetric Analysis, Differential Scanning Calorimetry, and Differential Thermal Analysis","Material characterization; quality control; new product development; process optimization; scientific and industrial research."
+"8","Universidade de Aveiro","Polymer extrusion technical service","Continuous processing of thermoplastic and functional composite materials at lab and pilot scale","Production of filaments, sheets, films, and thin tubes. 
+Processability and thermal stability tests. 
+Validation of thermoplastic, recycled, or composite formulations. 
+Pilot sample fabrication for characterization or industrial trials."
+"9","Universidade de Aveiro","3D printing technical service","Additive manufacturing of thermoplastic and composite materials at laboratory scale.","Fabrication of reproducible parts, prototypes, or specimens. 
+Optimization of printing parameters and processability validation. 
+Evaluation of interlayer adhesion and surface quality. 
+Printing of recycled or experimental formulations."
+"10","Universidade de Aveiro","Injection molding techical service","Processing of thermoplastic, recycled, and composite materials at laboratory and pilot scale.","Production of reproducible molded specimens. 
+Validation of processability and thermal stability of formulations. 
+Optimization of injection parameters and quality control. 
+Pilot-scale testing for industrial validation or advanced characterization."
+"11","Universidade de Aveiro","Servicio de compounding","Blending and processing of thermoplastic and composite materials with rheological control.","Production of homogeneous and stable compounds for further processing. 
+Rheological evaluation during mixing or extrusion. 
+Validation of processability and additive dispersion. 
+Reproducible quality control of polymer formulations."
+"12","Universidad de Santiago de Chile","Product and service prototyping advisory","Technical and methodological support for functional prototypes","Entrepreneurship; Technological innovation; New product development"
+"13","Universidad de Santiago de Chile","3D modeling and printing","Physical prototype fabrication for early validation","Design validation; Product development; Technological innovation"
+"14","Universidad de Santiago de Chile","Juan Fernandez Circular","Development of a comprehensive technological system for solid waste management","Recycling industry, applied research, and environmental education. This is technology transfer for the Juan Fernández archipelago community."
+"15","Universidad de Santiago de Chile","Innovation capability diagnosis for compaines","Strategic assessment of organizational innovation maturity","Public and private companies; Organizational transformation processes; Innovation strategy design"
+"16","Universidad de Santiago de Chile","Business model advisory","Design and validation of innovative business models","Entrepreneurship; Startups; Business innovation"
+"17","Universidad de Santiago de Chile","Sustainable innovation management","Integrating sustainability into innovation processes","Companies; Innovation projects; Sustainable strategies"
+"18","Universidad de Santiago de Chile","Organizational and production process management","Optimization of organizational structures and processes","Industrial companies; Process optimization; Organizational transformation"
+"19","Universidad de Santiago de Chile","Support in applying for entrepreneurship funds","Strategic support in funding application processes","Applications to CORFO, ANID"
+"20","Universidad de Santiago de Chile","Organizational and production process management","Optimization of organizational structures and processes","Industrial companies; Process optimization; Organizational transformation"
+"21","Universidad de Santiago de Chile","Recycled Plastics Prototyping","Additive manufacturing and pilot-scale prototyping for recycled product development","Design and validation of functional prototypes for new products; Development of components and parts made from recycled plastics; Assessment of processing routes (injection/extrusion/thermoforming) for scale-up; Formulation and testing of masterbatches and blends (project-dependent); Early-stage design optimization for manufacturability and fewer iterations
+"
+"22","Universidad de Santiago de Chile","Testing of Recycled Plastic Materials","Mechanical, thermal, and chemical characterization for performance assessment","Validation of recycled materials for new products; Quality control in mechanical recycling processes; Performance comparison between formulations and batches; Technical support for R&D and circular economy projects; Assistance in material selection and design decisions"
+"23","Universidad de Santiago de Chile","Recycling Project Formulation","Technical and conceptual design of recycling initiatives focused on materials and sustainability","Project formulation for R&D and innovation funding programs; Development of recycling initiatives applied to architecture and design; Support for companies and organizations in waste valorization strategies; Structuring of circular economy and sustainability projects; Preparation of initiatives for technology transfer and scale-up"
+"24","Universidad de Santiago de Chile","TRL Assessment and Validation","Technology maturity diagnosis and roadmap for scale-up and technology transfer","Maturity diagnosis for developing technologies and products; Support for R&D funding applications and progress reporting; Planning of piloting and scale-up for recycled-material solutions; Preparation for technology transfer (licensing, agreements, industrial adoption); Prioritization of testing and prototyping to reduce technical risk"
+"25","Universidad de Santiago de Chile","PoC Validation and Commercial Scale-Up","Technical consulting to turn recycled-material prototypes into scalable products","PoC validation for recycled-material products prior to production investment; Preparation of solutions for industrial piloting and process scale-up; Support for companies and entrepreneurs in market entry and technical decision-making; Design and material optimization for consistency, quality, and performance; Support for funding applications and evidence building for TRL/MVP"
+"26","Universidad de Santiago de Chile","Creativity workshops for idea generation","Activating creative potential to generate actionable and viable ideas","Training; Organizational innovation; Entrepreneurship"
+"27","Universidad de Santiago de Chile","Agile methodology workshops for innovation project management","Agile approaches to manage innovation projects iteratively and customer-centrically","Innovation projects; Multidisciplinary teams"
+"28","Universidad de Santiago de Chile","Life Cycle Assessment and Carbon Footprint Analysis","Comprehensive environmental assessment of products, processes and production systems","Environmental product assessment; Emission reduction strategies; Sustainable decision support"
+"29","Universidad de Santiago de Chile","Optimization and simulation of production systems","Mathematical modeling for efficient and sustainable production decisions","Production system design; Operational scenario evaluation; Resource optimization"
+"30","Universidad de Santiago de Chile","Sustainable production strategies","Strategic design of efficient and responsible production systems","Production planning; Organizational transformation; Sustainability strategies
+"
+"31","Universidad de Santiago de Chile","Education for sustainable production systems","Capacity building for sustainable work environments","Professional training; Organizational capacity building; Sustainable workforce development"
+"32","Universidad de Santiago de Chile","Sustainable procurement and bidding analysis","Technical support for sustainable procurement processes","Public and private procurement; Sustainable production projects"
+"33","Universidad de Santiago de Chile","Prioritization of sustainable production actions","Strategic prioritization to maximize impact and efficiency","Production improvement plans; Sustainability strategies"
+"34","Universidad de Santiago de Chile","Sustainable operational optimization","Continuous improvement of production processes","Industrial processes; Existing production systems"
+"35","Universidad de Santiago de Chile","Scientific and technological project development","Formulation and execution of applied R&D projects","Academic projects; Technological innovation; Applied research
+"
+"36","Universidad de Santiago de Chile","Recycled Plastics Application Consulting","Technical assessment for the use of recycled plastic products in architecture and design","Definition of feasible architectural applications for recycled plastics; Support for product and construction system design projects; Technical evaluation of materials for cladding and functional elements; Support for sustainable architecture and circular economy strategies; Technical assistance in R&D, innovation, and technology transfer projects"
+"37","Universidad Nacional del Sur","Integral Characterization of Plastic Waste","COMPOSITIONAL ANALYSIS OF PLASTIC WASTE","Municipal Solid Waste (MSW)
+Waste from Electrical and Electronic Equipment (WEEE)
+Post-consumer flexible and rigid packaging
+Agro-plastics
+Containers and Packaging"
+"38","Universidad Nacional del Sur","Weathering","ACCELERATED WEATHERING TESTS UNDER SPECIFIC UV LIGHT, HUMIDITY AND HEAT CONDITIONS","Plastic films and products
+Coatings
+Adhesives
+Paints
+Textiles
+Papers and many other materials"
+"39","Universidad Nacional del Sur","Tribology","WEAR AND FRICTION OF POLYMERIC MATERIALS","Polymers
+Elastomers
+Polymer nanocomposites
+Performance comparison under wear and friction"
+"40","Universidad Nacional del Sur","Thermogravimetric analysis","AMOUNT AND RATE OF MASS CHANGE AS A FUNCTION OF TEMPERATURE OR TIME","Thermal stability
+Compositional analysis
+Oxidative stability
+Quantification of volatiles/moisture
+Screening of additives
+Residue and filler content"
+"41","Universidad Nacional del Sur","Rheology","RHEOLOGICAL CHARACTERIZATION OF POLYMERIC MATERIALS","Viscoelasticity changes as a function of temperature, time and shear
+rate
+Prediction of flow behavior of materials in processing and end-use
+conditions
+"
+"42","Universidad Nacional del Sur","Polymer Quality Control","QUALITY CONTROL OF POLYMER RAW MATERIALS AND FINISHED PLASTIC PRODUCTS","Polymer raw materials
+Finished plastic products"
+"43","Universidad Nacional del Sur","Polymer Processing","EVALUATION OF POLYMER PROCESSING BEHAVIOR UNDER LAB AND PILOT PLANT SCALE","Processing evaluation of new polymer grades and additives
+Quality control of raw materials
+Solution of processing problems"
+"44","Universidad Nacional del Sur","Package/Food Interaction Analysis","MIGRATION AND COMPLIANCE TESTS OF FOOD PACKAGING","Compliance evaluation of food and drug packaging materials
+regulations"
+"45","Universidad Nacional del Sur","Molecular Analysis","MOLECULAR WEIGHTS AND MW DISTRIBUTION OF POLYMERS","Molecular weight and molecular weight distribution of
+macromolecules
+Sample purity determination
+Quality assurance and control
+"
+"46","Universidad Nacional del Sur","Microscopy","STRUCTURAL AND MORPHOLOGICAL ANALYSIS OF MATERIALS","Nanoparticles
+Thin polymeric films and multilayer laminates
+Coatings
+Composites and nanocomposites
+Voids, cracks and defects
+Crystalline structure"
+"47","Universidad Nacional del Sur","Mechanical Performance","MECHANICAL EVALUATION OF POLYMERIC MATERIALS","Polymers
+Polymer nanocomposites
+Films, multi-layer films and laminates
+Recycled polymers"
+"48","Universidad Nacional del Sur","Infrared Spectroscopy","QUANTITATIVE AND QUALITATIVE ANALYSIS FOR ORGANIC AND INORGANIC SAMPLES","Solids, liquids, gases
+Organic and inorganic samples
+Identification of unknown compounds
+Impurities screening
+Formulation and deformulation"
+"49","Universidad Nacional del Sur","Differential Scanning Calorimetry","THERMAL ANALYSIS OF POLYMERIC MATERIALS","Polymer, pharmaceutical, paints, adhesives and recycled materials
+Identification of unknown materials and impurities
+Quality control and failure analysis
+"
+"50","Universidad Nacional del Sur","Composting and Biodegradation","EVALUATION OF THE BIODEGRADABILITY RATE UNDER CONTROLLED COMPOSTING CONDITIONS","Evaluations of biodegradable materials under controlled composting
+conditions
+Material´s biodegradability comparison"
+"51","Universidad Nacional de Río Negro","SEMMIoTicAR Sevices","Environmental microplastics IoT monitoring","- Inputs for environmental remediation plans.
+- Data for baseline studies.
+- Detection and monitoring of particulate matter (device under development)."
+"52","Universidad Nacional de Córdoba","Thermal analysis of polymers","Differential scanning calorimetry (DSC)","Polymer characterization
+Analysis of polymer blends
+Measurement of polymer thermal properties
+Determination of crystallinity"
+"53","Universidad Nacional de Córdoba","Mechanical properties of polymers","Tensile, flexural, and impact tests to evaluate strength and stiffness","
+Evaluation of mechanical parameters of plastics
+Quality control"
+"54","Universidad Nacional de Córdoba","Biodegradability tests","Standardized polymer degradation analyses","Evaluation of biodegradable materials for packaging and single-use products
+Comparison of polymer formulations based on their biodegradation rate
+Regulatory compliance studies and environmental certification of new materials"
+"55","Universidad Nacional de Colombia","Polymer characterization","Polymer rheology","Optimization of extrusion and injection molding processes / Quality control of polymers (resins, pellets) / Development of adhesives and coatings / Formulation of inks and paints / Characterization of suspensions and dispersions / Food and cosmetics industry."
+"56","Universidad Nacional de Colombia","Polymer rheological characterization","Cone and plate viscosity analysis","Hot-melt adhesives / High-viscosity polymers / Pastes and gels / Coatings and paints / Highly filled formulations / Modified asphalts and bitumens"
+"57","Universidad Nacional de Colombia","Physical properties: water absorption","Determination of water absorption in plastics","Pipes and fittings / Construction materials (insulation, profiles) / Automotive components / Electronic equipment housings / Packaging / Materials for outdoor and marine use"
+"58","Universidad Nacional de Colombia","Physical properties: density","Density of plastics by displacement","Quality control of raw materials (pellets, granules) / Identification and classification of plastics / Verification of composition in composite materials / Calculation of volumetric properties / Detection of voids or porosity in parts / Monitoring of lot-to-lot consistency"
+"59","Universidad Nacional de Colombia","Physical properties: foam density","Apparent density of cellular plastics","Rigid polyurethane foams (PUR/PIR) / Expanded and extruded polystyrene (EPS/XPS) / PVC, PET, and other polymer foams / Thermal insulation materials for construction / Lightweight components for automotive and packaging / Core materials for sandwich structures (composites)"
+"60","Universidad Nacional de Colombia","Durability: UV weathering","Accelerated weathering in UV chamber","Coatings, paints, and varnishes / Plastics for outdoor use (profiles, furniture) / Automotive components (bumpers, headlights) / Outdoor textiles and membranes / Printing inks and signage / Sealants and adhesives"
+"61","Universidad Nacional de Colombia","Fire behavior: horizontal burn","Horizontal burning test for plastics","Automotive interior materials / Housings and components for electrical and electronic equipment / Construction insulation / Toys and consumer goods / Furniture and textiles / Plastic pipes and profiles"
+"62","Universidad Nacional de Colombia","Surface properties: contact angle","Hydrophilic/hydrophobic analysis","Evaluation of surface treatments / Quality control in films for printing and lamination / Development of hydrophobic or hydrophilic coatings / Adhesion issues in bonding and sealing / Characterization of biomaterials and membranes"
+"63","Universidad Nacional de Colombia","Microstructural analysis","Optical microscopy of materials","Failure analysis (fractography) / Dispersion of fillers and pigments in polymers / Morphology of polymer blends / Characterization of composite materials / Inspection of surfaces and coatings / Analysis of cellular structure in foams"
+"64","Universidad Nacional de Colombia","Particle size analysis","Characterization of nanoparticles and emulsions","Fillers and additives for polymers / Pigments and dyes / Emulsion polymers (latex) / Nanoparticles for composites / Inks and coatings / Control of milling and homogenization processes"
+"65","Universidad Nacional de Colombia","Chromatographic analysis","Separation and quantification by HPLC","Analysis of additives in polymers / Molecular weight determination / Quantification of monomers and oligomers / Purity studies / Polymer degradation analysis / Quality control of resins and formulations"
+"66","Universidad Nacional de Colombia","Optical properties: color","Color determination in plastic films","Quality control for flexible packaging films / Masterbatch and pigment industry / Plastic components with aesthetic requirements / Evaluation of UV degradation / Verification of color consistency in recycled plastics"
+"67","Universidad Nacional de Colombia","Compositional analysis: ash content","Determination of inorganic content in plastics","Glass or carbon fiber reinforced plastics / Polymers with mineral fillers (talc, calcium carbonate) / Quality control of masterbatch / Composition verification in recycled plastics / Analysis of inorganic additives"
+"68","Universidad Nacional de Colombia","Mechanical properties: tension","Tensile testing of rigid plastics","Injection molded parts / 3D printed specimens / Structural components / Engineering plastics / Raw material quality control"
+"69","Universidad Nacional de Colombia","Mechanical properties: film tension","Tensile testing of thin films and sheeting","Flexible packaging films / Plastic bags and sacks / Geomembranes and liners / Adhesive tapes / Agricultural films"
+"70","Universidad Nacional de Colombia","Mechanical properties: flexure","Three-point bending test","Structural components / Supports and beams / Device housings / Reinforced plastics / Construction materials"
+"71","Universidad Nacional de Colombia","Mechanical properties: Shore A hardness","Hardness measurement in elastomers and rubbers","Gaskets, seals, and O-rings / Rubber rollers and wheels / Flexible hoses and tubes / Shoe soles / Silicones and thermoplastic elastomers (TPEs)"
+"72","Universidad Nacional de Colombia","Physical properties: thickness measurement","Dimensional control of films and coatings","Packaging films / Paint and varnish layers / Protective coatings / Quality control in lamination and co-extrusion processes / Plastic sheets and films"
+"73","Universidad Nacional de Colombia","Mechanical properties: compression","Compression testing of rigid plastics","Rigid foams / Supports and insulators / Structural components / Pipes and conduits / Construction materials"
+"74","Universidad Nacional de Colombia","Thermal analysis: DSC","Differential scanning calorimetry","Identification of thermoplastics / Quality control of recycled polymers / Determination of the degree of crystallinity / Curing studies in thermosets and adhesives / Purity analysis in pharmaceuticals"
+"75","Universidad Nacional de Colombia","Thermal analysis: HP-DSC","High-pressure differential scanning calorimetry","Oxidative stability of polyolefins (PE, PP) / Quality control of oils, fats, and lubricants / Evaluation of antioxidant additives / Vulcanization studies of rubbers / High-pressure curing kinetics"
+"76","Universidad Nacional de Colombia","Thermal analysis: TGA","Thermogravimetric analysis","Compositional analysis of plastics and rubbers / Quantification of mineral filler and glass fiber / Determination of carbon black content / Thermal stability and degradation studies / Moisture and volatile content"
+"77","Universidad Central","Thermal Behavior Testing in Plastics","Viscosity and Temperature Analysis in Plastics","Recycled raw material for the production of some plastic products for construction, consumer goods, packaging, containers, textile fibers, and household uses, among others"
+"78","Universidad Central","Atomic Force Microscopy (AFM)","Atomic Force Microscopy (AFM) Testing for Polymer Quality","*Morphological and nanomechanical analysis of polymers
+*Degradation detection
+*Evaluation of surface roughness and adhesion"
+"79","Universidad Central","Fourier Transform Infrared Spectroscopy (FTIR)","FTIR Testing for Characterization and Quality Assessment of Recycled Plastics","*Identification of polymers, contaminants, additives, and microplastics
+*Quality control of recycled materials"
+"80","Universidad Central","Dynamic Light Scattering (DLS)","Particle Size Measurement Testing in Polymers","*Determination of particle size and distribution
+*Colloidal stability and zeta potential in emulsions and suspensions"
+"81","Universidad Central","Mechanical Performance Analysis","Evaluation of Material Behavior Under Mechanical Indicators","Producers of plastic-based containers, packaging, and components"
+"82","Universidad Central","Polymer Analysis by Spectroscopy","Identification of Synthetic Polymers Using Spectroscopic Techniques","*Municipal Solid Waste (MSW) managers
+*Producers of post-consumer rigid and flexible plastic 
+*Packaging
+*Industrial scrap handlers
+*Waste management companies"
+"83","Universidad Central","Plastic Prototypes by Injection Molding","Plastic prototype manufacturing through injection molding","Manufacturers of plastic-based packaging, containers, and components interested in incorporating recycled content into their products."
+"84","Universidad Central","Technology Foresight","Technology Surveillance and Competitive Intelligence","Producers of post-consumer rigid and flexible packaging
+Plastic material recyclers"
+"85","Universidad Central","Maintenance, Diagnostics, and Commissioning","Support in maintenance and assessment of equipment operational condition","Industrial scrap processors
+Manufacturers of plastic-based packaging, containers, and components"
+"86","Universidad Central","Ad Hoc Logistics Optimization","Development and implementation of route optimization models","Distributors of plastic-based packaging, containers, and components"
+"87","Universidad Central","Market Studies","Market analysis to identify opportunities in the plastics industry","Manufacturers of plastic-based packaging, containers, and components"
+"88","Universidad Central","Design Thinking","Guidance and support in the implementation of Design Thinking","Producers of post-consumer rigid and flexible packaging
+Plastic material recyclers"
+"89","Universidad Central","Failure Analysis of Plastic Materials","Material behavior under critical variables","Industrial scrap processors
+Manufacturers of plastic-based packaging, containers, and components"
+"90","Universidad Nacional de Río Negro","Organizational analysis and diagnosis","management, processes and human resources analysis  of the public institutions, third sector and companies","Inputs for the development of:
+-organizational change processes
+-strategic planning processes
+-planning workshps
+"
+"91","Universidad Nacional de Río Negro","Human resources management","Desing and implementation of human resource policies","Human Resources Manual.
+Induction Manual.
+Job Profiles and Descriptions Manual.
+Design and Implementation of a Performance Evaluation System.
+"
+"92","Universidad Nacional de Río Negro","organizational management systems","Design and implementation of organizational management systems","Continuous improvement processes.
+Procedure manual, instructions, and records.
+Inputs for addressing Certification processes.
+"
+"93","Universidad Nacional de Río Negro","Strategic planning counseling","Development of Strategic Planning processes through workshops","Development of the ""Strategic Plan"" document.
+
+Strategic Plan as a guide for decision-making in management settings.
+Input for addressing organizational change processes.
+Input for the development and implementation of management systems.
+Input for defining public  policies or corporate ones."
+"94","Universidad Nacional de Río Negro","Analysis of microplastics (MPs) in aquatic ecosystems.","Identification and quantification of microplastics in aquatic ecosystems for environmental studies.","• Environmental pollution studies in rivers and seas.
+
+• Monitoring of microplastics in water, sediment, and aquatic organisms.
+
+• Ecological and toxicological risk assessments.
+
+• Support for public policies and conservation programs.
+
+• Academic research and citizen science projects."
+"95","Universidad Nacional de Río Negro","Monitoring and analysis of microplastics","Detection and quantification in aquatic environmental matrices (abiotic and biotic)","Water quality assessment in hydrological basins.
+- Environmental baseline studies for projects.
+- Efficiency monitoring of wastewater treatment plants.
+- Ecological risk assessment of aquatic fauna
+"
+"96","Universidad Nacional de Río Negro","Strengthening Cooperatives","Strengthening cooperatives for waste recovery and recycling","Inputs for the legal and accounting incorporation of the entity. Administrative monitoring.
+Inputs for the development of organizational change processes.
+Inputs for strategic development.
+Inputs for the development of participatory planning workshops.
+Inputs for building a business plan.
+"
+"97","Universidad Nacional de Río Negro","Environmental Diagnosis","Comprehensive environmental assessment to improve sustainability","Environmental assessment of organizations according to ISO 14001.
+International standard for Environmental Management Systems (EMS)
+Applicability to environmental, legal, cultural, social, and internal organizational dimensions."
+"98","Pontificia Universidad Católica de Valparaíso","Product development and innovation","Support in the formulation and execution of R&D&I projects","Formulation and management of R&D&I projects with public or private funding.
+Development of new products from industrial waste.
+Implementation of clean and circular production models.
+Technology transfer and business advisory services."
+"99","Pontificia Universidad Católica de Valparaíso","Environmental consulting and sustainability","Advisory on sustainability, circular economy, and environmental management","Environmental footprint assessment and management.
+Implementation of sustainability plans and strategies.
+Support for environmental certifications and cleaner production.
+Capacity building in environmental management and waste treatment."
+"100","Pontificia Universidad Católica de Valparaíso","Materials Testing","Structural testing to characterize the behavior of materials and elements under load","Evaluation of structural materials and components
+Standardized and custom tests
+Applied research in structural engineering
+Support for university-level teaching"
+"101","Pontificia Universidad Católica de Valparaíso","Gestión de huella de carbono e hídrica","Measurement, verification, and reduction of environmental footprints in organizations and projects.","Carbon and water footprint assessment in companies and projects.
+Definition of mitigation strategies.
+Environmental reporting.
+Training in monitoring and management of environmental indicators.
+Environmental certifications."
+"102","Pontificia Universidad Católica de Valparaíso","Energy efficiency and resource management","Diagnosis and optimization of energy consumption and efficient resource use.","Energy diagnostics and audits.
+Optimization of energy consumption in industrial processes.
+Integration of clean technologies and renewable energy.
+Training in energy efficiency management.
+Reduction of costs and emissions related to energy consumption."
+"103","Pontificia Universidad Católica de Valparaíso","Circular economy and waste valorization","Development of sustainable solutions for waste and by-product valorization.","Industrial and agro-industrial waste valorization.
+Production of bioplastics and other materials based on plastics.
+Implementation of circular economy models.
+Technical and environmental evaluation of reuse alternatives.
+Training in waste management and utilization."
+"104","Pontificia Universidad Católica de Valparaíso","R&D&I project formulation","Design of innovation and sustainability projects.","Applications to innovation and sustainability funding programs.
+
+Design of circular economy projects.
+
+Formulation of waste and plastic material valorization initiatives.
+
+Collaborative projects between companies, universities, and the public sector.
+
+Proposals for technology scaling and validation."
+"105","Pontificia Universidad Católica de Valparaíso","Energy audit","Technical assessment of energy consumption in production processes.","Energy diagnostics of industrial facilities.
+
+Assessment of energy performance in production processes.
+
+Identification of energy efficiency opportunities.
+
+Technical support for energy management plans.
+
+Energy analysis in innovation and sustainability projects."
+"106","Pontificia Universidad Católica de Valparaíso","Chrysalis Incubation Services","Comprehensive support for innovative high-potential ventures and startups","Development of new innovation or tech-based ventures; technical and commercial validation of emerging solutions; support for raising public/private funding; strengthening of startups contributing to sustainable development, digitalization or circular solutions."
+"107","Pontificia Universidad Católica de Valparaíso","Municipal Climate Action Plans (PACCC)","Technical and methodological support for the development of local adaptation and mitigation plans.","Development of municipal climate action plans
+
+Technical assistance for environmental funding proposals
+
+Capacity building for local governments
+
+Participatory environmental education
+
+Territorial resilience strategies design"
+"108","Universidade de Aveiro","Thermocompression service","Hot pressing of thermoplastic and composite materials.","Production of thermoplastic sheets, films, or specimens. 
+Optimization of pressing conditions and processability validation. 
+Preparation of samples for thermal, mechanical, or barrier testing. 
+Processing of recycled or modified formulations."

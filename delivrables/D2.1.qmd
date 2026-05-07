@@ -402,18 +402,17 @@ In the annexes @sec-A2, the complete raw data is plotted for the four questionna
 #| tbl-cap: "Primary dataset of **Developments** at each HEI. Complete dataset is found in the Annex"
 
 # Global data
-datos <- 
-read_excel(here("delivrables/annex/2.1/Developments - Responses.xlsx")) %>% 
-  select(1,3,5)  %>% 
-  set_names(c("HEI", "Title", "Description"))  %>% 
-   arrange(desc(HEI))
+# datos <- 
+# read_excel(here("delivrables/annex/2.1/Developments - Responses.xlsx")) %>% 
+#   select(1,3,5)  %>% 
+#   set_names(c("HEI", "Title", "Description"))  %>% 
+#    arrange(desc(HEI))
+# write.csv(datos, file="delivrables/annex/2.1/Table1.csv")
+# rm(datos)
 
+datos <- read_csv(file = here("delivrables/annex/2.1/Table1.csv"))
 
-
-
-View(datos)
-#datos <- read_excel("figures/1.3/Data-USACH.xlsx", sheet = "total")
-  
+ 
 datos %>%   
   mutate(Description = tolower(Description))  %>% 
   rowid_to_column("ID") %>% 
@@ -432,8 +431,6 @@ datos %>%
    column_spec(4, width = c("9.5cm")) %>%   
    collapse_rows(columns = 1:1, valign = "top")
    #pack_rows("Group 1", 3, 5, label_row_css = "background-color: #666; color: #fff;")
-
-datos   
 ```
 
 
@@ -449,19 +446,16 @@ datos
 #| tbl-cap: "Primary dataset of **Capabilities** at each HEI. Complete dataset is found in the Annex"
 
 # Global data
-datos <- 
-  read_excel(here("delivrables/tables/2.1/Capabilities - Responses.xlsx"))  %>% 
-  select(1,3,5)  %>% 
-   arrange(desc(Universidad))
-colnames(datos) <- c("HEI", "Title", "Description")
 
 # datos <- 
-#   datos %>% 
-#   mutate(
-#     Title = replace(Title, str_detect(Title, '&'), c(" and ")),
-#     Description = replace(Description, str_detect(Description, '&'), c(" and "))
-#         )
+#  read_excel(here("delivrables/annex/2.1/Capabilities - Responses.xlsx")) %>% 
+#    select(1,3,5)  %>% 
+#    set_names(c("HEI", "Title", "Description"))  %>% 
+#     arrange(desc(HEI))
+# write.csv(datos, file="delivrables/annex/2.1/Capabilities.csv")
+# rm(datos)
 
+datos <- read_csv(file= here("delivrables/annex/2.1/Capabilities.csv"))
 datos$Title <- gsub("&", " and ", datos$Title)
 datos$Description <- gsub("&", " and ", datos$Description)
 
@@ -501,13 +495,19 @@ datos
 #| tbl-cap: "Primary dataset of **Technical Services** at each HEI. Complete dataset is found in the Annex"
 
 # Global data
-#View(datos)
-datos <- 
-  read_excel(here("delivrables/tables/2.1/Technical Services - Responses.xlsx"))  %>% 
-  select(1,3,5, 11)  %>% 
-   arrange(desc(Universidad))
+# datos <- 
+#  read_excel(here("delivrables/annex/2.1/Technical Services - Responses.xlsx")) %>% 
+#    select(1,3,5,11)  %>% 
+#    set_names(c("HEI", "Title", "Description", "Aplication"))  %>% 
+#    arrange(desc(HEI))
+# write.csv(datos, file="delivrables/annex/2.1/Technical.csv")
+# rm(datos)
 
-colnames(datos) <- c("HEI", "Title", "Description", "Aplication")
+datos <- 
+read_csv(file= here("delivrables/annex/2.1/Technical.csv"))  %>% 
+arrange(desc(HEI))
+#View(datos)
+
 
 # Chnge the & character
 #datos %>% str_detect("&")
@@ -542,24 +542,40 @@ datos
 
 
 
+\newpage
+
 ## Training Programs at each HEIs
 
-\newpage
+
 
 ```{r}
 #| label: tbl-training
 #| tbl-cap: "Primary dataset of **Training** at each HEI. Complete dataset is found in the Annex"
 
 # Global data
-#View(datos)
+
+
+# Global data
+# datos <- 
+#  read_excel(here("delivrables/annex/2.1/Training - Responses.xlsx")) %>% 
+#    select(1,3,5,11)  %>% 
+#    set_names(c("HEI", "Title", "Description", "Level"))  %>% 
+#    arrange(desc(HEI))
+# write.csv(datos, file="delivrables/annex/2.1/Training.csv")
+# rm(datos)
+
+
 datos <- 
-  read_excel(here("delivrables/tables/2.1/Training - Responses.xlsx"))  %>% 
-  select(1,3,5, 11)     
-
-colnames(datos) <- c("HEI", "Title", "Description", "Level")
-
+read_csv(file= here("delivrables/annex/2.1/Training.csv")) %>% 
+arrange(desc(HEI))
 
 datos$Level <- as.factor(datos$Level)
+datos <-
+  datos %>% 
+  mutate(Level = recode(Level, Avanzado = "Advanced",
+          Intermedio = "Medium",
+          `Introductorio / básico` = "Introductory"
+      ))
 
 # Chnge the & character
 #datos %>% str_detect("&")
