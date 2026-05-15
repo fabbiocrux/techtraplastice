@@ -1,0 +1,105 @@
+---
+lang: fr
+
+author:
+  - name: MCF. Prof. Fabio A. CRUZ SANCHEZ
+    affiliation:
+      - name: Université de Lorraine
+        department:  ENSGSI
+        address: 8 rue Bastien Lepage
+        city: Nancy
+        country: France
+        postal-code: 54000
+address:
+  - Dr. **Manuel Alberto Mateu**
+  - Consultor Independiente -- Ingeniero Industrial
+  - Almirante Segui 2056  - Ciudad Autónoma de Buenos Aires  - Argentina
+  - "Telefono +54 1161170710"
+  - "Email : manuelrsu@gmail.com"
+subject-title: "Devis de Prestation"
+subject: "**Analyse comparative des pratiques efficaces de réutilisation à fort impact.**"
+opening: "**Contexte**"
+closing: "Bien Cordialement"
+
+fontsize: 12pt
+format:
+  letter-pdf:
+    output-file: index
+    include-in-header: [../../assets/TTPLCE-packages.tex]
+    keep-tex: false
+---
+
+
+\thispagestyle{fancy}
+
+
+La croissance exponentielle de la consommation de plastiques et la faible efficacité des systèmes de récupération dans la région ont donné lieu à un défi environnemental et social urgent. Bien qu’il existe des politiques et des initiatives visant à promouvoir l’économie circulaire, les systèmes de récupération des plastiques — en particulier ceux mis en place par les municipalités ou par des coopératives de récupérateurs urbains — se heurtent à d’importants obstacles financiers qui limitent leur renforcement et leur intégration dans la chaîne de valeur formelle.
+
+De son côté, en Argentine, la chaîne de valeur du secteur du recyclage (industrie du recyclage et de la transformation) est également confrontée à des défis majeurs, allant des changements dans les politiques nationales en matière d'ouverture commerciale et des fluctuations sur les marchés internationaux des matières premières aux décisions de politique de durabilité prises par les multinationales.
+
+Ce travail propose d'identifier, de recenser et d'analyser les modes de fonctionnement des systèmes de récupération et de réutilisation des plastiques, tant publics que privés, nationaux et internationaux, qui pourraient être exploités ou repensés pour renforcer ces systèmes, dans une optique socio-environnementale et de durabilité.
+
+
+**Objectifs spécifiques**
+
+- Constituer un ensemble hétérogène d'expériences internationales en matière de systèmes de récupération des plastiques, reflétant différents contextes socio-économiques, cadres réglementaires, niveaux de formalisation, modèles de gouvernance et échelles opérationnelles.
+
+- Comparer les performances techniques, économiques et sociales des expériences sélectionnées. 
+
+- Identifier les principaux acteurs impliqués dans la chaîne de valorisation des plastiques. Analyser les cadres normatifs institutionnels, économiques, technologiques et socioculturels qui expliquent son fonctionnement.
+
+- Recenser les sources et les modèles de financement actuels (internationaux, nationaux, provinciaux et municipaux) pour les projets de recyclage, d’économie circulaire, de gestion des déchets plastiques et les modèles de responsabilité élargie.
+
+- Produire des éléments stratégiques pour la délibération et la prise de décision collective.
+
+- Formuler des recommandations pour la conception ou l’adaptation de mécanismes réglementaires et financiers plus accessibles, plus équitables et plus efficaces.
+
+
+**Livrables proposés**
+
+1 - Recensement préliminaire et construction de l’« univers » : constituer une présélection d’expériences hétérogènes afin de sélectionner ensuite des cas représentatifs de différents modèles. Fiche succincte standardisée par expérience pour saisir les variables minimales comparables. Tableaux comparatifs avec la présélection de cas comparables.
+
+2 - Typologie des schémas, cadre comparatif de base et sélection des cas : définir des typologies de base et construire une matrice de comparaison (indicateurs et dimensions) en mettant l'accent sur les exigences des Search Conferences. Critères de sélection des cas. Sélection des cas d'analyse (entre 4 et 7 cas représentatifs et 3 cas d'innovation ou plus).
+
+3 - Rapport de diagnostic local : analyse des systèmes de récupération des plastiques en AR, CL et CO, y compris la législation (REP, économie circulaire), les acteurs, les infrastructures et les défis. Analyse des possibilités d'adaptation des cas d'analyse au contexte local.
+
+4 - Carte des acteurs et des problèmes clés : parties prenantes, rôles et tensions. Récupérateurs de base, gouvernements et entreprises.
+
+5 - Rapport de benchmarking : profils des cas, comparaison transversale, enseignements transférables. Matrice comparative finale.
+
+6 - Synthèse stratégique pour la Search Conference : élaboration de supports de discussion, proposition d'ordre du jour. Réunions préliminaires et présentation pour la « Search Conference ».
+
+7 - Mise à jour du document : sur la base des résultats et du bilan des « Search Conferences », une mise à jour du document sera effectuée en tenant compte des contributions et des retours qui en découleront.
+
+Le travail comprend également la participation via Zoom aux réunions préparatoires des « Search Conferences » de Córdoba et de Río Negro, ainsi que la participation en présentiel à ces dernières au cours de l'année 2027.
+
+**Calendrier des livrables**
+
+- 30/07/2026 – Livrables 1 et 2
+- 30/10/2026 – Livrables 3 et 4 
+- 31/01/2026 – Livrables 5 et 6
+- Mai 2027 – Livrable 7
+
+
+**Paiements**
+
+Le règlement s'effectuera en deux tranches :
+
+- 3 000 € à la signature du présent contrat.
+- 3 000 € à la réception et à l'approbation des 7 livrables.
+
+
+
+\begin{textblock}{10}(9,13)
+  \fontsize{11}{8}
+  \selectfont \sffamily
+  \color[gray]{0.4}
+  \begin{tabular}{@{}l@{}}
+    \hline \\
+    Asst. Prof. \textbf{Fabio A. CRUZ SANCHEZ} \\
+    8 rue Bastien Lepage,  54000 Nancy \\[0.15cm]
+    \faIcon{envelope} \href{mailto:fabio.cruz@univ-lorraine.fr}{fabio.cruz@univ-lorraine.fr} \\
+    \faIcon{phone} +33 3 72 74 35 31 \\
+    \faIcon{house}  \href{https://ensgsi.univ-lorraine.fr/}{https://ensgsi.univ-lorraine.fr/}
+  \end{tabular}
+\end{textblock}

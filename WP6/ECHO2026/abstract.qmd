@@ -1,0 +1,31 @@
+---
+title: "Enhancing University Tech Transfer Capabilities for Circular Plastic Value Chains in Latin America: The TechTraPlastiCE Project" 
+subtitle: "ECHO 2026 – Sustainability and the Circular Future with UniGR-CIRKLA"
+affiliations:
+  - id: ERPI
+    name: Université de Lorraine, ERPI, 
+    city: F-54000 Nancy, France  
+author:
+  - name: Fabio A. Cruz Sanchez
+    orcid: https://orcid.org/0000-0001-8529-5327
+    email: fabio.cruz@univ-lorraine.fr
+    affiliations:
+      - ref: ERPI
+  - name: Catalina Suescun
+    affiliations:
+      - ref: ERPI
+  - name: Mauricio Camargo
+    affiliations:
+      - ref: ERPI
+format: html
+
+---
+
+# Abstract 
+
+Plastic materials have significantly improved contemporary living standards by delivering a vast array of products. However, under prevailing linear and "business-as-usual" paradigms, plastic waste is a global challenge, threatening to transgress planetary boundaries regarding chemical pollution in natural ecosystems.
+Higher Education Institutions (HEIs) are pivotal in addressing this global crisis. Within the framework of the green transition, universities are well-positioned to drive joint innovation projects in collaboration with industry, government, and civil society.
+This paper examines the experiences of the Erasmus+ TechTraPlastiCE project, which aims to strengthen the applied research and innovation capacities of universities. 
+These institutions are being empowered to serve as key actors in the circular economy transition for the plastic sector across Argentina, Colombia, and Chile. As hubs of diverse expertise, universities are uniquely situated to assemble interdisciplinary teams and bridge the gap between society and industry.
+The primary objective is to conceptualize a progressive technology transfer approach that facilitates University-Industry collaborations. This involves integrating stakeholders across the plastics value chain to foster interdisciplinary and advancing shared research, innovation, and educational capacities.
+The documentation of these collective experiences yields essential knowledge, offering institutional recommendations relevant to both the Global North and Global South.
