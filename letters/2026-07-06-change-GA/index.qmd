@@ -15,7 +15,7 @@ address:
 subject-title: "Subject"
 subject: "**Amendment requested by the TechTraPlastiCE consortium**"
 opening: "Dear Project Officer:"
-closing: "Yours Faithfully,"
+#closing: "Yours Faithfully,"
 
 fontsize: 12pt
 format:
@@ -46,59 +46,53 @@ Following the initial implementation phase of the project, the consortium has id
 On behalf of the TechTraPlastiCE consortium, we therefore kindly request an amendment (AT21) to Grant Agreement No. 101179564 concerning the Description of the Action (DoA), specifically the modifications related to Work Package 3, "*Multi-actor Collaborations for a Just and Safe Plastic Circular Economy*".
 The current list of WP3 deliverables is presented in @tbl-link, while the proposed modifications are presented in @tbl-changes.
 
-The requested changes are as follows:
+The requested changes and the reasons for these proposed modifications are detailed below.
 
-1. **Deliverable D3.1**:
-   - Change of title from "Interviews Reports" to "Comprehensive Problem Definition on the Reuse Challenge".
-   - Change of lead beneficiary from COLUMBUS to PUCV.
-   - Due date: 31 October 2026.
 
-1. **New Deliverable D3.2**:
-   - Addition of a complementary deliverable entitled "Report on Contacts and Results of Interviews".
-   - Lead beneficiary: COLUMBUS.
-   - Due date: 30 November 2026.
+1. **New Deliverable D3.1**:
+   - Addition of a complementary delivrable called "*Comprehensive Problem Definition on the Reuse Challenge*".
+   - *Lead beneficiary*: PUCV.
+   - *Due date*: 31 October 2026.
+   - *Justification*: The introduction of this new deliverable aims to reflects the actual content of the task T3.1.   
+   It provides a comprehensive definition of the reuse challenge identified through stakeholder engagement and analysis in the context of Colombia, Argentina and Chile. Furthermore, assigning PUCV as the lead beneficiary better reflects the distribution of expertise and responsibilities within the consortium, as PUCV is leading the scientific work related to this activity.
+
+
+1. **Deliverable D3.2**:
+   - Change the title of the deliverable entitled "Report on Contacts and Results of Interviews".
+   - *Lead beneficiary*: Columbus.
+   - *Due date*: 30 March 2027.
+   - *Justification*: The purpose of this D3.2 is to maintain the provisions originally set forth in D3.1, while providing a specific report on contacts with stakeholders and the results of the interviews for the planning of the search conference methodology.  
+   The challenge in the stakeholder involvement from the experience of the Universidad Central in Colombia, proves the more time is needed to ensure a comprehensive and well-documented engagement process.  
+   This report will provide the necessary evidence base for the preparation and implementation of the search conference event across the participating HEIs (UC, PUCV, UNC and UNRN).
 
 1. **Deliverable D3.3**:
-   - Change of due date from 31 October 2026 to 30 November 2026.
-1. **Deliverable D3.4**:
-   - Change of title from "5 Events Reports (1 per country)" to "Search Conference Reports".
-   - Change of due date from 31 January 2027 to 30 June 2027.
+   - Title: "Benchmarking Study".
+   - *Lead beneficiary*: Columbus.
+   - *Due date*: Change of due date from 31 October 2026 to 30 November 2026.
+   - *Justification*: This deliverable maintains the insights of the Task 3.3.
+   The benchmarking study aims to complement D3.1. It requires additional time to analyse and synthesise the information from multiple countries and institutions.  
+   Extending the deadline by one month will ensure a more comprehensive analysis and produce results that will better support the subsequent activities of Work Package 3.
+
+1. **Deliverable D3.4**
+   - Change of title from "5 Events Reports (1 per country)" to "Four Search Conference Reports".
+   - Lead beneficiary*: Columbus.
+   - *Due date*: Change of the due date from 31 January 2027 to 30 June 2027.
+   - *Justification*: The proposed title better reflects the activities described in the Description of the Action (DoA). As indicated in the DoA, four search conferences are planned to be organised at the following  Higher Education Institutions:  Universidad Central --UC-- (Colombia) , Pontificia Universidad Católica de Valparaíso --PUCV-- (Chile),  Universidad Nacional de Córdoba --UNC-- (Argentina), and Universidad Nacional de Río Negro --UNRN-- (Argentina).  
+   The previous title referring to "5 Events Reports" does not accurately represent the planned activity. The revised title therefore corrects this inconsistency and better aligns the deliverable with the approved project.  
+  
 1. **Deliverable D3.5**:
-   - Change of due date from 31 January 2027 to 31 August 2027.
+   - Title: "Updated portfolios" 
+   - *Lead beneficiary*: UNS
+   - *Due date*: Change of due date from 31 January 2027 to 31 August 2027.
+   - *Justification*: The updated institutional portfolios are directly dependent on the outcomes of the Search Conferences. Since the completion of these conferences is proposed for June 2027, extending the deadline for Deliverable D3.5 to 31 August 2027 will provide sufficient time for each participating university to integrate the agreed initiatives into its portfolio and produce a high-quality final deliverable.
 
 
-
-The reasons for these proposed modifications are detailed below.
-
-1. **Deliverable D3.1**
-
-The revised title more accurately reflects the actual content of the deliverable, which goes beyond reporting interview outcomes and instead provides a comprehensive definition of the reuse challenge identified through stakeholder engagement and analysis. Furthermore, assigning PUCV as the lead beneficiary better reflects the distribution of expertise and responsibilities within the consortium, as PUCV is leading the scientific work related to this activity.
-
-2. **New Deliverable D3.2**
-
-The introduction of Deliverable D3.2 aims to preserve the documentation initially foreseen under D3.1 by providing a dedicated report on stakeholder contacts and interview results for the planifacation of the Search Conferences methodology for participative planning. Separating these outputs will improve the clarity of the project's deliverables while ensuring that both the interview process and the resulting problem definition are adequately documented. This report will also provide the necessary evidence base for the preparation and implementation of the Search Conference methodology across the participating HEIs.
-
-3. **Deliverable D3.3**
-
-The benchmarking study requires additional time to collect, analyse and synthesise information from multiple countries and institutions. Extending the deadline by one month will ensure a more comprehensive analysis and produce results that will better support the subsequent activities of Work Package 3.
-
-4. **Deliverable D3.4**
-
-The proposed title better reflects the activities described in the Description of the Action. As indicated in the DoA, four Search Conferences are planned to be organised at the participating Higher Education Institutions: Pontificia Universidad Católica de Valparaíso --PUCV-- (Chile), Universidad Central --UC-- (Colombia), Universidad Nacional de Córdoba --UNC-- (Argentina), and Universidad Nacional de Río Negro --UNRN-- (Argentina).
-The previous title referring to "5 Events Reports" does not accurately represent the planned activity. The revised title therefore corrects this inconsistency and better aligns the deliverable with the approved project methodology.
-
-In addition, organising the Search Conferences requires extensive coordination with external stakeholders representing the plastics value chain in each country. 
-Scheduling these participatory workshops depends on the availability of numerous socio-economic actors and therefore involves factors that cannot be fully controlled by the consortium.
-For this reason, the consortium proposes extending the deadline to 30 June 2027. 
+The implementation of the WP3 requires extensive coordination with external stakeholders representing the plastics value chain in each country.
+Scheduling the workshops depends on the availability of numerous socio-economic actors and therefore involves factors that cannot be fully controlled by the consortium.
+For this reason, the consortium proposes extending the WP3 to 31 August 2027. 
 This additional time will ensure that all Search Conferences are successfully organised, their outcomes are properly documented, and the resulting action plans can effectively support the implementation of Work Package 4.
+**These modifications do not affect the objectives, methodology, or expected impact of Work Package 3, nor do they compromise the overall objectives or implementation of the TechTraPlastiCE project**.
 
-These modifications do not affect the objectives, methodology, or expected impact of Work Package 3, nor do they compromise the overall objectives or implementation of the TechTraPlastiCE project.
-
-5. **Deliverable D3.5**: 
-
-The updated institutional portfolios are directly dependent on the outcomes of the Search Conferences. Since the completion of these conferences is proposed for June 2027, extending the deadline for Deliverable D3.5 to 31 August 2027 will provide sufficient time for each participating university to integrate the agreed initiatives into its portfolio and produce a high-quality final deliverable.
-
-In conclusion, the proposed amendments are intended to improve the consistency between the Description of the Action and the actual implementation of Work Package 3, while ensuring the quality, relevance, and practical impact of its deliverables. 
 The consortium remains fully committed to achieving the objectives of the TechTraPlastiCE project and believes that these adjustments will strengthen its overall implementation without affecting its expected outcomes.
 
 We kindly ask for your consideration of this amendment request and remain at your disposal should you require any additional information or clarification.
@@ -106,6 +100,7 @@ We kindly ask for your consideration of this amendment request and remain at you
 Thank you for your continued support and cooperation.
 
 Yours sincerely,
+
 
 On behalf of the TechTraPlastiCE Consortium
 
@@ -209,7 +204,7 @@ tribble(
 
 "D3.1",
 "Comprensive problem definition on the reuse challenge",
-"Based on provided guidelines, partners that will implement the Search Conferences methodology will conform interdisciplinary staff and researchers to prepare one-on-one conversations with defined actors (industries, social and economic actors) involved in the reuse challenge, to explore in depth the leverage, and provide together a more comprehensive problems definition. All these conversations will need to be reported  in a document file.", 
+"Develop comprehensive analysis of the socioeconomic impacts of plastic reuse initiatives in Argentina, Chile, and Colombia, analyzing aspects such as including the state of norms and processes,  job creation, income generation, and economic empowerment, particularly among marginalized communities.", 
 "PUCV",
 "PU", 
 "31 Oct 2026",
@@ -219,7 +214,7 @@ tribble(
 "The universities where the Search Conferences will be held will have identified and contacted the most relevant organisations to participate in the Search Conferences. The aim is to identify their points of interest, pre-identify concrete initiatives and engage the participation of decision-makers.",
 "COLUMBUS",
 "SEN",
-"28 Fev 2027",
+"30 March 2027",
 
 "D3.3",
 "Benchmarking study",
@@ -229,7 +224,7 @@ tribble(
 "30 Nov 2026",
 
 "D3.4",
-"Search conference reports",
+"Four search conference reports",
 "There will be four Search Conferences for TechTraPlastiCE project. Two in Argentina leaded by UNRN, UNC. One in Colombia lead by UC and one in Chile lead by PUCV. Each search conference will deliver a report containing the results of the 1-day event, the number of participants, the minutes of the encounter, and especially the specific solutions/projects identified among the multi-actors participants and the University.",	
 "COLUMBUS",
 "SEN",
@@ -252,17 +247,17 @@ table %>%
                 latex_options = c("repeat_header"),                
                 font_size = 11) %>% 
    row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 9) %>%
-   row_spec(2, color = "Naranja" ) %>%
+   row_spec(2) %>%
    column_spec(1, width = c("1cm") )  %>%
-   column_spec(2, width = c("2.5cm"), color = c("Naranja", "Naranja", "black", "Naranja", "black"))  %>%
-   column_spec(3, width = c("13cm"), color = c("black", "Naranja", "black", "Naranja", "black"))  %>%
+   column_spec(2, width = c("2.5cm"))  %>%
+   column_spec(3, width = c("13cm"))  %>%
    column_spec(4, width = c("2cm")) %>%
    column_spec(5, width = c("1cm")) %>%
-   column_spec(6, width = c("1cm"), color = c("black", "Naranja", "Naranja", "Naranja", "Naranja"))  
+   column_spec(6, width = c("1cm") )  
 ```
 
 :::
 
 
 
-\includepdf[landscape=true, scale=1, pages=-]{../../assets/Gantt/_Gantt.pdf}
+<!-- \includepdf[landscape=true, scale=1, pages=-]{../../assets/Gantt/_Gantt.pdf} -->

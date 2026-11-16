@@ -7,7 +7,7 @@ format:
     lof: false
     documentclass: article
     #classoption: [legalpaper]
-    geometry: margin=2cm, paperheight=35cm, paperwidth=49cm
+    geometry: margin=2cm, paperheight=37cm, paperwidth=49cm
     number-sections: true
     include-in-header: [packages.tex]
     keep-tex: false
@@ -51,7 +51,8 @@ format:
    milestone label font=\small\bfseries\color{orange},
    milestone progress label node/.style={anchor = west, inner sep=10pt},
    EBA/.style={milestone incomplete/.append style={fill=OliveGreen}},
-   DEL/.style={milestone incomplete/.append style={fill=Blue}}
+   DEL/.style={milestone incomplete/.append style={fill=Blue}},
+   Real/.style={bar/.append style={fill=red}},   
 ]{2025-02}{2028-01}
 
 \gantttitle[]{TechTraPlastiCE timeline}{36}\\  
@@ -65,9 +66,12 @@ format:
 \ganttgroup{WP 1: Innovation Opportunities for Circular Economy}{2025-02}{2025-10} \\
 
 % Tareas
-\ganttbar[name=1a, progress=100, progress label text={Completed}]{Developing a framework to understand the companies/industries' performance for circular economy}{2025-02}{2025-04} \\
-\ganttbar[name=1b, progress=100, progress label text={90\%}]{Identifying gaps and drivers at targeted Industries/Companies to comply with the norms and consumers' preferences}{2025-05}{2025-10} \\
-\ganttbar[name=1c, progress=100, progress label text={10\%}]{Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} \\
+\ganttbar[name=1a, progress=100, progress label text={Completed}]{T1.1 Developing a framework to understand the companies/industries' performance for circular economy}{2025-02}{2025-04} \\
+\ganttbar[Real]{ }{2025-02}{2025-04} \\
+
+\ganttbar[name=1b, progress=100, progress label text={90\%}]{T1.2 Identifying gaps and drivers at targeted Industries/Companies to comply with the norms and consumers' preferences}{2025-05}{2025-10} \\
+
+\ganttbar[name=1c, progress=100, progress label text={10\%}]{T1.3 Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} \\
 
 % Milestone 1
 \ganttmilestone[progress=100]{Milestone 1: Industries/companies are committed with the project and responds consultations}{2025-07} \\
@@ -174,31 +178,29 @@ format:
 \ganttset{link/.style={Naranja}}
 
 % WP1   
-\ganttlink{1a}{1b}
-\ganttlink{1a}{1c}
-
-\ganttlink{1b}{3c}
-\ganttlink{1c}{3c}
-\ganttlink{1c}{3d}
+%\ganttlink{1a}{1b}
+%\ganttlink{1a}{1c}
+%\ganttlink{1b}{3c}
+%\ganttlink{1c}{3c}
+%\ganttlink{1c}{3d}
 
 % WP2   
-\ganttlink{2a}{2b}
-\ganttlink{2b}{2c}
-
-\ganttlink{2a}{3c}
-
-% WP3
-\ganttlink{3a}{3b}
-\ganttlink{2b}{2c}
-\ganttlink{2b}{2c}
-\ganttlink{3d}{3e}
-
+%\ganttlink{2a}{2b}
+%\ganttlink{2b}{2c}
+%\ganttlink{2a}{3c}
 
 % WP3
-\ganttlink{4a}{4b}
-\ganttlink{4b}{4c}
-\ganttlink{4b}{4d}
-\ganttlink{3d}{3e}
+%\ganttlink{3a}{3b}
+%\ganttlink{2b}{2c}
+%\ganttlink{2b}{2c}
+%\ganttlink{3d}{3e}
+
+
+% WP3
+%\ganttlink{4a}{4b}
+%\ganttlink{4b}{4c}
+%\ganttlink{4b}{4d}
+%\ganttlink{3d}{3e}
 
 
 \end{ganttchart}

@@ -1,0 +1,223 @@
+---
+title: "D6.3 Midterm report"
+WP: "WP6 – Project management and Quality assurance"
+WP_num: "WP6"
+Description: Implementation  of  project	 management mechanisms, in their operational, financial  and accountability aspects.Financial management guidelines, training, and monitoring reports will be addressed.
+Responsible: Université de Lorraine
+Dissemination: Confidential
+Date-delivrable: May 30/2025
+Quality: D6.2.tex
+author: 
+  - Prof. Fabio A. Cruz &nbsp; PhD. Catalina Suescun.
+date: today
+date-format: long
+keep-tex: false
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.retina = 3, message = FALSE, warning = FALSE)
+options(knitr.kable.NA = '')
+
+library(tidyverse)
+library(kableExtra)
+library(readxl)
+```
+
+
+# Executive Summary {.unnumbered}
+
+The Project Management Plan (PMP) establishes the foundation for effective collaboration and coordinated implementation of the TechTraPlastiCE project. It outlines the management framework, operational guidelines, and quality standards necessary to ensure efficient execution and the achievement of project objectives.
+
+This document provides a comprehensive description of the project’s objectives, scope, and work plan; the coordination and governance aspects; project management details and financial management considerations. 
+
+
+# Overview of the Progress
+
+## Summary of Work Performed and Achievements, Results and Impacts
+
+::: {.callout title="Work performed and main achievements"}
+\tiny
+*Short summary of progress towards the project objectives. Highlight significant activities and achievements. Provide clear and measureable details.
+
+Analyse the outcome of the project (so far) and its (actual and expected) impact (on target groups, change, innovation etc.), including a description of the European dimension and added value. For the Final Report, include
+the conclusions of the action.
+
+Report on objectives not fully achieved or not on schedule.
+
+Do not simply cut and paste the project summary (filled in online on the Summary for Publication screen).
+Contrary to the summary, this section is for reporting to the EU and will not be published.
+Insert text*
+:::
+
+
+
+
+
+The plastic value chain is a complex organization where multiple actors collaborate synchronously and asynchronously. In that sense, it is acknowledged that the plastic value chain implies as positive as negative externalities to the society, and today one of the major common ground of understanding in Argentinian, Chilean and Colombian context relies on the imperative transition towards a circular economy of plastic [(Rodríguez-Meza et al., 2026)](https://www.zotero.org/google-docs/?RSQ0Hx). Therefore, the TechTraPlastiCE project seeks to reinforce the applied research and innovation capacities of the High Education Institutions to be a major actor in the circular economy transition for the plastic sector in the latinamerican context. 
+
+The present mid-term report describes the work done by the consortium from February 2025 up to August 2026. It details  the activities that the consortium have been working on to consolidate a shared baseline of understanding of the universities’ capacities of the applied research and services portfolios to strengthen the plastic industry's contribution to the green transition and circular economy. Therefore, the consortium has structured  the project to better understand the macro-economical context towards the specificity of the socio-economic productive sector including enterprises, associations and government in each country (Colombia, Chile and Argentina). As stated in the Description of Action, the ambition of TechTraPlastiCE project is to foster the collaboration and partnerships of the University with socio-economic stakeholders for the incubation, development and establishment of circular initiatives for the long term. 
+
+
+
+```{r}
+#| label: tbl-sc
+#| tbl-cap: "TechTraPlastiCE specific objectives."
+#| tbl-pos: H
+
+
+table <- 
+tribble(
+~`SO`, ~Description, ~`Status`, 
+"SO1",
+"To identify and understand key barriers and leverage points of the local plastic companies to generate university-industry collaboration opportunities.",
+"Done",
+"SO2",
+"Create and implement services and solutions portfolios for the plastics value chain based on the university's core competencies and knowledge.",
+"Done",
+"SO3",
+"Encourage multi-actor initiatives to enhance the reuse of plastic involving waste pickers organizations, companies and the local public sectors, taking advantage of the University's articulation capacities.",
+"In progress",
+"SO4",
+"Develop recommendations on new technologies, business models, and organizational setups for university-industry collaborations based on the lessons learned from the implemented projects as a tool to improve, scale up and transfer good practices in HEIs in Latin America.",
+"To be done",
+
+)
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, align = c('l','l'),
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   add_header_above(c("Work Package " = 3 ), align = "l")  %>%              
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("1cm"))  %>% 
+   column_spec(2, width = c("13cm"))  %>% 
+   column_spec(3, width = c("2cm"))
+   
+```
+
+
+
+
+In the scope of the present midterm report, the ***specific objectives SO1 and SO2 were achieved*** through the different tasks made particularly the WP1 (Innovation opportunities for circular economy) and the WP2 (Development of a networked portfolio) from Feb.2025 to Aug. 2026. 
+
+On the other hand, SO3 is taking place at the moment of writing this midterm report as the consolidation of the multi-actor initiatives are seeing with the development of the search conference methodology during the WP3 (Multi-actor collaborations for just and safe plastic’s circular economy).
+Finally, the SO4 is expected to take action at the beginning of 2027, where the consolidation of the pilot project will have a more clear scope for each HEIs.
+
+
+### Progress on the Specific Objectives (SO) of TechTraPlastiCE
+
+#### SO1: To identify and understand key barriers and leverage points of the local plastic companies to generate university-industry collaboration opportunities.
+
+Regarding specific objective 1 (SO1), two complementary approaches were implemented to identify and understand the key barriers and leverage points affecting university–industry collaboration in the transition towards a circular plastics economy:
+
+1. **Top-down approach**: analysing legislation, policies, and regulatory frameworks as a baseline for comparison across countries.
+2. **Bottom-up approach**: engaging with local associations, enterprises, and other socio-economic actors across the plastics value chain in each country to understand their situation, needs, and perspectives on the green transition within the circular economy framework.
+
+The top-down approach focused on four main dimensions: (a) national regulations concerning plastics, waste management, and the circular economy; (b) public policies and voluntary strategies promoted by governments and other relevant stakeholders; (c) international commitments and agreements influencing national and local regulatory frameworks; and (d) legal and administrative barriers hindering the effective implementation of circular economy principles.
+
+The bottom-up approach, in turn, prioritised the early mobilisation of Higher Education Institutions (HEIs) to engage with socio-economic actors across the plastics value chain from the beginning of the project. 
+Although establishing contact with external stakeholders and conducting interviews proved challenging, particularly due to logistical constraints, this process became one of the key strengths and learning outcomes of the TechTraPlastiCE consortium. 
+The deliberate involvement of external actors from the initial stages of the project, despite the associated challenges, contributed to building trust, confidence, and sustained engagement between HEIs and socio-economic stakeholders. 
+This approach was further reinforced by the design of subsequent project activities, which provided opportunities for co-creation, dialogue, and continued interaction with external stakeholders. 
+
+As a result, ***SO1 went beyond the identification of barriers and leviers***. It has helped to establish the foundations for longer-term collaboration between HEIs and the plastics value chain. 
+In several cases, these interactions also strengthened existing relationships and enabled the development of new partnerships. 
+For example in the case of Colombia, the Universidad Nacional de Colombia and the Universidad Central highlighted that the implementation of SO1 contributed to consolidate partnerships that have emerged in parallel to the start of the TechTraPlastiCE project with the case of the “***Asociacion Colombiana de Industrias Plasticas - Asoplasticos-***” ([https://acoplasticos.org/](https://acoplasticos.org/)), which is a nonprofit organization founded in 1961 that brings together and represents companies in the supply chains of the plastics, plastic recycling, paints, rubber, inks, and composites industries. 
+Indeed, based on the work developed of the WP1 (cf. D1.1, D1.2 and D1.3), two executive documents were consolidated to be shared to the whole members of the Colombian plastic value chain which as illustrated in Fig. 1 on June 2026,  entitled as: 
+
+
+
+
+1. Circular Economy and Technology Transfer in Colombia’s Plastics Sector: Report on the Results of the Survey on Regulations, Challenges, Opportunities, and University-Industry Collaboration within the Framework of the TechTraPlastiCE Project [^1] 
+2. Sustainable Innovation in Colombia's Plastics Sector: Report on the Results of the Assessment of Business Innovation Capabilities within the Framework of the TechTraPlastiCE Project [^2]
+
+
+
+Overall, the experience demonstrates that stakeholder engagement should not be considered merely a methodological step, but a strategic mechanism for building the trust and relationships required to accelerate university–industry collaboration and the circular transition of the plastics sector. 
+
+
+\newpage
+
+
+
+:::landscape
+
+
+```{r}
+#| label: tbl-wp1
+#| tbl-cap: "TechTraPlastiCE specific objectives."
+#| tbl-pos: H
+
+
+table <- 
+tribble(
+~`Task No`, ~`Task Name`, ~`Implemented \n (Yes/No/Partially)`, ~`Justification`, 
+
+"T1.1",
+
+"To develop a holistic framework to understand the companies/industries' performance for circular economy",
+
+"Yes",
+
+"The task 1.1 intended to establish a global common understanding of the plastic value chain from the legislative perspective. This common base allowed the consortium to establish a baseline understanding on what is the local advancements of each country on the Circular Economy and Product Extended Responsibility (REP) policies in Colombia, Chile and Argentina.
+
+In Colombia, the Universidad Nacional de Colombia, with collaborative work at Universidad Central  carried out the follow-up and coordination of the collection and analysis of national regulations related to plastics, participation in international agreements, waste management, and circular economy policies. Together with their level of implementation and coordination. This was conducted through the identification of information contained in official documents, current legislation, strategic plans, and technical literature.
+
+Three global questionnaires were conceived and put in place as  instruments to be shared at the global consortium reference on the analysis of the legislation. 
+
+A collective workshop for this task was made during the kick-off meeting where the three main legislation baselines were discussed and shared among the partners consortium. 
+
+ A document was published at Acoplasticos website to share the results with the companies of the plastic sector: [https://acoplasticos.org/cartilla-economia-circular-y-transferencia-tecnologica-en-el-sector-plastico-colombiano/](https://acoplasticos.org/cartilla-economia-circular-y-transferencia-tecnologica-en-el-sector-plastico-colombiano/)
+"
+)
+
+table %>%
+  mutate_all(linebreak) %>%
+  kbl("latex", booktabs = T, escape = F, align = c('l','l', 'l', 'l'),
+      linesep = "\\midrule\\addlinespace") %>%
+   kable_styling(full_width = F,                 
+                font_size = 11) %>% 
+   add_header_above(c("Work Package " = 3 ), align = "l")  %>%              
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
+   column_spec(1, width = c("1cm"))  %>% 
+   column_spec(2, width = c("2cm"))  %>% 
+   column_spec(3, width = c("3cm"))  %>% 
+   column_spec(4, width = c("13cm"))
+   
+```
+
+:::
+
+
+\newpage
+
+
+## DELIVERABLES AND CRITICAL RISKS
+
+Deliverables and milestones (outputs/outcomes) YES/NO
+We confirm that we updated the following Continuous Reporting screens:
+- Deliverables
+- Milestones 
+
+
+Deliverables and milestones (outputs/outcomes) YES/NO
+We confirm that we updated the following Continuous Reporting screens:
+- Deliverables
+- Milestones 
+
+
+
+
+
+<!-- Footnotes themselves at the bottom. -->
+
+
+[^1]:
+
+      “Economía circular y transferencia tecnológica en el sector plástico colombiano: Informe de resultados de la encuesta sobre normativa, desafíos, oportunidades y articulación universidad/ empresa en el marco del proyecto TechTraPlastiCE”. See more details on the Acoplastico website:  [https://acoplasticos.org/cartilla-economia-circular-y-transferencia-tecnologica-en-el-sector-plastico-colombiano/](https://acoplasticos.org/cartilla-economia-circular-y-transferencia-tecnologica-en-el-sector-plastico-colombiano/) 
+
+[^2]:
+     Innovación sostenible en el sector plástico colombiano: informe de resultados de la evaluación de capacidades de innovación empresarial en el marco del proyecto TechTraPlastiCE. See more details on [https://acoplasticos.org/cartilla-innovacion-sostenible-en-el-sector-plastico-colombiano/](https://acoplasticos.org/cartilla-innovacion-sostenible-en-el-sector-plastico-colombiano/) 
+

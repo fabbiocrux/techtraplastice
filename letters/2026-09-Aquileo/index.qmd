@@ -1,0 +1,31 @@
+---
+lang: fr
+author:
+  - name: Asst. Prof. Fabio A. CRUZ SANCHEZ
+    affiliation:
+      - name: Université de Lorraine
+        department:  ENSGSI
+        address: 8 rue Bastien Lepage
+        city: Nancy
+        country: France
+        postal-code: 54000
+address:
+  - Dear **Aquileo Pi**
+  - Project Officer at the European Education and CultureExecutive Agency (EACEA) of the European Commission
+
+subject-title: "Subject"
+subject: "**Amendment requested by the TechTraPlastiCE consortium**"
+opening: "Dear Project Officer:"
+#closing: "Yours Faithfully,"
+
+fontsize: 12pt
+format:
+  letter-pdf:
+    output-file: index
+    include-in-header: [../../assets/TTPLCE-packages.tex]
+    keep-tex: false
+---
+
+
+
+Dans le cadre du project TechTraPlastiCE, M. 
