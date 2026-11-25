@@ -18,7 +18,6 @@ lof: false
 ---
 
 
-
 ```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = FALSE, fig.retina = 3, message = FALSE, warning = FALSE)
 options(knitr.kable.NA = '')
@@ -28,7 +27,7 @@ library(tidyverse)
 library(kableExtra)
 library(readxl)
 
-table1 <- read_csv("tables/1.1/table1.csv")
+#table1 <- read.csv("tables/1.1/table1.csv")
 #render("Taylor-template.Rmd", output_format = "word_document")
 #library(bibtex)
 
@@ -128,7 +127,6 @@ pages=-]{figures/5.2/05-word.pdf}
 
 
 ## Templates for Video materials
-
 
 All TechTraPlastiCE graphic design and video pieces shared through the project's communication channels or other channels must respect the visual identity of the project. 
 
