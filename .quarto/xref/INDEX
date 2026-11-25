@@ -1,0 +1,171 @@
+{
+  "index.qmd": {
+    "index.html": "8c93c75e"
+  },
+  "letter.qmd": {
+    "letter.tex": "3237d016",
+    "letter.html": "90df3e48"
+  },
+  "letters/letters.qmd": {
+    "letters.typ": "21c7d1de"
+  },
+  "delivrables/D5.2.qmd": {
+    "D5.2.tex": "97947fd0"
+  },
+  "delivrables/D6.1.qmd": {
+    "D6.1.tex": "47cc4beb",
+    "D6.1.html": "51d94ab6"
+  },
+  "delivrables/D1.1.qmd": {
+    "D1.1.html": "1cacec97",
+    "D1.1.tex": "94c734e0"
+  },
+  "delivrables/D5.1.qmd": {
+    "D5.1.html": "7b477af0",
+    "D5.1.tex": "0bc73eed"
+  },
+  "delivrables/D5.3.qmd": {
+    "D5.3.tex": "60a3bfa9",
+    "D5.3.html": "7f79f5fa"
+  },
+  "external-advisor-commitee/index.qmd": {
+    "index.html": "eec714b0"
+  },
+  "delivrables/D6.2.qmd": {
+    "D6.2.tex": "e3f580e9"
+  },
+  "EBA/index.qmd": {
+    "index.html": "10c99517",
+    "index.tex": "238dd98c"
+  },
+  "delivrables/Gantt-B1.qmd": {
+    "Gantt-B1.tex": "e18437b4"
+  },
+  "delivrables/Gantt.qmd": {
+    "Gantt.tex": "86afb67b"
+  },
+  "assets/Gantt.qmd": {
+    "Gantt.html": "fcd27f04",
+    "Gantt.tex": "0239cfa9"
+  },
+  "assets/Gantt/Gantt.qmd": {
+    "Gantt.tex": "be5fec05"
+  },
+  "assets/Gantt/test.qmd": {
+    "test.tex": "47dff735"
+  },
+  "delivrables/D1.2.qmd": {
+    "D1.2.tex": "b34ecfea"
+  },
+  "UNAL/index.qmd": {
+    "index.html": "821f5bae"
+  },
+  "EBA/Astrid.qmd": {
+    "Astrid.tex": "7bdfa58a"
+  },
+  "EBA/Astrid/letter-invitation.qmd": {
+    "letter-invitation.tex": "d4da189c"
+  },
+  "delivrables/test.qmd": {
+    "test.tex": "95735c78",
+    "test.html": "eb650928"
+  },
+  "test.qmd": {
+    "test.tex": "02eaf087"
+  },
+  "delivrables/D1.3.qmd": {
+    "D1.3.tex": "6600fe94",
+    "D1.3.html": "c13ae50c"
+  },
+  "testing.qmd": {
+    "testing.html": "eee920c5"
+  },
+  "delivrables/figures/1.3/fabio.qmd": {
+    "fabio.html": "75da44ca",
+    "fabio.tex": "419e4126"
+  },
+  "santiago/presentation.qmd": {
+    "presentation.html": "fe34f6c6"
+  },
+  "ENSGSI/2026-03-03-Laure.qmd": {
+    "2026-03-03-Laure.tex": "657d20eb"
+  },
+  "delivrables/letter.qmd": {
+    "letter.tex": "90a74b09"
+  },
+  "EBA/Astrid/Laure.qmd": {
+    "Laure.tex": "d7aa2dc9"
+  },
+  "EBA/wp2-portfolio.qmd": {
+    "wp2-portfolio.html": "80ffef70"
+  },
+  "wp2-portfolio.qmd": {
+    "wp2-portfolio.html": "539e0ec5"
+  },
+  "UNS/Yamila.qmd": {
+    "Yamila.tex": "9405cb37"
+  },
+  "delivrables/D2.1.qmd": {
+    "D2.1.tex": "f2126a97"
+  },
+  "delivrables/D2.2.qmd": {
+    "D2.2.tex": "1e0b6bed"
+  },
+  "delivrables/D2.3.qmd": {
+    "D2.3.tex": "b7a8151a"
+  },
+  "WP3/Manuel/2026-05-13-Subcontrating.qmd": {
+    "2026-05-13-Subcontrating.tex": "17d39a7f"
+  },
+  "WP6/ECHO2026/abstract.qmd": {
+    "abstract.html": "56c747ea"
+  },
+  "letters/2026-07-06-change-GA.qmd": {
+    "2026-07-06-change-GA.tex": "4f769227"
+  },
+  "letters/2026-07-06-change-GA/index.qmd": {
+    "index.tex": "2fd3b428"
+  },
+  "talks/bogota.qmd": {
+    "bogota.html": "731a690b"
+  },
+  "talks/bogota-00.qmd": {
+    "bogota-00.tex": "962201ba"
+  },
+  "delivrables/D6.3.qmd": {
+    "D6.3.tex": "3e4f3902"
+  },
+  "assets/Gantt/MidTerm-Gantt.qmd": {
+    "MidTerm-Gantt.tex": "06d8af49"
+  },
+  "letters/2026-09-Aquileo/index.qmd": {
+    "index.tex": "6b0d8461"
+  },
+  "delivrables/D3.1.qmd": {
+    "D3.1.tex": "17c9a6a0"
+  },
+  "delivrables/smallcaps.qmd": {
+    "smallcaps.tex": "9b15721b"
+  },
+  "letters/2026-07-06-change-GA/change-dates.qmd": {
+    "change-dates.html": "b8721a3a"
+  },
+  "benchmarking.qmd": {
+    "benchmarking.html": "1d73ca01"
+  },
+  "Chile/santiago.qmd": {
+    "santiago.html": "e948e659"
+  },
+  "delivrables/deliverable_d1_d2_en.md": {
+    "deliverable_d1_d2_en.tex": "dfbf134b"
+  },
+  "assets/Gantt/_Gantt.qmd": {
+    "_Gantt.tex": "17cce6ed"
+  },
+  "Argentina/benchmarking/i1-campolimpio.qmd": {
+    "i1-campolimpio.html": "6e44559b"
+  },
+  "Argentina/benchmarking/Campo_Limpio_English.md": {
+    "Campo_Limpio_English.html": "acb61bef"
+  }
+}
