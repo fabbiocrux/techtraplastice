@@ -1,11 +1,11 @@
 ---
-title: "Campolimpio"
+title: "Campo Limpio"
 pagetitle: "Campolimpio"
 subtitle: "Chercheuse postdoctorale à Western University"
 image: "figures/i1-campo-limpio-arg.png"
 image-alt: "Campolimpio"
 
-description: "Alessia Romani est lauréate d’une bourse postdoctorale de Western University et chercheuse postdoctorale au laboratoire FAST de cette université (Canada). Ses travaux se situent à l’intersection de la conception de produits, de la conception en ingénierie, des matériaux, de la fabrication numérique et de la durabilité, avec un intérêt particulier pour les pratiques circulaires et la conception ouverte. Son parcours et son expérience de recherche associent le génie des matériaux à la conception de produits et à l’ingénierie, notamment à travers le développement et la caractérisation de matériaux durables pour le design et l’impression 3D, selon une approche expérimentale orientée vers les applications."
+description: "."
 
 categories: 
 - Argentina
@@ -20,9 +20,9 @@ about:
   image-width: 15em
   id: hero-heading
   links:
-  #   - icon: github
-  #     aria-label: GitHub
-  #     href: https://github.com/fabbiocrux
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/fabbiocrux
   #   - icon: linkedin
   #     aria-label: "LinkedIn"
   #     href: https://linkedin.com/in/fabbiocrux
@@ -33,3 +33,45 @@ about:
   #     href: https://scholar.google.com/citations?user=8Cuoaf4AAAAJ&hl=en
 
 ---
+
+:::{#hero-heading}
+
+:::
+
+
+### D1: Role in the Circular Economy
+
+*Where does this initiative fit in the plastics value chain?*
+
+**How does this initiative contribute to keeping plastics in the loop?**
+
+Briefly describe its position in the value chain (e.g. post-consumer, industrial, production) and whether it combines with other circular strategies (recycling, eco-design, source reduction).
+
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. Its main function is to ensure the recovery, traceability, conditioning and valorization of empty plant protection product containers once their primary useful life has ended. The initiative addresses a particularly sensitive plastic waste stream because the containers have held plant protection products and therefore require management that differs from that of other plastic waste.
+
+Campo Limpio's main contribution is to prevent containers from being abandoned, burned, buried or improperly reused by incorporating them into a formal reverse logistics system. Through the network of Temporary Storage Centers (CAT, Spanish acronym), containers are collected, sorted and sent to authorized operators for recycling or valorization. By May 2025, the system had recovered more than 18.5 million kilograms of empty containers, preventing this material from being dispersed into the environment.
+
+
+
+
+### D2: Regulatory Framework
+
+*What rules enabled, incentivized, or required this initiative?*
+
+**What legislation, policies, or economic instruments (taxes, subsidies, EPR targets, voluntary agreements) enabled or drove this initiative? Was it voluntary or mandatory? Did it emerge before or after the regulatory framework?**
+
+Campo Limpio emerged as a direct response to National Law 27.279 on the Management of Empty Plant Protection Product Containers, enacted in 2016, and the only extended producer responsibility (EPR) law for packaging in Argentina.
+
+The law establishes:
+
+- Extended Producer Responsibility.
+- Mandatory triple rinsing or pressure rinsing.
+- Mandatory return of containers.
+- Prohibition of abandonment, burning or burial.
+- Establishment of authorized management systems.
+- Restrictions on the end uses of recycled material.
+- Mandatory traceability.
+
+Unlike many recycling initiatives that begin voluntarily and are subsequently regulated, Campo Limpio was created specifically to comply with this legislation. However, although the law establishes a hierarchy that prioritizes reuse over recycling, in practice the reuse of these containers is very limited due to health and environmental restrictions. Consequently, the main circular strategy implemented is the controlled recycling of recovered material.
+
+It is also important to emphasize that the initiative is essentially mandatory. Companies that register plant protection products are legally required to finance and organize a management system for the empty containers placed on the market.
