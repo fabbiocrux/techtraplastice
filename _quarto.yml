@@ -6,7 +6,7 @@ website:
   title: "TechTraPlastiCE"  
   navbar:
     right:
-      - href: index.qmd
+      - href: https://techtraplastice.eu/
         text: Home
   page-footer: 
     left: | 
@@ -31,3 +31,6 @@ format:
     toc: true
     grid: 
       margin-width: 300px
+
+execute:
+  freeze: auto      
