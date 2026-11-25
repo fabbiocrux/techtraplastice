@@ -1,0 +1,47 @@
+---
+title: "Benckmarking Study"
+subtitle: "WP3 Multi-actor collaborations for just and safe plastic’s circular economy "
+title-block-banner: false
+last_update: 2026-11-24
+date-format: short
+#author:
+#  - name: Fabio CRUZ
+#    affiliations:
+#      - Université de Lorraine
+lightbox: true
+
+format: 
+  html:
+    page-layout: full
+
+listing: 
+- id: argentina
+  contents: "Argentina/benchmarking/*.qmd"
+  sort: true
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, subtitle, description, categories, image]
+  image-placeholder: Blog-sidebar.jpg
+  image-align: right
+  image-height: 250px
+  page-size: 5
+  grid-columns: 3
+  max-description-length: 200
+
+---
+
+
+# Work Package 3: Multi-actor collaborations for just and safe plastic’s circular economy 
+
+
+This WP will encourage multi-actor initiatives to enhance the reuse of plastic involving waste pickers' organizations, companies, and the local public sectors, taking advantage of the University's articulation capacities. 
+
+This WP will address the involvement of key players in the circular economy challenge that overpasses the margins of industries' actions: the waste pickers' organizations and the local public sectors. The university has a privileged neutrality position that facilitates the attraction,  orchestration and articulation of diverse actors in a shared scenario to exchange possibilities and generate win-win situations. This WP will sensitize on the critical aspects of the “reuse” issues, learning from developments in Europe and other parts of the world. 
+
+
+The identified problems involving multi-actors visions and roles are foreseen to be problems that are also faced in other countries and cities. The benchmarking will help to find inspiration in how similar multilevel problems have been approached to start identifying clues of actions. The benchmarking study will be structured as a public document available for all the partners.
+
+:::{#argentina}
+:::

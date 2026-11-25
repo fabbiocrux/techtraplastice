@@ -1,242 +1,35 @@
-<!-- Page 1 -->
-TECHTRAPLASTICE · WP1 INNOVATION OPPORTUNITIES
-
-Comparative analysis of effective plastic reuse and recovery practices Deliverable 1: Preliminary survey and construction of the universe of experiences Deliverable 2: Typology, comparative framework and case selection
-
-Eng. Manuel Alberto Mateu — WP1 Consultant Université de Lorraine / ENSGSI · TechTraPlastiCE Project (Erasmus+, co-funded by the European Union) Final version · 30 July 2026 (English translation of the Spanish original) This document includes: Annex I — Methodological note and glossary of terms · Annex II — Explanatory summary of the 29 cases in the universe. Annex III (separate file): Excel workbook “Universe of experiences” with the complete record sheet for each case.
-
-<!-- Page 2 -->
-# Executive summary
-This report presents Deliverables 1 and 2 of the comparative analysis of international plastic reuse and recovery practices. Deliverable 1 built a universe of 29 international experiences organised into five families, each recorded in a standardised three-block record sheet and analysed against the seven-stage recovery chain. Argentina, Chile and Colombia are deliberately excluded from the universe: their national assessments were carried out by the responsible universities of the consortium, and the specific contribution of this work is the analysis of complementarity, replicability and lessons learned that the international cases can offer to those national contexts.
-
-Deliverable 2 developed the comparative framework — a five-axis typology, a stage-coverage matrix graded under a strict criterion, the push/pull dimension, and a matrix of dimensions and indicators aligned with the Search Conferences — and, on that basis, proposes a shortlist of 13 candidate cases (7 representative and 6 innovation cases). The final selection, within the contractual quotas, will be made on the basis of the interest survey to be completed by consortium members, whose results will be applied against the explicit criteria of this report.
-
-Three cross-cutting findings: (i) under the strict grading criterion, the gaps in the universe — communication and separation at source — coincide with the weakest stages in the region; (ii) systems that partially fail do so because of an imbalance between push (supply-side) and pull (demand-side) forces, while reference systems institutionalise both; (iii) the sorting and marketing stages concentrate well-designed mechanisms with very little independent performance evidence — a gap in the literature that the Deliverable 5 benchmarking can help to fill.
-
-<!-- Page 3 -->
-# Part I — Deliverable 1: Preliminary survey and construction of
-the universe
-## 1.1. Framing and methodological decisions
-The survey was structured around two foundational decisions, documented in detail in the Methodological Note (Annex I of this document). First: the universe is international, with the deliberate exclusion of Argentina, Chile and Colombia as a matter of division of labour within the consortium — the national assessments already carried out by UNRN, UNC and UNS (Argentina), USACH and PUCV (Chile) and UNAL and UC (Colombia) are the basis on which Deliverable 3 will analyse complementarity, replicability and lessons learned. Uruguay is included as a comparable Latin American context; TriCiclos is recorded through its regional deployment outside Chile. Second: every experience is analysed against the seven-stage recovery chain (communication; separation at source; capture and logistics; sorting; marketing of recyclables; valorisation; business models and innovation), which serves as the common unit of analysis and reveals each case's partial coverage as an analytical datum in its own right.
 
 ## 1.2. The standardised record sheet
-Each case was recorded in an identical three-block sheet: Block A (identification: twelve comparable variables), Block B (analysis across the seven stages, with coverage graded on a four-level scale) and Block C (sources with document name, link and verification status). The complete record sheets for the 29 cases constitute Annex III (Excel workbook, separate file); their narrative reading, Annex II of this document.
+Each case was recorded in an identical three-block sheet: 
+
+1. Block A (identification: twelve comparable variables), 
+2. Block B (analysis across the seven stages, with coverage graded on a four-level scale) and 
+3. Block C (sources with document name, link and verification status). 
+
+The complete record sheets for the 29 cases constitute Annex III (Excel workbook, separate file); their narrative reading, Annex II of this document.
 
 ## 1.3. The universe: 29 experiences in five families
 The universe does not gather the 29 “best” cases; it deliberately covers the space of variation required by the terms of reference — socio-economic contexts, regulatory frameworks, levels of formalisation, governance models and operating scales. It includes counter-cases and partial failures (Ecuador, Brazil, the Zabbaleen), whose value lies precisely in documenting why designs fail. The final composition also reflects a deliberate adjustment: four redundant cases were removed (two Nordic deposit systems similar to the German benchmark; two European EPR schemes similar to those retained) and the valorisation family was reinforced from four to nine cases, as the critical stage for the regional context.
 
-```text
- Family                                          Cases         Members
-```
-
-```text
- A · DRS / Deposit-refund                        4             Germany (Pfand/DPG) · Lithuania (USAD) · South Australia (CDS) ·
-```
-Ecuador (IRBP)
-
-```text
- B · Mature EPR schemes                          5             France (Citeo) · Italy (CONAI/COREPLA) · Japan (JCPRA) · South
-```
-Korea (EPR+VBWF) · Taiwan (4-in-1)
-
-```text
- C · Inclusive recycling                         6             SWaCH (India) · PNRS/catadores (Brazil) · Plan VALE (Uruguay) ·
-```
-Zabbaleen (Egypt) · Cataki (Brazil) · ECOCE (Mexico)
-
-```text
- D · Private and technological innovation        5             Plastic Bank · Mr. Green Africa (Kenya) · Wecyclers (Nigeria) ·
-```
-Banyan Nation (India) · Recykal (India)
-
-```text
- E · Valorisation and new value chains           9             Precious Plastic · PetStar (Mexico) · Carbios (France) · TriCiclos ·
- (reinforced)                                                  Eastman (USA) · Mura (UK) · UBQ (Israel/NL) · Gjenge Makers
-```
-(Kenya) · CRDC/RESIN8 (Costa Rica)
-
-<!-- Page 4 -->
-## 1.4. Comparative table of the pre-selection
-The following table summarises the full pre-selection (the extended version, with the twelve Block A variables per case, is the “Universo” sheet in Annex III). The verification status distinguishes cases cross-checked against 2024–2026 sources (21 of 29) from those pending verification (8, all reserve cases).
-
-```text
- ID      Case                                       Country/scope                 Push/pull balance            Verification
-```
-
-```text
- A1      Pfand / DPG                                Alemania                      Integrated (push-strong)     Verified
-```
-
-```text
- A4      Sistema de depósito (USAD)                 Lituania                      Push-dominant                Verified
-```
-
-```text
- A5      Container Deposit Scheme (CDS)             Australia                     Push-dominant                To be verified
-```
-
-```text
- A6      Impuesto Redimible a Botellas              Ecuador                       Push without pull (by        Verified
-         Plásticas (IRBP)                                                         design)
-```
-
-```text
- B1      Citeo                                      Francia                       Integrated (growing pull)    Verified
-```
-
-```text
- B4      CONAI / COREPLA                            Italia                        Integrated                   Verified
-```
-
-```text
- B5      Ley de Reciclaje de Envases y              Japón                         Integrated                   To be verified
-```
-Embalajes
-
-```text
- B6      EPR + Volume-Based Waste Fee               Corea del Sur                 Integrated (push-strong)     To be verified
-```
-
-```text
- B7      4-in-1 Recycling Program                   Taiwán                        Integrated (model case)      Verified
-```
-
-```text
- C1      SWaCH (Solid Waste Collection &            India                         Push-dominant                Verified
-```
-Handling)
-
-```text
- C2      PNRS + catadores (MNCR / Pró-              Brasil                        Push without pull            Verified
-```
-Catador)
-
-```text
- C3      Plan VALE / Ley 19.829                     Uruguay                       Push-dominant (weak pull)    Verified
-```
-
-```text
- C4      Zabbaleen                                  Egipto                        Pull without push            To be verified
-```
-
-```text
- C5      Pimp My Carroça / Cataki                   Brasil                        Facilitator (reduces         Verified
-```
-friction)
-
-```text
- C6      ECOCE                                      México                        Pull without push            To be verified
-```
-
-```text
- D1      Plastic Bank                               Multinacional                 Pull-dominant                Verified
-```
-
-```text
- D2      Mr. Green Africa                           Kenia                         Pull-dominant                Verified
-```
-
-```text
- D3      Wecyclers                                  Nigeria                       Push-dominant                To be verified
-```
-
-```text
- D4      Banyan Nation                              India                         Pull-dominant (regulatory)   Verified
-```
-
-```text
- D5      Recykal                                    India                         Pull-dominant (regulatory)   Verified
-```
-
-```text
- E1      Precious Plastic                           Red global                    Pull-dominant (micro-        Verified
-```
-scale)
-
-```text
- E2      PetStar                                    México                        Pull without push            To be verified
-```
-(dominant)
-
-```text
- E3      Carbios (reciclado enzimático de PET)      Francia                       Pull-dominant                Verified
-```
-(anticipated)
-
-```text
- E4      TriCiclos / red B latinoamericana          Chile-Brasil-región           Push-dominant                To be verified
-```
-
-```text
- E5      Eastman (reciclaje molecular /             EE.UU.                        Pull-dominant (fragile)      Verified
-```
-metanólisis)
-
-<!-- Page 5 -->
-```text
- E6      Mura Technology (Hydro-PRT,              Reino Unido                   Pull-dominant              Verified
-```
-hidrotermal)
-
-```text
- E7      UBQ Materials                            Israel / Países Bajos         Pull-dominant              Verified
-```
-
-```text
- E8      Gjenge Makers                            Kenia                         Integrated (micro-scale)   Verified
-```
-
-```text
- E9      CRDC Global / RESIN8                     Costa Rica                    Integrated                 Verified
-```
 
 ## 1.5. Rigour protocol
-Every figure is classified as consolidated data, an estimate, or self-reported data from the organisation itself (flagged “to be cross-checked”); no unverified figure is cited in formal documents. Verification changed conclusions during the survey itself — the adjustment of Carbios's timeline (2026→2028) and the contradictory evaluations of the Ecuadorian redeemable tax are the documented examples — and underpins the strict grading criterion applied in Part II.
+
+
 
 <!-- Page 6 -->
+
 # Part II — Deliverable 2: Typology, comparative framework and
 case selection
+
 ## 2.1. Five-axis typology
-Every case in the universe was classified along five axes (“Tipologia” sheet in Annex III): the regulatory axis (mandatory EPR · economic incentive · rights-based recognition · voluntary/market-based · no framework); the governance axis (state-led · municipal · cooperative-community · private-corporate · hybrid); the waste-picker inclusion axis (exclusion · precarious outsourcing · remunerated co- management · cooperative ownership) — the axis of greatest political weight for the project context; the maturity-scale axis (pilot · consolidated · mature); and the technological axis (low · medium · high · frontier).
+Every case in the universe was classified along five axes (“Tipologia” sheet in Annex III): 
+
+1. the regulatory axis (mandatory EPR · economic incentive · rights-based recognition · voluntary/market-based · no framework); 
+2. the governance axis (state-led · municipal · cooperative-community · private-corporate · hybrid); the waste-picker inclusion axis (exclusion · precarious outsourcing · remunerated co- management · cooperative ownership) — the axis of greatest political weight for the project context; the maturity-scale axis (pilot · consolidated · mature); and the technological axis (low · medium · high · frontier).
 
 ## 2.2. The stage matrix under a strict criterion
 Each case's coverage of the seven stages is graded on four levels under two rules tightened for this final version: (i) a “High” grade requires performance documented by an independent or official, cross-checked source — a well-designed mechanism without independent metrics grades “Medium”, and self-reported data from the organisation itself cannot sustain a “High”; (ii) cases not yet verified carry at most a provisional “Medium”. The full re-grading of the universe under these rules (78 downgrades relative to the working version) restores the scale's discriminating power.
 
-```text
- Chain stage                        Highs / 29         Reading
-```
-
-```text
- 1. Communication                   2                  Structural gap: hardly anyone treats it as an investment with measured
-```
-results.
-
-```text
- 2. Separation at source            4                  Solved only by DRS and mature EPR schemes, always with an economic
-```
-incentive or enforcement.
-
-```text
- 3. Capture and logistics           10                 The best-documented stage in the universe: the only one above one
-```
-third.
-
-```text
- 4. Sorting                         1                  Abundant mechanisms; scarce independent performance evidence.
-```
-
-```text
- 5. Marketing of recyclables        1                  Likewise: a literature gap that Deliverable 5 can help to fill.
-```
-
-```text
- 6. Valorisation                    5                  Family reinforced from 4 to 9 cases: no longer the main gap.
-```
-
-```text
- 7. Business models                 8                  Good coverage of evidenced innovation (EPR marketplace, micro-
-```
-valorisation).
 
 Central finding: the universe's two gaps — communication and separation at source — coincide with the region's weakest stages. The complementarity between cases (none covers the seven stages well) is the deliberation input for the Search Conferences: the operational question is what to combine.
 
@@ -446,19 +239,8 @@ of the complementarity reading.
 <!-- Page 14 -->
 Aggregating coverage by stage across the 29 cases produces the stage matrix. Under the strict criterion its central reading is twofold: the universe's structural gaps — communication (2/29) and separation at source (4/29) — coincide with the region's weakest stages; and the sorting and marketing stages concentrate well-designed mechanisms with very little independent performance evidence (1/29 each), a literature gap that the Deliverable 5 benchmarking can help to fill.
 
-## 6. Five-axis typology (Deliverable 2)
-To classify the universe and ground the selection criteria, five typological axes were defined. Each case receives a position on each axis (“Tipologia” sheet of the Excel workbook):
 
-- Regulatory axis: mandatory EPR · economic incentive (deposit/redeemable tax) · rights-based
-recognition · voluntary/market-based · no framework.
-- Governance axis: centralised state · municipal · cooperative-community · private-corporate ·
-hybrid.
-- Waste-picker inclusion axis: exclusion · precarious outsourcing · remunerated co-management ·
-cooperative ownership. The axis of greatest political weight for the project context.
-- Maturity-scale axis: pilot (<5 years) · consolidated (5–15) · mature (15+, international
-reference).
-- Technological axis: low (manual) · medium (digitised registration) · high (end-to-end
-traceability, AI, blockchain) · frontier (new valorisation routes).
+
 
 ## 7. The push/pull dimension
 A cross-cutting dimension was incorporated into the framework, classifying each circuit's instruments according to the force that moves the material:

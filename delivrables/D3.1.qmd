@@ -2,15 +2,15 @@
 title: D3.1 Benchmarking study
 WP_num: WP2
 WP: "WP2: Development of a networked portfolio"
-Description: This repository will consist of digital memory on the cross-matching opportunities and initiatives.
-Responsible: Universidad Nacional del Sur & Universidade de Aveiro
-Dissemination: Confidential
-Date-delivrable: April 30/2026
-Quality: D2.3.tex
+Description: The identified problems involving multi-actors visions and roles are foreseen to be problems that are also faced in other countries and cities. The benchmarking will help to find inspiration in how similar multilevel problems have been approached to start identifying clues of actions. The benchmarking study will be structured as a public document available for all the partners.
+Responsible: Pontifica Universida Catolica de Valparaiso \& Columbus Association
+Dissemination: Public
+Date-delivrable: Nov 30/2026
+Quality: D3.1.tex
 author: 
-  - Prof. Paula Ferreira (UA), Prof. Idalina José Gonçalves (UA), Prof. Cláudia Nunes (UA).
-  - Prof. Yamila Victoria Vazquez (UNS), Prof. Yanela N. Alonso (UNS), Prof. Luciana A. Castillo, (UNS), Econ. Yesica Soledad Dilernia (UNS), ID. Teresa Dutari (UNS).
-  - PhD. Catalina Suescun (UL), Prof. Fabio Cruz (UL).
+  - Eng. Sandra Ponce (PUCV),&nbsp; Prof. Carlos Carlesi Jara (PUCV), &nbsp; Prof. Rolando Chamy (PUCV).
+  - PhD. Kelly Henao (Columbus), Cecilia Valdés (Columbus), Daniel Samoilovich (Columbus)  
+  - Prof. Fabio Cruz (UL).
 date: today
 date-format: long
 metadata-files:
@@ -46,25 +46,122 @@ library(here)
 
 # Executive summary {.unnumbered}
 
-This deliverable presents the findings of Task T3.1, Reuse Action Clues, under Work Package 3 of the TechTraPlastiCE project. 
-A total of twenty-five questionnaires initiatives were found in Argentina (9), Chile (10), and Colombia (6).
-They cover packaging reuse, plastic-waste collection and recycling, industrial valorization, and technology development. 
-Twenty-three cases directly address the management, prevention, reuse, or transformation of plastic waste.
-Indeed, two Colombian research cases concern bio-based polymer inputs and are retained as complementary evidence on innovation and commercialization barriers. 
-Across the countries, the cases point to several recurring enabling conditions: identified demand for circular products or services, dependable material supply, adequate technical and quality standards, stakeholder coordination, and financing arrangements suited to the operating model. 
 
-Extended Producer Responsibility (EPR) schemes and recycled-content requirements can create stable obligations or markets, while public procurement and industrial off-take agreements can provide alternative demand anchors. 
-Yet the existence of regulation, infrastructure, or a validated technology is not sufficient on its own. 
-For instance, Chilean refilling cases, Argentine industrial and municipal cases, and Colombian recycling ventures illustrate different vulnerabilities, from commercial dependence and dispersed logistics to certification barriers and exposure to virgin-material prices.
-The distinction between technological progress, operational scale, and long-term viability is central to the findings. 
-Some projects remain at research or pilot stage; others operate commercially but face financial pressure; still others have closed or were never implemented. 
-The resulting Reuse Action Clues emphasize matching technologies to real demand, designing viable logistics and cost-sharing arrangements, validating materials and market access, including recovery actors appropriately, and testing resilience before scaling. 
-They also identify practical roles for universities as research partners, independent testing and certification-support institutions, living laboratories, conveners, and technology-transfer facilitators. 
+This document constitutes the Deliverable *D3.1 –  Benchmarking Study* of the Work Package 3: « Multi-actor collaborations for just and safe plastic’s circular economy ». The main goal of the document is to present a comparative analysis of international plastic reuse and recovery practices. More precisely, this deliverable entails the development of two TechTraPlastiCE's tasks:
+
+1. **Task T3.1:** Reuse action clues in Argentina, Chile and Colombia
+2. **Task T3.3**: Assessment of local reuse systems and benchmarking with impactful reuse practices
+
+The scope of this report is twofold. 
+In a first hand, a comprehensive analysis of the socioeconomic impacts of plastic reuse initiatives in Argentina, Chile, and Colombia is identified and analyzed including aspects such as including the state of norms and processes, job creation, income generation, and economic empowerment, particularly among marginalized communities. 
+In a second hand, the analysis is complemented by an exploration of how such challenges have been solved in other parts of the world (European countries, Africa, etc.) to inspire action possibilities in preparation for the Search conferences task and for the development of the Work Package 4 Pilot projects implementation.  
+
+A total of 54 experiences were mapped at the international level. 
+Particularly, twenty-five initiatives were found in Latin America  --Argentina (9), Chile (10), and Colombia (6)--, based on a tailored questionnaire for the three countries. 
+
+The rest of experiences (29) were mapped at the rest of the world where information was collected through a specific protocol of analysis. 
+To better understand,  the whole set of experiences were organised into five families, each recorded in a standardised three-block record sheet and analysed against the seven-stage recovery chain. 
+
+Regarding the experiences found in Argentina, Colombia and Chile, the total set of experiences cover packaging reuse, plastic-waste collection and recycling, industrial valorization, and technology development.  
+Twenty-three cases directly address the management, prevention, reuse, or transformation of plastic waste.  Across the three countries, the cases point to several recurring enabling conditions: 
+
+1. Several leviers to impulse the reuse include aspects such as i) identified demand for circular products or services, ii) dependable material supply, iii) adequate technical and quality standards, iv) stakeholder coordination, and vi) financing arrangements suited to the operating model. 
+2. Extended Producer Responsibility (EPR) schemes and recycled-content requirements can create stable obligations or markets, while public procurement and industrial off-take agreements can provide alternative demand anchors. 
+3. The existence of regulation, infrastructure, or a validated technology is not sufficient on its own. Chilean refilling cases, Argentine industrial and municipal cases, and Colombian recycling ventures illustrate different vulnerabilities, from commercial dependence and dispersed logistics to certification barriers and exposure to virgin-material prices.
+4. The distinction between technological progress, operational scale, and long-term viability is central to the findings. Some projects remain at research or pilot stage; others operate commercially but face financial pressure; still others have closed or were never implemented. 
+
+On the other hand, from the twenty-nine international experiences, three cross-cutting findings complemented the perspectives found in Colombia, Chile: 
+
+(i) the points on ‘communication’ and ‘separation at source’ remain as major pain points at the value chain. 
+(ii) circular economy systems systems that partially fail because of an imbalance between push (supply-side) and pull (demand-side) forces. Nevertheless, reference systems institutionalise both. 
+(iii) the sorting and marketing stages concentrate well-designed mechanisms with very little independent performance evidence — a gap in the literature that the Deliverable 5 benchmarking can help to fill.
+
+In general, it is recommended that before scaling any  resulting reuse action, it is required to match technologies to real demand, designing viable logistics and cost-sharing arrangements, validating materials and market access, including recovery actors appropriately, and testing resilience. They also identify practical roles for universities as research partners, independent testing and certification-support institutions, living laboratories, conveners, and technology-transfer facilitators. 
 
 Overall, the findings provide a comparative understanding of the factors that shape plastic reuse initiatives in Argentina, Chile, and Colombia. By identifying common opportunities, recurring barriers, and practical lessons from both successful and unsuccessful experiences, the study provides evidence to support decision-making, strengthen stakeholder collaboration, and inform future circular economy actions in Latin America.
 
 
+
+
 # Introduction
+
+TechTraPlastiCE project aims to implement multi-actor for just and safe plastic’s circular economy in the context of Colombia, Chile and Argentina. 
+The identified problems involving multi-actors visions and roles are foreseen to be problems that are also faced in other countries and cities. 
+This report aims to establish a benchmarking approach that will help to find inspiration in how similar multilevel problems have been approached to start identifying clues of actions. 
+The benchmarking study will be structured with two major focus: 
+
+1. Advances in the reuse challenge in the context of Colombia, Chile and Argentina contexts.
+2. Global benchmarking on strategies in the rest of the world including Europe, Africa and other countries of LatinAmerica.
+
+These two perspectives aim to give the TechTraPlastiCE consortium a baseline of initiatives that have been implemented with a multicriteria grid lecture. 
+In order to understand the advances, following section will define the plastic value chain in the frame of circular economy  practices. 
+
+## Plastic Value Chain at the Circular Economy
+
+The lifecycle of polymer materials can be described by the scheme in Fig. xx from the extensive polymer science literature [@ragaert2017; ]. Five major stages are considered as follows: 
+
+
+:::{.landscape}
+![Stakeholders perspective of the Plastic Value Chain for the Circular Economy](figures/3.1/V2.png){width="100%"}
+:::
+
+
+1. Product & Process design, 
+2. Product manufacturing and distribution, 
+3. Retail and consumption,
+4. Waste Management
+5. End-of-Waste/life.
+
+The first stage “I *Product and Process design*” relates to the upstream value chain where the raw material producers transform oil-based products into the different monomers used in the plastic industry. The primary stakeholder in this stage concerns the plastics production that refines crude oil and produces monomers that are chemically bonded into polymers. The different combinations of monomers and their blending with oxygen, chlorine, fluorine and nitrogen generates different types of plastics. It is during the design phase that the function and qualities of the product are decided (e.g., colour, recyclability, polymer mix) [@johansen2022]. In this phase most interactions are built in business to business (B2B).
+
+The Second stage “Product manufacturing and distribution” encompasses the transformation of raw polymer materials into intermediate or finished plastic products, followed by their transportation and delivery across supply chains. Manufacturing activities typically involve polymer processing technologies such as extrusion, injection molding, blow molding, thermoforming, and other conversion processes, depending on the intended application and product specifications. This stage involves, particularly, the industrial actors and logistics providers for the final and intermediate  products. Here business to business (B2B) and business to consumer (B2C) interactions are mapped. For instance, the packaging industrial sector remains the largest field of application.
+
+The third stage “Retail and consumption” includes the commercialization, acquisition, utilization, and use of plastic products by businesses, institutions, and final consumers. It represents the interface between the production system and the demand side of the plastic value chain, where purchasing decisions, consumption patterns, and product-use behaviors influence material demand and subsequent waste generation. Business to consumer (B2C) interactions are relevant in this phase.
+
+The fourth stage “Waste Management" usually engages the activities and infrastructure required for the collection, transportation, sorting, treatment, and recovery of plastic waste generated during manufacturing, distribution, retail, and consumption. Its primary objective is to manage discarded plastic materials while minimizing environmental impacts and maximizing opportunities for resource recovery. In function of the national context, usually public and public-private partnerships including municipal authorities, waste collection companies, sorting facilities, recycling operators, informal waste collectors, and regulatory institutions. Waste management systems may address both pre-consumer plastic waste, generated during industrial and commercial activities, and post-consumer plastic waste, arising after products have been used and discarded.
+
+Finally, the fifth stage “End-of-Waste / Life” encompasses the activities and infrastructure required for the circular economy actions. This stage is particularly of the interest of TechTraPlastiCE in terms because it determines whether discarded plastics are recovered as secondary resources, converted into energy, permanently disposed of, or released into the environment. In this state, globally, we can identify the following strategies : 
+
+
+
+* **Reuse:** it refers to the repeated use of plastic products or components for their original purpose, without substantial modification of their material structure. It may involve collection, cleaning, inspection, repair and redistribution operations. By extending the service life of products, reuse reduces the demand for virgin materials, limits waste generation and avoids the environmental impacts associated with the manufacture of new products. Its implementation generally requires appropriate product design, reverse logistics, consumer participation and economically viable business models**.**
+* **Mechanical recycling**: Mechanical recycling consists of recovering and reprocessing plastic waste through physical operations, such as sorting, washing, shredding, melting and extrusion, without intentionally altering the chemical structure of the polymers. These steps may occur in a different order, multiple times depending on the origins and composition of the waste. The resulting secondary raw materials can be incorporated into the manufacture of new plastic products, partially or entirely replacing virgin polymers. However, the effectiveness of mechanical recycling depends on the purity and homogeneity of waste streams, the presence of contaminants and additives, and the degradation of polymer properties during successive processing cycles. These limitations may lead to applications with lower technical requirements and economic value, a phenomenon commonly referred to as *downcycling.*
+* **Chemical recycling**: it encompasses a range of technologies that intentionally modify or break down the molecular structure of plastic polymers to recover monomers, oligomers or other chemical intermediates. Processes such as hydrolysis, glycolysis, methanolysis and enzymatic depolymerisation can enable the *production of new polymers* with properties comparable to those of virgin materials. Chemical recycling can complement mechanical recycling by addressing certain waste streams that are difficult to process mechanically. Nevertheless, its environmental and economic performance depends on energy requirements, chemical consumption, conversion yields, technological maturity and the availability of suitable feedstock.
+* **Feedstock recycling**: Feedstock recycling refers to the conversion of plastic waste into basic chemical substances or hydrocarbon feedstocks that can be reintegrated into industrial production processes. Technologies such as pyrolysis, gasification and hydrothermal conversion transform polymers into products such as pyrolysis oils, synthesis gas or other chemical fractions. Unlike selective depolymerisation, feedstock recycling does not necessarily seek to recover the original monomers of a specific polymer. It offers potential opportunities for the treatment of mixed or contaminated plastic waste and the substitution of fossil-based industrial feedstocks. Its contribution to material circularity depends, however, on the extent to which the recovered substances are used to manufacture new materials rather than fuels. 
+* **Energy recovery**: Energy recovery involves the conversion of the calorific value of plastic waste into useful energy, typically through controlled combustion in waste-to-energy facilities or co-processing in industrial installations, such as cement kilns. Although this strategy can reduce landfill disposal and partially substitute conventional energy sources, it results in the irreversible loss of the material resources contained in plastics and generates greenhouse gas emissions. Consequently, energy recovery is not considered a material recycling strategy and occupies a lower position in the waste management hierarchy. It is generally regarded as a residual treatment option for plastic waste that cannot be reused or recycled under technically, economically and environmentally acceptable conditions.
+
+The different strategies for the circular economy of plastics presents advantages and challenges given the technological maturity, the reglamentation aspects and the stakeholders involved. This is why the goal of this report is to present an overview of the experiences. 
+
+
+
+## Typologies of the Plastic Value Chain
+
+Five typological axes were defined to classify the differents initiatives and ground a selection criteria. 
+Even if most of the initiatives presents a different nature, the main purpose here is to  draw certain comparisons criteria in order to snapshot the scope and the 
+Each case receives a position on each axis:
+
+1. Regulatory axis: It aims to give the nature of the initiative  (mandatory EPR · economic incentive · rights-based recognition · voluntary/market-based · no framework); 
+- Regulatory axis: mandatory EPR · economic incentive (deposit/redeemable tax) · rights-based
+recognition · voluntary/market-based · no framework.
+
+
+2. the governance axis (state-led · municipal · cooperative-community · private-corporate · hybrid); 
+
+3. the waste-picker inclusion axis (exclusion · precarious outsourcing · remunerated co- management · cooperative ownership) — 
+4. the axis of greatest political weight for the project context; the maturity-scale axis (pilot · consolidated · mature); and 
+
+5. the technological axis (low · medium · high · frontier).
+
+
+- Governance axis: centralised state · municipal · cooperative-community · private-corporate ·
+hybrid.
+- Waste-picker inclusion axis: exclusion · precarious outsourcing · remunerated co-management ·
+cooperative ownership. The axis of greatest political weight for the project context.
+- Maturity-scale axis: pilot (<5 years) · consolidated (5–15) · mature (15+, international
+reference).
+- Technological axis: low (manual) · medium (digitised registration) · high (end-to-end
+traceability, AI, blockchain) · frontier (new valorisation routes).
+
 
 ## Purpose and Scope
 
@@ -93,6 +190,10 @@ These contextual factors provide a basis for interpreting the reuse and valoriza
 #| label: tbl-legal
 #| tbl-cap: "Regulatory And Policy Frameworks" 
 
+library(readxl)
+library(here)
+
+table.1 <- read_excel(here("delivrables/tables/3.1/Universo.xlsx"))
 
 table <- 
 tribble(
@@ -127,7 +228,10 @@ tribble(
 )
 
 
-table %>%
+
+
+
+table.1 %>% select(ID:Status, `Key Actors`: `Plastic Value Chain`) %>%
   kbl(booktabs = T,
     linesep = "\\midrule\\addlinespace") %>%
    kable_styling(full_width = F,                 
@@ -370,6 +474,7 @@ tribble(
 "ENKA; EkoRed; 700+ suppliers; beverage producers",
 )
 
+write_csv2(table, file = "PUCV.csv")
 
 table %>%
   kbl(booktabs = T, longtable = T, 
@@ -616,7 +721,7 @@ They highlight the importance of addressing material availability, logistics, re
 
 For future circular economy projects, including university-led developments, these lessons emphasize the need to connect technological validation with realistic pathways towards implementation and sustained operation.
 
-## Reuse Action Clues: TRANSFERABLE LESSONS FOR LATIN AMERICA
+## Reuse Action Clues: Transferable Lessons for Latin America
 
 The comparative analysis of initiatives in Argentina, Chile, and Colombia provides practical lessons for the development and implementation of circular economy solutions. 
 These Reuse Action Clues draw on both established and discontinued experiences, identifying considerations that can help anticipate implementation barriers, strengthen collaboration, and support long-term continuity.
@@ -669,6 +774,11 @@ For TechTraPlastiCE, the findings highlight several opportunities for universiti
 
 Ultimately, the Reuse Action Clues emphasize that effective circular economy solutions must be developed as integrated systems, connecting technological capabilities with viable operational models, stakeholder participation, and local implementation conditions. 
 This perspective provides a practical foundation for strengthening university-industry collaboration and supporting future circular economy initiatives in Latin America.
+
+
+
+# Conclusions and Identified Information Gaps
+
 
 
 # Conclusions and Identified Information Gaps

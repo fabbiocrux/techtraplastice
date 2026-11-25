@@ -16,7 +16,7 @@ format:
 ---
 
 <!-- %%%%%%%%%% Converting to png. %%%%%%%%%%%%
-%% magick  -density 150 -background red assets/Gantt/_Gantt.pdf -quality 90 images/2026-May-Gantt.png-->
+%% magick  -density 150 -background red assets/Gantt/_Gantt.pdf -quality 90 images/2026-11-Gantt.png-->
 
 
 
@@ -28,7 +28,7 @@ format:
    x unit = 0.7cm,
    time slot format = isodate-yearmonth,
    time slot unit=month,
-   today=2026-07,
+   today=2026-11,
    progress= today,
    title/.append style={draw=none, fill= Neutro},
    title label font=\sffamily\bfseries\color{white},
@@ -67,10 +67,7 @@ format:
 
 % Tareas
 \ganttbar[name=1a, progress=100, progress label text={Completed}]{T1.1 Developing a framework to understand the companies/industries' performance for circular economy}{2025-02}{2025-04} \\
-\ganttbar[Real]{ }{2025-02}{2025-04} \\
-
 \ganttbar[name=1b, progress=100, progress label text={90\%}]{T1.2 Identifying gaps and drivers at targeted Industries/Companies to comply with the norms and consumers' preferences}{2025-05}{2025-10} \\
-
 \ganttbar[name=1c, progress=100, progress label text={10\%}]{T1.3 Assessing the innovation capacities of the industries/sectors}{2025-05}{2025-10} \\
 
 % Milestone 1
@@ -100,20 +97,18 @@ format:
 \ganttgroup{WP3: Multi-actor collaborations for just and safe plastic’s circular economy }{2026-02}{2027-08} \\
 
 % Tareas
-\ganttbar[name=3a, progress=40, progress label text={40\%}]{Reuse action clues in Argentina, Chile and Colombia}{2026-02}{2026-10} \\
-\ganttbar[name=3b, progress=10,  progress label text={25\%}]{Engaging local stakeholders}{2026-02}{2026-11} \\
-\ganttbar[name=3c, progress=20,  progress label text={20\%}]{Assessment of local reuse systems and benchmarking with impactful reuse practices}{2026-05}{2026-11} \\
-\ganttbar[name=3d, progress=0,  progress label text={ }]{Search Conference}{2026-08}{2027-06} \\
-\ganttbar[name=3e, progress=0,  progress label text={ }]{Implementation of collaborative initiatives}{2026-11}{2027-08} \\
-
+\ganttbar[name=3a, progress=90, progress label text={90\%}]{T3.1 Reuse action clues in Argentina, Chile and Colombia}{2026-02}{2026-10} \\
+\ganttbar[name=3b, progress=50,  progress label text={50\%}]{T3.2 Engaging local stakeholders}{2026-02}{2026-11} \\
+\ganttbar[name=3c, progress=90,  progress label text={90\%}]{T3.3 Assessment of local reuse systems and benchmarking with impactful reuse practices}{2026-05}{2026-11} \\
+\ganttbar[name=3d, progress=25,  progress label text={ }]{T3.4 Search Conference}{2026-08}{2027-06} \\
+\ganttbar[name=3e, progress=10,  progress label text={ }]{T3.5 Implementation of collaborative initiatives}{2026-11}{2027-08} \\
 
 \ganttmilestone[progress=0]{Milestone 3: Local stakeholders are engaged}{2026-07} \\
 
-
 % Deliverables  WP3
-\ganttmilestone[DEL, progress=0]{\color{Blue} D3.1: Comprehensive Problem Definition on the Reuse Challenge}{2026-10} \\
+\ganttmilestone[DEL, progress=0]{\color{Blue} D3.1: Benchmarking study}{2026-11} \\
+%\ganttmilestone[DEL, progress=0]{\color{Blue} D3.1: Comprehensive Problem Definition on the Reuse Challenge}{2026-11} \\
 \ganttmilestone[DEL, progress=0]{\color{Blue} D3.2: Report on Contacts and Results of Interviews}{2027-02} \\
-\ganttmilestone[DEL, progress=0]{\color{Blue} D3.3: Benchmarking study}{2026-11} \\
 \ganttmilestone[DEL, progress=0]{\color{Blue} D3.4: Search conference reports}{2027-06} \\
 \ganttmilestone[DEL, progress=0]{\color{Blue} D3.5: Updated portfolios}{2027-08} \\
 
@@ -128,8 +123,8 @@ format:
 
 
 % Tareas
-\ganttbar[name=4a, progress=60, progress label text={60\%}]{Pedagogical Integration of Industry at the University}{2025-11}{2027-07} \\
-\ganttbar[name=4b, progress=0,  progress label text={ }]{Pilots implementation}{2026-08}{2027-10} \\
+\ganttbar[name=4a, progress=100, progress label text={60\%}]{Pedagogical Integration of Industry at the University}{2025-11}{2027-07} \\
+\ganttbar[name=4b, progress=10,  progress label text={ }]{Pilots implementation}{2026-08}{2027-10} \\
 \ganttbar[name=4c, progress=0,  progress label text={ }]{Cross evaluation of pilot projects between Latin American Universities}{2027-02}{2027-10} \\
 
 
