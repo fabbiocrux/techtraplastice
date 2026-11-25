@@ -22,7 +22,7 @@ format:
     link-citations: true
     toc-title: Contents
     include-in-header: [assets/packages.tex]
-    keep-tex: true
+    keep-tex: false
     template-partials:
        - assets/before-body.tex
        - assets/_titlepage.tex
