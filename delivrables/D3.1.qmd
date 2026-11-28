@@ -84,21 +84,24 @@ Overall, the findings provide a comparative understanding of the factors that sh
 
 # Introduction
 
-TechTraPlastiCE project aims to implement multi-actor for just and safe plastic’s circular economy in the context of Colombia, Chile and Argentina. 
-The identified problems involving multi-actors visions and roles are foreseen to be problems that are also faced in other countries and cities. 
-This report aims to establish a benchmarking approach that will help to find inspiration in how similar multilevel problems have been approached to start identifying clues of actions. 
-The benchmarking study will be structured with two major focus: 
 
-1. Advances in the reuse challenge in the context of Colombia, Chile and Argentina contexts.
-2. Global benchmarking on strategies in the rest of the world including Europe, Africa and other countries of LatinAmerica.
+TechTraPlastiCE project aims to implement a multi-actor approach to a just and safe plastic’s circular economy in the context of Colombia, Chile, and Argentina. 
+The identified problems involving multi-actors visions and roles are foreseen to be problems that are also faced in other countries and cities. 
+The benchmarking will help to find inspiration in how similar multilevel problems have been approached to start identifying clues for actions. The benchmarking study is structured with two major focuses:
+
+1. **Advances in the reuse challenge in the context of Colombia, Chile, and Argentina.**
+2. **Global benchmarking on strategies in the rest of the world, including Europe, Africa, and other countries of Latin America.**
 
 These two perspectives aim to give the TechTraPlastiCE consortium a baseline of initiatives that have been implemented with a multicriteria grid lecture. 
-In order to understand the advances, following section will define the plastic value chain in the frame of circular economy  practices. 
+In order to understand the advances, the following section will define the plastic value chain in the frame of circular economy practices and the typology of .
+
+
 
 
 
 
 ## Plastic Value Chain at the Circular Economy
+
 
 The lifecycle of polymer materials [@johansen2022] can be described by the scheme in Fig. @fig-pvc from the extensive polymer science literature [@ragaert2017; @singh2017c]. 
 Five major stages are considered as follows, particularly for Latin America [@rodriguez-meza2026]: 
@@ -115,33 +118,33 @@ Five major stages are considered as follows, particularly for Latin America [@ro
 4. Waste Management
 5. End-of-Waste/life.
 
-The first stage "I *Product and Process design*"" relates to the upstream value chain where the raw material producers transform oil-based products into the different monomers used in the plastic industry. 
-The primary stakeholder in this stage concerns the plastics production that refines crude oil and produces monomers that are chemically bonded into polymers. 
-The different combinations of monomers and their blending with oxygen, chlorine, fluorine and nitrogen generates different types of plastics. 
-It is during the design phase that the function and qualities of the product are decided (e.g., colour, recyclability, polymer mix) [@johansen2022]. 
-In this phase most interactions are built in business to business (B2B).
 
-The Second stage "*I Product manufacturing and distribution*" encompasses the transformation of raw polymer materials into intermediate or finished plastic products, followed by their transportation and delivery across supply chains. 
-Manufacturing activities typically involve polymer processing technologies such as extrusion, injection molding, blow molding, thermoforming, and other conversion processes, depending on the intended application and product specifications. 
-This stage involves, particularly, the industrial actors and logistics providers for the final and intermediate  products. 
-Here business-to-business (B2B) and business-to-consumer (B2C) interactions are mapped. 
-For instance, the packaging industrial sector remains the largest field of application.
+The first stage, **Product and Process design**, relates to the upstream value chain where the raw material producers transform oil-based products into the different monomers used in the plastic industry. The primary stakeholder in this stage is the plastics producer, which refines crude oil and produces monomers that are chemically bonded into polymers. The different combinations of monomers and their blending with oxygen, chlorine, fluorine, and nitrogen generate different types of plastics. It is during the design phase that the function and qualities of the product are decided (e.g., colour, recyclability, polymer mix) [@johansen2022]. In this phase most interactions are built in business to business (B2B).
 
-The third stage “Retail and consumption” includes the commercialization, acquisition, utilization, and use of plastic products by businesses, institutions, and final consumers. It represents the interface between the production system and the demand side of the plastic value chain, where purchasing decisions, consumption patterns, and product-use behaviors influence material demand and subsequent waste generation. Business to consumer (B2C) interactions are relevant in this phase.
+The second stage**, Product manufacturing and distribution**, encompasses the transformation of raw polymer materials into intermediate or finished plastic products, followed by their transportation and delivery across supply chains. Manufacturing activities typically involve polymer processing technologies such as extrusion, injection molding, blow molding, thermoforming, and other conversion processes, depending on the intended application and product specifications. This stage involves, particularly, the industrial actors and logistics providers for the final and intermediate products. Here, business-to-business (B2B) and business-to-consumer (B2C) interactions are mapped. For instance, the packaging industrial sector remains the largest field of application.
 
-The fourth stage “Waste Management" usually engages the activities and infrastructure required for the collection, transportation, sorting, treatment, and recovery of plastic waste generated during manufacturing, distribution, retail, and consumption. Its primary objective is to manage discarded plastic materials while minimizing environmental impacts and maximizing opportunities for resource recovery. In function of the national context, usually public and public-private partnerships including municipal authorities, waste collection companies, sorting facilities, recycling operators, informal waste collectors, and regulatory institutions. Waste management systems may address both pre-consumer plastic waste, generated during industrial and commercial activities, and post-consumer plastic waste, arising after products have been used and discarded.
+The third stage, **Retail and consumption**, includes the commercialization, acquisition, utilization, and use of plastic products by businesses, institutions, and final consumers. It represents the interface between the production system and the demand side of the plastic value chain, where purchasing decisions, consumption patterns, and product-use behaviors influence material demand and subsequent waste generation. Business-to-consumer (B2C) interactions are relevant in this phase.
 
-Finally, the fifth stage “End-of-Waste / Life” encompasses the activities and infrastructure required for the circular economy actions. This stage is particularly of the interest of TechTraPlastiCE in terms because it determines whether discarded plastics are recovered as secondary resources, converted into energy, permanently disposed of, or released into the environment. In this state, globally, we can identify the following strategies : 
+The fourth stage, **Waste Management**, usually engages the activities and infrastructure required for the collection, transportation, sorting, treatment, and recovery of plastic waste generated during manufacturing, distribution, retail, and consumption. Its primary objective is to manage discarded plastic materials while minimizing environmental impacts and maximizing opportunities for resource recovery. In function of the national context, usually public and public-private partnerships including municipal authorities, waste collection companies, sorting facilities, recycling operators, informal waste collectors, and regulatory institutions. Waste management systems may address both pre-consumer plastic waste, generated during industrial and commercial activities, and post-consumer plastic waste, arising after products have been used and discarded.
+
+Finally, the fifth stage, **End-of-Waste / Life**, encompasses the activities and infrastructure required for circular economy actions. This stage is particularly of interest to TechTraPlastiCE because it determines whether discarded plastics are recovered as secondary resources, converted into energy, permanently disposed of, or released into the environment. In this state, globally, we can identify the following strategies : 
 
 
 
-* **Reuse:** it refers to the repeated use of plastic products or components for their original purpose, without substantial modification of their material structure [@rinder2026]. It may involve collection, cleaning, inspection, repair and redistribution operations. By extending the service life of products, reuse reduces the demand for virgin materials, limits waste generation and avoids the environmental impacts associated with the manufacture of new products. Its implementation generally requires appropriate product design, reverse logistics, consumer participation and economically viable business models**.**
-* **Mechanical recycling**: Mechanical recycling consists of recovering and reprocessing plastic waste through physical operations, such as sorting, washing, shredding, melting and extrusion, without intentionally altering the chemical structure of the polymers. These steps may occur in a different order, multiple times depending on the origins and composition of the waste. The resulting secondary raw materials can be incorporated into the manufacture of new plastic products, partially or entirely replacing virgin polymers. However, the effectiveness of mechanical recycling depends on the purity and homogeneity of waste streams, the presence of contaminants and additives, and the degradation of polymer properties during successive processing cycles. These limitations may lead to applications with lower technical requirements and economic value, a phenomenon commonly referred to as *downcycling.*
-* **Chemical recycling**: it encompasses a range of technologies that intentionally modify or break down the molecular structure of plastic polymers to recover monomers, oligomers or other chemical intermediates. Processes such as hydrolysis, glycolysis, methanolysis and enzymatic depolymerisation can enable the *production of new polymers* with properties comparable to those of virgin materials. Chemical recycling can complement mechanical recycling by addressing certain waste streams that are difficult to process mechanically. Nevertheless, its environmental and economic performance depends on energy requirements, chemical consumption, conversion yields, technological maturity and the availability of suitable feedstock.
-* **Feedstock recycling**: Feedstock recycling refers to the conversion of plastic waste into basic chemical substances or hydrocarbon feedstocks that can be reintegrated into industrial production processes. Technologies such as pyrolysis, gasification and hydrothermal conversion transform polymers into products such as pyrolysis oils, synthesis gas or other chemical fractions. Unlike selective depolymerisation, feedstock recycling does not necessarily seek to recover the original monomers of a specific polymer. It offers potential opportunities for the treatment of mixed or contaminated plastic waste and the substitution of fossil-based industrial feedstocks. Its contribution to material circularity depends, however, on the extent to which the recovered substances are used to manufacture new materials rather than fuels. 
-* **Energy recovery**: Energy recovery involves the conversion of the calorific value of plastic waste into useful energy, typically through controlled combustion in waste-to-energy facilities or co-processing in industrial installations, such as cement kilns. Although this strategy can reduce landfill disposal and partially substitute conventional energy sources, it results in the irreversible loss of the material resources contained in plastics and generates greenhouse gas emissions. Consequently, energy recovery is not considered a material recycling strategy and occupies a lower position in the waste management hierarchy. It is generally regarded as a residual treatment option for plastic waste that cannot be reused or recycled under technically, economically and environmentally acceptable conditions.
+  - **Reuse:** it refers to the repeated use of plastic products or components for their original purpose, without substantial modification of their material structure [@rinder2026]. It may involve collection, cleaning, inspection, repair, and redistribution operations. By extending the service life of products, reuse reduces the demand for virgin materials, limits waste generation, and avoids the environmental impacts associated with the manufacture of new products. Its implementation generally requires appropriate product design, reverse logistics, consumer participation and economically viable business models.
 
-The different strategies for the circular economy of plastics presents advantages and challenges given the technological maturity, the reglamentation aspects and the stakeholders involved. This is why the goal of this report is to present an overview of the experiences. 
+  - **Mechanical recycling**: mechanical recycling consists of recovering and reprocessing plastic waste through physical operations, such as sorting, washing, shredding, melting and extrusion, without intentionally altering the chemical structure of the polymers. These steps may occur in a different order, multiple times depending on the origins and composition of the waste. The resulting secondary raw materials can be incorporated into the manufacture of new plastic products, partially or entirely replacing virgin polymers. However, the effectiveness of mechanical recycling depends on the purity and homogeneity of waste streams, the presence of contaminants and additives, and the degradation of polymer properties during successive processing cycles. These limitations may lead to applications with lower technical requirements and economic value, a phenomenon commonly referred to as *downcycling*.
+
+ - **Chemical recycling**: it encompasses a range of technologies that intentionally modify or break down the molecular structure of plastic polymers to recover monomers, oligomers, or other chemical intermediates. Processes such as hydrolysis, glycolysis, methanolysis and enzymatic depolymerisation can enable the *production of new polymers* with properties comparable to those of virgin materials. Chemical recycling can complement mechanical recycling by addressing certain waste streams that are difficult to process mechanically. Nevertheless, its environmental and economic performance depends on energy requirements, chemical consumption, conversion yields, technological maturity, and the availability of suitable feedstock.
+
+ - **Feedstock recycling**: feedstock recycling refers to the conversion of plastic waste into basic chemical substances or hydrocarbon feedstocks that can be reintegrated into industrial production processes. Technologies such as pyrolysis, gasification and hydrothermal conversion transform polymers into products such as pyrolysis oils, synthesis gas or other chemical fractions. Unlike selective depolymerisation, feedstock recycling does not necessarily seek to recover the original monomers of a specific polymer. It offers potential opportunities for the treatment of mixed or contaminated plastic waste and the substitution of fossil-based industrial feedstocks. Its contribution to material circularity depends, however, on the extent to which the recovered substances are used to manufacture new materials rather than fuels. 
+
+ - **Energy recovery**: Energy recovery involves the conversion of the calorific value of plastic waste into useful energy, typically through controlled combustion in waste-to-energy facilities or co-processing in industrial installations, such as cement kilns. Although this strategy can reduce landfill disposal and partially substitute conventional energy sources, it results in the irreversible loss of the material resources contained in plastics and generates greenhouse gas emissions. Consequently, energy recovery is not considered a material recycling strategy and occupies a lower position in the waste management hierarchy. It is generally regarded as a residual treatment option for plastic waste that cannot be reused or recycled under technically, economically, and environmentally acceptable conditions.
+
+The different strategies for the circular economy of plastics present advantages and challenges given the technological maturity, the regulatory aspects, and the stakeholders involved. This is why the goal of this report is to present an overview of the experiences. 
+
+
+
 
 
 
@@ -180,7 +183,7 @@ traceability, AI, blockchain) · frontier (new valorisation routes).
 
 The task T3.1, Reuse Action Clues, forms part of Work Package 3 of the TechTraPlastiCE project and examines how plastic circular-economy initiatives are initiated, implemented, sustained, and potentially transferred across Argentina, Chile, and Colombia. 
 
-This deliverable provides a comparative analysis of 25 documented questionnaires: nine from Argentina, ten from Chile, and six from Colombia. The main focus is on prevention, reuse, collection, recycling, and valorization of plastic waste, complemented by two Colombian research experiences in bio-based polymer inputs that illustrate related technology-transfer challenges.
+This section provides a comparative analysis of 25 documented questionnaires: nine from Argentina, ten from Chile, and six from Colombia. The main focus is on prevention, reuse, collection, recycling, and valorization of plastic waste, complemented by two Colombian research experiences in bio-based polymer inputs that illustrate related technology-transfer challenges.
 
 This study examines how the regulatory environment, value-chain position, institutional arrangements, markets, financing, and technical requirements interact at initiative level. 
 It deliberately includes commercially operating initiatives, collective management systems, projects at research or pilot stage, cases facing operational stress, and discontinued or unimplemented efforts. 
@@ -190,6 +193,7 @@ The information collection and comparative analysis procedures are described in 
 
 The study aims to identify *practical lessons for project partners* and other stakeholders, with particular attention to the contributions universities and research institutions can make beyond technical invention: materials characterization, prototyping, validation against standards, industry coordination, entrepreneurship support, and the design of viable pathways for technology adoption. 
 Findings are interpreted cautiously where the questionnaire does not establish verified material flows, profitability, employment effects, or definitive causes of discontinuation.
+
 
 ## Regional Context for Reuse Initiatives
 
@@ -204,9 +208,6 @@ These contextual factors provide a basis for interpreting the reuse and valoriza
 #| tbl-cap: "Regulatory And Policy Frameworks" 
 
 library(readxl)
-library(here)
-
-table.1 <- read_excel(here("delivrables/tables/3.1/Universo.xlsx"))
 
 table <- 
 tribble(
@@ -244,7 +245,7 @@ tribble(
 
 
 
-table.1 %>% select(ID:Status, `Key Actors`: `Plastic Value Chain`) %>%
+table %>% 
   kbl(booktabs = T,
     linesep = "\\midrule\\addlinespace") %>%
    kable_styling(full_width = F,                 
@@ -273,13 +274,16 @@ Nevertheless, in all three countries, the available cases demonstrate that the p
 These differences help explain why reuse and valorization initiatives evolve differently across the three countries. 
 The analysis presented in this deliverable examines how these regulatory and structural conditions are reflected at the initiative level, and how they influence implementation, stakeholder participation, financial sustainability, and scalability.
 
+
+\newpage
+
 ## Methodology
 
 ### Information Collection
 
 A standardized questionnaire was developed for Task T3.1 (Annex A) and the actions were coordinated by the Pontificia Universidad Católica de Valparaíso (PUCV). 
-The questionnaire was distributed to partner universities in Argentina, Chile, and Colombia, which were responsible for identifying and documenting relevant initiatives in their respective countries.
 
+The questionnaire was distributed to partner universities in Argentina, Chile, and Colombia, which were responsible for identifying and documenting relevant initiatives in their respective countries.
 The questionnaire addressed six analytical dimensions: 
 
 (i) the initiative's role within the plastics value chain; 
@@ -302,19 +306,18 @@ A qualitative thematic analysis was subsequently conducted to identify recurring
 The comparison focused on the interaction between regulatory conditions, stakeholder collaboration, technological capabilities, market demand, financing mechanisms, material supply, logistics, and socioeconomic impacts.
 
 Particular attention was given to contrasting initiatives at different stages of implementation, including discontinued experiences, to identify the conditions that facilitated or hindered their development. 
+
 The findings were then synthesized into *Reuse Action Clues*, highlighting lessons with potential relevance for other Latin American contexts.
 Given the diversity of initiatives and information sources, the analysis was qualitative rather than statistical. 
 
-Reported figures were interpreted according to their scope, reference period, and level of verification, distinguishing actual results from installed capacities, projections, and estimated impacts.
 
+## Results in Argentina, Chile and Colombia
 
-## Results in Argentina, Chile and Colombia: Cross-Country Thematic Analysis
-
+Table @tbl-results presents the initiatives included in the comparative assessment, using a unique identifiers. 
 
 The study included 25 documented questionnaires: nine from Argentina, ten from Chile, and six from Colombia. 
 These were selected to capture a diversity of circular economy approaches, organizational models, and implementation experiences.
 
-Table @tbl-results presents the initiatives included in the comparative assessment, using identifiers that are maintained throughout the Results section. 
 The completed questionnaires are provided in Annex B for further details on each initiative.
 
 
@@ -490,14 +493,14 @@ tribble(
 "ENKA; EkoRed; 700+ suppliers; beverage producers",
 )
 
-write_csv2(table, file = "PUCV.csv")
+#write_csv2(table, file = "PUCV.csv")
 
 table %>%
   kbl(booktabs = T, longtable = T, 
     linesep = "\\midrule\\addlinespace") %>%
    kable_styling(full_width = F,                 
                 font_size = 10) %>% 
-   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 13) %>%
+   row_spec(0, color = "white", background = "Naranja", bold = T, font_size = 12) %>%
    column_spec(1, bold = F, width = c("1cm"), latex_valign = "m")  %>%
    column_spec(2, width = c("3cm") )  %>%
    column_spec(3, width = c("3cm"))  %>%
@@ -512,29 +515,29 @@ table %>%
 
 
 
-This section compares the 25 documentary cases while distinguishing circular strategies and maturity. 
+The following section compares the 25 documentary cases while distinguishing circular strategies and maturity. 
 The analysis follows the main dimensions of the T3.1 questionnaire and examines recurring patterns and differences regarding:
 
 1) circular economy strategies, 
 2) regulatory conditions, 
 3) stakeholder collaboration, socioeconomic impacts, sustainability, scalability, and the factors associated with discontinued or at-risk initiatives.
 
-## Role in the Circular Economy
+### Role in the Circular Economy
 
 The initiatives analyzed operate at different stages of the plastics value chain reflecting a diversity of circular economy strategies. 
 These range from preventing packaging waste through reuse and refill systems to recovering discarded plastics and transforming them into secondary raw materials or new products. 
 Although some initiatives combine several approaches, their contributions can be broadly understood through three main functions: reuse, collection and recovery, and material recycling and valorization.
 
-Reuse-oriented initiatives seek to extend the useful life of plastic packaging and reduce the need for single-use containers. 
+**Reuse-oriented initiatives** seek to extend the useful life of plastic packaging and reduce the need for single-use containers. 
 In Chile, Algramo (i10) and EcoCarga (i12) introduced refill systems that allow consumers to repeatedly use the same packaging. 
 Similar practices are documented in the Argentine cosmetic-packaging case (i8), although the initiatives included in that record differ in their approaches and materials. Unlike recycling, these models aim to prevent waste generation by keeping packaging in use.
 
-Collection and recovery initiatives focus on organizing material flows after consumption, connecting waste generators with recycling and valorization processes. 
+**Collection and recovery** initiatives focus on organizing material flows after consumption, connecting waste generators with recycling and valorization processes. 
 Examples include Campo Limpio in Argentina (i1), Redciclach (i14), ReSimple (i15), TriCiclos (i18), and CampoLimpio in Chile (i19). 
 These initiatives contribute through collection infrastructure, material separation, logistics, traceability, and coordination among stakeholders. 
 Their role is particularly important in ensuring that discarded materials can reach appropriate treatment and recycling facilities.
 
-Recycling and material valorization initiatives transform plastic waste into secondary raw materials or products for new applications. 
+**Recycling and material valorization** initiatives transform plastic waste into secondary raw materials or products for new applications. 
 These include industrial recycling operations such as CirCCUlar (i11), Polyrec (i22), Reciclene (i24), and EkoRed/ENKA (i25), as well as initiatives developing construction components, railway sleepers, acoustic products, and other applications for recovered plastics. 
 Pyrcom (i23) introduces a chemical recycling approach, while several university-linked initiatives explore new applications through research and technological development. 
 These experiences represent different technologies and stages of maturity, from laboratory prototypes to industrial operations.
@@ -542,7 +545,7 @@ These experiences represent different technologies and stages of maturity, from 
 In general, the cases illustrate how circular economy strategies can intervene at different points of the plastics value chain. 
 Their contributions are not limited to the transformation of discarded materials but also include preventing waste generation, facilitating recovery, and developing new applications for recycled plastics.
 
-## Regulatory drivers and Constraints at Initiative Level
+### Regulatory drivers and Constraints at Initiative Level
 
 Regulatory frameworks influence the development of reuse and valorization initiatives by establishing responsibilities, creating incentives, and defining the conditions under which recovered materials can re-enter productive processes. 
 Across the three countries, the documented experiences illustrate how different policy instruments can support circular economy practices, while also revealing regulatory gaps that may constrain their implementation and scaling.
@@ -565,7 +568,7 @@ In contrast, the development of the IRAM 1610 standard in Argentina helped estab
 
 Overall, the findings indicate that regulation can facilitate circular economy initiatives through financing obligations, market incentives, public procurement, and technical standardization. Nevertheless, its effectiveness depends on the capacity of initiatives and their stakeholders to translate these instruments into viable operations. Regulatory support is therefore an important enabling condition, but not a sufficient guarantee of long-term sustainability.
 
-##  Stakeholders and aligmnment mechanicsm
+###  Stakeholders and alignment mechanicsm
 
 The initiatives analyzed involve a diverse range of stakeholders, including companies, universities, research institutions, public authorities, producer associations, recyclers, cooperatives, and consumers. Their experiences show that effective collaboration depends not only on bringing different actors together, but also on establishing complementary roles, shared objectives, and mechanisms that enable sustained coordination.
 
@@ -593,7 +596,7 @@ Other initiatives have encouraged participation by offering different benefits t
 However, the cases also show that common objectives and complementary capabilities do not automatically result in effective collaboration. The LEIND–Qactus initiative (i16) did not progress because essential operational arrangements, including material volumes, transportation, responsibilities, and economic conditions, were not resolved. SUMI (i17) also encountered difficulties in establishing a collaboration involving proprietary manufacturing knowledge. These experiences highlight the need for clear agreements addressing responsibilities, expectations, technical contributions, and the management of shared risks.
 Taken together, the findings suggest that stakeholder alignment is strengthened when collaboration is organized around clearly defined roles, complementary capabilities, mutual benefits, and appropriate coordination mechanisms. The experiences also illustrate the potential contribution of universities as technology developers, technical partners, facilitators, and innovation-support institutions within circular economy value chains.
 
-## Environmental, Economic and Social Impacts
+### Environmental, Economic and Social Impacts
 
 The documented initiatives report a range of environmental, economic, and social outcomes, reflecting their different positions within the plastics value chain. 
 However, the nature and availability of impact data vary considerably across cases. 
@@ -601,7 +604,7 @@ While some initiatives provide information on recovered materials, production vo
 These differences must be considered when interpreting and comparing their contributions.
 
 
-### Environmental and Material Outcomes
+#### Environmental and Material Outcomes
 
 The initiatives analyzed demonstrate different contributions to plastic circularity, from preventing waste generation and improving collection to reincorporating recovered materials into new production cycles. 
 Their environmental outcomes reflect the diversity of strategies implemented, providing evidence of how plastic consumption and waste management practices can be transformed at different stages of the value chain.
@@ -629,7 +632,7 @@ Pyrcom (i23), for example, processes mixed plastic waste through pyrolysis to ob
 Overall, the documented experiences show that environmental contributions arise through several complementary mechanisms: reducing the consumption of disposable packaging, recovering post-consumer materials, replacing virgin inputs in manufacturing, and developing new applications for plastic waste. While the evidence is not sufficient to quantify the net environmental benefits of every initiative, the reported outcomes demonstrate tangible progress across different stages of the plastics value chain.
 
 
-### Economic Value and Employment
+#### Economic Value and Employment
 
 Several industrial initiatives involve recovery actors but provide different levels of evidence for job creation and income effects. 
 
@@ -646,7 +649,7 @@ Redciclach (i14) identifies jobs and functions associated with installation, mai
 Among other Argentine cases, CEVE (i7) reports a very small operating team at the single municipality where manufacturing began; Garrahan (i3) mobilizes an extensive solidarity collection network but offers little information on employment effects; and Fundación Boreal (i9) links recycled caps to a social-health service rather than documenting recovery-sector wages. No waste-picker outcomes can be inferred from the laboratory-stage bio-based materials research (i20 and i21).
 These variations reflect the position of each initiative in the value chain. Industrial recyclers and aggregation systems interact most directly with the recovery workforce, whereas refill systems, material-science prototypes, and producer-management organizations affect labor markets through different mechanisms. Participation is therefore not equivalent to sustained improvements in income, safety, bargaining power, or decision-making.
 
-### Conditions of inclusion and evidence limitations
+#### Conditions of inclusion and evidence limitations
 Beyond employment generation, the initiatives illustrate how circular economy practices can strengthen recycling organizations, encourage community participation, and connect material recovery with broader social benefits. 
 These contributions emerge through different mechanisms, depending on the roles and opportunities created for participating actors within each initiative.
 
@@ -667,1378 +670,3 @@ Both cases demonstrate how recycling activities can be integrated into broader s
 
 These experiences show that the social value of circular economy initiatives extends beyond employment creation to include organizational strengthening, community engagement, and support for social services. 
 They also highlight the importance of how recycling actors are incorporated into value chains, particularly whether their participation involves structured relationships, access to training, and opportunities for organizational development, rather than being limited to supplying recovered materials.
-
-## Sustainability and Scalability
-
-The initiatives analyzed reveal that long-term sustainability depends on the capacity to maintain viable economic and operational arrangements, while scalability requires these conditions to be sustained as activities expand. 
-Across the three countries, the experiences illustrate different approaches to achieving continuity, including commercial revenues, service-based models, producer-financed systems, and public support for technological development.
-
-Industrial recycling initiatives depend largely on stable material supply, processing capabilities, and demand for recycled products. 
-EkoRed/ENKA (i25), Reciclene (i24), and Polyrec (i22) illustrate how connections between material recovery and industrial applications can support continued operations. 
-In Argentina, RFG (i6) benefited from an identified institutional buyer and technical standardization, providing a pathway for the commercial adoption of recycled-plastic railway sleepers. 
-Conversely, the closure of ECOPEK (i2), despite its established industrial capacity, illustrates the vulnerability of recycling operations to unfavorable market conditions and competition from alternative raw materials. 
-These experiences highlight that technological capacity must be accompanied by reliable demand and commercially viable conditions.
-
-Service-based and reuse models offer alternative approaches to generating economic value. 
-TriCiclos (i18) and Redciclach (i14) combine material recovery with services such as collection infrastructure, traceability, logistics, and environmental information, reducing their dependence on revenues from recovered materials alone. 
-EcoCarga (i12), meanwhile, generates revenue through refill sales supported by partnerships with manufacturers and retail locations. 
-In contrast, Algramo (i10) achieved international expansion and established partnerships with major companies but discontinued operations in 2025. 
-The comparison illustrates that market expansion and investment attraction do not necessarily translate into long-term financial resilience, particularly when operations depend heavily on external financing and corporate commitments.
-
-A different model is observed in collective waste-management systems, where continuity is supported by producer contributions linked to regulatory obligations. 
-Campo Limpio Argentina (i1), ReSimple (i15), and CampoLimpio Chile (i19) benefit from financing mechanisms designed to sustain collection and recovery activities. 
-However, expanding these systems presents operational challenges, including territorial coverage, transportation costs, and the availability of collection and treatment infrastructure. 
-CampoLimpio Chile, for example, faces seasonal variations in agricultural waste generation and significant distances between collection points and recycling facilities. 
-These conditions illustrate that stable financing mechanisms must be accompanied by efficient logistics and sufficient operational capacity.
-
-
-Research and technology-development initiatives face a different transition towards sustainability. 
-In Chile, SUMI (i17) and Palmeta (i13) have progressed through public innovation funding, but their commercial adoption remains dependent on further validation, certification, and market development. 
-Similarly, the Colombian biobased-material initiatives (i20 and i21) demonstrate technological development without established commercial implementation. 
-In Argentina, CEVE (i7) illustrates how validated technology and cooperation agreements may still face difficulties reaching productive operation when investment resources are insufficient. These cases highlight the importance of connecting technological development with implementation requirements and potential end users from early stages.
-
-Across the different models, scalability emerges as more than increasing processing capacity, expanding collection networks, or reaching new territories. 
-It also requires sufficient material supply, consistent product quality, manageable logistics, reliable partners, and demand capable of absorbing increased production. 
-These conditions may differ significantly between territories, particularly where infrastructure, industrial capacity, or institutional support is limited. 
-Consequently, approaches that have advanced in one location may require adaptation before being replicated elsewhere.
-
-## Discontrinued and at-risk initiative: What did not work
-
-The discontinued and at-risk initiatives provide valuable insights into the barriers that can prevent circular economy solutions from being implemented, sustained, or scaled. 
-The documented experiences reveal different types of setbacks, ranging from initiatives that never reached operation to established ventures that closed after achieving commercial expansion. 
-Examining these differences helps identify the stages at which implementation difficulties emerge.
-
-Some initiatives encountered barriers before reaching operational implementation. 
-In Chile, the LEIND–Qactus project (i16) sought to recover waste from 3D printing but did not progress beyond the planning stage. The absence of agreements on material volumes, transportation, processing costs, and responsibilities prevented the proposed recycling arrangement from being implemented. 
-In Argentina, CEVE (i7) successfully developed and transferred technology for recycled-plastic construction components, but only one of five participating municipalities established productive operations, as the others were unable to secure the necessary equipment and financing. 
-These cases illustrate how technical feasibility and institutional collaboration may be insufficient when practical implementation requirements remain unresolved.
-
-Other initiatives faced difficulties despite having established operations and demonstrated market potential. 
-Algramo (i10) expanded its refill model internationally and developed partnerships with major companies before closing in 2025. 
-Its experience highlights the risks associated with dependence on external investment and corporate commitments, particularly when these do not translate into a sufficiently resilient operating model. 
-Similarly, ECOPEK (i2) ceased operations in 2026 despite having developed industrial PET recycling capacity. 
-Its questionnaire identifies unfavorable market conditions and competition from lower-cost materials among the challenges affecting its continuity. 
-Although the available evidence does not establish a single cause for either closure, both experiences demonstrate that technological development and commercial expansion do not necessarily ensure long-term viability.
-
-Operational deterioration represents a different form of vulnerability. 
-GIRSU Viedma (i4) experienced a significant reduction in recycling activities following changes in public support and recovered-material markets. 
-The cooperative workforce reportedly declined from approximately 80 to 17 workers, although the initiative continued operating. Botellas de Amor (i5), meanwhile, encountered difficulties associated with transporting and processing low-value flexible plastics, as well as dependence on voluntary coordination and external resources. 
-While its operational status varies across the local experiences documented, the case illustrates the challenges of sustaining collection networks when logistics and material recovery costs are not adequately covered.
-
-A further distinction concerns technological developments that have not reached commercial implementation. 
-The Colombian biopolyols initiative (i20) remained at laboratory scale without progressing to industrial application. 
-Although this represents a limitation in the technology-transfer process, it should not be interpreted in the same way as the closure of an established recycling operation. 
-Similarly, research-stage initiatives that are still undergoing validation should be assessed according to their technological maturity and implementation objectives rather than their immediate commercial performance.
-
-Taken together, these experiences reveal that implementation barriers can emerge at different stages: securing operational agreements, financing initial deployment, establishing stable markets, or maintaining activities under changing economic conditions. 
-They highlight the importance of addressing material availability, logistics, responsibilities, financing, and potential demand before scaling, while continuously reassessing these conditions as initiatives evolve. 
-
-For future circular economy projects, including university-led developments, these lessons emphasize the need to connect technological validation with realistic pathways towards implementation and sustained operation.
-
-## Reuse Action Clues: Transferable Lessons for Latin America
-
-The comparative analysis of initiatives in Argentina, Chile, and Colombia provides practical lessons for the development and implementation of circular economy solutions. 
-These Reuse Action Clues draw on both established and discontinued experiences, identifying considerations that can help anticipate implementation barriers, strengthen collaboration, and support long-term continuity.
-
-### Action clues supported by cross-country evidence
-
-#### Identify market demand and end uses from the outset: 
-
-Circular solutions should be developed with a clear understanding of who will use or purchase the recovered materials, products, or services. 
-RFG (i6) illustrates how an identified institutional buyer can facilitate industrial adoption, while EkoRed (i25) and Reciclene (i24) connect recycling activities with established manufacturing applications. 
-These experiences highlight the importance of considering market requirements alongside technological development.
-
-#### Design collection and recovery systems around realistic material flows
-
-Before implementation, initiatives should assess the availability, quality, location, and seasonality of recoverable materials, together with the logistics required to collect and process them. 
-LEIND–Qactus (i16) illustrates the difficulties associated with insufficient material volumes and unresolved transportation arrangements, while CampoLimpio Chile (i19) demonstrates the challenges of operating recovery networks across dispersed territories.
-
-#### Integrate technical validation, certification, and market requirements
-
-Developing a functional technology does not necessarily ensure its adoption. SUMI (i17) and Palmeta (i13) demonstrate the importance of addressing product performance and certification requirements during technological development. In Argentina, RFG (i6) illustrates how technical standardization can facilitate the introduction of recycled-plastic products into established industrial applications.
-
-#### Establish viable financing arrangements and anticipate operational risks 
-
-Financing mechanisms should reflect the nature and development stage of each initiative, while ensuring that recurring operational costs can be covered. 
-Producer-financed systems such as ReSimple (i15) differ substantially from commercial ventures and publicly supported research projects. Experiences such as Algramo (i10), ECOPEK (i2), and GIRSU Viedma (i4) further highlight the importance of anticipating changes in market conditions, funding availability, and stakeholder commitments.
-
-#### Build partnerships around complementary capabilities and clear responsibilities
-
-Effective collaboration requires more than shared environmental objectives. Partners should establish their respective contributions, responsibilities, incentives, and arrangements for managing costs and risks. 
-University-industry collaborations such as SUMI (i17) and Palmeta (i13) demonstrate the value of combining research and manufacturing capabilities, while Redciclach (i14) illustrates the role of institutional environments in supporting early-stage implementation.
-
-#### Incorporate material quality, traceability, and circular design considerations 
-
-Recovery systems should be designed according to the technical requirements of subsequent recycling or manufacturing processes. EkoRed (i25), Reciclene (i24), and Polyrec (i22) illustrate the importance of material quality and appropriate processing pathways. 
-Complementary strategies such as packaging redesign and traceability can improve the connection between collection activities and the effective reintegration of recovered materials into productive processes.
-
-#### Integrate recycling organizations and communities into implementation strategies
-
-The participation of waste pickers, cooperatives, and communities should be considered from the design stage, including their operational roles, access to training, working conditions, and opportunities for organizational development. Initiatives such as ReSimple (i15), EkoRed (i25), and GIRSU Viedma (i4) illustrate different forms of integration, while Fundación Garrahan (i3) demonstrates the importance of community networks in sustaining material recovery activities.
-
-#### Monitor results to support improvement and future replication
-
-Initiatives should establish indicators that reflect their specific circular economy strategy, including material recovery, reuse cycles, recycled-content incorporation, operational performance, and social outcomes. Experiences such as EcoCarga (i12), Reciclene (i24), and Redciclach (i14) illustrate different ways of documenting circular economy results. Monitoring should support operational learning and decision-making, rather than focusing exclusively on the volume of materials collected or processed.
-
-### Conditions for transfer and specific university contributions
-
-Although these lessons are relevant across the three countries, their application depends on local regulatory frameworks, industrial capabilities, infrastructure, market conditions, and stakeholder networks. Replicating a successful initiative therefore requires adapting its operational and organizational arrangements to the receiving context, rather than transferring a technology or business model without modification.
-
-For TechTraPlastiCE, the findings highlight several opportunities for universities to strengthen technology transfer. Beyond research and product development, universities can contribute to identifying industrial needs, validating technological solutions, facilitating collaboration between stakeholders, supporting certification processes, and providing environments for pilot testing. 
-
-Ultimately, the Reuse Action Clues emphasize that effective circular economy solutions must be developed as integrated systems, connecting technological capabilities with viable operational models, stakeholder participation, and local implementation conditions. 
-This perspective provides a practical foundation for strengthening university-industry collaboration and supporting future circular economy initiatives in Latin America.
-
-
-
-
-# Comparative analysis of effective  plastic reuse and recovery practices at the rest of the World.
-
-
-
-## Overview
-
-This section presents a comparative analysis of international plastic reuse and recovery practices developed by an external expert to the consortium. 
-The first one built a universe of 29 international experiences organised into five families, each recorded in a standardised three-block record sheet and analysed against the seven-stage recovery chain. 
-This work focuses on complementarity, replicability and lessons learned that the international cases can offer to Argentina, Chile and Colombia, analysed in the previous section. 
-
-The second one develops the comparative framework — a five-axis typology, a stage-coverage matrix graded under a strict criterion, the push/pull dimension, and a matrix of dimensions and indicators aligned with the Search Conferences task of Work Package 3 — and, on that basis, proposes a shortlist of 13 candidate cases (7 representative and 6 innovation cases). 
-
-Three cross-cutting findings were identified in this report: 
-
-* (i) under the strict grading criterion, the gaps in the universe — communication and separation at source — coincide with the weakest stages in the region
-* (ii) systems that partially fail do so because of an imbalance between push (supply-side) and pull (demand-side) forces, while reference systems institutionalize both
-* iii) the sorting and marketing stages concentrate well-designed mechanisms with very little independent performance evidence — a gap in the literature that benchmarking can help to fill. 
-
-**3. Preliminary survey and construction of the universe**
-
-**3.1 FRAMING AND METHODOLOGICAL DECISIONS **
-
-The survey was structured around two foundational decisions, documented in detail in the methodological note in the next sections. First: the universe is international, with the deliberate exclusion of Argentina, Chile and Colombia. Uruguay is included as a comparable Latin American context, and TriCiclos is recorded through its regional deployment outside Chile. Second: every experience is analysed against the seven-stage recovery chain, which serves as the common unit of analysis and reveals each case's partial coverage as an analytical datum in its own right.
-
-Seven-stage recovery chain:
-
-
-
-1. communication; 
-2. separation at source;
-3. capture and logistics; sorting; 
-4. marketing of recyclables; 
-5. valorisation; 
-6. business models 
-7. innovation, 
-
-**3.2. THE UNIVERSE:  29 EXPERIENCES IN FIVE FAMILIES **
-
-The universe does not gather the 29 “best” cases; it deliberately covers the space of variation required by the terms of reference — socio-economic contexts, regulatory frameworks, levels of formalisation, governance models and operating scales. It includes counter-cases and partial failures (Ecuador, Brazil, the Zabbaleen), whose value lies precisely in documenting why designs fail. The final composition also reflects a deliberate adjustment: four redundant cases were removed (two Nordic deposit systems similar to the German benchmark; two European EPR schemes similar to those retained) and the valorisation family was reinforced from four to nine cases, as the critical stage for the regional context.
-
-**3.3. COMPARATIVE TABLE OF THE PRE-SELECTION **
-
-The following table summarises the full pre-selection. The verification status distinguishes cases cross-checked against 2024–2026 sources (21 of 29) from those pending verification (8, all reserve cases).
-
-
-<table>
-  <tr>
-   <td>
-    <strong>ID</strong>
-   </td>
-   <td>
-    <strong>Case</strong>
-   </td>
-   <td>
-    <strong>Country/scope</strong>
-   </td>
-   <td>
-    <strong>Push/pull balance</strong>
-   </td>
-   <td>
-    <strong>Verification</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    A1
-   </td>
-   <td>
-    Pfand / DPG
-   </td>
-   <td>
-    Alemania
-   </td>
-   <td>
-    Integrated (push-strong)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    A4
-   </td>
-   <td>
-    Sistema de depósito (USAD)
-   </td>
-   <td>
-    Lituania
-   </td>
-   <td>
-    Push-dominant
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    A5
-   </td>
-   <td>
-    Container Deposit Scheme (CDS)
-   </td>
-   <td>
-    Australia
-   </td>
-   <td>
-    Push-dominant
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    A6
-   </td>
-   <td>
-    Impuesto Redimible a Botellas
-<p>
-
-    Plásticas (IRBP)
-   </td>
-   <td>
-    Ecuador
-   </td>
-   <td>
-    Push without pull (by design)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    B1
-   </td>
-   <td>
-    Citeo
-   </td>
-   <td>
-    Francia
-   </td>
-   <td>
-    Integrated (growing pull)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    B4
-   </td>
-   <td>
-    CONAI / COREPLA
-   </td>
-   <td>
-    Italia
-   </td>
-   <td>
-    Integrated
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    B5
-   </td>
-   <td>
-    Ley de Reciclaje de Envases y
-<p>
-
-    Embalajes
-   </td>
-   <td>
-    Japón
-   </td>
-   <td>
-    Integrated
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    B6
-   </td>
-   <td>
-    EPR + Volume-Based Waste Fee
-   </td>
-   <td>
-    Corea del Sur
-   </td>
-   <td>
-    Integrated (push-strong)
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    B7
-   </td>
-   <td>
-    4-in-1 Recycling Program
-   </td>
-   <td>
-    Taiwán
-   </td>
-   <td>
-    Integrated (model case)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    C1
-   </td>
-   <td>
-    SWaCH (Solid Waste Collection & Handling)
-   </td>
-   <td>
-    India
-   </td>
-   <td>
-    Push-dominant
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    C2
-   </td>
-   <td>
-    PNRS + catadores (MNCR / Pró-Catador)
-   </td>
-   <td>
-    Brasil
-   </td>
-   <td>
-    Push without pull
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    C3
-   </td>
-   <td>
-    Plan VALE / Ley 19.829
-   </td>
-   <td>
-    Uruguay
-   </td>
-   <td>
-    Push-dominant (weak pull)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    C4
-   </td>
-   <td>
-    Zabbaleen
-   </td>
-   <td>
-    Egipto
-   </td>
-   <td>
-    Pull without push
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    C5
-   </td>
-   <td>
-    Pimp My Carroça / Cataki
-   </td>
-   <td>
-    Brasil
-   </td>
-   <td>
-    Facilitator (reduces friction)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    C6
-   </td>
-   <td>
-    ECOCE
-   </td>
-   <td>
-    México
-   </td>
-   <td>
-    Pull without push
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    D1
-   </td>
-   <td>
-    Plastic Bank
-   </td>
-   <td>
-    Multinacional
-   </td>
-   <td>
-    Pull-dominant
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    D2
-   </td>
-   <td>
-    Mr. Green Africa
-   </td>
-   <td>
-    Kenia
-   </td>
-   <td>
-    Pull-dominant
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    D3
-   </td>
-   <td>
-    Wecyclers
-   </td>
-   <td>
-    Nigeria
-   </td>
-   <td>
-    Push-dominant
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    D4
-   </td>
-   <td>
-    Banyan Nation
-   </td>
-   <td>
-    India
-   </td>
-   <td>
-    Pull-dominant (regulatory)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    D5
-   </td>
-   <td>
-    Recykal
-   </td>
-   <td>
-    India
-   </td>
-   <td>
-    Pull-dominant (regulatory)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    E1
-   </td>
-   <td>
-    Precious Plastic
-   </td>
-   <td>
-    Red global
-   </td>
-   <td>
-    Pull-dominant (micro- scale)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    E2
-   </td>
-   <td>
-    PetStar
-   </td>
-   <td>
-    México
-   </td>
-   <td>
-    Pull without push
-<p>
-
-    (dominant)
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    E3
-   </td>
-   <td>
-    Carbios (reciclado enzimático de PET)
-   </td>
-   <td>
-    Francia
-   </td>
-   <td>
-    Pull-dominant
-<p>
-
-    (anticipated)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    E4
-   </td>
-   <td>
-    TriCiclos / red B latinoamericana
-   </td>
-   <td>
-    Chile-Brasil-región
-   </td>
-   <td>
-    Push-dominant
-   </td>
-   <td>
-    To be verified
-   </td>
-  </tr>
-  <tr>
-   <td>
-    E5
-   </td>
-   <td>
-    Eastman (reciclaje molecular /
-<p>
-
-    metanólisis)
-   </td>
-   <td>
-    EE.UU.
-   </td>
-   <td>
-    Pull-dominant (fragile)
-   </td>
-   <td>
-    Verified
-   </td>
-  </tr>
-</table>
-
-
-**3.5. RIGOUR PROTOCOL **
-
-Every figure is classified as consolidated data, an estimate, or self-reported data from the organisation itself (flagged “to be cross-checked”); no unverified figure is cited in formal documents. Verification changed conclusions during the survey itself — the adjustment of Carbios's timeline (2026→2028) and the contradictory evaluations of the Ecuadorian redeemable tax are the documented examples — and underpins the strict grading criterion applied.
-
-
-    **4. Typology, comparative framework  and case selection**
-
- 
-
-
-    **4.1. Five-axis typology**
-
- 
-
-
-    Every case in the sample was classified along five axes: the regulatory axis (mandatory EPR · economic incentive, rights-based recognition, voluntary/market-based, no framework); the governance axis (state-led, municipal, cooperative-community, private-corporate, hybrid); the waste-picker inclusion axis (exclusion, precarious outsourcing, remunerated co-management, cooperative ownership) — the axis of greatest political weight for the project context; the maturity-scale axis (pilot, consolidated, mature); and the technological axis (low,  medium, high, frontier).
-
- 
-
-
-    **4.2. The stage matrix under criterion**
-
- 
-
-
-    Each case's coverage of the seven stages is graded on four levels under two rules: (i) a “High” grade requires performance documented by an independent or official, cross-checked source — a well-designed mechanism without independent metrics grades “Medium”, and self-reported data from the organisation itself cannot sustain a “High”; (ii) cases not yet verified carry at most a provisional “Medium”. The full re-grading of the universe under these rules (78 downgrades relative to the working version) restores the scale's discriminating power.
-
- 
-
-
-    **Central finding: **the universe's two gaps — communication and separation at source — coincide with the region's weakest stages. The complementarity between cases (none covers the seven stages well) is the deliberation input for the Search Conferences: the operational question is what to combine.
-
- 
-
-
-    **4.3. The push/pull dimension**
-
- 
-
-
-    Each circuit was classified according to the force that moves the material: push (supply-side instruments: deposits, mandatory separation, pay-as-you-throw, collection mandates) and pull (demand-side instruments: mandatory recycled content, captive or premium demand, recovery certificates, guaranteed prices). 
-
-
-    The hypothesis emerging from the universe is that systems that partially fail do so through imbalance: push without pull mobilises material and people towards circuits with no market (Brazil, Ecuador); pull without push only draws the valuable material (ECOCE, PetStar, the Zabbaleen); reference systems institutionalize both forces, with Taiwan as the model case. The Argentine context shows a double deficit, weak push (no packaging law) and depressed pull. 
-
-
-    **4.4. Comparison matrix: dimensions and indicators**
-
- 
-
-
-    The following matrix of dimensions and indicators is adopted, aligned with the questions useful for the Search Conferences organisation. Indicators are collected per selected case, distinguishing consolidated data, estimates, and self-reported data.
-
- 
-
-
-<table>
-  <tr>
-   <td>
-    <strong>Dimension</strong>
-   </td>
-   <td>
-    <strong>Indicators</strong>
-   </td>
-   <td>
-    <strong>Associated deliberation question</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <strong>Technical</strong>
-   </td>
-   <td>
-    Recovery/return rate (%) from an independent  source · chain stages covered (1–7) and coverage quality · quality of the output material (grade) · installed capacity and utilisation
-   </td>
-   <td>
-    What works, and at what scale?
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <strong>Economic</strong>
-   </td>
-   <td>
-    Source and sustainability of funding · cost mechanism (who pays for what) · resilience to material price volatility  · income generated for grassroots actors
-   </td>
-   <td>
-    Who pays, and how is it sustained?
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <strong>Social</strong>
-   </td>
-   <td>
-    Waste pickers integrated: number and modality (exclusion → ownership) · formalisation and access to rights · employment generated · legitimacy and citizen participation
-   </td>
-   <td>
-    Who is included, and on what terms?
-   </td>
-  </tr>
-  <tr>
-   <td>
-    <strong>Institutional</strong>
-   </td>
-   <td>
-    Supporting legal instrument and its enforceability · maturity and track record · push/pull balance · enabling conditions for replicability in AR/CL/CO
-   </td>
-   <td>
-    What would it take to work here?
-   </td>
-  </tr>
-</table>
-
-
- 
-
- 
-
-** **
-
-
-    **4.5. Selection criteria**
-
- 
-
-
-    The selection distinguishes representative cases (consolidated exemplars with documented performance and sufficient track record to extract lessons of institutional design) from innovation cases (novel mechanisms, technologies or business models whose value is to open the option space). The pruning criteria, in order of application, are: (i) heterogeneity — the selection must cover the five typological axes and both push/pull forces, including instructive counter-cases; (ii) transferability — priority to instruments that answer the identified problems of the context (municipal financing, price volatility, waste-picker integration, absence of a law); (iii) demonstrable academia–industry linkage, in line with the project's technology-transfer mandate; (iv) quality of evidence — verified cases only. 
-
-
-     
-
-
-    **4.6. Proposed candidacies  (final selection pending the consortium survey)**
-
- 
-
-
-    Thirteen candidacies are proposed — 7 representative and 6 innovation cases — meeting all four criteria. 
-
-
-    *Representative candidates:*
-
- 
-
-
-
-1. **A1 Pfand/DPG  (Germany).  **The technical benchmark for deposit-refund: officially documented return rates of 96–99%. It sets the ceiling for the instrument and exposes its blind spot (the exclusion of the informal actor by design).
-2. **A6 IRBP (Ecuador). **Latin America's only mass redeemable levy. A verified, instructive counter- case: an economic incentive without traceability generates leakage and does not change habits  design lessons directly applicable
-3. **B1 Citeo (France). **The most mature and best documented  EPR scheme: eco-modulation as an eco-design tool, and the expectation-setting figure — 73% packaging recycling but only 27% for plastics after 30 years.
-4. **B4 CONAI/COREPLA (Italy). **The instrument that answers municipal financing: per-tonne quality-based payments (€648 M/year to municipalities), renewed in 2026. The most directly testable mechanism for the region's municipal problem.
-5. **B7 4-in-1 (Taiwan). **The system that institutionalises push and pull in a single legal design: a price-stabilising fund, waste-picker integration (with its caveat: a late, limited, welfare-style Care Program) and university R&D funded by law.
-6. **C1 SWaCH (India).  **The world's largest waste-picker cooperative: cooperative ownership of the service with documented municipal savings (USD 12.5 M/year). The institutional pathway: union → cooperative → agreement.
-7. **C2 PNRS/catadores  (Brazil). **The world's largest legal architecture of inclusion and its verified implementation gap (1.7% of independent catadores sell to cooperatives): the empirical warning for any packaging law with inclusion.
-
- 
-
-
-    *Innovation candidates:*
-
-
-
-1. **A4 Deposit system (Lithuania). **The speed demonstration:  from 34% to 92% return in 24 months, with return-machine infrastructure financed by the technology provider — the start-up model for capital-constrained contexts.
-2. **C5 Cataki (Brazil). **Minimal-cost civic technology built on existing social capillarity: 5,000 active catadores across 2,000+ cities. The most immediately replicable innovation in the universe.
-3. **D4 Banyan Nation (India). **The archetype of academia–industry–informality linkage: contextual R&D that unlocks high-value markets (Tata, L'Oréal) for informally captured material, with EPR creating the demand.
-4. **D5 Recykal (India). **Regulatory compliance as a business model: the marketplace that aggregates dispersed informal supply towards the demand the law creates. Includes the finding that reliable sourcing — not processing — is the formal recycler's bottleneck.
-5. **E8 Gjenge Makers (Kenya). **Micro-valorisation with a proven market: a certified product cheaper than its substitute, purchases from waste-picker groups, and demand three times capacity — the whole circuit in miniature.
-6. **E9 CRDC/RESIN8 (Costa  Rica). **Transferable Latin American valorisation: it accepts any dirty, mixed plastic, the local industrial partner is the sales channel, and construction absorbs mass volumes at a marginal cost premium (~0.11%).
-
-**Cases outside the candidacy. **The remaining 16 stay in the universe as comparative context and documented reserve, available should the survey reveal uncovered interests. Three mentions: Carbios is left out of the candidacy for lack of operating performance (commissioning postponed to 2028) but is retained in the framework as the frontier-technology risk case; Eastman and Mura respectively document the real operation and the deployment curve of advanced chemical recycling and will feed the benchmarking's technology chapter without a deep-dive sheet of their own; Uruguay remains the standing regional reference context for Deliverable 3.
-
-**4.7 Checking the candidacies  against the framework**
-
- 
-
-The proposed candidacy covers: the five families of the universe (2 cases from A, 3 from B, 3 from C, 2 from D, 3 from E); the four push/pull quadrants (integrated: Taiwan, CONAI, Gjenge, CRDC; push- dominant: Pfand, Lithuania,  SWaCH; regulatory pull: Banyan, Recykal; and the two instructive imbalance counter-cases: Ecuador and Brazil); the four modes of waste-picker inclusion (from German exclusion to SWaCH's cooperative ownership); and both archetypes of academia–industry linkage (institutionalised by law in Taiwan; market-driven in Banyan). All 13 cases are verified against 2024–2026 sources.
-
- 
-
-
-    **5. Methodological note**
-
-
-    **5.1 Purpose and scope**
-
-** **
-
-
-    This note documents the methodology applied in the comparative analysis of effective, high-impact reuse/recovery practices. Its purpose is threefold: to make the methodological decisions explicit, to guarantee the replicability of the approach in subsequent deliverables, and to record the reasoning behind each analytical instrument so that the national teams can discuss, adapt, and appropriate it.
-
- 
-
-
-    The product of the analysis is an articulated set of pieces: the section “Explanatory summary of the 29 cases” (narrative reading) and the Annex C Excel workbook “Universe of experiences” (database with a complete record sheet per case). All three are generated from the same database, which ensures consistency across formats.
-
-** **
-
-
-    **5.2 Framing decisions**
-
-** **
-
-
-    **5.2.1 Latin American context**
-
-** **
-
-
-    The three project countries were deliberately excluded from the universe of cases in this section, aiming to analyse the complementarity, replicability, and lessons learned that the international cases can offer to those national contexts, taking the local assessments as its basis.
-
- 
-
-
-    Uruguay was included as an international case by explicit methodological decision: it offers the Latin American context most comparable to Argentina's (market scale, two decades of EPR, integration of clasificadores) without overlapping with the consortium's national assessments. 
-
-
-    TriCiclos, of Chilean origin, was recorded exclusively through its regional deployment outside Chile; its Chilean operation belongs to the assessment carried out by the Chilean teams.
-
-** **
-
-
-    **5.2.2. The seven-stage recovery chain as the analytical backbone**
-
-** **
-
-
-    The whole analysis is structured on a decomposition of the plastic recovery chain into seven stages. The chain fulfils three methodological functions: it is the common unit of analysis that allows comparison of experiences of very different natures (a cooperative, a national deposit system, an enzymatic plant); it reveals each case's partial coverage — which stages it addresses and which it leaves out — as an analytical datum in itself; and it aligns the analysis with the language already established in the project and its outreach materials.
-
-
-    **  **
-
- 
-
-
-<table>
-  <tr>
-   <td>
-    <strong> </strong>
-<p>
-
-    <strong>No.</strong>
-   </td>
-   <td>
-    <strong> </strong>
-<p>
-
-    <strong>Stage</strong>
-   </td>
-   <td>
-    <strong> </strong>
-<p>
-
-    <strong>What is recorded for each case</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    1
-   </td>
-   <td>
-     
-<p>
-
-    Communication
-   </td>
-   <td>
-     
-<p>
-
-    Awareness-raising and citizen habit formation; who funds and delivers it
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    2
-   </td>
-   <td>
-     
-<p>
-
-    Separation at source
-   </td>
-   <td>
-     
-<p>
-
-    The generator separates recyclables; mandatory or voluntary;
-<p>
-
-    incentive type (economic, regulatory, cultural)
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    3
-   </td>
-   <td>
-     
-<p>
-
-    Capture and logistics
-   </td>
-   <td>
-     
-<p>
-
-    Separate collection; articulation between formal collection and waste pickers; drop-off points
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    4
-   </td>
-   <td>
-     
-<p>
-
-    Sorting
-   </td>
-   <td>
-     
-<p>
-
-    Classification by plastic type (PET, HDPE…); manual or mechanised; who operates
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    5
-   </td>
-   <td>
-     
-<p>
-
-    Marketing of recyclables
-   </td>
-   <td>
-     
-<p>
-
-    Sale of sorted material to industry; price formation;
-<p>
-
-    intermediation
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    6
-   </td>
-   <td>
-     
-<p>
-
-    Valorisation
-   </td>
-   <td>
-     
-<p>
-
-    Recycling and transformation into new raw material; quality obtained
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    7
-   </td>
-   <td>
-     
-<p>
-
-    Business models and innovation
-   </td>
-   <td>
-     
-<p>
-
-    Demand and the search for new value chains; technology and traceability
-   </td>
-  </tr>
-</table>
-
-
-** **
-
-
-    **5.3  Construction of the universe **
-
-** **
-
-
-    **5.3.1 Criterion: deliberate coverage of the typological grid**
-
- 
-
-
-    As mentioned before, the universe was built by deliberately covering the space of variation defined by: different socio-economic contexts, regulatory frameworks, levels of formalisation, governance models and operating scales. Each case was incorporated because it occupies a position in the typological space that no other covers in the same way — including counter-cases and partial failures (Ecuador, Brazil, the Zabbaleen), whose analytical value lies precisely in documenting why and how designs fail.
-
- 
-
-
-    **5.3.2 The five families**
-
- 
-
-
-    The 29 cases are organised into five families, each defined by the dominant mechanism of the circuit and by the question it answers for the project:
-
-** **
-
-
-
-* **A DRS / deposit-refund (4 cases).** What does the direct economic incentive to the consumer achieve, and what does its design require? The technical benchmark (Germany, which also documents the Norwegian performance-modulated eco-fee variant), the community variant (Australia), the fast implementation (Lithuania) and the Latin American case with design lessons (Ecuador). The redundant  Nordic cases (Norway, Sweden) were removed from the universe for similarity with the German one.
-* **B Mature  EPR schemes (5 cases). **What does extended producer responsibility fund after decades of operation, and what does it not solve? The two European producer-responsibility organisations with the greatest differential value (France for eco-modulation and the 27% plastics ceiling; Italy for municipal financing) and the three Asian models (Japan, South Korea, Taiwan). Belgium and the German dual system were removed for redundancy with those retained.
-
-     
-
-* **C Inclusive recycling (6 cases).** How is the waste picker integrated — through cooperative ownership, by law, by the market, or by civic technology? SWaCH, Brazil/PNRS, Uruguay, the Zabbaleen, Cataki, ECOCE.
-* **D Private  and technological innovation (5 cases). **Which market models integrate the informal sector, and what role does regulation play in creating that demand? Plastic Bank, Mr. Green Africa, Wecyclers, Banyan Nation, Recykal.
-* **E Valorisation and new value chains (9 cases, reinforced family). **What does the industrial link require — capital, technology, demand — across its full range? Micro-scale with and without a proven market (Precious Plastic, Gjenge Makers), industrial bottle-to-bottle (PetStar), Latin American construction (CRDC/RESIN8), clean-point pedagogy (TriCiclos) and the chemical frontier in its three states: operating (Eastman), starting up for flexibles and mixed waste (Mura, UBQ) and delayed with state support (Carbios). The deliberate reinforcement responds to valorisation being the universe's main gap and the critical stage for the regional context.
-
-** **
-
-
-    The size of the universe (29, after an adjustment that removed four redundant cases and incorporated five valorisation cases) responds to a robustness criterion: it allows a broad pre- selection with room for discards, and gives a sufficient basis to justify the subsequent selection of 4–7 representative cases and 3 or more innovation cases.
-
-** **
-
-
-    **4. The standardised record sheet**
-
-** **
-
-
-    Each case is recorded in an identical three-block sheet, which constitutes the registration unit of the whole research and will be reusable to systematise the national assessments in a comparable format, should the teams find it useful.
-
-
-     
-
-
-
-* Block A — Identification:  twelve comparable variables: scale, governance model, degree of formalisation, funding source, role of waste pickers, target material, supporting legal framework (with exact citation), start year or milestone, performance indicators, key actors and sources.
-
-     
-
-* Block B — Analysis by stage: the seven chain stages, each with a coverage grade and a qualitative analysis of how the case addresses it (see section 5).
-* Block  C — Sources and verification: list of sources with document name, link, and the case's verification status (see section 8).
-
-** **
-
-
-    **5. Stage analysis: the coverage scale**
-
-** **
-
-
-    Coverage of each stage is graded on a four-level ordinal scale under a strict criterion adopted in the final version, following the review by the analysis coordination: (i) a “High” grade requires performance documented by an independent or official, cross-checked source — a well-designed mechanism without independent metrics grades as “Medium”; (ii) cases not yet verified cannot carry a “High”: their provisional maximum is “Medium” until sources are cross-checked. The full re-grading of the universe under these rules substantially reduced the “High” grades (78 downgrades), restoring the scale's discriminating power. The grade remains a documented, revisable expert judgement: the assigned level must be defensible with the sources in each sheet's Block C.
-
-
-<table>
-  <tr>
-   <td>
-    <strong> </strong>
-<p>
-
-    <strong>Level</strong>
-   </td>
-   <td>
-    <strong> </strong>
-<p>
-
-    <strong>Operational definition</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    High
-   </td>
-   <td>
-     
-<p>
-
-    Central intervention in the stage WITH performance documented by an independent or official, cross-checked source. Data provided only by the analysed organisation itself cannot sustain this grade.
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    Medium
-   </td>
-   <td>
-     
-<p>
-
-    Relevant intervention whose performance is not independently documented, or is partial or heterogeneous. Also the provisional maximum for cases not yet verified.
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    Low
-   </td>
-   <td>
-     
-<p>
-
-    Marginal or weak intervention.
-   </td>
-  </tr>
-  <tr>
-   <td>
-     
-<p>
-
-    Out of scope
-   </td>
-   <td>
-     
-<p>
-
-    The stage falls outside the case's perimeter. Not a defect: a design datum and the basis of the complementarity reading.
-   </td>
-  </tr>
-</table>
-
-
-
-    Aggregating coverage by stage across the 29 cases produces the stage matrix. Under the strict criterion, its central reading is twofold: the universe's structural gaps — communication (2/29) and separation at source (4/29) — coincide with the region's weakest stages; and the sorting and marketing stages concentrate well-designed mechanisms with very little independent performance evidence (1/29 each), a literature gap that the Deliverable 5 benchmarking can help to fill.
-
- 
-
-
-    **6. Five-axis typology **
-
-
-     
-
-
-    To classify the universe and ground the selection criteria, five typological axes were defined. Each case receives a position on each axis (“Tipologia” sheet of the Excel workbook):
-
-
-     
-
-
-
-* **Regulatory axis: **mandatory EPR · economic incentive (deposit/redeemable tax) · rights-based recognition · voluntary/market-based · no framework.
-* **Governance axis: **centralised state · municipal · cooperative-community · private-corporate · hybrid.
-* **Waste-picker inclusion axis: **exclusion · precarious outsourcing · remunerated co-management, cooperative ownership. The axis of greatest political weight for the project context.
-* **Maturity-scale axis: **pilot (&lt;5 years) · consolidated (5–15) · mature (15+, international reference).
-* **Technological axis: **low (manual) · medium (digitised registration) · high (end-to-end traceability, AI, blockchain) · frontier (new valorisation routes).
-
-     
-
-
-    **7. The push/pull dimension**
-
-
- 
-
-
-    A cross-cutting dimension was incorporated into the framework, classifying each circuit's instruments according to the force that moves the material:
-
- 
-
-
-
-* **Push (supply side): **instruments that push material into the circuit — mandatory separation, consumer deposits, pay-as-you-throw, collection mandates, EPR capture targets.
-* **Pull (demand side): **instruments that draw material from the destination — mandatory recycled content, captive or premium demand, recovery certificates, guaranteed material prices.
-
- 
-
-
-    Each case is classified by its balance: integrated, push-dominant, pull-dominant, facilitator or imbalanced (push without pull / pull without push). The reading hypothesis emerging from the universe — proposed as a deliberation rule for the Search Conferences — is that systems that partially fail do so through imbalance: push without pull mobilises material and people towards circuits without a market (Brazil, Ecuador by design); pull without push only draws the valuable material and orphans the rest (ECOCE, PetStar, the Zabbaleen); reference systems integrate both forces, and Taiwan institutionalises them in a single legal design. The implication is direct: the Argentine context shows a double deficit — weak push (no packaging law) and depressed pull (falling demand and prices) — so every recommendation (Deliverables 5 and 6) must address both sides at once.
-
-**8. Sources and verification  protocol**
-
-**8.1. Data hierarchy**
-
-Every figure in the record sheets is classified into one of three categories, explicitly flagged in the text:
-
- 
-
-
-        –  **Consolidated data: **from a primary or official source (public body, regulator, statistical report, peer-reviewed publication), with an identifiable date.
-
- 
-
-
-        –  **Estimate: **figures from secondary literature or ranges with dispersion across sources; the range and its endpoints are reported with attribution (e.g. the magnitude of catadores in Brazil, from
-
-
-    281 thousand per PNAD to 800 thousand–1 million per IPEA/MNCR).
-
- 
-
-
-        –  **Company/organisation data: **figures provided by the analysed actor itself; flagged “company data: to be cross-checked” and not cited in formal deliverables without independent verification.
-
- 
-
-
-    **8.2. Verification statuses**
-
- 
-
-
-    Each case carries one of two statuses: “Verified” (cross-checked against online sources during July
-
-
-    2026, with consultation date) or “To be verified before delivery” (sheet built on consolidated literature, with specific figures flagged). The operating rule: no figure flagged “to be verified” is cited in a formal deliverable without prior cross-checking. At the close of this version, 21 of the 29 cases are verified — all firm selection candidates and the five incorporated valorisation cases — and the remaining 8 (all reserve cases) will be verified only if they survive the selection, applying the effort- where-there-is-return criterion.
-
- 
-
-
-    Verification is not a formality: in this very research it changed conclusions. The adjustment of Carbios's timeline (announced in December 2025: commissioning postponed from 2026 to the first half of 2028) and the contradictory evaluations of the Ecuadorian redeemable tax are findings that only emerged from cross-checking recent sources.
-
- 
-
-
-    **9. Case selection criteria**
-
- 
-
-
-    Deliverable 2 requires the selection of 4–7 representative cases and 3 or more innovation cases. The operational distinction:
-
- 
-
-
-        –  **Representative case: **a consolidated exemplar of a family or instrument, with documented performance and sufficient track record to extract institutional design lessons.
-
- 
-
-
-        –  **Innovation case: **an experience introducing a novel mechanism, technology or business model, even at lower maturity; its value is to open the option space, not to accredit long-term results.
-
- 
-
-
-    The pruning criteria, in order of application: (i) heterogeneity — the final selection must cover the
-
-
-    five typological axes and both push/pull forces; (ii) transferability — priority to instruments answering the identified problems of the AR/CL/CO context (municipal financing, price volatility, waste-picker integration, absence of a law); (iii) demonstrable academia–industry linkage, in line with the project's technology-transfer mandate; (iv) quality of the available evidence. The preliminary candidacy (“Candidaturas_E2” sheet of the Excel workbook) deliberately exceeds the quotas: the final pruning will be carried out with the results of the interest survey to be completed by consortium members —
-
-
-    a deliberate process decision, consistent with the participatory spirit of the Search Conferences.
-
-
-    **10. Methodological limitations**
-
- 
-
-
-    The known limitations of the approach are recorded for consideration by the approval bodies:
-
- 
-
-
-        –  **Documentation bias: **the cases most cited in the international (and English-language) literature are over-represented in the available evidence; valuable, less documented experiences may have been left out of the universe.
-
- 
-
-
-        –  **Self-interested data: **in the private cases (families D and E in particular) much of the metrics comes from the companies themselves; the section 8 protocol mitigates but does not eliminate this risk.
-
- 
-
-
-        –  **Cross-context comparability: **performance rates are not directly comparable across countries with different statistical definitions (what counts as “recycled” varies); the matrix therefore privileges the analysis of mechanisms over the ranking of figures.
-
- 
-
-
-        –  **Ordinal coverage grading: **the four-level scale is a documented  expert judgement, not a measurement; its reliability rests on traceability to each sheet's sources and on its review by the consortium.
-
- 
-
-
-        –  **Non-exhaustive universe: **29 cases are a reasoned sample of the typological space, not a census; the universe remains open to additions should the local analysis or the Search Conferences reveal unforeseen gaps.
-
- 
-
-
-    **11. Traceability towards subsequent deliverables**
-
- 
-
-
-    The framework built in D1/D2 feeds the rest of the project directly: Deliverable 3 will take as its basis the national assessments already carried out by the responsible universities and will analyse the complementarity, replicability and lessons of the universe's cases for each context — the standardised record sheet can be used to systematise those assessments in a format comparable with the international universe, should the teams find it useful; the actor map (D4) draws on the inclusion axis and the governance classification; the benchmarking (D5) deepens the selected cases with the indicator matrix; and the strategic synthesis (D6) translates the cross-cutting readings — stage gaps, push/pull balance, complementarities between cases — into deliberation materials for the Córdoba and Río Negro Search Conferences. Deliverable 7 will incorporate into the corpus the revisions arising from that deliberation.
-
- 
-
-
-    The three products (Excel, case summaries, presentation)  are maintained as living documents generated from a single database, so that every correction or addition propagates consistently across all three formats.
-
-
-
-
-
-# Conclusions and Identified Information Gaps
-
-The comparative analysis of 25 documented initiatives in Argentina, Chile, and Colombia highlights the different ways in which circular economy practices contribute to reducing plastic waste and keeping materials in use. 
-
-The experiences demonstrate progress in waste prevention, material recovery, recycling, and the development of new applications for recycled plastics. 
-They also illustrate how these activities can create economic opportunities, strengthen recycling networks, and generate benefits for local communities.
-The findings show that technological development or initial growth does not necessarily guarantee long-term sustainability. Initiatives require reliable material supply, market demand, effective logistics, appropriate financing, and clear agreements among stakeholders. Regulatory frameworks can provide important support by establishing responsibilities and encouraging investment, but their effectiveness also depends on the operational conditions of each initiative.
-
-Collaboration between different actors is another important factor. 
-Universities and research institutions can contribute not only through technological development, but also through testing, validation, support for entrepreneurship, and connections with industry. 
-University involvement was identified in approximately one-third of the documented cases (8 out of 25). 
-However, as the initiatives were identified primarily by university partners, this proportion may overrepresent university participation in the broader circular economy sector. This highlights an opportunity to further investigate the barriers that may limit collaboration between universities and other stakeholders, and to identify ways to strengthen these connections.
-
-Finally, the study identifies opportunities to strengthen the monitoring of environmental, economic, and social outcomes, particularly regarding material recovery, financial performance, and benefits for recycling workers and communities. 
-The Reuse Action Clues identified through this analysis provide practical guidance for designing and adapting future initiatives, while recognizing the importance of local conditions. 
-These findings offer a foundation for strengthening collaboration and technology transfer within TechTraPlastiCE and supporting the development of circular economy solutions in Latin America.
-
