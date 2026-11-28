@@ -1,16 +1,15 @@
 ---
-title: "Campo Limpio"
-pagetitle: "Campolimpio"
-subtitle: "Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. "
-image: "figures/i1-campo-limpio-arg.png"
-image-alt: "Campolimpio"
-
+title: "RFG: Recycled-Plastic Railway Sleepers"
+pagetitle: "RFG: Recycled-Plastic Railway Sleepers"
 description: "."
+image: "i6-arg.png"
+
+
+
 
 categories: 
 - Argentina
-- Reuse
-- Mechanical Recycling
+
 
 date: 11/04/2026
 date-modified: last-modified

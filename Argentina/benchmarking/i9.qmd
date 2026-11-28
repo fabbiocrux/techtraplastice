@@ -1,11 +1,11 @@
 ---
-title: "Campo Limpio"
-pagetitle: "Campolimpio"
-subtitle: "Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. "
-image: "figures/i1-campo-limpio-arg.png"
-image-alt: "Campolimpio"
+title: "Fundación Boreal: Plastic Caps to Eyeglass Frames"
+pagetitle: "Fundación Boreal: Plastic Caps to Eyeglass Frames"
+description: "Fundación Boreal: Plastic Caps to Eyeglass Frames"
+image: "i7-CEVE-arg.png"
 
-description: "."
+
+
 
 categories: 
 - Argentina

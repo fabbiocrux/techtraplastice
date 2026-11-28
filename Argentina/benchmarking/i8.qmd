@@ -1,16 +1,13 @@
 ---
-title: "Campo Limpio"
-pagetitle: "Campolimpio"
-subtitle: "Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. "
-image: "figures/i1-campo-limpio-arg.png"
+title: "Cosmetics take-back/refill (sectoral comparison)"
+pagetitle: "Cosmetics take-back/refill (sectoral comparison)"
+description: "Cosmetics take-back/refill (sectoral comparison)"
+image: "i7-CEVE-arg.png"
 image-alt: "Campolimpio"
 
-description: "."
 
 categories: 
 - Argentina
-- Reuse
-- Mechanical Recycling
 
 date: 11/04/2026
 date-modified: last-modified

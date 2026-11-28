@@ -1,11 +1,10 @@
 ---
 title: "Campo Limpio"
 pagetitle: "Campolimpio"
-subtitle: "Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. "
-image: "figures/i1-campo-limpio-arg.png"
+description: "Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. "
+image: "i5-botellas-de-amor-arg.png"
 image-alt: "Campolimpio"
 
-description: "."
 
 categories: 
 - Argentina
