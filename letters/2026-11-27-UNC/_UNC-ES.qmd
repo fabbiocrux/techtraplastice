@@ -1,0 +1,126 @@
+---
+author:
+  - name: Asst. Prof. Fabio A. CRUZ SANCHEZ
+    affiliation:
+      - name: Université de Lorraine
+        department:  ENSGSI
+        address: 8 rue Bastien Lepage
+        city: Nancy - 54000,  France
+#        country: 
+#        postal-code: 
+address:
+  - Universidad Nacional de Cordoba
+  - Patio de las Palmeras (Ala Sur) - Pabellón Argentina PB
+  - Haya de la Torre S/N
+  - Ciudad Universitaria CP X5000GYA
+  - Córdoba - Argentina
+
+subject-title: "Subject"
+subject: "**TechTraPlastiCE – Comunicación formal sobre el cumplimiento de los compromisos institucionales de la UNC y medidas correctivas**"
+opening: "Estimados colegas de la Universidad Nacional de Córdoba"
+closing: "Cordialmente,"
+
+fontsize: 12pt
+format:
+  letter-pdf:
+    output-file: index
+    include-in-header: [../../assets/TTPLCE-packages.tex]
+    keep-tex: false
+    geometry:
+      - top=25mm
+      - bottom=20mm
+      - left=15mm
+      - right=15mm
+
+---
+
+
+\thispagestyle{fancy}
+
+
+
+
+Me permito dirigirme a ustedes en calidad de coordinador del proyecto europeo “*Strengthening University Tech Transfer Capabilities to Support Circular Economy Value Chains for Plastics in Latin America – TechTraPlastiCE”* (Grant Agreement 101179564), con el propósito de expresar formalmente nuestra preocupación respecto al nivel de compromiso y al cumplimiento de las responsabilidades asumidas por la Universidad Nacional de Córdoba (UNC) en el marco del proyecto.
+
+Como institución coordinadora, la Université de Lorraine (UL) tiene la responsabilidad de garantizar el cumplimiento de los objetivos del proyecto, la correcta ejecución de las actividades y el uso eficiente y responsable de los recursos asignados por la Comisión Europea.
+
+Actualmente, el proyecto se encuentra en la fase de implementación del paquete de trabajo 3 (*WP3: Multi-actor collaborations for just and safe plastic’s circular economy*), liderado por el equipo de la Association Columbus, en el cual la UNC tiene la responsabilidad de implementar la tarea *T3.4 – Search Conferences*. A este respecto, tanto la coordinación general del proyecto como la coordinación del WP3 desean poner de manifiesto tres situaciones que generan una creciente preocupación:
+
+
+
+1. *Retrasos en la implementación de las actividades y dificultades de articulación interna*
+
+Desde febrero de 2026, los equipos de Columbus y de la Université de Lorraine han acompañado activamente la preparación de la T3.4 a las universidades que son responsables de implementacion de esta tareas (Universidad Central en Colombia, Pontificia Universidad Católica de Valparaíso en Chile, Universidad Nacional de Rio Negro y Universidad Nacional de Córdoba en Argentina), proponiendo diversas reuniones de trabajo y espacios de acompañamiento metodológico y organizacional. A pesar de estos esfuerzos, persisten dificultades significativas en la articulación interna del equipo de la UNC.
+No fue sino hasta julio de 2026, durante la reunión general del consorcio en Bogotá, Colombia, cuando se logró consolidar un primer equipo de trabajo, generando un retraso considerable en el inicio de las actividades. Esta situación quedó reflejada en el informe intermedio del proyecto (D6.3 – Midterm Progress), presentado a la Comisión Europea en agosto de 2026.
+
+A ello se suma un cambio en la coordinación interna de la UNC desde Septiembre 2026  que no ha contado con una comunicación institucional suficiente hacia la coordinación general del proyecto y el consorcio, dificultando la continuidad de las actividades, la transferencia de responsabilidades y la consolidación del equipo de trabajo.
+
+
+
+2. *Insuficiente definición estratégica y movilización de actores externos*
+
+La metodología de Search Conference requiere la identificación de un área-problema concreta y la definición de un foco de acción construido conjuntamente con actores externos a la Universidad. Su implementación exige, por tanto, un equipo institucional comprometido, dotado de competencias técnicas, estratégicas y organizacionales, así como de una capacidad efectiva de movilización de dichos actores.
+
+Desde el inicio del proyecto, la UNC ha identificado al Clúster de Economía Circular de Córdoba [(https://clustereconomiacircular.com.ar/)](https://clustereconomiacircular.com.ar/) como un aliado estratégico para la implementación de las actividades de TechTraPlastiCE. Sin embargo, a la fecha, no se dispone de una definición suficientemente clara de los actores que serán movilizados, de su nivel de involucramiento ni de la manera en que esta colaboración permitirá generar un valor agregado para el ecosistema territorial y, particularmente, fortalecer las capacidades institucionales de la UNC en materia de transferencia tecnológica. Esta falta de especificidad constituye un obstáculo significativo para el adecuado desarrollo de la tarea.
+
+
+
+3. *Riesgo sobre la implementación del proyecto piloto y la consecución de los impactos previstos*
+
+La UNC tiene igualmente la responsabilidad de implementar una serie de proyectos pilotos en el paquete de trabajo 4 (*Work Package 4: Pilot projects implementation*) en colaboración con actores externos, una vez realizada la Search Conference y durante el período restante de ejecución del proyecto hasta finales de 2027. Esta actividad constituye un elemento central de TechTraPlastiCE, en la medida en que permitirá materializar los resultados del proyecto y generar beneficios concretos y sostenibles para la Universidad  de Córdoba y su ecosistema territorial.
+
+***Una Search Conference que no se desarrolle con el rigor metodológico requerido y con un compromiso efectivo de los actores internos y externos comprometería directamente la viabilidad de los proyectos pilotos (WP4) y, en consecuencia, la consecución de los resultados e impactos previstos al cierre del proyecto, en enero de 2028.***
+
+Valoramos positivamente el intercambio mantenido este viernes 27 de noviembre de 2026 con Enzo Cravero, a quien incluyo en copia de esta comunicación, y su propuesta de establecer un plan de acción basado en los siguientes compromisos:
+
+
+1. La consolidación de un equipo interno que reúna las competencias técnicas, operativas y estratégicas necesarias para garantizar la ejecución de las actividades.
+2. La organización de reuniones semanales de trabajo hasta el 18 de diciembre de 2026 para evaluar los avances en la definición del foco y el compromiso de los actores externos
+3. La realización de la Search Conference durante la semana del 8 al 12 de marzo de 2027 si las condiciones permiten el buen desarrollo de la actividad con un enfoque preciso y un compromiso claro de los actores externos en la fase de implementacion (WP4).
+
+Desde la coordinación del proyecto, consideramos que esta propuesta constituye una oportunidad para reconducir la situación. No obstante, su aceptación está condicionada a la demostración de avances concretos, verificables y sostenidos por parte de la UNC.
+
+En este sentido, solicitamos que, a más tardar el 18 de diciembre de 2026, la Universidad Nacional de Córdoba haya formalizado y comunicado a la coordinación del proyecto:
+
+
+1. La composición definitiva del equipo de trabajo, con una identificación clara de las responsabilidades y de la persona encargada de la coordinación institucional.
+2. Una definición preliminar del área-problema y del foco estratégico de la Search Conference.
+3. La identificación de los actores externos prioritarios y evidencias concretas de su movilización.
+4. Un plan de trabajo detallado, con responsables, actividades y plazos, que garantice la realización de la Search Conference en las fechas propuestas y la posterior implementación de los proyectos pilotos (WP4).
+
+Deseamos subrayar que este plazo constituye un margen de acción excepcional y limitado, y no una prórroga abierta de los compromisos previamente adquiridos por la UNC.
+
+
+El acompañamiento que la Université de Lorraine y Columbus continuarán proporcionando durante este período no sustituye, en ningún caso, la responsabilidad institucional de la UNC en la ejecución de las tareas que le han sido asignadas.
+
+La Université de Lorraine, en su calidad de institución coordinadora, adoptará las medidas necesarias para garantizar la correcta ejecución de las actividades, la consecución de los objetivos del proyecto y el uso responsable de los recursos asignados.
+
+En caso de que los compromisos anteriormente señalados no se materialicen dentro del plazo establecido, la coordinación se verá en la obligación de evaluar, en concertación con las instancias pertinentes del consorcio y de conformidad con las disposiciones del Grant Agreement y del Consortium Agreement, las medidas correctivas que correspondan, incluyendo una eventual revisión de la asignación de tareas, responsabilidades y recursos asociados.
+
+La situación actual y los avances alcanzados durante este período serán debidamente documentados en el marco de los mecanismos de seguimiento y reporte del proyecto.
+
+Nuestra voluntad sigue siendo que la Universidad Nacional de Córdoba pueda participar plenamente en TechTraPlastiCE y beneficiarse de las oportunidades que ofrece este proyecto. Sin embargo, en la fase actual de implementación, dicha voluntad debe traducirse necesariamente en un compromiso institucional efectivo, en una capacidad operativa demostrable y en el cumplimiento de las responsabilidades asumidas.
+
+Agradeceremos una confirmación formal, por parte de la UNC, de su compromiso institucional con el plan de acción y las condiciones anteriormente expuestas.
+
+
+
+
+
+\begin{textblock}{10}(9,23)
+  \fontsize{11}{8}
+  \selectfont \sffamily
+  \color[gray]{0.4}
+  \begin{tabular}{@{}l@{}}
+    \hline \\
+    Asst. Prof. \textbf{Fabio A. CRUZ SANCHEZ} \\
+    8 rue Bastien Lepage,  54000 Nancy \\[0.15cm]
+    \faIcon{envelope} \href{mailto:fabio.cruz@univ-lorraine.fr}{fabio.cruz@univ-lorraine.fr} \\
+    \faIcon{phone} +33 3 72 74 35 31 \\
+    \faIcon{house}  \href{https://ensgsi.univ-lorraine.fr/}{https://ensgsi.univ-lorraine.fr/}
+  \end{tabular}
+\end{textblock}
+
+
+
+
