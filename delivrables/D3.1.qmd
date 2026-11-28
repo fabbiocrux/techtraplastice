@@ -147,7 +147,7 @@ The different strategies for the circular economy of plastics present advantages
 
 
 
-
+<!-- 
 ## Typologies of the Plastic Value Chain
 
 Five typological axes were defined to classify the differents initiatives and ground a selection criteria.
@@ -164,20 +164,11 @@ Each case receives a position on each axis:
 2. **Governance**:  This axis aims to establish in what extent the initiative is manged.  
   -  (state-led · municipal · cooperative-community · private-corporate · hybrid); 
 
-3. the waste-picker inclusion axis (exclusion · precarious outsourcing · remunerated co- management · cooperative ownership) — 
+3. **the waste-picker inclusion axis**: This axis considers if there consideration on the (exclusion · precarious outsourcing · remunerated co- management · cooperative ownership) — 
 4. the axis of greatest political weight for the project context; the maturity-scale axis (pilot · consolidated · mature); and 
 
 5. the technological axis (low · medium · high · frontier).
-
-
-- Governance axis: centralised state · municipal · cooperative-community · private-corporate ·
-hybrid.
-- Waste-picker inclusion axis: exclusion · precarious outsourcing · remunerated co-management ·
-cooperative ownership. The axis of greatest political weight for the project context.
-- Maturity-scale axis: pilot (<5 years) · consolidated (5–15) · mature (15+, international
-reference).
-- Technological axis: low (manual) · medium (digitised registration) · high (end-to-end
-traceability, AI, blockchain) · frontier (new valorisation routes).
+ -->
 
 
 # Reuse Action Clues in Argentina, Chile and Colombia
