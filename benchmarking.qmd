@@ -30,6 +30,36 @@ listing:
   grid-columns: 3
   max-description-length: 200
 
+- id: chile
+  contents: "Chile/benchmarking/*.qmd"
+  sort: true
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, subtitle, description, categories, image]
+  image-placeholder: Blog-sidebar.jpg
+  image-align: right
+  image-height: 250px
+  page-size: 5
+  grid-columns: 3
+  max-description-length: 200
+
+- id: colombia
+  contents: "Colombia/benchmarking/*.qmd"
+  sort: true
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [title, subtitle, description, categories, image]
+  image-placeholder: Blog-sidebar.jpg
+  image-align: right
+  image-height: 250px
+  page-size: 5
+  grid-columns: 3
+  max-description-length: 200
+
 ---
 
 
@@ -53,15 +83,23 @@ The identified problems involving multi-actors visions and roles are foreseen to
 ## Iniciatives in Argentina, Chile and Colombia
 
 ### Argentina
+
 :::{#argentina}
 
 :::
 
 ### Chile
 
+:::{#chile}
+
+:::
 
 
 ### Colombia
+
+:::{#colombia}
+
+:::
 
 
 ## Iniciatives in the rest of the World

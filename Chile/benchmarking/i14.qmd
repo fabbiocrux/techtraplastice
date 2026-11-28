@@ -1,0 +1,41 @@
+---
+title: "Campo Limpio"
+pagetitle: "Campolimpio"
+subtitle: "Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. "
+image: "figures/i1-campo-limpio-arg.png"
+image-alt: "Campolimpio"
+
+description: "."
+
+categories: 
+- Argentina
+- Reuse
+- Mechanical Recycling
+
+date: 11/04/2026
+date-modified: last-modified
+
+about:
+  template: solana
+  image-width: 15em
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/fabbiocrux
+  #   - icon: linkedin
+  #     aria-label: "LinkedIn"
+  #     href: https://linkedin.com/in/fabbiocrux
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-8602-0974
+  #   - text: "{{< ai google-scholar >}}"
+  #     aria-label: "Google Scholar"
+  #     href: https://scholar.google.com/citations?user=8Cuoaf4AAAAJ&hl=en
+
+---
+
+:::{#hero-heading}
+
+:::
+
+

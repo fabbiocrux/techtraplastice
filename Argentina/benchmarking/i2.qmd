@@ -1,0 +1,38 @@
+---
+title: "ECOPEK / CabelmaPET"
+pagetitle: "ECOPEK / CabelmaPET"
+subtitle: "Ecopek operated in the post-consumer stage of the PET value chain. Its business consisted of receiving recovered PET bottles, processing them, and transforming them into recycled raw material (rPET) suitable for reuse in industrial processes. In this regard, the initiative helped close the plastic packaging loop by transforming post-consumer waste into feedstock for the manufacture of new products, thereby reducing the need for virgin resin. The initiative was one of the leading examples of industrial PET recycling in Argentina, promoting the circular economy through the recovery of post-consumer materials."
+image: "i2-ecopek-arg.jpg"
+image-alt: "Campolimpio"
+
+description: ""
+
+categories: 
+- Argentina
+
+date: 11/04/2026
+date-modified: last-modified
+
+about:
+  template: solana
+  image-width: 15em
+  id: hero-heading
+  links:
+    - icon: link
+      href: https://www.cabelma.com/
+  #   - icon: linkedin
+  #     aria-label: "LinkedIn"
+  #     href: https://linkedin.com/in/fabbiocrux
+    # - text: "{{< ai orcid >}}"
+    #   href: https://orcid.org/0000-0001-8602-0974
+  #   - text: "{{< ai google-scholar >}}"
+  #     aria-label: "Google Scholar"
+  #     href: https://scholar.google.com/citations?user=8Cuoaf4AAAAJ&hl=en
+
+---
+
+:::{#hero-heading}
+
+:::
+
+

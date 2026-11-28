@@ -2,12 +2,16 @@ project:
   type: website
   output-dir: docs
 fontsize: 20px
+
+
+
 website:
   title: "TechTraPlastiCE"  
   navbar:
     right:
       - href: https://techtraplastice.eu/
         text: Home
+
   page-footer: 
     left: | 
       ![](images/logo/EU.png){width="300px"}     
@@ -21,8 +25,8 @@ website:
         href: https://twitter.com/ 
 
 
-margin-header: |
-  ![](images/logo/EU.png)
+# margin-header: |
+#   ![](images/logo/EU.png)
 
 format:
   html:

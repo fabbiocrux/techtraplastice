@@ -52,9 +52,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-8e11c0c76ead003d38cb45c33c1a0aab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-8e11c0c76ead003d38cb45c33c1a0aab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-8e11c0c76ead003d38cb45c33c1a0aab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,12 +90,71 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-description','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 5,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-argentina'] = new List('listing-argentina', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-chile .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 5,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-chile'] = new List('listing-chile', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-colombia .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-categories','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 5,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-colombia'] = new List('listing-colombia', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -181,9 +237,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
-<p><a href="images/logo/EU.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/logo/EU.png" class="img-fluid"></a></p>
-</div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
@@ -201,7 +255,7 @@ window.Quarto = {
   </ul></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXJnZW50aW5h">Argentina <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWVjaGFuaWNhbCUyMFJlY3ljbGluZw==">Mechanical Recycling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmV1c2U=">Reuse <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(25)</span></div><div class="category" data-category="QXJnZW50aW5h">Argentina <span class="quarto-category-count">(25)</span></div><div class="category" data-category="TWVjaGFuaWNhbCUyMFJlY3ljbGluZw==">Mechanical Recycling <span class="quarto-category-count">(22)</span></div><div class="category" data-category="UmV1c2U=">Reuse <span class="quarto-category-count">(22)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -257,8 +311,36 @@ window.Quarto = {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795642081756" data-listing-date-modified-sort="1795642081000" data-listing-reading-time-sort="2" data-listing-word-count-sort="386">
-<a href="./Argentina/benchmarking/i1-campolimpio.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795884516038" data-listing-date-modified-sort="1795884516000" data-listing-reading-time-sort="14" data-listing-word-count-sort="2784">
+<a href="./Argentina/benchmarking/i1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Argentina/benchmarking/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i5.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
 <img loading="lazy" src="./Argentina/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
@@ -268,7 +350,512 @@ window.Quarto = {
 Campo Limpio
 </h5>
 <div class="card-subtitle listing-subtitle">
-Chercheuse postdoctorale à Western University
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i6.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Argentina/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i7.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Argentina/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i8.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Argentina/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i9.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Argentina/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="QXJnZW50aW5h" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795885636886" data-listing-date-modified-sort="1795885636000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Argentina/benchmarking/i2-ecopek-arg.jpg" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ECOPEK / CabelmaPET
+</h5>
+<div class="card-subtitle listing-subtitle">
+Ecopek operated in the post-consumer stage of the PET value chain. Its business consisted of receiving recovered PET bottles, processing them, and transforming them into recycled raw material (rPET) suitable for reuse in industrial processes. In this regard, the initiative helped close the plastic packaging loop by transforming post-consumer waste into feedstock for the manufacture of new products, thereby reducing the need for virgin resin. The initiative was one of the leading examples of industrial PET recycling in Argentina, promoting the circular economy through the recovery of post-consumer materials.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+  <div class="about-entity">
+    <div class="entity-contents">
+       <div class="about-links">
+  
+    <i class="bi bi-link"></i>
+     <span class="about-link-text"></span>
+  
+</div>
+      <div class="about-contents"><div id="hero-heading">
+</div></div>
+    </div>
+    
+  </div>
+
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="QXJnZW50aW5h" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795886540249" data-listing-date-modified-sort="1795886540000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Argentina/benchmarking/i3-arg.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fundación Garrahan Recycling Programme
+</h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="QXJnZW50aW5h" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795886676238" data-listing-date-modified-sort="1795886676000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Argentina/benchmarking/i4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Argentina/benchmarking/i4-GIRSU-arg.png" class="thumbnail-image card-img" style="height: 250px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GIRSU Viedma
+</h5>
+<div class="card-subtitle listing-subtitle">
+
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="argentina-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+</section>
+<section id="chile" class="level3">
+<h3 class="anchored" data-anchor-id="chile">Chile</h3>
+<div id="listing-chile" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-chile-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-chile'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i10.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i11.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i12.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i13.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i14.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i15.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i16.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i17.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i18.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Chile/benchmarking/i19.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Chile/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
 </div>
 <div class="listing-categories">
 
@@ -287,13 +874,205 @@ Chercheuse postdoctorale à Western University
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="chile-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
-</section>
-<section id="chile" class="level3">
-<h3 class="anchored" data-anchor-id="chile">Chile</h3>
 </section>
 <section id="colombia" class="level3">
 <h3 class="anchored" data-anchor-id="colombia">Colombia</h3>
+<div id="listing-colombia" class="quarto-listing quarto-listing-container-grid">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-colombia-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-colombia'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883302367" data-listing-date-modified-sort="1795883302000" data-listing-reading-time-sort="14" data-listing-word-count-sort="2784">
+<a href="./Colombia/benchmarking/i20.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Colombia/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Colombia/benchmarking/i21.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Colombia/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Colombia/benchmarking/i22.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Colombia/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Colombia/benchmarking/i23.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Colombia/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Colombia/benchmarking/i24.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./Colombia/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="QXJnZW50aW5hJTJDUmV1c2UlMkNNZWNoYW5pY2FsJTIwUmVjeWNsaW5n" data-listing-date-sort="1793746800000" data-listing-file-modified-sort="1795883533907" data-listing-date-modified-sort="1795883533000" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="./Colombia/benchmarking/i25.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="./Colombia/benchmarking/figures/i1-campo-limpio-arg.png" class="thumbnail-image card-img" style="height: 250px;" alt="Campolimpio">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Campo Limpio
+</h5>
+<div class="card-subtitle listing-subtitle">
+Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain.
+</div>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QXJnZW50aW5h'); return false;">Argentina</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UmV1c2U='); return false;">Reuse</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVjaGFuaWNhbCUyMFJlY3ljbGluZw=='); return false;">Mechanical Recycling</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="colombia-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
 </section>
 </section>
 <section id="iniciatives-in-the-rest-of-the-world" class="level2">
@@ -734,38 +1513,6 @@ Project Ref: Project 101179564 — TechTraPlastiCE — ERASMUS-EDU-2024-CBHE Co-
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

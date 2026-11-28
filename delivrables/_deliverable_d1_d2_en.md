@@ -113,29 +113,10 @@ The proposed candidacy covers: the five families of the universe (2 cases from A
 ## 2.8. Next steps
 The immediate step is the interest survey to consortium members (August 2026): each team will prioritise the candidates according to what it needs the benchmarking to answer, and the final selection — within the contractual quotas of 4–7 representative cases and 3 or more innovation cases — will be formalised with those results, applying the criteria in section 2.5 as the tie-breaking and heterogeneity-control rule. On that basis, Deliverable 3 (October 2026) will develop the analysis of complementarity, replicability and lessons of the selected cases for the national contexts, building on the assessments carried out by the consortium's universities and with per-country coordination meetings. Deliverable 5 will apply the dimensions-and-indicators matrix of section 2.4 to the selected cases. The materials in this report — the stage matrix, the push/pull dimension, the record sheets — are direct inputs for the Córdoba and Río Negro Search Conferences (2027).
 
-# ANNEX I
-Methodological note and glossary of terms
 
-TECHTRAPLASTICE · WP1 INNOVATION OPPORTUNITIES
 
-Methodological note
 
-<!-- Page 10 -->
-Comparative analysis of plastic reuse and recovery practices — Deliverables 1 and 2: construction of the universe, standardised record sheet, typology, stage matrix and push/pull dimension
 
-Eng. Manuel Alberto Mateu — WP1 Consultant Université de Lorraine / ENSGSI · TechTraPlastiCE Project (Erasmus+) Final version · July 2026 (English translation)
-
-<!-- Page 11 -->
-## 1. Purpose and scope
-This note documents the methodology applied in Deliverables 1 and 2 of the assignment “Comparative analysis of effective, high-impact reuse/recovery practices” (WP1, Innovation Opportunities). Its purpose is threefold: to make the methodological decisions explicit and auditable before the approval bodies (the Columbus team and the TechTraPlastiCE coordination); to guarantee the replicability of the approach in subsequent deliverables, in particular Deliverable 3; and to record the reasoning behind each analytical instrument so that the national teams can discuss, adapt and appropriate it.
-
-The product of the analysis is an articulated set of three pieces: the Excel workbook “Universe of experiences” (database with a complete record sheet per case), the document “Explanatory summary of the 29 cases” (narrative reading) and the progress presentation to the consortium. All three are generated from the same database, which ensures consistency across formats.
-
-## 2. Framing decisions
-## 2.1. Exclusion of Argentina, Chile and Colombia from the international universe
-The three project countries were deliberately excluded from the universe of cases. The reason is one of design and of division of labour within the consortium: the assessments of the national systems have already been carried out by the responsible universities of each country (UNRN, UNC and UNS in Argentina; USACH and PUCV in Chile; UNAL and UC in Colombia). This work neither duplicates nor re- evaluates them: its specific contribution is to analyse the complementarity, replicability and lessons learned that the international cases of the universe can offer to those national contexts, taking the local assessments as its basis. Including AR, CL and CO in the universe would have produced double treatment under different criteria and overlapped with the work already done by the national teams.
-
-Uruguay was included as an international case by explicit methodological decision: it offers the Latin American context most comparable to Argentina's (market scale, two decades of EPR, integration of clasificadores) without overlapping with the consortium's national assessments. TriCiclos, of Chilean origin, was recorded exclusively through its regional deployment outside Chile; its Chilean operation belongs to the assessment carried out by the Chilean teams.
 
 ## 2.2. The seven-stage recovery chain as the analytical backbone
 The whole analysis is structured on a decomposition of the plastic recovery chain into seven stages. The chain fulfils three methodological functions: it is the common unit of analysis that allows comparison of experiences of very different natures (a cooperative, a national deposit system, an enzymatic plant); it reveals each case's partial coverage — which stages it addresses and which it leaves out — as an analytical datum in itself; and it aligns the analysis with the language already established in the project and its outreach materials.
@@ -145,10 +126,7 @@ The whole analysis is structured on a decomposition of the plastic recovery chai
 ```
 
 ```text
- 1          Communication                                Awareness-raising and citizen habit formation; who funds and
-```
-delivers it
-
+ 1          Communication                                
 ```text
  2          Separation at source                         The generator separates recyclables; mandatory or voluntary;
 ```
@@ -242,13 +220,6 @@ Aggregating coverage by stage across the 29 cases produces the stage matrix. Und
 
 
 
-## 7. The push/pull dimension
-A cross-cutting dimension was incorporated into the framework, classifying each circuit's instruments according to the force that moves the material:
-
-- Push (supply side): instruments that push material into the circuit — mandatory separation,
-consumer deposits, pay-as-you-throw, collection mandates, EPR capture targets.
-- Pull (demand side): instruments that draw material from the destination — mandatory recycled
-content, captive or premium demand, recovery certificates, guaranteed material prices. Each case is classified by its balance: integrated, push-dominant, pull-dominant, facilitator or imbalanced (push without pull / pull without push). The reading hypothesis emerging from the universe — proposed as a deliberation rule for the Search Conferences — is that systems that partially fail do so through imbalance: push without pull mobilises material and people towards circuits without a market (Brazil, Ecuador by design); pull without push only draws the valuable material and orphans the rest (ECOCE, PetStar, the Zabbaleen); reference systems integrate both forces, and Taiwan institutionalises them in a single legal design. The implication for Deliverable 3 is direct: the Argentine context shows a double deficit — weak push (no packaging law) and depressed pull (falling demand and prices) — so every recommendation (Deliverables 5 and 6) must address both sides at once.
 
 <!-- Page 15 -->
 ## 8. Sources and verification protocol
@@ -295,34 +266,13 @@ The framework built in D1/D2 feeds the rest of the project directly: Deliverable
 
 The three products (Excel, case summaries, presentation) are maintained as living documents generated from a single database, so that every correction or addition propagates consistently across all three formats.
 
-<!-- Page 17 -->
-## 12. Glossary of terms
-Technical terms and acronyms used in the deliverables, the database and the project materials. Where regional variants exist, all are recorded.
 
-Aggregator (acopiador). Intermediate actor who buys recovered material from collectors or waste pickers and aggregates it into commercial volumes for industry. Regional equivalents: aparista (Brazil), kabadiwala (India). Bottle-to-bottle. Closed loop in which post-consumer PET bottles are recycled at sufficient quality to make new food-grade bottles, with no downgrading of application. CAC (CONAI Environmental Contribution). Fee paid by producers in the Italian system, differentiated into groups according to packaging recyclability — an early form of eco-modulation. Circular economy. Economic model that seeks to keep materials and products in use for as long as possible, minimising virgin resource extraction and waste generation. Corrispettivi. In the Italian system, per-tonne payments transferred by the CONAI consortium to municipalities for collected material, modulated by its quality (improper fraction). dDRS (digital Deposit Return System). Digital deposit-refund: returns are credited through unique codes and electronic wallets instead of physical return machines. Deliverable (D1–D7). Each of the seven products committed under the consultancy contract, from the preliminary survey (D1) to the post-Search-Conference update (D7). DRS. Deposit Return System (also deposit-refund; Spanish: SDDR): the consumer pays a deposit on the container, recovered upon return. Family A of the universe. Eco-modulation. Adjustment of each producer's EPR fee according to environmental attributes of its packaging (recyclability, recycled content, recycling disruptors), with bonuses and penalties. Turns the fee into an eco-design tool. EPR. Extended Producer Responsibility: regulatory principle assigning to whoever places a product on the market the (physical and/or financial) responsibility for its post-consumer management. Spanish: REP. Food-grade. Recycled material quality fit for food contact, certified by the health authority; the most demanding and highest-value standard in plastics recycling. FMCG. Fast-Moving Consumer Goods (food, beverages, hygiene). The sector whose demand for recycled material drives many of the circuits analysed. Improper fraction. Share of non-recyclable or mis-sorted material in a separate-collection load; a quality indicator used to modulate payments (e.g. the Italian corrispettivi). Innovation case. Deliverable 2 selection category: an experience introducing a novel mechanism, technology or business model, valued for opening the option space even at lower maturity. Mandatory recycled content. Regulatory requirement or corporate commitment to incorporate a minimum share of recycled material in new products or packaging. The pull instrument par excellence. MRF. Materials Recovery Facility: a sorting plant for recyclables.
 
-<!-- Page 18 -->
-MSW. Municipal Solid Waste (Spanish: RSU). Mechanical recycling. Valorisation route that processes plastic physically (grinding, washing, extrusion) without altering the polymer. Limited by contamination, mixtures and material degradation. Chemical / enzymatic recycling. Valorisation routes that break the polymer down into its monomers or other feedstocks (enzymatic depolymerisation, pyrolysis), allowing streams the mechanical route cannot take and yielding virgin-equivalent quality. The universe's technological frontier (Carbios). Ocean-bound plastic. Plastic collected in coastal areas or waterways before reaching the sea; a commercial category used by models such as Plastic Bank to differentiate premium-priced material. PCR. Post-Consumer Recyclate: recycled material from post-consumer waste (as opposed to pre- consumer industrial scrap). PET / HDPE / LDPE / PP / PS. Main plastic resins: polyethylene terephthalate (bottles), high- and low- density polyethylene, polypropylene and polystyrene. Resin sorting is the heart of chain stage 4. Clean point (punto limpio). Voluntary drop-off station for recyclables; in the assisted variant (TriCiclos), with staff who teach separation on the spot. Green Dot (punto verde). Historic mark of European EPR systems indicating that the packaging producer contributed to the collective recovery system. Push / pull. Analytical dimension incorporated into the framework: push groups the instruments that drive material into the circuit from the supply side (deposits, mandatory separation, pay-as-you- throw); pull, those that draw it from the demand side (recycled content, captive or premium demand, guaranteed prices). See section 7. Representative case. Deliverable 2 selection category: a consolidated exemplar of a family or instrument, with documented performance and track record for institutional design lessons. Reverse logistics. Return flow of post-consumer products and packaging from the consumer back to industry for recovery; in Brazil, a central legal term of the PNRS (logística reversa). RVM. Reverse Vending Machine: automatic container return machine that credits the deposit to the consumer. Typical infrastructure of European DRS. Search Conference. Participatory planning method in the Emery–Trist tradition: the community of actors collectively deliberates on desired futures and strategies. The project will hold two, in Córdoba and Río Negro (2027); WP1 outputs are their input. Standardised record sheet. Registration unit of the research: an identical three-block format (identification, stage analysis, sources and verification) applied to every case of the universe. Traceability. Ability to document the material's journey (and associated payments) along the chain, from capture to final destination. Core enabler of regulatory pull models (Recykal, Banyan Nation) and of DRS (the DPG code). Typology. Classification of the universe along five axes (regulatory, governance, waste-picker inclusion, maturity-scale, technological) grounding the case selection criteria. Universe (of experiences). The set of 29 international cases pre-selected in Deliverable 1, built by deliberate coverage of the typological grid.
-
-<!-- Page 19 -->
-Valorisation. Transformation of recovered material into new raw material or products (chain stage 6); the most capital-intensive stage and, before reinforcement, the universe's main gap. VBWF. Volume-Based Waste Fee (South Korea): households pay for the volume of mixed waste they generate, while recyclables are collected free of charge. The most powerful documented household- level push. Waste picker (recuperador de base). Worker who recovers recyclable materials from discards as a livelihood, formalised or not. Regional denominations: cartonero (Argentina), clasificador (Uruguay), catador (Brazil), reciclador de oficio (Colombia), pepenador (Mexico), recolector de base (Chile). Comparison matrix. Deliverable 2 instrument crossing the cases with technical, economic, social and institutional dimensions and indicators, aligned with what the Search Conferences need to deliberate. WP1. Work Package 1 of the TechTraPlastiCE project: Innovation Opportunities in the circular economy, the framework of this assignment.
-
-# ANNEX II
-Explanatory summary of the 29 cases of the universe
-
-TECHTRAPLASTICE · WP1 INNOVATION OPPORTUNITIES
-
-Universe of international plastic recovery and reuse experiences Explanatory summary of the 29 cases analysed — Narrative annex to Deliverables 1 and 2
-
-<!-- Page 20 -->
-Eng. Manuel Alberto Mateu — WP1 Consultant Université de Lorraine / ENSGSI · TechTraPlastiCE Project (Erasmus+) Final version · July 2026 (English translation; source and document names kept in their original language)
-
-<!-- Page 21 -->
-Introductory note This document accompanies the Excel workbook “Universe of experiences” (Deliverables 1 and 2) with an explanatory summary of each of the 29 international cases surveyed. Where the Excel offers the complete standardised record sheet — comparable variables, seven-stage analysis, sources and verification status — this annex offers the narrative reading: what each experience is, how it works and why it matters for the project.
 
 Each summary closes with the lesson for the project context. Argentina, Chile and Colombia are excluded from the universe because their national assessments were carried out by the responsible universities of the consortium; this work's contribution is the analysis of complementarity, replicability and lessons learned of the international cases for those contexts (Deliverable 3). Cases marked as verified were cross-checked against 2024–2026 sources; in the rest, specific figures are flagged for verification. Data provided by the analysed organisations themselves are flagged as such. Source and document names are cited in their original language.
 
 <!-- Page 22 -->
+
 ### Family A — Deposit-refund systems (DRS)
 Deposit-refund systems attack the chain through the direct economic incentive to the consumer: the container is worth money, and so it comes back. They are the instrument with the highest documented return rates, and the four selected cases cover the spectrum without redundancy: the German technical benchmark (which also documents the Norwegian performance-modulated eco- fee), the fast Lithuanian implementation, the Australian community model, and the Ecuadorian fiscal experiment — Latin America's only one, with its design lessons.
 

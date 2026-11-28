@@ -2,7 +2,31 @@
   {
     "listing": "/benchmarking.html",
     "items": [
-      "/Argentina/benchmarking/i1-campolimpio.html"
+      "/Argentina/benchmarking/i1.html",
+      "/Argentina/benchmarking/i5.html",
+      "/Argentina/benchmarking/i6.html",
+      "/Argentina/benchmarking/i7.html",
+      "/Argentina/benchmarking/i8.html",
+      "/Argentina/benchmarking/i9.html",
+      "/Argentina/benchmarking/i2.html",
+      "/Argentina/benchmarking/i3.html",
+      "/Argentina/benchmarking/i4.html",
+      "/Chile/benchmarking/i10.html",
+      "/Chile/benchmarking/i11.html",
+      "/Chile/benchmarking/i12.html",
+      "/Chile/benchmarking/i13.html",
+      "/Chile/benchmarking/i14.html",
+      "/Chile/benchmarking/i15.html",
+      "/Chile/benchmarking/i16.html",
+      "/Chile/benchmarking/i17.html",
+      "/Chile/benchmarking/i18.html",
+      "/Chile/benchmarking/i19.html",
+      "/Colombia/benchmarking/i20.html",
+      "/Colombia/benchmarking/i21.html",
+      "/Colombia/benchmarking/i22.html",
+      "/Colombia/benchmarking/i23.html",
+      "/Colombia/benchmarking/i24.html",
+      "/Colombia/benchmarking/i25.html"
     ]
   }
 ]

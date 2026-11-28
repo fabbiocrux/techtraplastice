@@ -1,0 +1,32 @@
+---
+title: "GIRSU Viedma"
+pagetitle: "GIRSU Viedma"
+subtitle: " "
+image: "i4-GIRSU-arg.png"
+
+description: "."
+
+categories: 
+- Argentina
+
+date: 11/04/2026
+date-modified: last-modified
+
+about:
+  template: solana
+  image-width: 15em
+  id: hero-heading
+  links:
+    - icon: link
+      href: https://github.com/fabbiocrux
+  #   - icon: linkedin
+  #     aria-label: "LinkedIn"
+  #     href: https://linkedin.com/in/fabbiocrux
+
+---
+
+:::{#hero-heading}
+
+:::
+
+

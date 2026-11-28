@@ -1,52 +1,54 @@
-# Work Package 3 | Task T.3.1: Reuse Action Clues
+---
+title: "Campo Limpio"
+pagetitle: "Campolimpio"
+subtitle: "Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. "
+image: "figures/i1-campo-limpio-arg.png"
+image-alt: "Campolimpio"
 
-## Questionnaire for the Identification and Analysis of Key Plastic Reuse and Valorization Initiatives
+description: "."
 
-### General instructions
+categories: 
+- Argentina
+- Reuse
+- Mechanical Recycling
 
-1. Please complete one sheet per initiative (2–4 per country).
-2. Initiatives selected should be representative of the reuse/valorization in your country or region.
-3. At least one of the initiatives documented must be a case that did not succeed or was discontinued; identifying what did not work and why is as valuable as documenting success stories.
-4. Quantitative data is ideal, but well-grounded qualitative assessments are equally valid.
-5. Responses must be in English.
-6. If your university has not been directly involved in reuse or valorization initiatives, you are encouraged to act as an information collector, reaching out to relevant local actors (industry associations, NGOs, municipalities, recycling companies, or waste picker cooperatives) to gather the information needed.
+date: 11/04/2026
+date-modified: last-modified
 
-| Submission deadline | Send to |
-| --- | --- |
-| June 5, 2026 | sponce@nbcpucv.cl |
+about:
+  template: solana
+  image-width: 15em
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/fabbiocrux
+  #   - icon: linkedin
+  #     aria-label: "LinkedIn"
+  #     href: https://linkedin.com/in/fabbiocrux
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-8602-0974
+  #   - text: "{{< ai google-scholar >}}"
+  #     aria-label: "Google Scholar"
+  #     href: https://scholar.google.com/citations?user=8Cuoaf4AAAAJ&hl=en
 
-## 1. Initiative Analysis
+---
 
-(Duplicate this section for each additional initiative.)
+:::{#hero-heading}
 
-**Initiative No.:** _____  
-**Country:** _______________  
-**Status:** Active / Inactive / Pilot
+:::
 
-| Field | Response |
-| --- | --- |
-| Initiative name | CAMPO LIMPIO |
-| City / Region / Period | ARGENTINA (2016–present) |
-| Type: Reuse / Valorization / Mixed | Integrated Management System for Empty Plant Protection Product Containers |
-| Plastic type(s) involved | High-density polyethylene |
 
 ### D1: Role in the Circular Economy
-
-*Where does this initiative fit in the plastics value chain?*
-
-**How does this initiative contribute to keeping plastics in the loop?**
-
-Briefly describe its position in the value chain (e.g. post-consumer, industrial, production) and whether it combines with other circular strategies (recycling, eco-design, source reduction).
 
 Campo Limpio operates at the post-consumer stage of the agricultural plastics value chain. Its main function is to ensure the recovery, traceability, conditioning and valorization of empty plant protection product containers once their primary useful life has ended. The initiative addresses a particularly sensitive plastic waste stream because the containers have held plant protection products and therefore require management that differs from that of other plastic waste.
 
 Campo Limpio's main contribution is to prevent containers from being abandoned, burned, buried or improperly reused by incorporating them into a formal reverse logistics system. Through the network of Temporary Storage Centers (CAT, Spanish acronym), containers are collected, sorted and sent to authorized operators for recycling or valorization. By May 2025, the system had recovered more than 18.5 million kilograms of empty containers, preventing this material from being dispersed into the environment.
 
+
+
+
 ### D2: Regulatory Framework
-
-*What rules enabled, incentivized, or required this initiative?*
-
-**What legislation, policies, or economic instruments (taxes, subsidies, EPR targets, voluntary agreements) enabled or drove this initiative? Was it voluntary or mandatory? Did it emerge before or after the regulatory framework?**
 
 Campo Limpio emerged as a direct response to National Law 27.279 on the Management of Empty Plant Protection Product Containers, enacted in 2016, and the only extended producer responsibility (EPR) law for packaging in Argentina.
 
@@ -64,9 +66,7 @@ Unlike many recycling initiatives that begin voluntarily and are subsequently re
 
 It is also important to emphasize that the initiative is essentially mandatory. Companies that register plant protection products are legally required to finance and organize a management system for the empty containers placed on the market.
 
-**Were there regulatory constraints or gaps that affected the initiative’s development? How did the actors respond to them?**
 
-The main challenge has been the federal implementation of the law. Although the legislation is national, approval of management plans and operational oversight are the responsibility of provincial authorities, resulting in different implementation speeds across jurisdictions. In response, Campo Limpio developed a gradual territorial expansion strategy, combining the establishment of permanent CAT facilities with mobile container collection events. Another restrictive aspect is that the legislation severely limits the permitted uses of recycled material, reducing market opportunities for recovered plastic.
 
 ### D3: Stakeholders Involved
 
@@ -170,9 +170,6 @@ The expansion of the system also led to the creation of direct and indirect jobs
 
 ### D6: Sustainability and Scalability
 
-*Is it replicable? Does it have a future?*
-
-**Is the initiative financially viable without permanent subsidies? Have long-term agreements been formalized between the actors involved?**
 
 Campo Limpio does not depend on permanent public subsidies, but neither can it be considered completely self-sustaining under traditional market logic. Its financial sustainability is based primarily on mandatory funding provided by companies registering plant protection products in compliance with Law 27.279 and the principle of Extended Producer Responsibility (EPR). Although recovered material has economic value and can be recycled in authorized applications, there is no public evidence indicating that the sale of this material alone is sufficient to sustain all the logistics, operational and administrative infrastructure required by the system.
 
@@ -210,9 +207,8 @@ One of the main challenges observed during implementation was the difference in 
 
 Finally, participation by recycling cooperatives and urban waste pickers has been very limited due to the safety, traceability and authorization requirements imposed by legislation. This restricts some of the social benefits commonly observed in other circular economy systems. In this context, the main lesson learned is that circular management of complex plastic waste streams does not depend solely on the availability of recycling technologies or the economic value of the material. Success requires a combination of regulation, stable funding, adequate infrastructure, traceability mechanisms, stakeholder coordination and permanent training and awareness-raising programs. Campo Limpio demonstrates that even waste considered difficult to manage can be incorporated into circular economy schemes when strong governance and clearly defined responsibilities are in place.
 
-## 3. References and Contacts
+## References
 
-**Key documents, reports, or publications on this initiative (title, author, year, URL if available).**
 
 - **Argentine Republic (2016). Law No. 27.279 – Management of Empty Plant Protection Product Containers.** Establishes the national regulatory framework for managing empty plant protection product containers, including Extended Producer Responsibility, triple rinsing and authorized management systems. Available at: <https://www.argentina.gob.ar/normativa/nacional/ley-27279-266332/texto>
 - **CampoLimpio (2025). CampoLimpio grows: exceeds 18.5 million kilograms recovered and adds Chubut to the system.** Presents updated indicators on container recovery, territorial expansion and development of the system nationwide. Available at: <https://www.campolimpio.org.ar/2025/05/campolimpio-crece-supera-los-185-millones-de-kilos-recuperados-y-suma-a-chubut-al-sistema/>
@@ -222,7 +218,3 @@ Finally, participation by recycling cooperatives and urban waste pickers has bee
 - **CampoLimpio. Applicable legislation.** Compilation of national and provincial legislation relating to the management of empty plant protection product containers. Available at: <https://www.campolimpio.org.ar/normativa/>
 - **National Ministry of Environment and Sustainable Development (environmental responsibilities now transferred). Management of empty plant protection product containers.** Official information on the implementation of Law 27.279 and authorized management systems. Available at: <https://www.argentina.gob.ar/ambiente/control/fitosanitarios/envases-vacios>
 
-**Key contacts who could be interviewed for Task T.3.1 or the Search Conference (name, institution, email).**
-
-- Dr. Andrea Savoretti and Dr. Mariana Gonzalez Prieto, research group at the Provincial University of the Southwest (savoreti@upso.edu.ar / mariana.prieto@upso.edu.ar).
-- Dr. Yamila V. Vazquez – PLAPIQUI.
