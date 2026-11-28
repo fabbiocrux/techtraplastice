@@ -327,8 +327,8 @@ The completed questionnaires are provided in Annex B for further details on each
 
 ```{r }
 #| echo: false
-#| eval: false
-#| include: false
+#| eval: true
+#| include: true
 #| warning: false
 #| label: tbl-results
 #| tbl-cap: "Summary of the 25 documented initiatives (status and strategies harmonized for analysis)" 
