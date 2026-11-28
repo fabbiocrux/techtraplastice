@@ -161,7 +161,8 @@ Each case receives a position on each axis:
     - voluntary/market-based
     - no framework 
 
-2. the governance axis (state-led · municipal · cooperative-community · private-corporate · hybrid); 
+2. **Governance**:  This axis aims to establish in what extent the initiative is manged.  
+  -  (state-led · municipal · cooperative-community · private-corporate · hybrid); 
 
 3. the waste-picker inclusion axis (exclusion · precarious outsourcing · remunerated co- management · cooperative ownership) — 
 4. the axis of greatest political weight for the project context; the maturity-scale axis (pilot · consolidated · mature); and 
